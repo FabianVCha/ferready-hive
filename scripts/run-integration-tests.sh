@@ -5,11 +5,23 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-TEST_DB_URL="${TEST_DATABASE_URL:-postgres://hive:hive_local_dev_pw@127.0.0.1:55433/medusa_hive_test}"
 PORT="${MEDUSA_TEST_PORT:-9001}"
 LOG_DIR="${TMPDIR:-/tmp}"
-ADMIN_EMAIL="${MEDUSA_TEST_ADMIN_EMAIL:-admin@hive-web.local}"
-ADMIN_PASSWORD="${MEDUSA_TEST_ADMIN_PASSWORD:-hive-local-admin}"
+ADMIN_EMAIL="${MEDUSA_TEST_ADMIN_EMAIL:-admin-$(date +%s)@hive-web.local}"
+
+if [ -z "${TEST_DATABASE_URL:-}" ]; then
+  if [ ! -f "$ROOT/infra/.env" ]; then
+    echo "infra/.env is missing; copy infra/.env.example and start the local database first"
+    exit 1
+  fi
+  set -a && . "$ROOT/infra/.env" && set +a
+  TEST_DB_URL="postgres://${POSTGRES_USER:?}:${POSTGRES_PASSWORD:?}@127.0.0.1:${POSTGRES_PORT:-55433}/medusa_hive_test"
+else
+  TEST_DB_URL="$TEST_DATABASE_URL"
+fi
+
+# Random per run: the test admin password never lives in the repository.
+ADMIN_PASSWORD="${MEDUSA_TEST_ADMIN_PASSWORD:-$(node -e "console.log(require('node:crypto').randomBytes(18).toString('base64url'))")}"
 
 run_medusa() {
   env -u DATABASE_URL -u REDIS_URL DATABASE_URL="$TEST_DB_URL" "$@"

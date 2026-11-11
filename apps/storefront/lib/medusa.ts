@@ -1,5 +1,7 @@
 const BACKEND_URL = (process.env.MEDUSA_BACKEND_URL ?? "http://127.0.0.1:9000").replace(/\/$/, "");
-const PUBLISHABLE_KEY = process.env.NEXT_PUBLIC_MEDUSA_PUBLISHABLE_KEY ?? "";
+// Server-side only: the storefront never needs the key in the browser bundle.
+const PUBLISHABLE_KEY =
+  process.env.MEDUSA_PUBLISHABLE_KEY ?? process.env.NEXT_PUBLIC_MEDUSA_PUBLISHABLE_KEY ?? "";
 
 export type StoreVariant = {
   id: string;
