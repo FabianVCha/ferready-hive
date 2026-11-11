@@ -8,22 +8,57 @@ permissions:
   contents: read
 
 jobs:
-  lint-and-test:
-    name: lint-and-test
+  catalog-schema:
+    name: catalog-schema
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate rules and slug/URL behaviour
+        run: node --test packages/catalog-schema/tests/*.test.mjs
+      - name: Validate approved catalog file
+        run: node scripts/validate-catalog.mjs
 
+  storefront:
+    name: storefront
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/storefront
+    steps:
+      - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
-
+          cache-dependency-path: apps/storefront/package-lock.json
       - name: Install dependencies
         run: npm ci
-
-      - name: Lint HTML
+      - name: Typecheck
         run: npm run lint
-
-      - name: Run smoke tests
+      - name: Tests
         run: npm test
+      - name: Build
+        run: npm run build
+
+  backend:
+    name: backend
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: apps/backend/package-lock.json
+      - name: Install dependencies
+        run: npm ci
+      - name: Lint
+        run: npm run lint
+      - name: Build
+        run: npm run build

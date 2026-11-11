@@ -1,7 +1,6 @@
 # hive-web
 
-Sitio web estático mínimo del proyecto web personal de Fabián. Contenido neutro: este repositorio
-solo aporta estructura, reglas de trabajo y QA; no define requisitos de producto.
+Sitio personal con tienda: storefront Next.js y backend Medusa, ambos locales. Fase actual: **F0 + F1**, catálogo local sin pagos y sin despliegue.
 
 - **Visibilidad**: privada. No hacerla pública sin autorización explícita de Fabián.
 - **Rama por defecto**: `main`.
@@ -10,40 +9,111 @@ solo aporta estructura, reglas de trabajo y QA; no define requisitos de producto
 
 ```text
 .
-├── index.html                       # única página
-├── assets/
-│   ├── styles.css                   # estilos base
-│   └── app.js                       # script mínimo (marca el documento como interactivo)
-├── tests/site.test.mjs              # pruebas de humo con el runner nativo de Node
-├── .github/workflows/qa.yml         # QA en cada pull request
-├── .github/pull_request_template.md # checklist de QA para PR
-└── package.json                     # scripts lint/test
+├── apps/
+│   ├── backend/                 # Medusa 2.22.6 (API + admin en /app)
+│   └── storefront/              # Next.js 16.4.6 (App Router)
+├── packages/catalog-schema/     # validación y reglas de URL canónica
+├── data/approved/catalog.json   # catálogo aprobado a mano (vacío al inicio)
+├── content/guias/               # guías en Markdown
+├── infra/                       # Postgres local (docker compose)
+├── scripts/                     # validación de catálogo y runner de integración
+├── tests/integration/           # pruebas HTTP contra una BD de test aislada
+└── docs/                        # notas de arquitectura
+```
+
+## Requisitos
+
+- Node.js **22.22 o superior** (Medusa 2.22.6); con el storefront Next 16, **24 LTS o menor**.
+- Docker para el Postgres local.
+
+## Puesta en marcha local
+
+```bash
+# 1. Base de datos (127.0.0.1:55433, contenedor hive-web-db)
+cp infra/.env.example infra/.env          # ajusta las credenciales
+docker compose --env-file infra/.env -f infra/docker-compose.yml up -d
+
+# 2. Backend
+cd apps/backend
+cp .env.example .env                      # rellena DATABASE_URL y los secretos
+npm ci
+npm run db:migrate
+npx medusa user -e admin@hive-web.local -p <password-local>
+npm run catalog:import                    # aprobados -> borradores
+npm run dev                               # API 9000, admin 9000/app
+
+# 3. Storefront (otra terminal)
+cd apps/storefront
+cp .env.example .env.local                # MEDUSA_BACKEND_URL + publishable key
+npm ci
+npm run dev                               # http://localhost:8000
+```
+
+La publishable key se crea en el admin de Medusa (`Settings → Publishable API keys`); es una clave
+pública de cliente, no un secreto de servidor.
+
+> **Aviso**: si tu shell exporta `DATABASE_URL` (por ejemplo desde
+> `~/.config/environment.d/`), Medusa la usará por encima de `.env`. Verifica con
+> `env -u DATABASE_URL DATABASE_URL=<tu-url> npx medusa exec ./src/scripts/whoami.ts`.
+
+## Catálogo
+
+`data/approved/catalog.json` solo contiene referencias **aprobadas a mano**:
+
+```json
+{ "version": 1, "categories": [], "products": [] }
+```
+
+Reglas (implementadas en `packages/catalog-schema`):
+
+- una referencia, un `handle`, **una URL**: `/p/<handle>`;
+- el archivo **no puede** declarar `url`, `path`, `route`, `canonical` ni `slug`;
+- `content_variants` describe contenido y nunca genera rutas nuevas;
+- `reference` única, `category` existente, `approved_by` y `approved_at` obligatorios.
+
+Flujo de publicación:
+
+```text
+data/approved/catalog.json → npm run catalog:import → producto en DRAFT
+                                                      → publicación manual en el admin
+```
+
+El importador es idempotente (busca por `handle`) y **nunca publica**: un borrador solo se publica
+desde el admin, por decisión humana. No hay integración con Odelza ni sincronización automática.
+
+Validar sin arrancar Medusa:
+
+```bash
+node scripts/validate-catalog.mjs
 ```
 
 ## QA
 
-Local:
-
 ```bash
-npm ci
-npm run lint   # html-validate sobre index.html
-npm test       # pruebas de humo sobre los archivos reales del sitio
+# catálogo
+node --test packages/catalog-schema/tests/*.test.mjs
+
+# storefront (tipos, pruebas y build)
+cd apps/storefront && npm ci && npm run lint && npm test && npm run build
+
+# backend (lint y build)
+cd apps/backend && npm ci && npm run lint && npm run build
+
+# integración: BD de test aislada, fixtures de framework, servidor real
+bash scripts/run-integration-tests.sh
 ```
 
-En CI, el workflow `QA` corre `lint` y `test` en cada pull request y en `workflow_dispatch`.
-Nombre del check: **`QA / lint-and-test`**.
+Las pruebas de integración usan `medusa_hive_test` y fixtures creados por
+`apps/backend/src/scripts/test-fixtures.ts`. **No** tocan el catálogo operativo ni la base de
+desarrollo.
 
-Las pruebas verifican hechos del código que existe: doctype y `lang`, `<title>` no vacío, un solo
-`<h1>`, que cada `href`/`src` local apunte a un archivo existente y que no queden marcadores de
-conflicto de merge.
-
-## Reglas de trabajo (propuestas, documentadas)
+## Reglas de trabajo (documentadas, sin enforcement de plataforma)
 
 1. **Sin commits ni push directos a `main`.** Todo cambio entra por rama + pull request.
 2. **Cambios a `main` solo por PR**, con **mínimo 1 aprobación** de un miembro elegible. No tiene que
    ser Fabián.
-3. **QA obligatorio en el PR hacia `main`**: `lint` y `test` en verde, y el checklist de la plantilla
-   completado.
+3. **QA obligatorio en el PR hacia `main`**: jobs `catalog-schema`, `storefront` y `backend` en verde,
+   y el checklist de la plantilla completado.
 4. **Sin force-push ni borrado de `main`.**
 5. **Conversaciones del PR resueltas** antes de fusionar.
 6. **Nada de reescritura de historia en `main`.**
@@ -75,10 +145,8 @@ un segundo revisor elegible; **no se invitó a nadie** por suposición.
 ## Excepción de bootstrap
 
 El commit `chore: bootstrap static site skeleton` se hizo **directo sobre `main`** el 9 de noviembre
-de 2026. Motivo: el repositorio estaba vacío y sin primer commit no existe rama `main` sobre la cual
-crear una rama de trabajo o aplicar reglas. Fue el único commit directo; a partir de aquí todo entra
-por rama y PR.
+de 2026, con el repositorio vacío y sin rama sobre la cual trabajar. Fue el único commit directo.
 
-## Fuera de alcance
+## Fuera de alcance en esta fase
 
-Sin despliegue, sin VPS, sin Pages y sin cambios de plan, visibilidad o gasto.
+Sin pagos, sin SumUp, sin despliegue, sin VPS, sin Pages y sin cambios de plan, visibilidad o gasto.

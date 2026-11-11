@@ -1,0 +1,135 @@
+:root {
+  color-scheme: light dark;
+  --fg: #16181d;
+  --muted: #5c6370;
+  --bg: #fbfbfc;
+  --border: #e2e4e9;
+  --accent: #1f6feb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  line-height: 1.6;
+  color: var(--fg);
+  background: var(--bg);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-header,
+.site-footer {
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+}
+
+.site-header {
+  display: flex;
+  gap: 1.5rem;
+  align-items: baseline;
+  border-bottom: 1px solid var(--border);
+}
+
+.brand {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.site-header nav {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.95rem;
+}
+
+main {
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  padding: 0;
+  list-style: none;
+}
+
+.card {
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  padding: 1rem 1.1rem;
+  background: #fff;
+}
+
+.card h2 {
+  font-size: 1.1rem;
+  margin: 0 0 0.35rem;
+}
+
+.meta {
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-family: ui-monospace, monospace;
+}
+
+.notice {
+  border-left: 3px solid var(--accent);
+  background: #f0f5ff;
+  padding: 0.75rem 1rem;
+  border-radius: 0.35rem;
+}
+
+.price {
+  font-weight: 600;
+}
+
+.variants {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.variants li {
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.2rem 0.7rem;
+  font-size: 0.85rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fg: #eceef2;
+    --muted: #a1a8b3;
+    --bg: #121417;
+    --border: #2a2f37;
+  }
+
+  .card {
+    background: #171a1f;
+  }
+
+  .notice {
+    background: #16203a;
+  }
+}
