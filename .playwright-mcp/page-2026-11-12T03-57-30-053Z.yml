@@ -1,0 +1,515 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e7]:
+    - group "Sección fila" [ref=e8]:
+      - generic [ref=e10]:
+        - group "Sección fila" [ref=e14]:
+          - paragraph [ref=e19]: "COMPRA CON UN EXPERTO: 📞(601) 7460344 Lunes a sábado 7am a 7 pm y domingos de 8am a 6pm. ¡Llámanos!"
+        - group "Sección fila" [ref=e23]:
+          - generic [ref=e24]:
+            - paragraph [ref=e28]:
+              - link "Código de ética" [ref=e29] [cursor=pointer]:
+                - /url: https://jumbocolombiaio.vteximg.com.br/arquivos/Cencosud_Codigo%20Digital_Espaniol.pdf
+            - link [ref=e31] [cursor=pointer]:
+              - /url: https://www.tiendasjumbo.co/
+    - generic [ref=e33]:
+      - group "Sección fila" [ref=e34]:
+        - generic [ref=e35]:
+          - link [ref=e39] [cursor=pointer]:
+            - /url: /
+            - img "EASY" [ref=e40]
+          - group "Sección fila" [ref=e44]:
+            - generic [ref=e45]:
+              - button "Modal abierto" [ref=e51]:
+                - generic [ref=e53]:
+                  - img "Ubicación" [ref=e55]
+                  - generic [ref=e56]:
+                    - paragraph [ref=e57]: ¿Cómo te gustaría
+                    - paragraph [ref=e58]: Que entreguemos tu pedido?
+              - combobox [ref=e63]:
+                - generic [ref=e68]:
+                  - textbox "¿Qué estás buscando? Buscar Productos" [ref=e69]:
+                    - /placeholder: ¿Qué estás buscando?
+                  - button "Buscar Productos" [ref=e72]:
+                    - img [aria-hidden] [ref=e73]: 
+              - generic [ref=e77]:
+                - generic [ref=e81]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - group "Sección fila": 
+                  - group "Sección fila" [ref=e87]:
+                    - generic [ref=e88]:
+                      - paragraph [ref=e92]: ¡Hola!
+                      - button "Inicia sesión o regístrate" [ref=e97]
+                - complementary [ref=e107]:
+                  - button [ref=e110]:
+                    - generic [ref=e111]: "0"
+      - group "Sección fila" [ref=e116]:
+        - group "Sección fila" [ref=e120]:
+          - generic [ref=e121]:
+            - group "Sección fila" [ref=e125]:
+              - generic [ref=e126]:
+                - button [ref=e130]:
+                  - paragraph [ref=e133]: Todas las categorías
+                - button [ref=e137]:
+                  - paragraph [ref=e140]: Ofertas
+            - group "Sección fila" [ref=e144]:
+              - generic [ref=e145]:
+                - link "Muebles y Decoración" [ref=e147] [cursor=pointer]:
+                  - /url: /muebles-y-decoracion/muebles-y-espacios
+                - link "Constructor" [ref=e150] [cursor=pointer]:
+                  - /url: /construccion/constructor
+                - link "Baños" [ref=e153] [cursor=pointer]:
+                  - /url: /banos
+                - listitem [ref=e158] [cursor=pointer]:
+                  - link "Servicios" [ref=e160]:
+                    - /url: /servicios
+    - group "Sección fila" [ref=e165]:
+      - generic [ref=e169]:
+        - group "Sección fila" [ref=e171]:
+          - generic [ref=e174]:
+            - link "Link a la página de inicio" [ref=e175] [cursor=pointer]:
+              - /url: /
+              - text: Easy
+            - generic [ref=e176]:
+              - text: "|"
+              - link "Herramientas" [ref=e177] [cursor=pointer]:
+                - /url: /herramientas
+            - generic [ref=e178]:
+              - text: "|"
+              - link "Herramientas Eléctricas e Inalámbricas" [ref=e179] [cursor=pointer]:
+                - /url: /herramientas/herramientas-electricas-e-inalambricas
+            - generic [ref=e180]:
+              - text: "|"
+              - link "Taladros y Accesorios" [ref=e181] [cursor=pointer]:
+                - /url: /herramientas/herramientas-electricas-e-inalambricas/taladros-y-accesorios
+            - generic [ref=e182]: "|"
+            - generic [ref=e183]: Taladro percutor GSB16RE 850W en maletín Bosch
+        - group "Sección fila" [ref=e185]:
+          - generic [ref=e186]:
+            - generic [ref=e188]:
+              - group "Sección fila" [ref=e192]:
+                - button [ref=e196]
+              - group "Sección flotante" [ref=e202]:
+                - group "Sección fila" [ref=e204]:
+                  - generic [ref=e211]:
+                    - figure [ref=e213]
+                    - figure [ref=e217]
+                    - figure [ref=e221]
+                    - figure [ref=e225]
+                    - figure [ref=e229]
+                    - figure [ref=e233]
+              - generic [ref=e275]:
+                - generic [ref=e276]:
+                  - button [expanded] [ref=e277]:
+                    - paragraph [ref=e280]: Características
+                  - group "Sección fila" [ref=e284]:
+                    - group "Sección fila" [ref=e289]:
+                      - generic [ref=e290]: El taladro percutor GSB 16 RE de Bosch es recomendado para los trabajos más exigentes. Es el primer taladro de la categoría con 850W de potencia y una rotación de 3.500 RPM, es la combinación perfecta entre robustez y rendimiento. Es versátil, tiene 2 modos de perforación; con percusión y sin percusión. La carcasa reforzada, el engranaje helicoidal, el porta-escobillas y el botón de reversa de alta calidad hacen que la herramienta sea mucho más duradera, además de proporcionar una menor vibración y menos ruido para mayor comodidad del usuario. La alineación de sus piezas internas contribuye a una mayor vida útil. Esta nueva versión del taladro percutor GSB 16 RE de Bosch tiene empuñadura de goma para un mejor agarre y comodidad del operador durante el uso; tiene interruptor de velocidad variable, empuñadura auxiliar y radial para un manejo seguro y además cuenta con un botón de bloqueo ideal para trabajos continuos. El taladro percutor Bosch GSB 16 RE incluye una llave de mandril, empuñadura auxiliar, tope de profundidad, manual de instrucciones y viene en maletín. Cuenta con 2 años de garantía Bosch.
+                - generic [ref=e294]:
+                  - button [expanded] [ref=e295]:
+                    - paragraph [ref=e298]: Especificaciones Técnicas
+                  - generic [ref=e301]:
+                    - group "Sección fila" [ref=e302]:
+                      - generic [ref=e303]:
+                        - paragraph [ref=e307]: Marca
+                        - group "Sección fila" [ref=e309]:
+                          - generic [ref=e310]: BOSCH
+                    - paragraph [ref=e317]: Características Destacadas
+                    - group "Sección fila" [ref=e318]:
+                      - generic [ref=e322]:
+                        - group "Sección fila" [ref=e323]:
+                          - generic [ref=e324]:
+                            - generic [ref=e325]: Color
+                            - generic [ref=e328]: Azul
+                        - group "Sección fila" [ref=e331]:
+                          - generic [ref=e332]:
+                            - generic [ref=e333]: Tipo de Producto
+                            - generic [ref=e336]: Taladros Percutores
+                        - group "Sección fila" [ref=e339]:
+                          - generic [ref=e340]:
+                            - generic [ref=e341]: Modelo
+                            - generic [ref=e344]: GSB 16 RE
+                        - group "Sección fila" [ref=e347]:
+                          - generic [ref=e348]:
+                            - generic [ref=e349]: Origen
+                            - generic [ref=e352]: Importado
+                    - group "Sección fila" [ref=e355]:
+                      - group "Sección fila" [ref=e360]:
+                        - generic [ref=e361]:
+                          - generic [ref=e362]: Descripción Emocional
+                          - generic [ref=e365]: El taladro percutor GSB 16 RE de Bosch es recomendado para los trabajos más exigentes. Es el primer taladro de la categoría con 850W de potencia y una rotación de 3.500 RPM, es la combinación perfecta entre robustez y rendimiento. Es versátil, tiene 2 modos de perforación; con percusión y sin percusión. La carcasa reforzada, el engranaje helicoidal, el porta-escobillas y el botón de reversa de alta calidad hacen que la herramienta sea mucho más duradera, además de proporcionar una menor vibración y menos ruido para mayor comodidad del usuario. La alineación de sus piezas internas contribuye a una mayor vida útil. Esta nueva versión del taladro percutor GSB 16 RE de Bosch tiene empuñadura de goma para un mejor agarre y comodidad del operador durante el uso; tiene interruptor de velocidad variable, empuñadura auxiliar y radial para un manejo seguro y además cuenta con un botón de bloqueo ideal para trabajos continuos. El taladro percutor Bosch GSB 16 RE incluye una llave de mandril, empuñadura auxiliar, tope de profundidad, manual de instrucciones y viene en maletín. Cuenta con 2 años de garantía Bosch.
+                    - paragraph [ref=e370]: Dimensiones
+                    - group "Sección fila" [ref=e371]:
+                      - generic [ref=e375]:
+                        - group "Sección fila" [ref=e376]:
+                          - generic [ref=e377]:
+                            - generic [ref=e378]: Alto
+                            - generic [ref=e381]: 19.3 cm
+                        - group "Sección fila" [ref=e384]:
+                          - generic [ref=e385]:
+                            - generic [ref=e386]: Ancho
+                            - generic [ref=e389]: 7 cm
+                    - paragraph [ref=e394]: Materialidad
+                    - group "Sección fila" [ref=e395]:
+                      - group "Sección fila" [ref=e400]:
+                        - generic [ref=e401]:
+                          - generic [ref=e402]: Material
+                          - generic [ref=e405]: Poliamida, metal y elastómero
+                    - paragraph [ref=e410]: Componentes
+                    - group "Sección fila" [ref=e411]:
+                      - generic [ref=e415]:
+                        - group "Sección fila" [ref=e416]:
+                          - generic [ref=e417]:
+                            - generic [ref=e418]: Incluye
+                            - generic [ref=e421]: 1 Taladro percutor GSB 16 RE, 1 manual de instrucciones, 1 llave de mandril, 1 empuñadura auxiliar, 1 limitador de profundidad, maletín
+                        - group "Sección fila" [ref=e424]:
+                          - generic [ref=e425]:
+                            - generic [ref=e426]: Mandril
+                            - generic [ref=e429]: 1/2"
+                        - group "Sección fila" [ref=e432]:
+                          - generic [ref=e433]:
+                            - generic [ref=e434]: Número de Velocidades
+                            - generic [ref=e437]: 1 Velocidad
+                    - paragraph [ref=e442]: Funciones
+                    - group "Sección fila" [ref=e443]:
+                      - generic [ref=e447]:
+                        - group "Sección fila" [ref=e448]:
+                          - generic [ref=e449]:
+                            - generic [ref=e450]: Fuente de Alimentación
+                            - generic [ref=e453]: CableEléctrica
+                        - group "Sección fila" [ref=e456]:
+                          - generic [ref=e457]:
+                            - generic [ref=e458]: Peso del Producto
+                            - generic [ref=e461]: 2 kg
+                        - group "Sección fila" [ref=e464]:
+                          - generic [ref=e465]:
+                            - generic [ref=e466]: Profundidad
+                            - generic [ref=e469]: 28.1 cm
+                        - group "Sección fila" [ref=e472]:
+                          - generic [ref=e473]:
+                            - generic [ref=e474]: Potencia
+                            - generic [ref=e477]: 850W3500 RPM
+                        - group "Sección fila" [ref=e480]:
+                          - generic [ref=e481]:
+                            - generic [ref=e482]: Voltaje
+                            - generic [ref=e485]: Eléctrica127V
+                    - paragraph [ref=e490]: Observaciones y Recomendaciones
+                    - group "Sección fila" [ref=e491]:
+                      - generic [ref=e495]:
+                        - group "Sección fila" [ref=e496]:
+                          - generic [ref=e497]:
+                            - generic [ref=e498]: Más Información
+                            - generic [ref=e501]: Taladro percutor
+                        - group "Sección fila" [ref=e504]:
+                          - generic [ref=e505]:
+                            - generic [ref=e506]: Uso
+                            - generic [ref=e509]: Industrial
+                    - paragraph [ref=e514]: Garantías y Líneas de Soporte
+                    - group "Sección fila" [ref=e515]:
+                      - generic [ref=e519]:
+                        - group "Sección fila" [ref=e520]:
+                          - generic [ref=e521]:
+                            - generic [ref=e522]: Garantía Mínima Presunta
+                            - generic [ref=e525]: Otros productos, por doce (12) meses contados a partir de la fecha de su entrega al comprador original
+                        - group "Sección fila" [ref=e528]:
+                          - generic [ref=e529]:
+                            - generic [ref=e530]: Garantía Proveedor
+                            - generic [ref=e533]: 24 meses
+                - generic [ref=e536]:
+                  - button [expanded] [ref=e537]:
+                    - paragraph [ref=e540]: Comentarios y valoraciones
+                  - generic [ref=e543]:
+                    - button "Modal abierto" [ref=e544]:
+                      - paragraph [ref=e547] [cursor=pointer]: Calificar producto
+                    - generic [ref=e548]:
+                      - generic [ref=e549]:
+                        - generic [ref=e550]: ☆☆☆☆☆
+                        - generic [ref=e552]: 0 Calificación promedio
+                        - generic [ref=e553]: (0 comentarios)
+                      - generic [ref=e554]:
+                        - generic [ref=e557]:
+                          - generic [ref=e558]: Más reciente
+                          - combobox "Más reciente" [ref=e566]:
+                            - option "Ordenar por:" [disabled]
+                            - option "Más reciente" [selected]
+                            - option "Más antiguo"
+                            - option "Calificación más alta"
+                            - option "Calificación más baja"
+                        - generic [ref=e569]:
+                          - generic [ref=e570]: Todos
+                          - combobox "Todos" [ref=e578]:
+                            - option "Filtrar por:" [disabled]
+                            - option "Todos" [selected]
+                            - option "1 estrella"
+                            - option "2 estrellas"
+                            - option "3 estrellas"
+                            - option "4 estrellas"
+                            - option "5 estrellas"
+                      - heading "No hay comentarios." [level=5] [ref=e581]
+              - generic:
+                - group "Sección fila":
+                  - generic:
+                    - generic:
+                      - group "Sección#"
+            - generic [ref=e583]:
+              - group "Sección fila" [ref=e585]
+              - generic [ref=e588]:
+                - group "Sección fila" [ref=e590]:
+                  - generic [ref=e591]: "Código de producto: 1384304"
+                - group "Sección fila" [ref=e595]:
+                  - generic [ref=e596]:
+                    - group "Sección fila" [ref=e598]:
+                      - heading "Taladro percutor GSB16RE 850W en maletín Bosch" [level=1] [ref=e601]
+                    - group "Sección fila" [ref=e604]:
+                      - link "BOSCH" [ref=e608] [cursor=pointer]:
+                        - /url: /bosch
+                - generic [ref=e611]:
+                  - generic [ref=e612]: ☆☆☆☆☆
+                  - generic [ref=e614]: (0 comentarios)
+                - generic:
+                  - group "Sección fila"
+                - group "Sección fila" [ref=e616]:
+                  - generic [ref=e619]:
+                    - group "Sección fila" [ref=e621]:
+                      - generic [ref=e622]:
+                        - group "Sección fila" [ref=e624]:
+                          - generic [ref=e625]: "-14 %"
+                        - group "Sección fila" [ref=e632]:
+                          - generic [ref=e633]:
+                            - generic [ref=e634]: $ 419.900
+                            - generic:
+                              - generic "Precio de 492900 por 419900": Ahorra
+                        - generic [ref=e640]: $ 492.900
+                    - generic:
+                      - group "Sección fila":
+                        - generic:
+                          - generic:
+                            - group "Sección fila"
+                - group "Sección fila" [ref=e647]:
+                  - button "Modal abierto" [ref=e653]:
+                    - paragraph [ref=e656] [cursor=pointer]: Agregar al carro
+                - group "Sección fila" [ref=e660]:
+                  - group "Sección fila" [ref=e663]:
+                    - generic [ref=e664]:
+                      - paragraph [ref=e667]: Este producto es vendido, facturado y entregado por Easy Colombia
+                      - paragraph [ref=e671]:
+                        - text: Los precios de los productos pueden cambiar dependiendo de la región
+                        - link "Aplican Términos y Condiciones." [ref=e673] [cursor=pointer]:
+                          - /url: https://www.easy.com.co/terminos-y-condiciones
+                - group "Sección fila" [ref=e675]:
+                  - generic [ref=e678]:
+                    - group "Sección fila" [ref=e680]:
+                      - generic [ref=e681]:
+                        - generic [ref=e683]:
+                          - img "Icono de garantía" [ref=e685]
+                          - paragraph [ref=e689]: Satisfacción Garantizada
+                        - link "Ver más" [ref=e693] [cursor=pointer]:
+                          - /url: /servicios/devoluciones/
+                    - group "Sección fila" [ref=e695]:
+                      - paragraph [ref=e700]:
+                        - text: Puedes devolver o cambiar un producto adquirido en
+                        - link "www.easy.com.co" [ref=e702] [cursor=pointer]:
+                          - /url: /servicios/devoluciones/
+                        - text: "dentro de los 5 días calendario desde la entrega. El artículo debe encontrarse en condiciones óptimas: sin uso, con accesorios completos y en el mismo empaque que fue despachado. Para gestionar la devolución, comunícate a nuestra línea nacional: 01 8000 180340, llama desde Bogotá al 746 0340, o envía un correo a"
+                        - link "clientes@easy.com.co" [ref=e704] [cursor=pointer]:
+                          - /url: /servicios/devoluciones/
+                        - text: .
+        - group "Sección fila" [ref=e706]:
+          - button [ref=e711]:
+            - paragraph [ref=e714]: Ver más
+    - generic [ref=e717]:
+      - group "Sección fila"
+      - group "Sección fila" [ref=e718]:
+        - generic [ref=e722]:
+          - group "Sección fila" [ref=e724]:
+            - generic [ref=e727]:
+              - group "Sección fila" [ref=e729]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - paragraph: empty
+              - group "Sección fila" [ref=e731]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - paragraph: empty
+          - group "Sección fila" [ref=e733]:
+            - generic [ref=e734]:
+              - generic [ref=e736]:
+                - paragraph [ref=e740]: Centro de ayuda
+                - link "Servicio al cliente" [ref=e742] [cursor=pointer]:
+                  - /url: "#"
+                - link "Tiendas y horarios Easy" [ref=e744] [cursor=pointer]:
+                  - /url: "#"
+                - link "Problemas con tu pedido" [ref=e746] [cursor=pointer]:
+                  - /url: "#"
+                - link "¿Cómo comprar?" [ref=e748] [cursor=pointer]:
+                  - /url: "#"
+                - link "Catálogo" [ref=e750] [cursor=pointer]:
+                  - /url: "#"
+                - link [ref=e752] [cursor=pointer]:
+                  - /url: https://sedeelectronica.sic.gov.co/
+                  - img "Imagen SIC" [ref=e753]
+              - generic [ref=e755]:
+                - paragraph [ref=e759]: Cencosud
+                - link "Jumbo" [ref=e761] [cursor=pointer]:
+                  - /url: "#"
+                - link "Metro" [ref=e763] [cursor=pointer]:
+                  - /url: "#"
+                - link "Easy" [ref=e765] [cursor=pointer]:
+                  - /url: "#"
+                - link "Tarjeta Cencosud" [ref=e767] [cursor=pointer]:
+                  - /url: "#"
+                - link "Puntos Cencosud" [ref=e769] [cursor=pointer]:
+                  - /url: "#"
+                - link "Black Days 2026" [ref=e771] [cursor=pointer]:
+                  - /url: "#"
+              - generic [ref=e773]:
+                - paragraph [ref=e777]: Políticas
+                - link "PQRS" [ref=e779] [cursor=pointer]:
+                  - /url: "#"
+                - link "Preguntas frecuentes" [ref=e781] [cursor=pointer]:
+                  - /url: "#"
+                - link "Cambios y devoluciones" [ref=e783] [cursor=pointer]:
+                  - /url: "#"
+                - link "Términos y condiciones" [ref=e785] [cursor=pointer]:
+                  - /url: "#"
+                - link "Términos y condiciones cuotas sin interés Black" [ref=e787] [cursor=pointer]:
+                  - /url: "#"
+                - link "Términos y condiciones cuotas sin interés Diciembre" [ref=e789] [cursor=pointer]:
+                  - /url: "#"
+                - link "Protección de datos" [ref=e791] [cursor=pointer]:
+                  - /url: "#"
+                - link "Política de cookies" [ref=e793] [cursor=pointer]:
+                  - /url: "#"
+                - link "Superintendencia de industria y comercio SIC PQR" [ref=e795] [cursor=pointer]:
+                  - /url: "#"
+                - link "Política de tratamiento de datos" [ref=e797] [cursor=pointer]:
+                  - /url: "#"
+              - generic [ref=e799]:
+                - generic [ref=e801]:
+                  - list [ref=e803]:
+                    - listitem [ref=e804]:
+                      - link [ref=e805] [cursor=pointer]:
+                        - /url: https://jumbocolombia.com/
+                        - img "Jumbo" [ref=e806]
+                    - listitem [ref=e807]:
+                      - link [ref=e808] [cursor=pointer]:
+                        - /url: https://www.easy.com.co/
+                        - img "Easy" [ref=e809]
+                    - listitem [ref=e810]:
+                      - link [ref=e811] [cursor=pointer]:
+                        - /url: http://www.puntoscencosud.co/
+                        - img "Puntos Cencosud" [ref=e812]
+                    - listitem [ref=e813]:
+                      - link [ref=e814] [cursor=pointer]:
+                        - /url: https://ofertas.tiendasmetro.co/
+                        - img "Metro" [ref=e815]
+                  - paragraph [ref=e819]: Descubre
+                  - link [ref=e821] [cursor=pointer]:
+                    - /url: https://www.jumboprime.co/
+                - generic [ref=e823]:
+                  - paragraph [ref=e827]: Síguenos
+                  - group "Sección fila" [ref=e829]:
+                    - generic [ref=e830]:
+                      - generic:
+                        - link:
+                          - /url: https://www.facebook.com/EasyColombia
+                      - generic:
+                        - link:
+                          - /url: https://www.instagram.com/easycol
+                      - generic:
+                        - link:
+                          - /url: https://www.youtube.com/user/easycolombia
+                      - generic:
+                        - link:
+                          - /url: https://twitter.com/EasyColOficial
+                - generic [ref=e832]:
+                  - paragraph [ref=e836]: Medios de pago
+                  - group "Sección fila" [ref=e838]:
+                    - list [ref=e841]:
+                      - listitem [ref=e842]:
+                        - img "Tarjeta Cencosud" [ref=e843]
+                      - listitem [ref=e844]:
+                        - img "Tarjeta Mastercard" [ref=e845]
+                      - listitem [ref=e846]:
+                        - img "Tarjeta Visa" [ref=e847]
+                      - listitem [ref=e848]:
+                        - img "Tarjeta American Express" [ref=e849]
+                      - listitem [ref=e850]:
+                        - img "Tarjeta Diners" [ref=e851]
+                      - listitem [ref=e852]:
+                        - img "PSE" [ref=e853]
+                      - listitem [ref=e854]:
+                        - img "Efecty" [ref=e855]
+          - group "Sección fila" [ref=e857]:
+            - generic [ref=e858]:
+              - paragraph [ref=e862]: Contáctanos
+              - generic [ref=e864]:
+                - group "Sección fila" [ref=e866]:
+                  - generic [ref=e867]:
+                    - paragraph [ref=e871]: "Compra con un experto:"
+                    - paragraph [ref=e875]: (601) 746 0344 - Lunes a sábado de 8:00 am a 8:00 pm y domingos de 8:00 am a 5:00 pm
+                - group "Sección fila" [ref=e877]:
+                  - generic [ref=e878]:
+                    - paragraph [ref=e882]: "Servicio al cliente:"
+                    - paragraph [ref=e886]:
+                      - text: "Bogotá: (601)7460340 | Resto de país: 01 8000 180340 |"
+                      - link "clientes@easy.com.co" [ref=e887] [cursor=pointer]:
+                        - /url: mailto:clientes@easy.com.co
+          - group "Sección fila" [ref=e889]:
+            - generic [ref=e890]:
+              - paragraph [ref=e894]: Copyright © 2026 Cencosud - Easy
+              - link "Términos y Condiciones |" [ref=e896] [cursor=pointer]:
+                - /url: "#"
+              - link "Seguridad y Privacidad |" [ref=e899] [cursor=pointer]:
+                - /url: "#"
+              - link "Código de ética" [ref=e902] [cursor=pointer]:
+                - /url: "#"
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - article:
+                  - paragraph [ref=e904]: LTérminos más buscadoso más buscado
+                  - list [ref=e905]:
+                    - listitem [ref=e906]:
+                      - link "closet" [ref=e907] [cursor=pointer]:
+                        - /url: /closet?map=ft&_q=closet
+                    - listitem [ref=e908]:
+                      - link "árbol navidad" [ref=e909] [cursor=pointer]:
+                        - /url: /%C3%A1rbol%20navidad?map=ft&_q=árbol navidad
+                    - listitem [ref=e910]:
+                      - link "comedor" [ref=e911] [cursor=pointer]:
+                        - /url: /comedor?map=ft&_q=comedor
+                    - listitem [ref=e912]:
+                      - link "escritorio" [ref=e913] [cursor=pointer]:
+                        - /url: /escritorio?map=ft&_q=escritorio
+                    - listitem [ref=e914]:
+                      - link "pinturas" [ref=e915] [cursor=pointer]:
+                        - /url: /pinturas?map=ft&_q=pinturas
+                    - listitem [ref=e916]:
+                      - link "cocinas integrales" [ref=e917] [cursor=pointer]:
+                        - /url: /cocinas%20integrales?map=ft&_q=cocinas integrales
+                    - listitem [ref=e918]:
+                      - link "vinilos" [ref=e919] [cursor=pointer]:
+                        - /url: /vinilos?map=ft&_q=vinilos
+                    - listitem [ref=e920]:
+                      - link "tito pabon" [ref=e921] [cursor=pointer]:
+                        - /url: /tito%20pabon?map=ft&_q=tito pabon
+                    - listitem [ref=e922]:
+                      - link "puertas" [ref=e923] [cursor=pointer]:
+                        - /url: /puertas?map=ft&_q=puertas
+                    - listitem [ref=e924]:
+                      - link "lavamanos" [ref=e925] [cursor=pointer]:
+                        - /url: /lavamanos?map=ft&_q=lavamanos
+  - generic [aria-hidden]:
+    - generic:
+      - generic:
+        - button

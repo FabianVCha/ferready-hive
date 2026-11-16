@@ -1,0 +1,74 @@
+{
+  "title": "La nueva Ferready",
+  "question": "Elegí la dirección que querés desarrollar. Las imágenes son propuestas visuales, no una web ya construida; podés pedir cambios antes de aprobar.",
+  "options": [
+    {
+      "id": "selection-table",
+      "kind": "assigned",
+      "label": "La mesa de selección",
+      "kicker": "PROPUESTA PRINCIPAL",
+      "lineage": "Selección editorial de objetos y fotografía de producto",
+      "thesis": "Los productos forman una selección que podés explorar y comprar, sin disfrazar la tienda de ferretería.",
+      "palette": ["#1d3659", "#e4261e", "#ffffff"],
+      "materials": ["Fotografía de producto aislado", "Superficies de color plano"],
+      "viewport": "Una selección en arco trae un producto al frente; nombre, precio de demostración y compra permanecen claros.",
+      "risk": "El arco necesita simplificarse en celular para no competir con la compra.",
+      "raised": [
+        {"from": "reference-setting", "raise": "Una alineación estable para leer nombre, precio y acción."},
+        {"from": "pulp-plate", "raise": "El producto ocupa la escena, no la decoración."},
+        {"from": "tensegrity", "raise": "Un solo sistema de movimiento coordinado."},
+        {"from": "chromatophore", "raise": "La selección y su información cambian juntas."},
+        {"from": "data-field", "raise": "Todo sigue siendo comprable sin movimiento."},
+        {"from": "rhythm-row", "raise": "Respuesta inmediata al elegir o agregar un producto."}
+      ],
+      "comp": ".impeccable/mocks/decision/selection-table.png"
+    },
+    {
+      "id": "campaign-studio",
+      "kind": "pick",
+      "label": "El estudio de campaña",
+      "kicker": "ALTERNATIVA EDITORIAL",
+      "lineage": "Campañas de producto y bodegones de estudio",
+      "thesis": "Una imagen de campaña monumental abre la tienda y conecta con una selección comprable.",
+      "palette": ["#1d3659", "#e4261e", "#ffffff"],
+      "materials": ["Fotografía escenográfica", "Color de marca"],
+      "viewport": "Una escena de producto completa, con información de compra integrada y el inicio de la selección debajo.",
+      "risk": "Es una composición más familiar en lanzamientos de producto; el catálogo debe conservar protagonismo.",
+      "comp": ".impeccable/mocks/decision/campaign-studio.png"
+    },
+    {
+      "id": "reference-setting", "kind": "challenger", "catalogId": "rw-centre-rail-reference-setting", "label": "Edición de consulta", "verdict": "declined",
+      "thesis": "Productos organizados como una edición de referencia con una guía central.", "palette": ["#1d3659", "#e4261e", "#ffffff"], "materials": ["Composición tipográfica", "Anotaciones"], "viewport": "Dos columnas de información alrededor de una guía central.", "risk": "La lectura desplaza la imagen del producto y hace menos inmediata la compra.", "case": "Pierde en identificación del comprador y claridad del producto.", "kept": "Alineación y lectura estables.", "hero": "https://impeccable.style/worlds/cards/rw-centre-rail-reference-setting-hero.webp"
+    },
+    {
+      "id": "pulp-plate", "kind": "challenger", "catalogId": "pop-culture-shelf-pulp-rocketship-plate", "label": "Campaña retrofuturista", "verdict": "declined",
+      "thesis": "Una trayectoria diagonal conecta escenas de producto.", "palette": ["#1d3659", "#e4261e", "#ffffff"], "materials": ["Ilustración publicitaria", "Metal"], "viewport": "Un objeto monumental cruza una campaña diagonal.", "risk": "La navegación temática desvía la atención de comprar y no funciona igual para todos los nichos.", "case": "Pierde en identificación del comprador y claridad del producto.", "kept": "Escala y compromiso con el color.", "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-pulp-rocketship-plate-hero.webp"
+    },
+    {
+      "id": "tensegrity", "kind": "challenger", "catalogId": "kinetic-sculpture-automata-tensegrity-breathing-column", "label": "Equilibrio cinético", "verdict": "declined",
+      "thesis": "Los objetos se relacionan mediante una estructura de tensión que responde al visitante.", "palette": ["#1d3659", "#e4261e", "#ffffff"], "materials": ["Estructura espacial", "Tensión"], "viewport": "Una red de objetos expone relaciones y controles.", "risk": "Se siente demasiado industrial y agrega una interacción ajena a comprar.", "case": "Pierde en identificación del comprador y claridad del producto.", "kept": "Movimiento coordinado con estados de reposo.", "hero": "https://impeccable.style/worlds/cards/kinetic-sculpture-automata-tensegrity-breathing-column-hero.webp"
+    },
+    {
+      "id": "chromatophore", "kind": "challenger", "catalogId": "reefs-bioluminescent-nocturnal-chromatophore-skin-language", "label": "Superficie viva", "verdict": "declined",
+      "thesis": "Una superficie cambia sus señales al seleccionar productos.", "palette": ["#1d3659", "#e4261e", "#ffffff"], "materials": ["Textura cambiante", "Patrones celulares"], "viewport": "El contexto de selección transforma una superficie continua.", "risk": "La simulación puede ocultar el producto y cargar innecesariamente el celular.", "case": "Pierde en identificación del comprador y claridad del producto.", "kept": "Selección e información cambian coordinadamente.", "hero": "https://impeccable.style/worlds/cards/reefs-bioluminescent-nocturnal-chromatophore-skin-language-hero.webp"
+    },
+    {
+      "id": "data-field", "kind": "challenger", "catalogId": "ikeda-datamatics", "label": "Campo de datos", "verdict": "declined",
+      "thesis": "El catálogo se explora como columnas de datos visuales.", "palette": ["#1d3659", "#e4261e", "#ffffff"], "materials": ["Barras de datos", "Contraste"], "viewport": "Una selección resalta entre columnas visuales.", "risk": "La densidad y los destellos perjudican la inspección del producto y la identidad de marca.", "case": "Pierde en identificación del comprador y claridad del producto.", "kept": "Jerarquía del producto activo y alternativa sin movimiento.", "hero": "https://impeccable.style/worlds/cards/ikeda-datamatics-hero.webp"
+    },
+    {
+      "id": "rhythm-row", "kind": "challenger", "catalogId": "signals-instruments-drum-machine-step-row", "label": "Selección rítmica", "verdict": "declined",
+      "thesis": "Una secuencia de controles da pulso a la exploración de productos.", "palette": ["#1d3659", "#e4261e", "#ffffff"], "materials": ["Teclas", "Panel"], "viewport": "Una fila de controles activa distintas selecciones.", "risk": "El lenguaje de instrumento musical no explica cómo comprar.", "case": "Pierde en identificación del comprador y claridad del producto.", "kept": "Respuesta inmediata y ritmo de interacción consistente.", "hero": "https://impeccable.style/worlds/cards/signals-instruments-drum-machine-step-row-hero.webp"
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "comp", "toggle": true},
+  "canon": true,
+  "canonCard": {
+    "kind": "canon", "label": "Tienda convencional", "thesis": "Una tienda reconocible, ejecutada con cuidado y sin un concepto editorial dominante.",
+    "palette": ["#ffffff", "#1d3659", "#e4261e"], "materials": ["Fotografía de producto", "Catálogo"],
+    "viewport": "Navegación habitual, promoción principal y productos en una cuadrícula clara.", "risk": "Es familiar y fácil de recorrer, pero menos distintiva frente a otras tiendas.",
+    "comp": ".impeccable/mocks/decision/conventional-store.png"
+  },
+  "steer": true
+}

@@ -1,0 +1,24 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - img "Impeccable" [ref=e4]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - heading "La nueva Ferready" [level=1] [ref=e29]
+        - generic [ref=e30]:
+          - radiogroup "Build path" [ref=e31]:
+            - radio "Comp first" [checked] [ref=e32] [cursor=pointer]
+            - radio "Code first" [ref=e33] [cursor=pointer]
+          - paragraph [ref=e34]: An image sets the bar first and the build must match it. Bolder composition; comps render before code.
+      - paragraph [ref=e35]: Elegí la dirección que querés desarrollar. Las imágenes son propuestas visuales, no una web ya construida; podés pedir cambios antes de aprobar.
+      - generic [ref=e36]:
+        - generic [ref=e38]:
+          - paragraph [ref=e39]: The next hand never arrived. Check the agent session, then reload.
+          - button "Reload" [ref=e40] [cursor=pointer]
+        - button "Previous card" [disabled] [ref=e41]
+        - button "Next card" [ref=e44] [cursor=pointer]
+  - contentinfo [ref=e47]:
+    - 'textbox "Optional steer: what should be different or kept?" [ref=e48]'
+    - button "← Safer hand" [disabled] [ref=e49]
+    - button "Re-roll" [disabled] [ref=e51]
+    - button "Bolder hand →" [disabled] [ref=e60]
