@@ -1,5 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { ProductView } from "@/components/ferready/storefront";
+import { products } from "@/components/ferready/catalog";
+import { isDemoEnabled } from "@/lib/prototype.mjs";
 
 import { getProductByHandle, priceOf, referenceOf } from "@/lib/medusa";
 
@@ -9,6 +12,14 @@ type Props = { params: Promise<{ slug: string }> };
 
 export async function generateMetadata({ params }: Props) {
   const { slug } = await params;
+  if (isDemoEnabled(process.env.FERREADY_DEMO)) {
+    const candidate = products.find((p) => p.slug === slug);
+    return {
+      title: candidate?.name ?? "Producto no disponible",
+      alternates: { canonical: `/p/${slug}` },
+      robots: { index: false, follow: false },
+    };
+  }
   const product = await getProductByHandle(slug);
   const canonical = `/p/${slug}`;
 
@@ -20,6 +31,11 @@ export async function generateMetadata({ params }: Props) {
 
 export default async function ProductPage({ params }: Props) {
   const { slug } = await params;
+  if (isDemoEnabled(process.env.FERREADY_DEMO)) {
+    const candidate = products.find((p) => p.slug === slug);
+    if (!candidate) notFound();
+    return <ProductView key={slug} product={candidate} />;
+  }
   const product = await getProductByHandle(slug);
 
   if (!product) {
@@ -39,7 +55,11 @@ export default async function ProductPage({ params }: Props) {
       </p>
       <h1>{product.title}</h1>
       {reference && <p className="meta">{reference}</p>}
-      {price ? <p className="price">{price}</p> : <p className="meta">Precio por confirmar con el proveedor</p>}
+      {price ? (
+        <p className="price">{price}</p>
+      ) : (
+        <p className="meta">Precio por confirmar con el proveedor</p>
+      )}
       {product.description && <p>{product.description}</p>}
 
       {variants.length > 0 && (

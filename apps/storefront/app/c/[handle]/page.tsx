@@ -1,6 +1,15 @@
 import Link from "next/link";
+import { notFound } from "next/navigation";
+import { CatalogView } from "@/components/ferready/storefront";
+import { categories as demoCategories } from "@/components/ferready/catalog";
+import { isDemoEnabled } from "@/lib/prototype.mjs";
 
-import { listCategories, listProducts, priceOf, referenceOf } from "@/lib/medusa";
+import {
+  listCategories,
+  listProducts,
+  priceOf,
+  referenceOf,
+} from "@/lib/medusa";
 
 export const dynamic = "force-dynamic";
 
@@ -8,14 +17,30 @@ type Props = { params: Promise<{ handle: string }> };
 
 export async function generateMetadata({ params }: Props) {
   const { handle } = await params;
+  if (isDemoEnabled(process.env.FERREADY_DEMO))
+    return {
+      title: demoCategories.find((c) => c.slug === handle)?.name ?? "Categoría",
+      alternates: { canonical: `/c/${handle}` },
+      robots: { index: false, follow: false },
+    };
   const categories = await listCategories();
   const category = categories.find((item) => item.handle === handle);
-  return { title: category?.name ?? "Categoría", alternates: { canonical: `/c/${handle}` } };
+  return {
+    title: category?.name ?? "Categoría",
+    alternates: { canonical: `/c/${handle}` },
+  };
 }
 
 export default async function CategoryPage({ params }: Props) {
   const { handle } = await params;
-  const [categories, products] = await Promise.all([listCategories(), listProducts(handle)]);
+  if (isDemoEnabled(process.env.FERREADY_DEMO)) {
+    if (!demoCategories.some((c) => c.slug === handle)) notFound();
+    return <CatalogView key={handle} category={handle} />;
+  }
+  const [categories, products] = await Promise.all([
+    listCategories(),
+    listProducts(handle),
+  ]);
   const category = categories.find((item) => item.handle === handle);
 
   return (
@@ -38,7 +63,11 @@ export default async function CategoryPage({ params }: Props) {
                   <Link href={`/p/${product.handle}`}>{product.title}</Link>
                 </h2>
                 {reference && <p className="meta">{reference}</p>}
-                {price ? <p className="price">{price}</p> : <p className="meta">Precio por confirmar</p>}
+                {price ? (
+                  <p className="price">{price}</p>
+                ) : (
+                  <p className="meta">Precio por confirmar</p>
+                )}
               </li>
             );
           })}
