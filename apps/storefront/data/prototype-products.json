@@ -1,0 +1,273 @@
+[
+  {
+    "slug": "taladro-bauker-12v",
+    "name": "Taladro percutor inalámbrico 12 V",
+    "brand": "Bauker",
+    "category": "Herramientas eléctricas",
+    "categorySlug": "herramientas-electricas",
+    "price": 159900,
+    "image": "/ferready/products/484299.webp",
+    "description": "Compacto para esos arreglos que no pueden esperar. Perfora y atornilla sin depender de un cable, con control de fuerza para trabajar con más precisión.",
+    "compatibility": "Mandril de 10 mm (3/8\"). Elige una broca adecuada al material y dentro de la capacidad indicada por el fabricante. No sustituye un rotomartillo para trabajos exigentes en concreto.",
+    "includes": "Taladro, una batería de 12 V / 1,3 Ah y cargador, según la ficha de referencia. Confirma el contenido definitivo antes del lanzamiento.",
+    "source": "https://www.homecenter.com.co/homecenter-co/product/484299/taladro-percutor-3-8-pulgadas-12v-13ah-i-l-bauker/484299/",
+    "specs": {
+      "Voltaje": "12 V",
+      "Mandril": "10 mm · 3/8\"",
+      "Velocidad máxima": "1.400 rpm",
+      "Torque": "28 Nm",
+      "Batería": "1,3 Ah",
+      "Referencia comercial": "484299"
+    }
+  },
+  {
+    "slug": "taladro-inalambrico-20v",
+    "name": "Taladro percutor inalámbrico 20 V",
+    "brand": "Black+Decker",
+    "category": "Herramientas eléctricas",
+    "categorySlug": "herramientas-electricas",
+    "price": 329900,
+    "image": "/ferready/products/1501437.webp",
+    "description": "Una alternativa inalámbrica para perforar y atornillar en tus proyectos de mantenimiento. Referencia candidata pendiente de confirmar con el proveedor.",
+    "compatibility": "La ficha indica 3/8\" en el título y 13 mm en las especificaciones: el mandril está por confirmar. No asumas que baterías de otras marcas o familias son intercambiables. Identidad exacta de la referencia 1501437 pendiente de validación.",
+    "includes": "La referencia de Easy anuncia dos baterías de 1,5 Ah y cargador; contenido sujeto a validación.",
+    "source": "https://www.easy.com.co/taladro-percutor-3-8-20v-2v-2-baterias-1-5ah-cargador-black-decker-1501437/p",
+    "specs": {
+      "Voltaje": "20 V",
+      "Mandril": "Por confirmar",
+      "Baterías anunciadas": "2 × 1,5 Ah",
+      "Referencia candidata": "1501437"
+    }
+  },
+  {
+    "slug": "taladro-bosch-gsb16re",
+    "name": "Taladro percutor GSB 16 RE · 850 W",
+    "brand": "Bosch",
+    "category": "Herramientas eléctricas",
+    "categorySlug": "herramientas-electricas",
+    "price": 459900,
+    "image": "/ferready/products/gsb16re.webp",
+    "description": "Potencia con cable para trabajos de perforación. Una opción para quien prefiere trabajar conectado y no depender de la carga de una batería.",
+    "compatibility": "Selecciona broca y modo según el material. Comprueba la tensión de alimentación y las capacidades de perforación en el manual del equipo.",
+    "includes": "Taladro Bosch GSB 16 RE. La ficha de referencia menciona maletín; accesorios definitivos pendientes de confirmación.",
+    "source": "https://www.easy.com.co/taladro-percutor-vvr-12-850w-gsb-16re-bosch/p",
+    "specs": {
+      "Potencia": "850 W",
+      "Modelo": "GSB 16 RE",
+      "Alimentación": "Con cable",
+      "Tipo": "Percutor"
+    }
+  },
+  {
+    "slug": "caja-herramientas-bauker",
+    "name": "Caja de herramientas + organizador",
+    "brand": "Bauker",
+    "category": "Herramientas manuales",
+    "categorySlug": "herramientas-manuales",
+    "price": 119900,
+    "image": "/ferready/products/279788.webp",
+    "description": "Cada cosa en su lugar. Guarda tus herramientas y separa las piezas pequeñas para encontrar lo que necesitas sin vaciar toda la caja.",
+    "compatibility": "Comprueba las medidas de tus herramientas antes de elegir el almacenamiento. Los tamaños nominales no equivalen al espacio interior útil.",
+    "includes": "Caja de 22 pulgadas y organizador de 14 pulgadas. Herramientas no incluidas.",
+    "source": "https://www.homecenter.com.co/homecenter-co/product/279788/kit-caja-de-herramientas-22-pulgadas-organizador-14-pulgadas/279788/",
+    "specs": {
+      "Caja": "22 pulgadas",
+      "Organizador": "14 pulgadas",
+      "Referencia": "279788"
+    }
+  },
+  {
+    "slug": "discos-corte-bosch",
+    "name": "Discos de corte para metal · 10 unidades",
+    "brand": "Bosch",
+    "category": "Accesorios y fijación",
+    "categorySlug": "accesorios-fijacion",
+    "price": 44900,
+    "image": "/ferready/products/523309.webp",
+    "description": "Repuestos para tus trabajos de corte en metal. Un paquete práctico para tener los consumibles a mano cuando el proyecto continúa.",
+    "compatibility": "Verifica diámetro, eje y velocidad máxima permitida del disco frente a tu pulidora. Usa guarda y protección adecuada; no lo uses para desbaste.",
+    "includes": "10 discos abrasivos de corte para metal.",
+    "source": "https://www.homecenter.com.co/homecenter-co/product/523309/set-x10-unidades-disco-abrasivo-corte-metal-4-1-2-pulgx1mm-bosch/523309/",
+    "specs": {
+      "Diámetro": "4 1/2 pulgadas",
+      "Espesor": "1 mm",
+      "Cantidad": "10 unidades"
+    }
+  },
+  {
+    "slug": "brocas-bauker-13",
+    "name": "Set de brocas multimaterial · 13 piezas",
+    "brand": "Bauker",
+    "category": "Accesorios y fijación",
+    "categorySlug": "accesorios-fijacion",
+    "price": 29900,
+    "image": "/ferready/products/167850.webp",
+    "description": "Madera, metal o concreto: empieza por la broca correcta. Un juego para acompañar diferentes tareas de perforación en casa.",
+    "compatibility": "Cada broca tiene un material de uso. Comprueba su diámetro, el tipo de vástago y la capacidad de tu mandril; no todas sirven para todos los materiales.",
+    "includes": "Set de 13 brocas para madera, metal y concreto, modelo BD13715.",
+    "source": "https://www.homecenter.com.co/homecenter-co/product/167850/set-13-brocas-para-taladro-bd13715/167850/",
+    "specs": {
+      "Modelo": "BD13715",
+      "Cantidad": "13 piezas",
+      "Aplicaciones": "Madera, metal y concreto"
+    }
+  },
+  {
+    "slug": "sellador-sika-universal",
+    "name": "Sellador de poliuretano Universal · 300 ml",
+    "brand": "Sika",
+    "category": "Accesorios y fijación",
+    "categorySlug": "accesorios-fijacion",
+    "price": 34900,
+    "image": "/ferready/products/690582.webp",
+    "description": "Para esas juntas que necesitan un buen sellado. Prepara la superficie y elige el producto según el material y la exposición de la unión.",
+    "compatibility": "Consulta la ficha técnica de Sika para sustratos, imprimación y curado. No asumas aptitud para agua potable, contacto alimentario o inmersión permanente.",
+    "includes": "Un cartucho de 300 ml. Pistola aplicadora no incluida.",
+    "source": "https://www.homecenter.com.co/homecenter-co/product/690582/sellador-para-juntas-poliuretano-universal-300-ml-sika/690582/",
+    "specs": {
+      "Base": "Poliuretano",
+      "Contenido": "300 ml",
+      "Presentación": "Cartucho"
+    }
+  },
+  {
+    "slug": "chazos-tornillo-20",
+    "name": "Chazos con tornillo de 1/4\" · 20 unidades",
+    "brand": "Fixser",
+    "category": "Accesorios y fijación",
+    "categorySlug": "accesorios-fijacion",
+    "price": 12900,
+    "image": "/ferready/products/3059792.webp",
+    "description": "El detalle que sostiene tu arreglo. Una fijación para elegir según el tipo de pared, la perforación y la carga que necesitas sujetar.",
+    "compatibility": "Confirma el sustrato y la carga admisible. No asumas compatibilidad con drywall ni uso estructural. El diámetro de la broca debe corresponder al chazo.",
+    "includes": "Paquete de 20 chazos estriados con tornillos de 8 × 1 1/4 pulgadas.",
+    "source": "https://www.homecenter.com.co/homecenter-co/product/3059792/chazo-estriado-1-4pg-con-tornillo-8-x1-1-4pg-20-und/3059792/",
+    "specs": {
+      "Chazo": "1/4 pulgada",
+      "Tornillo": "8 × 1 1/4 pulgadas",
+      "Cantidad": "20 unidades"
+    }
+  },
+  {
+    "slug": "herramientas-44-piezas",
+    "name": "Set de herramientas manuales · 44 piezas",
+    "brand": "Selección Ferready",
+    "category": "Herramientas manuales",
+    "categorySlug": "herramientas-manuales",
+    "price": 99900,
+    "image": "/ferready/products/901942.webp",
+    "description": "Un punto de partida para los pequeños arreglos del hogar. Reúne herramientas manuales en un mismo conjunto fácil de guardar.",
+    "compatibility": "Comprueba las medidas de cada pieza antes de usarla. No se anuncia como herramienta aislada para trabajos eléctricos.",
+    "includes": "Conjunto de 44 piezas. El detalle de las piezas se validará con el proveedor antes de vender.",
+    "source": "https://www.homecenter.com.co/homecenter-co/product/901942/set-herramientas-manual-44-piezas/901942/",
+    "specs": {
+      "Cantidad": "44 piezas",
+      "Tipo": "Herramientas manuales",
+      "Uso orientativo": "Mantenimiento doméstico"
+    }
+  },
+  {
+    "slug": "guantes-propack",
+    "name": "Guantes de poliéster y nitrilo · 10 pares",
+    "brand": "Propack",
+    "category": "Seguridad y jardín",
+    "categorySlug": "seguridad-jardin",
+    "price": 39900,
+    "image": "/ferready/products/276427.webp",
+    "description": "Cuida tus manos durante las tareas de mantenimiento. Elige la talla y el nivel de protección adecuados para cada trabajo.",
+    "compatibility": "No se presenta como protección dieléctrica, anticorte certificada ni química. Verifica el riesgo y la ficha técnica antes de utilizarlo.",
+    "includes": "Paquete de 10 pares. Talla y certificaciones pendientes de confirmar.",
+    "source": "https://www.homecenter.com.co/homecenter-co/product/276427/guante-poliester-nitrilo-propack-10-pares/500796/",
+    "specs": {
+      "Tejido": "Poliéster",
+      "Recubrimiento": "Nitrilo",
+      "Cantidad": "10 pares"
+    }
+  },
+  {
+    "slug": "cerradura-fixser-bano",
+    "name": "Cerradura de pomo para baño",
+    "brand": "Fixser",
+    "category": "Plomería y hogar",
+    "categorySlug": "plomeria-hogar",
+    "price": 39900,
+    "image": "/ferready/products/136740.webp",
+    "description": "Privacidad para tu baño con un cambio sencillo de herraje. Antes de reemplazarla, mide la puerta y las perforaciones existentes.",
+    "compatibility": "Comprueba espesor de puerta, distancia al borde y diámetro de perforación. Una cerradura de baño no reemplaza una cerradura de acceso principal.",
+    "includes": "Cerradura de pomo para baño. Acabado y accesorios sujetos a confirmación de la referencia.",
+    "source": "https://www.homecenter.com.co/homecenter-co/product/136740/cerradura-bano-bola-anticada-fixser/136741/",
+    "specs": { "Tipo": "Pomo", "Aplicación": "Baño", "Marca": "Fixser" }
+  },
+  {
+    "slug": "tijera-podar-8",
+    "name": "Tijera de podar de 8 pulgadas",
+    "brand": "Ergo",
+    "category": "Seguridad y jardín",
+    "categorySlug": "seguridad-jardin",
+    "price": 24900,
+    "image": "/ferready/products/137879.webp",
+    "description": "Un corte a tiempo para cuidar tu jardín. Una herramienta manual para las tareas de poda y mantenimiento de tus plantas.",
+    "compatibility": "Confirma la capacidad máxima de corte. No fuerces ramas gruesas ni uses la tijera como cortacables.",
+    "includes": "Una tijera de podar de 8 pulgadas.",
+    "source": "https://www.homecenter.com.co/homecenter-co/product/137879/tijera-para-podar-8-pulgadas/137879/",
+    "specs": {
+      "Longitud nominal": "8 pulgadas",
+      "Tipo": "Manual",
+      "Marca": "Ergo"
+    }
+  },
+  {
+    "slug": "bombillo-sensor-10w",
+    "name": "Bombillo LED con sensor · 10 W",
+    "brand": "Sylvania",
+    "category": "Electricidad e iluminación",
+    "categorySlug": "electricidad",
+    "price": 29900,
+    "image": "/ferready/products/621163.webp",
+    "description": "Ilumina al detectar movimiento. Una opción para esos espacios donde quieres luz sin buscar el interruptor.",
+    "compatibility": "Confirma el casquillo, voltaje, ubicación y condiciones de detección. No se asume aptitud para exteriores expuestos al agua.",
+    "includes": "Un bombillo LED con sensor de movimiento.",
+    "source": "https://www.homecenter.com.co/homecenter-co/product/621163/bombillo-led-sensor-movimiento-10w-luz-fria-1000-lumenes-certificado/621163/",
+    "specs": {
+      "Potencia": "10 W",
+      "Flujo anunciado": "1.000 lúmenes",
+      "Luz": "Fría"
+    }
+  },
+  {
+    "slug": "multimetro-redline",
+    "name": "Multímetro digital",
+    "brand": "Redline",
+    "category": "Electricidad e iluminación",
+    "categorySlug": "electricidad",
+    "price": 49900,
+    "image": "/ferready/products/412200.webp",
+    "description": "Una lectura para entender mejor tu instalación. Consulta las funciones y rangos del instrumento antes de realizar una medición.",
+    "compatibility": "Verifica categoría CAT, tensión y rangos en el manual. No se anuncia aptitud para instalaciones energizadas; si no tienes formación, no intervengas el circuito.",
+    "includes": "Multímetro digital. Puntas, batería y demás accesorios pendientes de validar.",
+    "source": "https://www.homecenter.com.co/homecenter-co/product/412200/multimetro-digital-redline/412200/",
+    "specs": {
+      "Lectura": "Digital",
+      "Marca": "Redline",
+      "Referencia": "412200"
+    }
+  },
+  {
+    "slug": "manguera-flexible-50cm",
+    "name": "Manguera flexible para lavamanos · 50 cm",
+    "brand": "Selección Ferready",
+    "category": "Plomería y hogar",
+    "categorySlug": "plomeria-hogar",
+    "price": 18900,
+    "image": "/ferready/products/690526.webp",
+    "description": "El repuesto para reconectar tu lavamanos. Mide el recorrido y comprueba ambas conexiones antes de reemplazar el acople.",
+    "compatibility": "Para agua fría según la referencia. Diámetro y tipo de rosca deben confirmarse en ambos extremos. Cierra el suministro antes de intervenir y no fuerces curvas.",
+    "includes": "Una manguera de acople metálica flexible de 50 cm. Conexiones pendientes de validación.",
+    "source": "https://www.homecenter.com.co/homecenter-co/product/690526/manguera-acople-metalica-flexible-50cm-lavamanos-agua-fria/690526/",
+    "specs": {
+      "Longitud": "50 cm",
+      "Aplicación": "Lavamanos · agua fría",
+      "Tipo": "Acople metálico flexible"
+    }
+  }
+]

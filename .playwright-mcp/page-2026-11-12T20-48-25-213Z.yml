@@ -1,0 +1,1146 @@
+- generic [active] [ref=f10e1]:
+  - complementary "Choose country or region" [ref=f10e2]:
+    - generic [ref=f10e3]:
+      - generic [ref=f10e4]: Elige otro país o región para ver contenido específico según tu ubicación.
+      - generic [ref=f10e5]:
+        - generic [ref=f10e6]:
+          - button " Colombia " [ref=f10e7]:
+            - generic [ref=f10e8]:
+              - generic [ref=f10e9]: 
+              - generic [ref=f10e10]: Colombia
+            - text: 
+          - text: 
+        - button "Continuar" [ref=f10e11] [cursor=pointer]
+        - button "Cerrar el selector de país o región" [ref=f10e12] [cursor=pointer]
+  - navigation "Global" [ref=f10e17]:
+    - generic [ref=f10e18]:
+      - link "Apple" [ref=f10e19] [cursor=pointer]:
+        - /url: /
+      - button "Search apple.com" [ref=f10e20] [cursor=pointer]
+      - button "Shopping Bag" [ref=f10e22] [cursor=pointer]
+      - button "Menu" [ref=f10e24] [cursor=pointer]
+  - navigation "Local":
+    - generic:
+      - generic:
+        - generic:
+          - link "AirPods Pro 3":
+            - /url: /airpods-pro/
+        - generic:
+          - button "Local Nav Menu"
+          - generic:
+            - generic:
+              - link "Buy AirPods Pro 3":
+                - /url: /us/shop/goto/buy_airpods/airpods_pro_3
+                - text: Buy
+                - generic: AirPods Pro 3
+  - main [ref=f10e27]:
+    - generic [ref=f10e28]:
+      - generic [ref=f10e31]:
+        - generic [ref=f10e32]:
+          - heading "AirPods Pro 3" [level=1] [ref=f10e33]
+          - heading "The world’s best in‑ear Active Noise Cancellation." [level=2] [ref=f10e34]
+          - paragraph [ref=f10e36]:
+            - text: Up to 2x more than AirPods Pro 2.
+            - superscript [ref=f10e37]:
+              - link "Footnote 1" [ref=f10e38] [cursor=pointer]:
+                - /url: "#footnote-3"
+                - text: "1"
+        - generic [ref=f10e40]:
+          - generic:
+            - paragraph
+          - link "Buy, AirPods Pro 3" [ref=f10e41] [cursor=pointer]:
+            - /url: /us/shop/goto/buy_airpods/airpods_pro_3
+            - text: Buy
+      - generic [ref=f10e42]:
+        - img "AirPods Pro 3, left and right wireless headphones, white color, silicone tips, animation" [ref=f10e44]
+        - generic [ref=f10e47]:
+          - button [aria-hidden]
+    - generic [ref=f10e48]:
+      - generic [ref=f10e50]:
+        - heading "Get the highlights." [level=2] [ref=f10e51]
+        - list [ref=f10e53]:
+          - listitem [ref=f10e54]:
+            - button "Watch the film, AirPods Pro 3" [ref=f10e55] [cursor=pointer]:
+              - text: Watch the film
+              - generic [aria-hidden] [ref=f10e56]: 
+      - generic [ref=f10e57]:
+        - generic [ref=f10e58]:
+          - button "Play Highlights Gallery" [ref=f10e62] [cursor=pointer]
+          - tablist "product highlights" [ref=f10e70]:
+            - link "High definition spacial listening":
+              - /url: "#highlights-gallery-item-1"
+            - link "All-new heart rate sensing" [ref=f10e71] [cursor=pointer]:
+              - /url: "#highlights-gallery-item-2"
+            - link "Better acoustic performance" [ref=f10e73] [cursor=pointer]:
+              - /url: "#highlights-gallery-item-3"
+            - link "Live translation" [ref=f10e75] [cursor=pointer]:
+              - /url: "#highlights-gallery-item-4"
+            - link "Hearing Aid capability" [ref=f10e77] [cursor=pointer]:
+              - /url: "#highlights-gallery-item-5"
+            - link "8 hours of listening" [ref=f10e79] [cursor=pointer]:
+              - /url: "#highlights-gallery-item-6"
+        - list [ref=f10e83]:
+          - listitem [ref=f10e84]:
+            - generic [ref=f10e85]:
+              - paragraph [ref=f10e87]:
+                - text: An exceptional spatial listening experience, with high-definition, three-dimensional audio.
+                - superscript [ref=f10e88]:
+                  - link "Footnote 4" [ref=f10e89] [cursor=pointer]:
+                    - /url: "#footnote-6"
+                    - text: "4"
+              - img "A dancer uses AirPods Pro 3 as they move to a beat with their arms spread wide" [ref=f10e92]
+          - listitem [ref=f10e93]:
+            - generic [ref=f10e94]:
+              - paragraph [ref=f10e96]:
+                - text: All-new heart rate sensing. Now you can track your heart rate and calories burned during workouts.
+                - superscript [ref=f10e97]:
+                  - link "Footnote 5" [ref=f10e98] [cursor=pointer]:
+                    - /url: "#footnote-7"
+                    - text: "5"
+              - img "AirPods Pro 3, white color, lower half of iPhone 17 Pro screen, Fitness app, heart rate sensing feature" [ref=f10e101]
+          - listitem [ref=f10e102]:
+            - generic [ref=f10e103]:
+              - paragraph [ref=f10e105]:
+                - text: Redesigned from the inside out for a more secure fit and better acoustic performance.
+                - superscript [ref=f10e106]:
+                  - link "Footnote 2" [ref=f10e107] [cursor=pointer]:
+                    - /url: "#footnote-4"
+                    - text: "2"
+              - img "AirPods Pro 3 inserted in the ear of a dancer as they enjoy a hands-free listening experience" [ref=f10e110]
+          - listitem [ref=f10e111]:
+            - generic [ref=f10e112]:
+              - paragraph [ref=f10e114]:
+                - text: Live Translation helps you communicate across languages.
+                - superscript [ref=f10e115]:
+                  - link "Footnote 6" [ref=f10e116] [cursor=pointer]:
+                    - /url: "#footnote-8"
+                    - text: "6"
+                - generic [ref=f10e117]:
+                  - text: Available in select languages and regions. For more information, see
+                  - link "Feature Availability for iOS 27 with Apple Intelligence, Live Translation with AirPods" [ref=f10e118] [cursor=pointer]:
+                    - /url: /ios/feature-availability/#apple-intelligence-live-translation-with-airpods
+                    - text: Feature Availability
+                  - text: .
+              - 'img "AirPods Pro 3, earbud with silicone tip, Live Translation changes Chinese characters reading ''hello'' to English text reads: hello" [ref=f10e121]'
+          - listitem [ref=f10e122]:
+            - generic [ref=f10e123]:
+              - paragraph [ref=f10e125]:
+                - text: Hearing Aid capability
+                - superscript [ref=f10e126]:
+                  - link "Footnote 7" [ref=f10e127] [cursor=pointer]:
+                    - /url: "#footnote-9"
+                    - text: "7"
+                - text: now features automatic Conversation Boost
+                - superscript [ref=f10e128]:
+                  - link "Footnote 8" [ref=f10e129] [cursor=pointer]:
+                    - /url: "#footnote-10"
+                    - text: "8"
+                - text: and 67% more battery life in Transparency.
+                - superscript [ref=f10e130]:
+                  - link "Footnote 9" [ref=f10e131] [cursor=pointer]:
+                    - /url: "#footnote-11"
+                    - text: "9"
+              - img "A person wearing AirPods Pro 3, pulsating waves around their ear, animation" [ref=f10e133]
+          - listitem [ref=f10e136]:
+            - generic [ref=f10e137]:
+              - paragraph [ref=f10e139]:
+                - text: Get up to 8 hours of listening time with Active Noise Cancellation on a single charge.
+                - superscript [ref=f10e140]:
+                  - link "Footnote 3" [ref=f10e141] [cursor=pointer]:
+                    - /url: "#footnote-5"
+                    - text: "3"
+              - img "Lightning bolt, green background, animation" [ref=f10e143]
+    - generic [ref=f10e146]:
+      - generic [ref=f10e148]:
+        - heading "Take a closer look." [level=2] [ref=f10e149]
+        - generic:
+          - list:
+            - listitem: 
+      - region "product viewer" [ref=f10e150]:
+        - generic:
+          - img "AirPods Pro 3, left and right wireless headphones, white color, silicone tips, animation"
+          - list [ref=f10e159]:
+            - listitem [ref=f10e160]:
+              - button [ref=f10e161] [cursor=pointer]:
+                - generic [ref=f10e162]: Sound quality
+            - listitem [ref=f10e167]:
+              - button [ref=f10e168] [cursor=pointer]:
+                - generic [ref=f10e169]: Fit and feel
+            - listitem [ref=f10e174]:
+              - button [ref=f10e175] [cursor=pointer]:
+                - generic [ref=f10e176]: Heart rate sensing
+            - listitem [ref=f10e181]:
+              - button [ref=f10e182] [cursor=pointer]:
+                - generic [ref=f10e183]: Dust, sweat, and water resistance
+            - listitem [ref=f10e188]:
+              - button [ref=f10e189] [cursor=pointer]:
+                - generic [ref=f10e190]: Force sensor with volume swipe
+            - listitem [ref=f10e195]:
+              - button [ref=f10e196] [cursor=pointer]:
+                - generic [ref=f10e197]: Charging case
+    - generic [ref=f10e202]:
+      - generic [ref=f10e203]:
+        - generic [ref=f10e204]:
+          - 'img "Circular sound ripple, animation. Text on center reads: Intelligent noise control. The best thing you’ve never heard." [ref=f10e207]'
+          - generic [ref=f10e211]:
+            - heading "Intelligent noise control" [level=2] [ref=f10e212]
+            - heading "The best thing you’ve never heard." [level=3] [ref=f10e213]: The best thingyou’ve neverheard.
+          - generic [ref=f10e215]:
+            - button [aria-hidden]
+        - generic [ref=f10e216]:
+          - generic [ref=f10e217]:
+            - text: Introducing
+            - strong [ref=f10e218]: the world’s best in-ear Active Noise Cancellation
+            - text: for the most immersive listening experience ever.
+            - superscript [ref=f10e219]:
+              - link "Footnote 13" [ref=f10e220] [cursor=pointer]:
+                - /url: "#footnote-15"
+                - text: "13"
+            - text: Designed with an upgraded acoustic seal, AirPods Pro 3 automatically adapt to your environment and preferences. And new ultra-low-noise microphones remove even more unwanted sound. So you only hear what you want — in an unheard-of audio experience.
+          - generic [ref=f10e221]:
+            - figure [ref=f10e222]:
+              - generic [ref=f10e223]:
+                - generic [ref=f10e224]: Removes up to
+                - generic [ref=f10e225]: 2x more
+                - generic [ref=f10e226]:
+                  - text: unwanted noise than AirPods Pro 2
+                  - superscript [ref=f10e227]:
+                    - link "Footnote 1" [ref=f10e228] [cursor=pointer]:
+                      - /url: "#footnote-3"
+                      - text: "1"
+            - figure [ref=f10e229]:
+              - generic [ref=f10e230]:
+                - generic [ref=f10e231]: Removes up to
+                - generic [ref=f10e232]: 4x more
+                - generic [ref=f10e233]:
+                  - text: unwanted noise than original AirPods Pro
+                  - superscript [ref=f10e234]:
+                    - link "Footnote 14" [ref=f10e235] [cursor=pointer]:
+                      - /url: "#footnote-16"
+                      - text: "14"
+        - list "Noise Control Gallery" [ref=f10e240]:
+          - listitem [ref=f10e241]:
+            - generic [ref=f10e242]:
+              - heading [level=3] [ref=f10e243]:
+                - strong [ref=f10e244]: New ultra-low-noise microphones.
+              - paragraph [ref=f10e245]: Using advanced computational audio to remove more noise around you than ever, AirPods Pro 3 let you zone in (or out) when you need to. And five all-new ear tips — including an XXS option — fuse a thin layer of soft foam to the silicone shell to give you even better acoustic performance.
+            - img "AirPods Pro 3, noise-cancelling microphone" [ref=f10e249]
+          - listitem [ref=f10e250]:
+            - generic [ref=f10e251]:
+              - heading [level=3] [ref=f10e252]:
+                - strong [ref=f10e253]: Voice Isolation.
+              - paragraph [ref=f10e254]:
+                - text: AirPods Pro 3 reduce background noise and isolate voices during calls. So whether you’re on the bus or in a café, every conversation is loud and clear.
+                - superscript [ref=f10e255]:
+                  - link "Footnote 15" [ref=f10e256] [cursor=pointer]:
+                    - /url: "#footnote-17"
+                    - text: "15"
+            - img "AirPods Pro 3, white color, noise-cancelling microphone, silicone tip, short stem" [ref=f10e260]
+          - listitem [ref=f10e261]:
+            - generic [ref=f10e262]:
+              - heading [level=3] [ref=f10e263]:
+                - strong [ref=f10e264]: Adaptive Audio.
+              - paragraph [ref=f10e265]:
+                - text: AirPods Pro 3 combine Active Noise Cancellation with next-level Transparency, which makes your voice and the world around you sound even more natural and vibrant, intelligently adapting to your environment to prioritize what you need to hear, when you need to hear it.
+                - superscript [ref=f10e266]:
+                  - link "Footnote 15" [ref=f10e267] [cursor=pointer]:
+                    - /url: "#footnote-17"
+                    - text: "15"
+            - img "A person wearing AirPods Pro 3 staring into their iPhone" [ref=f10e271]
+          - listitem [ref=f10e272]:
+            - generic [ref=f10e273]:
+              - heading [level=3] [ref=f10e274]:
+                - strong [ref=f10e275]: Conversation Awareness.
+              - paragraph [ref=f10e276]:
+                - text: AirPods Pro 3 can detect when you’re talking to someone nearby and automatically lower the volume of whatever you’re listening to. When you’re done, the volume goes right back to where you had it.
+                - superscript [ref=f10e277]:
+                  - link "Footnote 15" [ref=f10e278] [cursor=pointer]:
+                    - /url: "#footnote-17"
+                    - text: "15"
+            - 'img "Ambience sound waves as colorful arcs, top and bottom, text on center reads: Conversation Awareness" [ref=f10e282]'
+      - generic [ref=f10e283]:
+        - generic [ref=f10e285]:
+          - generic [ref=f10e286]:
+            - heading "Audio performance" [level=2] [ref=f10e287]
+            - heading "The sound of science." [level=3] [ref=f10e288]
+          - paragraph [ref=f10e290]: Powered by the Apple-designed H2 chip, AirPods Pro 3 feature a completely redesigned acoustic architecture that brings breathtaking, all-around-you audio to everything you listen to — from your pump-up playlist to your weekly FaceTime call with family.
+        - generic [ref=f10e291]:
+          - generic:
+            - generic:
+              - img "AirPods Pro 3, left and right wireless headphones, animation"
+              - generic:
+                - generic:
+                  - generic:
+                    - paragraph:
+                      - strong: A new multiport acoustic architecture
+                      - text: with more precise airflow control — featuring an inward-facing microphone that points directly into the ear canal — delivers deeper bass, vivid vocal clarity, and a wider soundstage, so you never miss a note.
+                - generic:
+                  - generic:
+                    - paragraph:
+                      - strong: A custom-built driver and amplifier
+                      - text: work with the H2 chip to create high-definition, three-dimensional sound, with superlow distortion during playback.
+              - generic:
+                - generic:
+                  - img "AirPods Pro 3, wireless headphone, clear, internal architecture"
+      - generic [ref=f10e293]:
+        - generic [ref=f10e294]:
+          - generic [ref=f10e295]:
+            - heading "Personalized listening" [level=2] [ref=f10e296]
+            - heading "For your ears only." [level=3] [ref=f10e297]
+          - paragraph [ref=f10e299]:
+            - text: AirPods Pro 3 feature next-generation Adaptive EQ, which customizes a sound signature for your unique ear geometry and fit. And Personalized Volume uses machine learning to understand your listening patterns and adapt to your preferences over time.
+            - superscript [ref=f10e300]:
+              - link "Footnote 15" [ref=f10e301] [cursor=pointer]:
+                - /url: "#footnote-17"
+                - text: "15"
+        - img "AirPods Pro 3 inserted in the ear of a dancer as they enjoy a hands-free listening experience" [ref=f10e304]
+        - generic [ref=f10e306]:
+          - paragraph [ref=f10e311]:
+            - strong [ref=f10e312]: Adaptive EQ
+            - text: uses inward-facing microphones to tune music to your ears in real time. And with new Custom EQ, three intuitive controls let you easily personalize your perfect sound.
+          - paragraph [ref=f10e317]:
+            - strong [ref=f10e318]: Personalized Spatial Audio
+            - text: uses the TrueDepth camera on your iPhone to create a custom profile based on the geometry of your head, delivering deeply immersive sound tailored to you.
+          - paragraph [ref=f10e323]:
+            - strong [ref=f10e324]: Dynamic head tracking
+            - text: makes conversations feel like they’re happening in the same room — whether you’re gaming with friends or hosting a Group FaceTime call with family.
+            - superscript [ref=f10e325]:
+              - link "Footnote 4" [ref=f10e326] [cursor=pointer]:
+                - /url: "#footnote-6"
+                - text: "4"
+      - generic [ref=f10e328]:
+        - generic [ref=f10e330]:
+          - heading "Fitness" [level=2] [ref=f10e331]
+          - heading "Introducing heart rate sensing." [level=3] [ref=f10e332]
+        - generic [ref=f10e333]:
+          - generic [ref=f10e334]:
+            - img "AirPods Pro 3, wireless headphone, white color, side exterior, short tubular stem, noise-canceling microphone, silicone tip, pulsating wave, animation" [ref=f10e337]
+            - generic [ref=f10e341]:
+              - button [aria-hidden]
+          - paragraph [ref=f10e343]:
+            - strong [ref=f10e344]: All-new heart rate sensing
+            - text: helps you track your heart rate and calories burned during workouts.
+            - superscript [ref=f10e345]:
+              - link "Footnote 5" [ref=f10e346] [cursor=pointer]:
+                - /url: "#footnote-7"
+                - text: "5"
+            - text: Using LEDs that pulse invisible light 256 times per second — and sensor fusion from the accelerometers — AirPods Pro 3 give you incredibly accurate data for up to 50 different workout types in the Fitness app. And with a more secure in-ear fit, you can go all out and they won’t come out.
+        - generic [ref=f10e348]:
+          - paragraph [ref=f10e351]:
+            - strong [ref=f10e352]: Fitness app.
+            - text: With just AirPods Pro 3 and iPhone, you can dive into the new workout experience in the Fitness app, which includes things like walking, cycling, and HIIT. You can set your favorite music and podcasts to play automatically when you start a workout. With the new Apple Intelligence–enabled Workout Buddy feature, you can get personalized messages that keep you going.
+            - superscript [ref=f10e353]:
+              - link "Footnote 16" [ref=f10e354] [cursor=pointer]:
+                - /url: "#footnote-18"
+                - text: "16"
+            - text: And with access to your Move ring — and even the Burn Bar in Fitness+ — you might just never stop.
+          - generic [ref=f10e357]:
+            - img "Waterdrop icon against black circle" [ref=f10e360]
+            - generic [ref=f10e361]:
+              - heading "IP57 dust, sweat, and water resistance." [level=3] [ref=f10e362]
+              - paragraph [ref=f10e363]:
+                - text: A first for AirPods, an IP57 rating means AirPods Pro 3 are more durable than ever.
+                - superscript [ref=f10e364]:
+                  - link "Footnote 10" [ref=f10e365] [cursor=pointer]:
+                    - /url: "#footnote-12"
+                    - text: "10"
+                - text: Thanks to precision engineering combined with robust testing, you can feel confident during even the sweatiest workouts.
+          - img "A runner wearing AirPods Pro 3" [ref=f10e367]
+      - generic [ref=f10e369]:
+        - generic [ref=f10e371]:
+          - generic [ref=f10e372]:
+            - generic [ref=f10e373]:
+              - heading "Hearing Health" [level=2] [ref=f10e374]
+              - heading "Check, aid, and help protect your hearing." [level=3] [ref=f10e375]
+            - generic [ref=f10e376]:
+              - paragraph [ref=f10e377]:
+                - text: AirPods Pro 3 bring improvements to the world’s first end-to-end hearing health experience.
+                - superscript [ref=f10e378]:
+                  - link "Footnote 7" [ref=f10e379] [cursor=pointer]:
+                    - /url: "#footnote-9"
+                    - text: "7"
+                - text: Now you can take a scientifically validated Hearing Test in a broader range of background conditions. The Hearing Aid feature adds improved voice clarity, automatic Conversation Boost,
+                - superscript [ref=f10e380]:
+                  - link "Footnote 8" [ref=f10e381] [cursor=pointer]:
+                    - /url: "#footnote-10"
+                    - text: "8"
+                - text: and 67 percent more battery life in Transparency on a single charge.
+                - superscript [ref=f10e382]:
+                  - link "Footnote 9" [ref=f10e383] [cursor=pointer]:
+                    - /url: "#footnote-11"
+                    - text: "9"
+                - text: And active Hearing Protection helps prevent exposure to loud environmental noise.
+                - superscript [ref=f10e384]:
+                  - link "Footnote 17" [ref=f10e385] [cursor=pointer]:
+                    - /url: "#footnote-19"
+                    - text: "17"
+              - paragraph [ref=f10e386]:
+                - link "Learn more , hearing health " [ref=f10e387] [cursor=pointer]:
+                  - /url: /airpods-pro/hearing-health/
+                  - generic [ref=f10e388]:
+                    - text: Learn more
+                    - generic [ref=f10e389]: ", hearing health"
+                  - generic [ref=f10e390]: 
+          - generic [ref=f10e391]:
+            - img "A person wearing AirPods Pro 3 with soundwaves around their ear, animation" [ref=f10e393]
+            - generic [ref=f10e400]:
+              - button [aria-hidden]
+        - list "Hearing Health Gallery" [ref=f10e405]:
+          - listitem [ref=f10e406]:
+            - generic [ref=f10e407]:
+              - heading [level=3] [ref=f10e408]:
+                - strong [ref=f10e409]: Battery life.
+              - paragraph [ref=f10e410]:
+                - text: Hearing Aid users now get 67 percent more battery life in Transparency on a single charge. That’s a total of up to 10 hours, making it easier than ever to use this breakthrough capability morning, noon, and night.
+                - superscript [ref=f10e411]:
+                  - link "Footnote 9" [ref=f10e412] [cursor=pointer]:
+                    - /url: "#footnote-11"
+                    - text: "9"
+            - generic [ref=f10e413]:
+              - generic [ref=f10e414]:
+                - generic [ref=f10e415]:
+                  - img "Lightning bolt, green background, animation" [ref=f10e416]
+                  - generic [ref=f10e419]:
+                    - button [aria-hidden]
+                - paragraph [ref=f10e420]:
+                  - strong [ref=f10e421]: 4 more hours
+                  - text: for the Hearing Aid feature
+                  - superscript [ref=f10e422]:
+                    - link "Footnote 9" [ref=f10e423] [cursor=pointer]:
+                      - /url: "#footnote-11"
+                      - text: "9"
+              - paragraph
+          - listitem [ref=f10e424]:
+            - generic [ref=f10e425]:
+              - heading [level=3] [ref=f10e426]:
+                - strong [ref=f10e427]: Automatic Conversation Boost.
+              - paragraph [ref=f10e428]:
+                - text: Now when you’re having a conversation in a busy restaurant or office, Conversation Boost will automatically amplify the voice of the person you’re talking to while minimizing the distracting noises around you. And with the new microphones, transducer, and amplifier, your voice will sound clearer and more natural than ever.
+                - superscript [ref=f10e429]:
+                  - link "Footnote 8" [ref=f10e430] [cursor=pointer]:
+                    - /url: "#footnote-10"
+                    - text: "8"
+            - img "A person wearing AirPods Pro 3, laughing in conversation with another person, both holding a cup of coffee" [ref=f10e434]
+          - listitem [ref=f10e435]:
+            - generic [ref=f10e436]:
+              - heading [level=3] [ref=f10e437]:
+                - strong [ref=f10e438]: Hearing Test and Hearing Aid.
+              - paragraph [ref=f10e439]:
+                - text: With a better fit and increased noise cancellation, you can now take a scientifically validated Hearing Test in a broader range of everyday background conditions — from the comfort of your home. And if you have mild to moderate hearing loss, you can use the improved Hearing Aid feature wherever you go.
+                - superscript [ref=f10e440]:
+                  - link "Footnote 7" [ref=f10e441] [cursor=pointer]:
+                    - /url: "#footnote-9"
+                    - text: "7"
+            - img "Blue circular sound ripple" [ref=f10e445]
+          - listitem [ref=f10e446]:
+            - generic [ref=f10e447]:
+              - heading [level=3] [ref=f10e448]:
+                - strong [ref=f10e449]: Hearing Protection.
+              - paragraph [ref=f10e450]:
+                - text: In addition to passive noise reduction from the ear tips, active Hearing Protection helps prevent exposure to loud environmental noise. Machine learning on the H2 chip reduces noise 48,000 times per second while maintaining natural and vibrant sound for whatever you’re listening to.
+                - superscript [ref=f10e451]:
+                  - link "Footnote 17" [ref=f10e452] [cursor=pointer]:
+                    - /url: "#footnote-19"
+                    - text: "17"
+            - generic [ref=f10e454]:
+              - img "Animated bars indicating levels of Hearing Protection, animation" [ref=f10e455]
+              - text: 
+              - generic [ref=f10e458]:
+                - button [aria-hidden]
+      - generic [ref=f10e460]:
+        - generic [ref=f10e462]:
+          - generic [ref=f10e463]:
+            - heading "Experience" [level=2] [ref=f10e464]
+            - heading "Magic to your ears." [level=3] [ref=f10e465]
+          - paragraph [ref=f10e467]:
+            - text: AirPods Pro 3 are packed with features that make even the simplest moments seem extraordinary. From the all-new Live Translation feature
+            - superscript [ref=f10e468]:
+              - link "Footnote 6" [ref=f10e469] [cursor=pointer]:
+                - /url: "#footnote-8"
+                - text: "6"
+            - text: to superconvenient camera control,
+            - superscript [ref=f10e470]:
+              - link "Footnote 11" [ref=f10e471] [cursor=pointer]:
+                - /url: "#footnote-13"
+                - text: "11"
+            - text: there’s so much more to AirPods than meets the ear.
+        - generic [ref=f10e473]:
+          - generic [ref=f10e476]:
+            - tablist "Experience,gallery" [ref=f10e478]:
+              - tab "Siri AI" [selected] [ref=f10e479] [cursor=pointer]
+              - tab "Live Translation" [selected] [ref=f10e481] [cursor=pointer]
+              - tab "Controls" [selected] [ref=f10e483] [cursor=pointer]
+              - tab "Connectivity" [selected] [ref=f10e485] [cursor=pointer]
+            - generic:
+              - button "Previous item" [ref=f10e487] [cursor=pointer]
+              - button "Next item" [ref=f10e491] [cursor=pointer]
+          - generic [ref=f10e495]:
+            - tabpanel "Siri AI" [ref=f10e496]:
+              - paragraph [ref=f10e498]: Siri, play the song Diana texted me yesterday
+              - paragraph [ref=f10e499]: Siri AI is available in English. Usage limits may apply.
+              - generic [ref=f10e501]:
+                - heading "New Siri AI." [level=4] [ref=f10e502]
+                - paragraph [ref=f10e503]:
+                  - text: Get more done every day with hands-free access to an even more powerful and personalized AI assistant on your iPhone. Ask open-ended questions, brainstorm, and have full conversations.
+                  - superscript [ref=f10e504]:
+                    - link "Footnote 18" [ref=f10e505] [cursor=pointer]:
+                      - /url: "#footnote-20"
+                      - text: "18"
+            - tabpanel "Live Translation" [ref=f10e506]:
+              - 'img "AirPods Pro 3, earbud with silicone tip, Live Translation changes Chinese characters reading ''hello'' to English text reads: hello" [ref=f10e509]'
+              - paragraph [ref=f10e510]:
+                - text: Available in select languages and regions. For more information, see
+                - link "Feature Availability for iOS 27 with Apple Intelligence, Live Translation with AirPods" [ref=f10e511] [cursor=pointer]:
+                  - /url: /ios/feature-availability/#apple-intelligence-live-translation-with-airpods
+                  - text: Feature Availability
+                - text: .
+              - generic [ref=f10e513]:
+                - heading "With Live Translation," [level=4] [ref=f10e514]
+                - paragraph [ref=f10e515]:
+                  - text: powered by Apple Intelligence, you can listen to people speaking in different languages and hear translations through your AirPods Pro 3. To respond, just speak naturally, and your words will appear in the other person’s language on your iPhone screen. To make the experience even more magical, if you both have AirPods Pro 3, you can each speak in your own language and hear translations through your AirPods.
+                  - superscript [ref=f10e516]:
+                    - link "Footnote 6" [ref=f10e517] [cursor=pointer]:
+                      - /url: "#footnote-8"
+                      - text: "6"
+            - tabpanel "Controls" [ref=f10e518]:
+              - img "AirPods Pro 3, wireless headphone, white color, short stem" [ref=f10e521]
+              - generic [ref=f10e523]:
+                - heading "Simple touch controls" [level=4] [ref=f10e524]
+                - paragraph [ref=f10e525]:
+                  - text: let you do things like raise and lower volume, skip tracks, and send “Unknown Caller” straight to voicemail. And the camera remote feature lets you control your iPhone to record a video or snap a pic, even from afar.
+                  - superscript [ref=f10e526]:
+                    - link "Footnote 11" [ref=f10e527] [cursor=pointer]:
+                      - /url: "#footnote-13"
+                      - text: "11"
+            - tabpanel "Connectivity" [ref=f10e528]:
+              - generic [ref=f10e529]:
+                - img "iPhone 17 Pro, Connectivity feature on screen, AirPods Pro 3 and MagSafe Charging Case (USB-C), animation" [ref=f10e530]
+                - generic [ref=f10e533]:
+                  - button [aria-hidden]
+              - generic [ref=f10e535]:
+                - heading "To set up AirPods Pro 3," [level=4] [ref=f10e536]
+                - paragraph [ref=f10e537]:
+                  - text: just place them next to your iPhone and follow the onscreen prompts. Use Automatic Switching to have your AirPods seamlessly connect to whichever device you’re listening to. All you have to do is press play.
+                  - superscript [ref=f10e538]:
+                    - link "Footnote 19" [ref=f10e539] [cursor=pointer]:
+                      - /url: "#footnote-21"
+                      - text: "19"
+        - generic [ref=f10e542]:
+          - generic [ref=f10e543]:
+            - img "Notifications bell icon" [ref=f10e546]
+            - generic [ref=f10e547]:
+              - heading "Announce Notifications." [level=5] [ref=f10e548]
+              - paragraph [ref=f10e549]:
+                - text: Siri can read out messages and alerts as they arrive, and you can respond with just your voice.
+                - superscript [ref=f10e550]:
+                  - link "Footnote 20" [ref=f10e551] [cursor=pointer]:
+                    - /url: "#footnote-22"
+                    - text: "20"
+                - text: With Siri Interactions, you can even use intuitive head gestures — like a nod or a shake — to answer or ignore calls and texts.
+                - superscript [ref=f10e552]:
+                  - link "Footnote 15" [ref=f10e553] [cursor=pointer]:
+                    - /url: "#footnote-17"
+                    - text: "15"
+          - generic [ref=f10e554]:
+            - img "Audio Sharing icon" [ref=f10e557]
+            - generic [ref=f10e558]:
+              - heading "Audio Sharing." [level=5] [ref=f10e559]
+              - paragraph [ref=f10e560]:
+                - text: Easily share what you’re watching or listening to with a friend.
+                - superscript [ref=f10e561]:
+                  - link "Footnote 15" [ref=f10e562] [cursor=pointer]:
+                    - /url: "#footnote-17"
+                    - text: "15"
+                - text: Just bring their AirPods near the iPhone, iPad, or Apple TV you’re connected to. And voilà.
+      - generic [ref=f10e563]:
+        - generic [ref=f10e565]:
+          - generic [ref=f10e566]:
+            - heading "All-day battery life" [level=2] [ref=f10e567]
+            - heading "They’re workin’ 9 to 5." [level=3] [ref=f10e568]: They’re workin’9 to 5.
+          - paragraph [ref=f10e570]:
+            - text: The MagSafe Charging Case is full of helpful features — like a built-in speaker and more powerful Precision Finding — that let you keep track of your AirPods Pro 3 no matter where they are.
+            - superscript [ref=f10e571]:
+              - link "Footnote 21" [ref=f10e572] [cursor=pointer]:
+                - /url: "#footnote-23"
+                - text: "21"
+            - text: And now just a single charge will take you all the way through the workday. Plus overtime.
+        - img "AirPods Pro 3 and MagSafe Charging Case (USB-C), rounded case exterior, LED power indicator, case lid open, white color, wireless headphones with silicone tips, stem interior features letter L and letter R" [ref=f10e574]
+        - generic [ref=f10e575]:
+          - generic [ref=f10e576]:
+            - figure [ref=f10e577]:
+              - generic [ref=f10e578]:
+                - generic [ref=f10e579]: Up to
+                - generic [ref=f10e580]: 8 hrs
+                - generic [ref=f10e581]:
+                  - text: of battery life with Active Noise Cancellation on a single charge
+                  - superscript [ref=f10e582]:
+                    - link "Footnote 3" [ref=f10e583] [cursor=pointer]:
+                      - /url: "#footnote-5"
+                      - text: "3"
+            - paragraph [ref=f10e585]:
+              - strong [ref=f10e586]: 2 hours more
+              - text: than AirPods Pro 2
+          - generic [ref=f10e587]:
+            - figure [ref=f10e588]:
+              - generic [ref=f10e589]:
+                - generic [ref=f10e590]: Up to
+                - generic [ref=f10e591]: 10 hrs
+                - generic [ref=f10e592]:
+                  - text: of battery life in Transparency with the Hearing Aid feature on a single charge
+                  - superscript [ref=f10e593]:
+                    - link "Footnote 9" [ref=f10e594] [cursor=pointer]:
+                      - /url: "#footnote-11"
+                      - text: "9"
+            - paragraph [ref=f10e596]:
+              - strong [ref=f10e597]: 4 hours more
+              - text: than AirPods Pro 2
+        - generic [ref=f10e600]:
+          - generic [ref=f10e601]:
+            - heading "Find My with Precision Finding." [level=2] [ref=f10e602]
+            - paragraph [ref=f10e603]:
+              - text: Easily locate the exact place you left your AirPods Pro. A new generation of Ultra Wideband technology in the Charging Case increases the distance for Precision Finding by 1.5x.
+              - superscript [ref=f10e604]:
+                - link "Footnote 12" [ref=f10e605] [cursor=pointer]:
+                  - /url: "#footnote-14"
+                  - text: "12"
+              - text: And with a built-in speaker in the case, you’ll be able to find your AirPods no matter how deep in the couch cushions they are.
+            - paragraph [ref=f10e609]:
+              - strong [ref=f10e610]: 1.5x increase
+              - text: with AirPods Pro 3
+              - superscript [ref=f10e611]:
+                - link "Footnote 12" [ref=f10e612] [cursor=pointer]:
+                  - /url: "#footnote-14"
+                  - text: "12"
+          - 'img "Find My with Precision Finding feature on iPhone 17 Pro screen, text reads: Finding Matias''s AirPods Pro" [ref=f10e614]'
+    - generic [ref=f10e616]:
+      - generic [ref=f10e618]:
+        - heading "Why Apple is the best place to buy AirPods." [level=2] [ref=f10e619]: Why Apple is the bestplace to buy AirPods.
+        - list [ref=f10e621]:
+          - listitem [ref=f10e622]:
+            - link "shop airpods accessories" [ref=f10e623] [cursor=pointer]:
+              - /url: /us/shop/goto/airpods/accessories
+              - text: Shop AirPods
+              - generic [aria-hidden] [ref=f10e624]: 
+      - generic "Why Apple is the best place to buy AirPods" [ref=f10e625]:
+        - list "Why Apple is the best place to buy AirPods." [ref=f10e628]:
+          - listitem [ref=f10e629]:
+            - generic [ref=f10e630]:
+              - generic:
+                - generic:
+                  - heading "Free Engraving" [level=3]
+                  - generic:
+                    - paragraph: Personalize your new AirPods.
+                    - paragraph: Make them yours with a mix of emoji, names, initials, and numbers.
+                - figure:
+                  - generic:
+                    - 'img "Custom-engraved Apple products: MagSafe Charging Case (USB-C) engraving on front reads: rock-on emoji, MagSafe Charging Case (USB-C), case open, AirPods Pro 3, engraving on front reads: star-struck emoji"'
+              - text: 
+              - button "Learn more about Personalizing" [ref=f10e631] [cursor=pointer]
+          - listitem [ref=f10e636]:
+            - generic [ref=f10e637]:
+              - generic:
+                - generic:
+                  - heading "Delivery and Pickup" [level=3]
+                  - generic:
+                    - paragraph: Get your order quickly and easily.
+                    - paragraph: Choose two-hour delivery from an Apple Store, free delivery, or easy pickup options.
+                - figure:
+                  - generic:
+                    - img "A carrier bag with the Apple logo on the front center"
+              - text: 
+              - button "Learn more about delivery and pickup options" [ref=f10e638] [cursor=pointer]
+          - listitem [ref=f10e643]:
+            - generic [ref=f10e644]:
+              - generic:
+                - generic:
+                  - heading "Financing" [level=3]
+                  - generic:
+                    - paragraph: Pay over time, interest-free.
+                    - paragraph:
+                      - text: When you choose to check out at Apple with Apple Card Monthly Installments.
+                      - link "Footnote ** symbol" [ref=f10e645] [cursor=pointer]:
+                        - /url: "#footnote-2"
+                        - text: "**"
+                - figure:
+                  - generic:
+                    - img "Apple Card"
+              - text: 
+              - button "Learn more about Apple Card Monthly Installments" [ref=f10e646] [cursor=pointer]
+          - listitem [ref=f10e651]:
+            - generic [ref=f10e652]:
+              - generic:
+                - generic:
+                  - heading "Guided Video Shopping" [level=3]
+                  - generic:
+                    - paragraph: Shop live with a Specialist.
+                    - paragraph: Let us help you find what you need and answer all of your questions, one on one over video.
+                - figure:
+                  - generic:
+                    - img "A person wearing a t-shirt with Apple logo printed on the top right"
+              - text: 
+              - button "Learn more about shopping with a Specialist over video" [ref=f10e653] [cursor=pointer]
+          - listitem [ref=f10e658]:
+            - generic [ref=f10e659]:
+              - generic:
+                - generic:
+                  - heading "Apple Store App" [level=3]
+                  - generic:
+                    - paragraph: Explore a shopping experience designed around you.
+                    - paragraph: Use the app to get a more personal way to shop.
+                - figure:
+                  - generic:
+                    - img "Apple Store app"
+              - text: 
+              - button "Learn more about Apple Store App" [ref=f10e660] [cursor=pointer]
+    - generic [ref=f10e666]:
+      - generic [ref=f10e667]:
+        - heading "Keep exploring AirPods." [level=2] [ref=f10e668]
+        - list [ref=f10e670]:
+          - listitem [ref=f10e671]:
+            - link "Explore all AirPods" [ref=f10e672] [cursor=pointer]:
+              - /url: /airpods/
+              - text: Explore all AirPods
+              - generic [aria-hidden] [ref=f10e673]: 
+      - list [ref=f10e677]:
+        - listitem [ref=f10e678]:
+          - heading "AirPods Pro 3" [level=3] [ref=f10e679]:
+            - generic [ref=f10e681]:
+              - generic [ref=f10e682]: AirPods Pro 3
+              - generic [aria-hidden] [ref=f10e683]: AirPods Pro 3
+          - img "AirPods Pro 3" [ref=f10e686]
+          - paragraph [ref=f10e687]: The world’s best in-ear Active Noise Cancellation, with heart rate sensing during workouts.
+          - paragraph
+          - generic [ref=f10e688]:
+            - generic [ref=f10e690]:
+              - text: Currently viewing
+              - generic [ref=f10e691]: ", AirPods Pro 3"
+            - link "Buy AirPods Pro 3" [ref=f10e692] [cursor=pointer]:
+              - /url: /us/shop/goto/buy_airpods/airpods_pro_3
+              - text: Buy
+              - generic [aria-hidden] [ref=f10e693]: 
+          - generic [ref=f10e694]:
+            - paragraph [ref=f10e699]:
+              - text: Up to 3x more Active Noise Cancellation
+              - superscript [ref=f10e700]:
+                - link "Footnote 22" [ref=f10e701] [cursor=pointer]:
+                  - /url: "#footnote-24"
+                  - text: "22"
+              - text: compared with AirPods 5
+            - paragraph [ref=f10e706]:
+              - text: Adaptive Audio and Transparency
+              - superscript [ref=f10e707]:
+                - link "Footnote 23" [ref=f10e708] [cursor=pointer]:
+                  - /url: "#footnote-25"
+                  - text: "23"
+            - paragraph [ref=f10e713]:
+              - text: Personalized Spatial Audio with dynamic head tracking
+              - superscript [ref=f10e714]:
+                - link "Footnote 4" [ref=f10e715] [cursor=pointer]:
+                  - /url: "#footnote-6"
+                  - text: "4"
+            - paragraph [ref=f10e720]:
+              - text: Heart rate sensingduring workouts
+              - superscript [ref=f10e721]:
+                - link "Footnote 5" [ref=f10e722] [cursor=pointer]:
+                  - /url: "#footnote-7"
+                  - text: "5"
+            - paragraph [ref=f10e727]:
+              - text: Hearing Test, Hearing Aid,
+              - superscript [ref=f10e728]:
+                - link "Footnote 7" [ref=f10e729] [cursor=pointer]:
+                  - /url: "#footnote-9"
+                  - text: "7"
+              - text: and Hearing Protection
+              - superscript [ref=f10e730]:
+                - link "Footnote 17" [ref=f10e731] [cursor=pointer]:
+                  - /url: "#footnote-19"
+                  - text: "17"
+              - text: features
+            - paragraph [ref=f10e736]:
+              - text: Live Translation
+              - superscript [ref=f10e737]:
+                - link "Footnote 6" [ref=f10e738] [cursor=pointer]:
+                  - /url: "#footnote-8"
+                  - text: "6"
+              - text: and Siri AI
+              - superscript [ref=f10e739]:
+                - link "Footnote 18" [ref=f10e740] [cursor=pointer]:
+                  - /url: "#footnote-20"
+                  - text: "18"
+            - generic [ref=f10e741]:
+              - paragraph [ref=f10e742]: 8 hrs
+              - paragraph [ref=f10e744]:
+                - text: Up to 8 hours of battery life on one charge with Active Noise Cancellation
+                - superscript [ref=f10e745]:
+                  - link "Footnote 3" [ref=f10e746] [cursor=pointer]:
+                    - /url: "#footnote-5"
+                    - text: "3"
+                - text: ", and up to 10 hours in Transparency using the Hearing Aid feature"
+                - superscript [ref=f10e747]:
+                  - link "Footnote 9" [ref=f10e748] [cursor=pointer]:
+                    - /url: "#footnote-11"
+                    - text: "9"
+            - paragraph [ref=f10e753]:
+              - text: Voice Isolation,
+              - superscript [ref=f10e754]:
+                - link "Footnote 24" [ref=f10e755] [cursor=pointer]:
+                  - /url: "#footnote-26"
+                  - text: "24"
+              - text: Hey Siri,
+              - superscript [ref=f10e756]:
+                - link "Footnote 25" [ref=f10e757] [cursor=pointer]:
+                  - /url: "#footnote-27"
+                  - text: "25"
+              - text: and Siri Interactions
+              - superscript [ref=f10e758]:
+                - link "Footnote 26" [ref=f10e759] [cursor=pointer]:
+                  - /url: "#footnote-28"
+                  - text: "26"
+        - listitem [ref=f10e760]:
+          - heading "New AirPods 5 Wireless Charging Case" [level=3] [ref=f10e761]:
+            - generic [ref=f10e762]: New
+            - generic [ref=f10e763]:
+              - generic [ref=f10e764]: AirPods 5
+              - generic [aria-hidden] [ref=f10e765]: AirPods 5
+              - generic [ref=f10e766]: Wireless Charging Case
+          - link [ref=f10e767] [cursor=pointer]:
+            - /url: /airpods-5/
+            - img "learn more - AirPods 5 with Wireless Charging Case" [ref=f10e769]
+          - paragraph [ref=f10e770]: Active Noise Cancellation, volume swipe, and longer battery life.
+          - paragraph
+          - generic [ref=f10e771]:
+            - link "Learn more, AirPods 5 wireless charging case" [ref=f10e772] [cursor=pointer]:
+              - /url: /airpods-5/
+              - text: Learn more
+            - link "Buy, AirPods 5 Wireless Charging Case" [ref=f10e773] [cursor=pointer]:
+              - /url: /us/shop/goto/buy_airpods/airpods_5/with_wireless_charging_case
+              - text: Buy
+              - generic [aria-hidden] [ref=f10e774]: 
+          - generic [ref=f10e775]:
+            - paragraph [ref=f10e780]:
+              - text: Up to 1.5x more Active Noise Cancellation
+              - superscript [ref=f10e781]:
+                - link "Footnote 27" [ref=f10e782] [cursor=pointer]:
+                  - /url: "#footnote-29"
+                  - text: "27"
+              - text: than AirPods 4 with Active Noise Cancellation
+            - paragraph [ref=f10e787]:
+              - text: Adaptive Audio and Transparency
+              - superscript [ref=f10e788]:
+                - link "Footnote 23" [ref=f10e789] [cursor=pointer]:
+                  - /url: "#footnote-25"
+                  - text: "23"
+            - paragraph [ref=f10e794]:
+              - text: Personalized Spatial Audio with dynamic head tracking
+              - superscript [ref=f10e795]:
+                - link "Footnote 4" [ref=f10e796] [cursor=pointer]:
+                  - /url: "#footnote-6"
+                  - text: "4"
+            - paragraph [ref=f10e798]:
+              - text: —
+              - generic [ref=f10e799]: Heart rate sensing, not applicable
+            - paragraph [ref=f10e801]:
+              - text: —
+              - generic [ref=f10e802]: Hearing Aid feature, not applicable
+            - paragraph [ref=f10e807]:
+              - text: Live Translation
+              - superscript [ref=f10e808]:
+                - link "Footnote 6" [ref=f10e809] [cursor=pointer]:
+                  - /url: "#footnote-8"
+                  - text: "6"
+              - text: and Siri AI
+              - superscript [ref=f10e810]:
+                - link "Footnote 18" [ref=f10e811] [cursor=pointer]:
+                  - /url: "#footnote-20"
+                  - text: "18"
+            - generic [ref=f10e812]:
+              - paragraph [ref=f10e813]: 5 hrs
+              - paragraph [ref=f10e815]:
+                - text: Up to 5 hours of battery life on one charge with Active Noise Cancellation
+                - superscript [ref=f10e816]:
+                  - link "Footnote 28" [ref=f10e817] [cursor=pointer]:
+                    - /url: "#footnote-30"
+                    - text: "28"
+            - paragraph [ref=f10e822]:
+              - text: Voice Isolation,
+              - superscript [ref=f10e823]:
+                - link "Footnote 24" [ref=f10e824] [cursor=pointer]:
+                  - /url: "#footnote-26"
+                  - text: "24"
+              - text: Hey Siri,
+              - superscript [ref=f10e825]:
+                - link "Footnote 25" [ref=f10e826] [cursor=pointer]:
+                  - /url: "#footnote-27"
+                  - text: "25"
+              - text: and Siri Interactions
+              - superscript [ref=f10e827]:
+                - link "Footnote 26" [ref=f10e828] [cursor=pointer]:
+                  - /url: "#footnote-28"
+                  - text: "26"
+      - link "Compare all AirPods models" [ref=f10e833] [cursor=pointer]:
+        - /url: /airpods/compare/
+    - generic [ref=f10e838]:
+      - generic [ref=f10e840]:
+        - heading "AirPods Pro 3 and the environment." [level=2] [ref=f10e841]
+        - list [ref=f10e843]:
+          - listitem [ref=f10e844]:
+            - link "Learn more in our Product Environmental Report (PDF) (opens in new window)" [ref=f10e845] [cursor=pointer]:
+              - /url: /environment/pdf/products/airpods/Apple_AirPods_Pro_3_PER_Sept2025.pdf
+              - generic [ref=f10e846]:
+                - text: Learn more in our Product Environmental Report (PDF)
+                - generic [ref=f10e847]: (opens in new window)
+      - generic "Environment gallery" [ref=f10e848]:
+        - list "AirPods Pro 3 and the environment." [ref=f10e851]:
+          - listitem [ref=f10e852]:
+            - generic [ref=f10e853]:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading "Made with 40% recycled material by weight." [level=3]:
+                      - text: Made with
+                      - strong: 40% recycled material
+                      - text: by weight.
+                    - generic:
+                      - paragraph
+              - text: 
+              - button "Learn more about Apple’s approach to recycled material" [ref=f10e854] [cursor=pointer]
+          - listitem [ref=f10e859]:
+            - generic [ref=f10e860]:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading "Manufactured with 40% renewable electricity." [level=3]:
+                      - text: Manufactured with
+                      - strong: 40% renewable electricity.
+                    - generic:
+                      - paragraph
+              - text: 
+              - button "Learn more about Apple’s approach to renewable electricity" [ref=f10e861] [cursor=pointer]
+          - listitem [ref=f10e866]:
+            - generic [ref=f10e867]:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading "Ships in compact packaging for 25% more units per trip." [level=3]:
+                      - text: Ships in compact packaging for
+                      - strong: 25% more units
+                      - text: per trip.
+                    - generic:
+                      - paragraph
+              - text: 
+              - button "Learn more about Apple’s approach to packaging" [ref=f10e868] [cursor=pointer]
+    - generic [ref=f10e873]:
+      - heading "Our values lead the way." [level=2] [ref=f10e876]
+      - generic "Values gallery" [ref=f10e877]:
+        - list "Our values lead the way." [ref=f10e880]:
+          - listitem [ref=f10e881]:
+            - generic [ref=f10e882]:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading "A plan as innovative as our products." [level=3]
+                    - generic:
+                      - paragraph: We’re committed to bringing net emissions to zero across our entire carbon footprint by 2030.
+                      - paragraph:
+                        - link "Learn more about environment" [ref=f10e883] [cursor=pointer]:
+                          - /url: /environment/
+                          - text: Learn more about environment
+                          - generic [aria-hidden] [ref=f10e884]: 
+              - link [aria-hidden] [ref=f10e885] [cursor=pointer]:
+                - /url: /environment/
+          - listitem [ref=f10e886]:
+            - generic [ref=f10e887]:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading "Privacy. That’s Apple." [level=3]
+                    - generic:
+                      - paragraph: Privacy is a fundamental human right. Every product and service is designed to help keep your data safe and secure.
+                      - paragraph:
+                        - link "Learn more about privacy" [ref=f10e888] [cursor=pointer]:
+                          - /url: /privacy/
+                          - text: Learn more about privacy
+                          - generic [aria-hidden] [ref=f10e889]: 
+              - link [aria-hidden] [ref=f10e890] [cursor=pointer]:
+                - /url: /privacy/
+          - listitem [ref=f10e891]:
+            - generic [ref=f10e892]:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading "Innovation that’s accessible by design." [level=3]
+                    - generic:
+                      - paragraph: Our products and services are designed for everyone, with built-in features to help you do what you love, your way.
+                      - paragraph:
+                        - link "Learn more about accessibility" [ref=f10e893] [cursor=pointer]:
+                          - /url: /accessibility/
+                          - text: Learn more about accessibility
+                          - generic [aria-hidden] [ref=f10e894]: 
+              - link [aria-hidden] [ref=f10e895] [cursor=pointer]:
+                - /url: /accessibility/
+    - generic [ref=f10e898]:
+      - heading "AirPods" [level=2] [ref=f10e899]
+      - navigation "AirPods"
+  - contentinfo "Apple Footer" [ref=f10e900]:
+    - generic [ref=f10e901]:
+      - heading "Apple Footer" [level=2] [ref=f10e902]
+      - region "Footnotes" [ref=f10e903]:
+        - list [ref=f10e904]:
+          - listitem [ref=f10e905]:
+            - text: "** Apple Card Monthly Installments (ACMI) is a 0% APR payment option that is only available if you select it at checkout in the U.S. for eligible products purchased at Apple Store locations,"
+            - link "apple.com" [ref=f10e906] [cursor=pointer]:
+              - /url: /
+            - text: ", the Apple Store app, or by calling 1‑800‑MY‑APPLE, and is subject to credit approval and credit limit. See"
+            - link "here" [ref=f10e907] [cursor=pointer]:
+              - /url: https://support.apple.com/102730
+            - text: "for more information about eligible products. Existing customers: See your Customer Agreement for your variable APR. As of October 1, 2026, the variable APR on new Apple Card accounts ranges from 17.74% to 27.99%. You must elect to use ACMI at checkout. If you buy an ACMI‑eligible product with a one-time payment on Apple Card at checkout, that purchase is subject to your Apple Card’s variable APR, not the ACMI 0% APR. Taxes and shipping on items purchased using ACMI are subject to your Apple Card’s variable APR, not the ACMI 0% APR. In order to buy an iPhone with ACMI, you must select one of the following carriers (prepaid carrier plans are not supported): AT&T, T‑Mobile, or Verizon. An iPhone purchased with ACMI is always unlocked, so you can switch carriers at any time, subject to your carrier’s terms. ACMI is not available for purchases made at the following special storefronts or when using these discounts in-store at Apple: Apple Employee Purchase Plan; participating corporate Employee Purchase Programs; Apple at Work for small businesses; Government and Veterans and Military Purchase Programs; or on refurbished devices. The last month’s payment for each product will be the product’s purchase price, less all other payments at the monthly payment amount. ACMI is subject to change at any time for any reason, including but not limited to installment term lengths and eligible products. See the"
+            - link "Apple Card Customer Agreement" [ref=f10e908] [cursor=pointer]:
+              - /url: https://www.goldmansachs.com/terms-and-conditions/Apple-Card-Customer-Agreement.pdf
+            - text: for more information about ACMI.
+            - paragraph [ref=f10e909]: To access and use all Apple Card features and products available only to Apple Card users, you must add Apple Card to Wallet on an iPhone or iPad that supports and has the latest version of iOS or iPadOS. Apple Card is subject to credit approval, available only for qualifying applicants in the United States, and issued by Goldman Sachs Bank USA, Salt Lake City Branch.
+            - paragraph [ref=f10e910]: Apple Payments Services LLC, a subsidiary of Apple Inc., is a service provider of Goldman Sachs Bank USA for Apple Card and Savings accounts. Neither Apple Inc. nor Apple Payments Services LLC is a bank.
+            - paragraph [ref=f10e911]: All communications from Apple and Goldman Sachs Bank USA about Apple Card (including transactional and marketing communications) and customer service support are available in English. Certain communications about Apple Card can be viewed in another language depending on your device language settings. If you reside in the U.S. Virgin Islands, American Samoa, Guam, Northern Mariana Islands, or U.S. Minor Outlying Islands, please call Goldman Sachs at 877-255-5923 with questions about Apple Card.
+        - list [ref=f10e912]:
+          - listitem [ref=f10e913]: 2x more Active Noise Cancellation compared with AirPods Pro 2. World's best Active Noise Cancellation evaluation tested in July 2025 in accordance with IEC 60268-24 as compared with best-selling commercially available wireless in-ear headphones.
+          - listitem [ref=f10e914]: Compared with AirPods Pro 2.
+          - listitem [ref=f10e915]: Testing conducted by Apple in July and August 2025 using preproduction AirPods Pro 3 with MagSafe Charging Case paired with preproduction iPhone 17 Pro units, all with prerelease software. The playlist consisted of 358 unique audio tracks purchased from the iTunes Store (256-Kbps AAC encoding). Listening time was up to 8 hours when volume was set to 50% and Active Noise Cancellation was enabled. With Spatial Audio and Head Tracking enabled, listening time was up to 7.5 hours. Testing consisted of full AirPods Pro battery discharge while playing audio until the first AirPod Pro stopped playback. Battery life depends on device settings, environment, usage, and many other factors.
+          - listitem [ref=f10e916]: Compatible hardware and software required. Works with compatible content in supported apps. Not all content available in Dolby Atmos. iPhone with TrueDepth camera required to create a personal profile for Personalized Spatial Audio, which will sync across Apple devices running the latest operating system software, including iOS, iPadOS, macOS, and tvOS. Personalized Spatial Audio is not available when using other devices.
+          - listitem [ref=f10e917]:
+            - text: Built-in heart rate monitor is intended for use during workouts with the Fitness app and compatible third-party apps on iPhone running iOS 26 and later. Refer to
+            - link "support.apple.com/123184" [ref=f10e918] [cursor=pointer]:
+              - /url: https://support.apple.com/123184
+            - text: for more information.
+          - listitem [ref=f10e919]:
+            - text: Available on compatible Apple devices with the latest operating system software when paired with compatible AirPods with the latest firmware when Apple Intelligence is turned on. Available in beta. Some features may not be available in all regions or languages; for more information, see
+            - link "Feature Availability" [ref=f10e920] [cursor=pointer]:
+              - /url: /ios/feature-availability/#apple-intelligence-live-translation-with-airpods
+            - text: .
+          - listitem [ref=f10e921]: The Hearing Aid feature has received FDA authorization. The Hearing Test and Hearing Aid features are supported on AirPods Pro 2 and later with the latest firmware when paired with a compatible iPhone or iPad with iOS 18 or iPadOS 18 and later and are intended for people 18 years old or older. The Hearing Aid feature is also supported on a compatible Mac with macOS Sequoia and later. It is intended for people with perceived mild to moderate hearing loss.
+          - listitem [ref=f10e922]:
+            - text: Supported on AirPods Pro 2 and later with the latest firmware when paired with a compatible iPhone running iOS 26 and later. This feature may not be available in all regions or all languages.
+            - link "View complete list" [ref=f10e923] [cursor=pointer]:
+              - /url: /airpods-pro/feature-availability/
+            - text: .
+          - listitem [ref=f10e924]: 67% more battery life compared with AirPods Pro 2. Testing conducted by Apple in July and August 2025 using preproduction AirPods Pro 3 with MagSafe Charging Case paired with preproduction iPhone 17 Pro units, all with prerelease software. Both volume and amplification level were set to 50% and Transparency was enabled. Testing consisted of full AirPods Pro battery discharge with the Hearing Aid feature on, with no audio playing back from iPhone, until the first AirPod Pro was fully discharged. Battery life depends on device settings, environment, usage, and many other factors.
+          - listitem [ref=f10e925]:
+            - text: AirPods Pro 3 are dust, sweat, and water resistant for non-water sports and exercise. Products including charging case were tested under controlled laboratory conditions, and have a rating of IP57 under IEC standard 60529. Dust, sweat, and water resistance are not permanent conditions and resistance might decrease as a result of normal wear. Do not attempt to charge when wet; refer to
+            - link "support.apple.com/kb/HT210711" [ref=f10e926] [cursor=pointer]:
+              - /url: https://support.apple.com/kb/HT210711
+            - text: for cleaning and drying instructions.
+          - listitem [ref=f10e927]: Available on compatible devices running iOS 26 or iPadOS 26 and later when paired with AirPods 4, AirPods 4 with Active Noise Cancellation, or AirPods Pro 2 and later.
+          - listitem [ref=f10e928]:
+            - text: Compared with AirPods Pro 2. Expanded Precision Finding works with AirPods Pro 3 paired with iPhone Air or iPhone 15 or later (excluding iPhone 16e); availability varies by region. Visit
+            - link "apple.com/uwb" [ref=f10e929] [cursor=pointer]:
+              - /url: /uwb
+            - text: for more information.
+          - listitem [ref=f10e930]: Testing conducted by Apple in July 2025 using AirPods Pro 3 paired with iPhone 16 with prerelease AirPods firmware and iOS 26. Noise reduction was tested in accordance with IEC 60268-24. Comparison made against the best-selling wireless in-ear headphones commercially available at the time of testing. Performance depends on device settings, environment, and many other factors.
+          - listitem [ref=f10e931]: Up to 4x more Active Noise Cancellation compared with original AirPods Pro and AirPods 4 with Active Noise Cancellation when tested in accordance with IEC 60268-24.
+          - listitem [ref=f10e932]: Requires a compatible Apple device running the latest operating system software.
+          - listitem [ref=f10e933]:
+            - text: Requires a paired Apple Intelligence–enabled iPhone and Bluetooth headphones with device and Siri language set to English or Spanish. To use Workout Buddy through your Apple Watch without your iPhone nearby, your Apple Watch must have a Wi-Fi or cellular connection. Some features may not be available in all regions or languages. For feature and language availability and system requirements see
+            - link "support.apple.com/121115" [ref=f10e934] [cursor=pointer]:
+              - /url: https://support.apple.com/121115?cid=general-airpods-b3d8fc66-62028090
+            - text: .
+          - listitem [ref=f10e935]:
+            - text: The Hearing Protection feature works with AirPods Pro 2 and later with the latest firmware when paired with a compatible iPhone, iPad, or Mac with iOS 18, iPadOS 18, or macOS Sequoia and later. The feature is not available in all regions or all languages.
+            - link "View complete list" [ref=f10e936] [cursor=pointer]:
+              - /url: /airpods-pro/feature-availability/
+            - text: . See
+            - link "support.apple.com/120850" [ref=f10e937] [cursor=pointer]:
+              - /url: https://support.apple.com/en-us/120850
+            - text: for total attenuation and more information. The Hearing Protection feature is not suitable for protection against extremely loud impulse sounds, such as gunfire, fireworks, or jackhammers, or against sustained sounds louder than 110 dBA.
+          - listitem [ref=f10e938]:
+            - text: Apple Intelligence is available with Siri and device language set to Chinese (Simplified), Chinese (Traditional), Danish, Dutch, English, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Spanish, Swedish, Turkish, or Vietnamese. Some features may not be available in all regions or languages. Some devices may not be available in all regions. Siri AI is available in beta in iOS 27, macOS 27, and watchOS 27 and requires an Apple Intelligence–enabled device set to a supported language. Available in English, French, Japanese, Korean, Portuguese, and Spanish to start. Siri AI will not be initially available in the EU on iOS, iPadOS, and watchOS. Siri AI is not available for users under 13. Certain Apple Intelligence features that rely on server-side models are subject to daily usage limits, including but not limited to Siri AI, Intelligent Photo Editing Tools, Image Playground, and AFM 3 Cloud models in Shortcuts. Daily limits may vary by feature, request complexity, system demand, system policies, and other factors. Expanded access to such features will be available for a fee in the future. Use of these features is subject to the Apple Intelligence Terms and Conditions. Learn more at
+            - link "support.apple.com/148587" [ref=f10e939] [cursor=pointer]:
+              - /url: https://support.apple.com/148587
+            - text: . Hands-free access to Siri AI works on all AirPods.
+          - listitem [ref=f10e940]: Requires an Apple Account and a compatible Apple device running the latest operating system software.
+          - listitem [ref=f10e941]: Siri and activating with just “Siri” may not be available in all languages or in all areas, and features may vary by area. Compatible device and internet access required. Cellular data charges may apply. Activating with just “Siri” is not available on AirPods with the H1 headphone chip and Intel-based Mac computers. Devices must support and have the latest operating system software.
+          - listitem [ref=f10e942]: MagSafe charging requires a compatible MagSafe charger. Wireless charging requires a Qi-certified wireless charger. AirPods Pro 3 and AirPods Pro 2 charging case also works with the Apple Watch charger or USB-C connector.
+          - listitem [ref=f10e943]: Up to 3x more Active Noise Cancellation compared with AirPods 5 when tested in accordance with IEC 60268-24.
+          - listitem [ref=f10e944]:
+            - text: Device performance and noise control features like Active Noise Cancellation, Adaptive Audio, and Transparency can be affected by debris or earwax buildup. Clean the device regularly to maintain performance and full feature functionality. Refer to
+            - link "support.apple.com/102672" [ref=f10e945] [cursor=pointer]:
+              - /url: https://support.apple.com/102672
+            - text: for AirPods 4 cleaning instructions. Refer to
+            - link "support.apple.com/120409" [ref=f10e946] [cursor=pointer]:
+              - /url: https://support.apple.com/120409
+            - text: for AirPods Pro cleaning instructions.
+          - listitem [ref=f10e947]: Available on compatible devices running iOS 18, iPadOS 18, or macOS Sequoia and later when paired with AirPods 4, AirPods 4 with Active Noise Cancellation, or AirPods Pro 2 and later with the latest firmware. For the best performance, update to the latest software.
+          - listitem [ref=f10e948]: Siri may not be available in all languages or in all areas, and features may vary by area. Compatible device and internet access required. Cellular data charges may apply.
+          - listitem [ref=f10e949]: Available on compatible devices running iOS 18, iPadOS 18, or macOS Sequoia and later when paired with AirPods 4, AirPods 4 with Active Noise Cancellation, or AirPods Pro 2 and later with the latest firmware.
+          - listitem [ref=f10e950]: Up to 1.5x more Active Noise Cancellation compared with AirPods 4 with Active Noise Cancellation when tested in accordance with IEC 60268-24.
+          - listitem [ref=f10e951]: Testing conducted by Apple in July and August 2026 using preproduction AirPods 5 with Wireless Charging Case paired with preproduction iPhone 18 Pro units, all with prerelease software. The playlist consisted of 358 unique audio tracks purchased from the iTunes Store (256-Kbps AAC encoding). Volume was set to 50%, Spatial Audio and Conversation Awareness were off, and Noise Control was set to Active Noise Cancellation. With Noise Control turned off, listening time was up to 7 hours. Testing consisted of full AirPods battery discharge while playing audio until the first AirPod stopped playback. Battery life depends on device settings, environment, usage, and many other factors.
+      - navigation "Breadcrumbs" [ref=f10e952]:
+        - link "Apple" [ref=f10e953] [cursor=pointer]:
+          - /url: /
+          - generic [aria-hidden] [ref=f10e954]: 
+        - generic [ref=f10e956]:
+          - list:
+            - listitem [ref=f10e957]:
+              - link "AirPods" [ref=f10e958] [cursor=pointer]:
+                - /url: /airpods/
+            - listitem [ref=f10e959]: AirPods Pro 3
+      - navigation "Apple Directory" [ref=f10e960]:
+        - generic [ref=f10e961]:
+          - heading [level=3] [ref=f10e963]:
+            - button "Shop and Learn" [ref=f10e964] [cursor=pointer]
+          - heading [level=3] [ref=f10e969]:
+            - button "Apple Wallet" [ref=f10e970] [cursor=pointer]
+        - generic [ref=f10e974]:
+          - heading [level=3] [ref=f10e976]:
+            - button "Account" [ref=f10e977] [cursor=pointer]
+          - heading [level=3] [ref=f10e982]:
+            - button "Entertainment" [ref=f10e983] [cursor=pointer]
+        - heading [level=3] [ref=f10e989]:
+          - button "Apple Store" [ref=f10e990] [cursor=pointer]
+        - generic [ref=f10e994]:
+          - heading [level=3] [ref=f10e996]:
+            - button "For Business" [ref=f10e997] [cursor=pointer]
+          - heading [level=3] [ref=f10e1002]:
+            - button "For Education" [ref=f10e1003] [cursor=pointer]
+          - heading [level=3] [ref=f10e1008]:
+            - button "For Healthcare" [ref=f10e1009] [cursor=pointer]
+          - heading [level=3] [ref=f10e1014]:
+            - button "For Government" [ref=f10e1015] [cursor=pointer]
+        - generic [ref=f10e1019]:
+          - heading [level=3] [ref=f10e1021]:
+            - button "Apple Values" [ref=f10e1022] [cursor=pointer]
+          - heading [level=3] [ref=f10e1027]:
+            - button "About Apple" [ref=f10e1028] [cursor=pointer]
+      - generic [ref=f10e1032]:
+        - generic [ref=f10e1033]:
+          - text: "More ways to shop:"
+          - link "Find an Apple Store" [ref=f10e1034] [cursor=pointer]:
+            - /url: /retail/
+          - text: or
+          - link "other retailer" [ref=f10e1035] [cursor=pointer]:
+            - /url: https://locate.apple.com/
+          - text: near you.
+          - generic [ref=f10e1036]:
+            - text: Or call
+            - link "1-800-MY-APPLE" [ref=f10e1037] [cursor=pointer]:
+              - /url: tel:1-800-692-7753
+            - text: (1-800-692-7753).
+        - generic [ref=f10e1038]:
+          - link "United States. Choose your country or region" [ref=f10e1040] [cursor=pointer]:
+            - /url: /choose-country-region/
+            - text: United States
+          - generic [ref=f10e1041]:
+            - generic [ref=f10e1042]: Copyright © 2026 Apple Inc. All rights reserved.
+            - list [ref=f10e1043]:
+              - listitem [ref=f10e1044]:
+                - link "Privacy Policy" [ref=f10e1045] [cursor=pointer]:
+                  - /url: /legal/privacy/
+              - listitem [ref=f10e1046]:
+                - link "Terms of Use" [ref=f10e1047] [cursor=pointer]:
+                  - /url: /legal/internet-services/terms/site.html
+              - listitem [ref=f10e1048]:
+                - link "Sales and Refunds" [ref=f10e1049] [cursor=pointer]:
+                  - /url: /us/shop/goto/help/sales_refunds
+              - listitem [ref=f10e1050]:
+                - link "Legal" [ref=f10e1051] [cursor=pointer]:
+                  - /url: /legal/
+              - listitem [ref=f10e1052]:
+                - link "Site Map" [ref=f10e1053] [cursor=pointer]:
+                  - /url: /sitemap/

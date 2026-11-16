@@ -1,0 +1,17 @@
+{
+  "transport": "higgsfield-mcp",
+  "model": "gpt_image_2_6",
+  "settings": {
+    "aspect_ratio": "16:9",
+    "resolution": "2k",
+    "quality": "high",
+    "output_format": "png"
+  },
+  "jobs": [
+    {"index": 0, "job_id": "fab2a3bc-ad74-4d30-a828-8493e62b41e3", "name": "selection-table", "status": "completed", "path": ".impeccable/mocks/decision/selection-table.png", "width": 2688, "height": 1520, "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3LzMkZOatD0iZV3A4EGYveAiNob/hf_20261112_183738_fab2a3bc-ad74-4d30-a828-8493e62b41e3.png"},
+    {"index": 1, "job_id": "9cd9bc06-5990-4aba-be75-6551bc58b480", "name": "campaign-studio", "status": "completed", "path": ".impeccable/mocks/decision/campaign-studio.png", "width": 2688, "height": 1520, "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3LzMkZOatD0iZV3A4EGYveAiNob/hf_20261112_183739_9cd9bc06-5990-4aba-be75-6551bc58b480.png"},
+    {"index": 2, "job_id": "a4f3a93f-91a6-4757-80d9-decc623d1d5d", "name": "conventional-store", "status": "completed", "path": ".impeccable/mocks/decision/conventional-store.png", "width": 2688, "height": 1520, "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3LzMkZOatD0iZV3A4EGYveAiNob/hf_20261112_183738_a4f3a93f-91a6-4757-80d9-decc623d1d5d.png"}
+  ],
+  "approved": false,
+  "note": "Submitted exactly once via MCP; all completed, downloaded, prompt provenance embedded, parent and image-gen inspected. Awaiting visual choice at http://127.0.0.1:64184/ (key 9439a71a). Never resubmit these jobs to recover progress."
+}

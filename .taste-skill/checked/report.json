@@ -1,0 +1,2382 @@
+{
+ "url": "http://127.0.0.1:8001",
+ "at": "2026-11-12T04:13:58.412Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.87,
+    0.49,
+    0.79,
+    0.63,
+    0.86
+   ],
+   "motion": {
+    "elements": 32,
+    "css": 31,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4426,
+     "screens": 4.9,
+     "words": 326,
+     "img": 20,
+     "video": 0,
+     "canvas": 0,
+     "svg": 41,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 16,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "hero.png",
+      "484299.webp",
+      "901942.webp",
+      "167850.webp",
+      "690526.webp",
+      "412200.webp",
+      "137879.webp",
+      "484299.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Manos a la obra.",
+     "words": 4,
+     "chars": 16,
+     "lines": 1,
+     "size": 105.1,
+     "vw": 7.3,
+     "font": "Barlow Condensed",
+     "weight": 600,
+     "tracking": -0.025,
+     "leading": 0.93,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.47,
+     "top": 275,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Manos a la obra.",
+     "words": 4,
+     "lines": 1,
+     "size": 105.1,
+     "font": "Barlow Condensed"
+    },
+    "headings": [
+     {
+      "text": "Manos a la obra.",
+      "words": 4,
+      "chars": 16,
+      "lines": 1,
+      "size": 105.1,
+      "vw": 7.3,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 0.93,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 275,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Lo que necesitas. Sin darle más vueltas.",
+      "words": 7,
+      "chars": 40,
+      "lines": 2,
+      "size": 49,
+      "vw": 3.4,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.25,
+      "top": 935,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Listos para tu próximo arreglo.",
+      "words": 5,
+      "chars": 31,
+      "lines": 1,
+      "size": 49,
+      "vw": 3.4,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.34,
+      "top": 1434,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Una buena elección. Un trabajo bien hecho.",
+      "words": 7,
+      "chars": 42,
+      "lines": 2,
+      "size": 49,
+      "vw": 3.4,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 2255,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Perfora. Atornilla. Resuelve.",
+      "words": 3,
+      "chars": 29,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Barlow Condensed",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 2474,
+      "tag": "button",
+      "kind": "heading"
+     },
+     {
+      "text": "Todo en su lugar.",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Barlow Condensed",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 2571,
+      "tag": "button",
+      "kind": "heading"
+     },
+     {
+      "text": "Adiós a esa fuga.",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Barlow Condensed",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 2669,
+      "tag": "button",
+      "kind": "heading"
+     },
+     {
+      "text": "¿Tienes un arreglo en mente?",
+      "words": 5,
+      "chars": 28,
+      "lines": 1,
+      "size": 49,
+      "vw": 3.4,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.33,
+      "top": 2953,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Un jardín a punto.",
+      "words": 4,
+      "chars": 18,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.25,
+      "top": 3398,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Que quede bien fijo.",
+      "words": 4,
+      "chars": 20,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.25,
+      "top": 3418,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Ese arreglo pendiente.",
+      "words": 3,
+      "chars": 22,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.31,
+      "top": 3418,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "La confianza también viene en la caja.",
+      "words": 7,
+      "chars": 38,
+      "lines": 2,
+      "size": 49,
+      "vw": 3.4,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 3740,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope",
+       "share": 0.84,
+       "mono": false
+      },
+      {
+       "family": "Barlow Condensed",
+       "share": 0.16,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      16,
+      17,
+      18,
+      30,
+      36,
+      49,
+      105
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Manrope",
+      "size": 16,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 4.6
+     },
+     "measureChars": 42,
+     "max": {
+      "size": 105.1,
+      "vw": 7.3,
+      "font": "Barlow Condensed",
+      "text": "Manos a la obra."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f5f2ec",
+     "bodyBgHsl": {
+      "h": 40,
+      "s": 0.31,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f5f2ec",
+       "top": 0,
+       "hsl": {
+        "h": 40,
+        "s": 0.31,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#e4261e",
+       "top": 175,
+       "hsl": {
+        "h": 2,
+        "s": 0.79,
+        "l": 0.51
+       }
+      },
+      {
+       "color": "#1d3659",
+       "top": 2179,
+       "hsl": {
+        "h": 215,
+        "s": 0.51,
+        "l": 0.23
+       }
+      },
+      {
+       "color": "#e5e1d8",
+       "top": 3629,
+       "hsl": {
+        "h": 42,
+        "s": 0.2,
+        "l": 0.87
+       }
+      },
+      {
+       "color": "#12161b",
+       "top": 4091,
+       "hsl": {
+        "h": 213,
+        "s": 0.2,
+        "l": 0.09
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#12161b",
+       "share": 0.53
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.14
+      },
+      {
+       "color": "#f5f2ec",
+       "share": 0.09
+      },
+      {
+       "color": "#5c5b59",
+       "share": 0.07
+      },
+      {
+       "color": "#b2b4b6",
+       "share": 0.07
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#12161b"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 0,
+     "height": 50,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Ir al contenido",
+      "Encuentra lo que necesitas"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 16,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.7
+     }
+    ],
+    "nav": {
+     "links": 3,
+     "fixed": false,
+     "height": 94,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "manrope",
+     "barlow condensed"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 4426,
+    "margins": {
+     "left": 52,
+     "right": 52
+    },
+    "sections": [
+     {
+      "sel": "section.home-hero",
+      "tag": "section",
+      "top": 175,
+      "height": 650,
+      "words": 35,
+      "media": 0,
+      "middle": 324,
+      "heading": {
+       "text": "Manos a la obra.",
+       "size": 105,
+       "tag": "h1"
+      },
+      "left": 52,
+      "right": 75,
+      "textLeft": 52,
+      "textRight": 75,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.shop-section.section-space",
+      "tag": "section",
+      "top": 935,
+      "height": 389,
+      "words": 34,
+      "media": 6,
+      "middle": 17,
+      "heading": {
+       "text": "Sin darle más vueltas.",
+       "size": 49,
+       "tag": "h2"
+      },
+      "left": 52,
+      "right": 52,
+      "textLeft": 52,
+      "textRight": 52,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section-space.essentials",
+      "tag": "section",
+      "top": 1434,
+      "height": 635,
+      "words": 70,
+      "media": 4,
+      "middle": 22,
+      "heading": {
+       "text": "Taladro percutor inalámbrico 12 V",
+       "size": 16,
+       "tag": "h3"
+      },
+      "left": 52,
+      "right": 52,
+      "textLeft": 52,
+      "textRight": 77,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.object-section",
+      "tag": "section",
+      "top": 2179,
+      "height": 664,
+      "words": 38,
+      "media": 1,
+      "middle": 107,
+      "heading": {
+       "text": "Una buena elección.",
+       "size": 49,
+       "tag": "h2"
+      },
+      "left": 52,
+      "right": 52,
+      "textLeft": 52,
+      "textRight": 406,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#por-tarea.section-space.task-section",
+      "tag": "section",
+      "top": 2953,
+      "height": 566,
+      "words": 34,
+      "media": 3,
+      "middle": 66,
+      "heading": {
+       "text": "Que quede bien fijo.",
+       "size": 30,
+       "tag": "h3"
+      },
+      "left": 52,
+      "right": 76,
+      "textLeft": 52,
+      "textRight": 91,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.closing-banner",
+      "tag": "section",
+      "top": 3629,
+      "height": 450,
+      "words": 19,
+      "media": 1,
+      "middle": 325,
+      "heading": {
+       "text": "La confianza también",
+       "size": 49,
+       "tag": "h2"
+      },
+      "left": 64,
+      "right": 64,
+      "textLeft": 64,
+      "textRight": 1028,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.fr-footer",
+      "tag": "footer",
+      "top": 4091,
+      "height": 335,
+      "words": 49,
+      "media": 0,
+      "middle": 238,
+      "heading": {
+       "text": "Tu ferretería, a un clic.",
+       "size": 17,
+       "tag": "h2"
+      },
+      "left": 52,
+      "right": 52,
+      "textLeft": 52,
+      "textRight": 52,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Manos a la obra.",
+      "size": 105,
+      "top": 275,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 52,
+      "n": 10
+     },
+     {
+      "x": 64,
+      "n": 2
+     },
+     {
+      "x": 500,
+      "n": 2
+     },
+     {
+      "x": 729,
+      "n": 2
+     },
+     {
+      "x": 76,
+      "n": 1
+     },
+     {
+      "x": 277,
+      "n": 1
+     },
+     {
+      "x": 391,
+      "n": 1
+     },
+     {
+      "x": 954,
+      "n": 1
+     },
+     {
+      "x": 1006,
+      "n": 1
+     },
+     {
+      "x": 1071,
+      "n": 1
+     },
+     {
+      "x": 1180,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 23,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.04,
+    "voidBox": {
+     "x": 240,
+     "y": 600,
+     "w": 180,
+     "h": 300
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.72,
+    0.67,
+    0.65,
+    0.82,
+    0.86
+   ],
+   "motion": {
+    "elements": 32,
+    "css": 31,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 4400,
+     "screens": 4.3,
+     "words": 319,
+     "img": 20,
+     "video": 0,
+     "canvas": 0,
+     "svg": 41,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 16,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "hero.png",
+      "484299.webp",
+      "901942.webp",
+      "167850.webp",
+      "690526.webp",
+      "412200.webp",
+      "137879.webp",
+      "484299.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Manos a la obra.",
+     "words": 4,
+     "chars": 16,
+     "lines": 1,
+     "size": 70,
+     "vw": 9.1,
+     "font": "Barlow Condensed",
+     "weight": 600,
+     "tracking": -0.025,
+     "leading": 0.93,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.58,
+     "top": 260,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Manos a la obra.",
+     "words": 4,
+     "lines": 1,
+     "size": 70,
+     "font": "Barlow Condensed"
+    },
+    "headings": [
+     {
+      "text": "Manos a la obra.",
+      "words": 4,
+      "chars": 16,
+      "lines": 1,
+      "size": 70,
+      "vw": 9.1,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 0.93,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.58,
+      "top": 260,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Lo que necesitas. Sin darle más vueltas.",
+      "words": 7,
+      "chars": 40,
+      "lines": 2,
+      "size": 34,
+      "vw": 4.4,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.32,
+      "top": 885,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Listos para tu próximo arreglo.",
+      "words": 5,
+      "chars": 31,
+      "lines": 1,
+      "size": 34,
+      "vw": 4.4,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 1533,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Una buena elección. Un trabajo bien hecho.",
+      "words": 7,
+      "chars": 42,
+      "lines": 2,
+      "size": 34,
+      "vw": 4.4,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 2243,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "¿Tienes un arreglo en mente?",
+      "words": 5,
+      "chars": 28,
+      "lines": 1,
+      "size": 34,
+      "vw": 4.4,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.48,
+      "top": 2875,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Un jardín a punto.",
+      "words": 4,
+      "chars": 18,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.21,
+      "top": 3321,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Que quede bien fijo.",
+      "words": 4,
+      "chars": 20,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 3325,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Ese arreglo pendiente.",
+      "words": 3,
+      "chars": 22,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.27,
+      "top": 3325,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "La confianza también viene en la caja.",
+      "words": 7,
+      "chars": 38,
+      "lines": 2,
+      "size": 34,
+      "vw": 4.4,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 3678,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 5,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope",
+       "share": 0.84,
+       "mono": false
+      },
+      {
+       "family": "Barlow Condensed",
+       "share": 0.16,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      16,
+      17,
+      18,
+      24,
+      30,
+      34,
+      70
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Manrope",
+      "size": 16,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 4.6
+     },
+     "measureChars": 42,
+     "max": {
+      "size": 70,
+      "vw": 9.1,
+      "font": "Barlow Condensed",
+      "text": "Manos a la obra."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f5f2ec",
+     "bodyBgHsl": {
+      "h": 40,
+      "s": 0.31,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f5f2ec",
+       "top": 0,
+       "hsl": {
+        "h": 40,
+        "s": 0.31,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#e4261e",
+       "top": 175,
+       "hsl": {
+        "h": 2,
+        "s": 0.79,
+        "l": 0.51
+       }
+      },
+      {
+       "color": "#1d3659",
+       "top": 2145,
+       "hsl": {
+        "h": 215,
+        "s": 0.51,
+        "l": 0.23
+       }
+      },
+      {
+       "color": "#e5e1d8",
+       "top": 3552,
+       "hsl": {
+        "h": 42,
+        "s": 0.2,
+        "l": 0.87
+       }
+      },
+      {
+       "color": "#12161b",
+       "top": 4014,
+       "hsl": {
+        "h": 213,
+        "s": 0.2,
+        "l": 0.09
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#12161b",
+       "share": 0.54
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.14
+      },
+      {
+       "color": "#f5f2ec",
+       "share": 0.09
+      },
+      {
+       "color": "#b2b4b6",
+       "share": 0.07
+      },
+      {
+       "color": "#5c5b59",
+       "share": 0.06
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#12161b"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 0,
+     "height": 50,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Ir al contenido",
+      "Encuentra lo que necesitas"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 10,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.37
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 94,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "manrope",
+     "barlow condensed"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 4400,
+    "margins": {
+     "left": 28,
+     "right": 28
+    },
+    "sections": [
+     {
+      "sel": "section.home-hero",
+      "tag": "section",
+      "top": 175,
+      "height": 600,
+      "words": 35,
+      "media": 0,
+      "middle": 53,
+      "heading": {
+       "text": "Manos a la obra.",
+       "size": 70,
+       "tag": "h1"
+      },
+      "left": 28,
+      "right": 82,
+      "textLeft": 28,
+      "textRight": 82,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.shop-section.section-space",
+      "tag": "section",
+      "top": 885,
+      "height": 538,
+      "words": 34,
+      "media": 6,
+      "middle": 0,
+      "heading": {
+       "text": "Sin darle más vueltas.",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 28,
+      "right": 28,
+      "textLeft": 28,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section-space.essentials",
+      "tag": "section",
+      "top": 1533,
+      "height": 502,
+      "words": 70,
+      "media": 4,
+      "middle": 15,
+      "heading": {
+       "text": "Taladro percutor inalámbrico 12 V",
+       "size": 16,
+       "tag": "h3"
+      },
+      "left": 28,
+      "right": 28,
+      "textLeft": 28,
+      "textRight": 44,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.object-section",
+      "tag": "section",
+      "top": 2145,
+      "height": 620,
+      "words": 38,
+      "media": 1,
+      "middle": 40,
+      "heading": {
+       "text": "Una buena elección.",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 28,
+      "right": 28,
+      "textLeft": 28,
+      "textRight": 221,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#por-tarea.section-space.task-section",
+      "tag": "section",
+      "top": 2875,
+      "height": 567,
+      "words": 34,
+      "media": 3,
+      "middle": 66,
+      "heading": {
+       "text": "Que quede bien fijo.",
+       "size": 30,
+       "tag": "h3"
+      },
+      "left": 28,
+      "right": 52,
+      "textLeft": 28,
+      "textRight": 67,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.closing-banner",
+      "tag": "section",
+      "top": 3552,
+      "height": 450,
+      "words": 19,
+      "media": 1,
+      "middle": 48,
+      "heading": {
+       "text": "La confianza también",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 40,
+      "right": 40,
+      "textLeft": 40,
+      "textRight": 415,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.fr-footer",
+      "tag": "footer",
+      "top": 4014,
+      "height": 386,
+      "words": 49,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Tu ferretería, a un clic.",
+       "size": 17,
+       "tag": "h2"
+      },
+      "left": 28,
+      "right": 28,
+      "textLeft": 28,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Manos a la obra.",
+      "size": 70,
+      "top": 260,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 28,
+      "n": 11
+     },
+     {
+      "x": 40,
+      "n": 2
+     },
+     {
+      "x": 269,
+      "n": 2
+     },
+     {
+      "x": 511,
+      "n": 2
+     },
+     {
+      "x": 52,
+      "n": 1
+     },
+     {
+      "x": 210,
+      "n": 1
+     },
+     {
+      "x": 281,
+      "n": 1
+     },
+     {
+      "x": 392,
+      "n": 1
+     },
+     {
+      "x": 553,
+      "n": 1
+     },
+     {
+      "x": 573,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 23,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.95,
+    0.73,
+    0.45,
+    0.72,
+    0.84,
+    0.81,
+    0.99,
+    1
+   ],
+   "motion": {
+    "elements": 32,
+    "css": 31,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 6016,
+     "screens": 7.1,
+     "words": 297,
+     "img": 20,
+     "video": 0,
+     "canvas": 0,
+     "svg": 41,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 16,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "hero.png",
+      "484299.webp",
+      "901942.webp",
+      "167850.webp",
+      "690526.webp",
+      "412200.webp",
+      "137879.webp",
+      "484299.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Manos a la obra.",
+     "words": 4,
+     "chars": 16,
+     "lines": 2,
+     "size": 66,
+     "vw": 16.9,
+     "font": "Barlow Condensed",
+     "weight": 600,
+     "tracking": -0.025,
+     "leading": 0.93,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.85,
+     "top": 232,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Manos a la obra.",
+     "words": 4,
+     "lines": 2,
+     "size": 66,
+     "font": "Barlow Condensed"
+    },
+    "headings": [
+     {
+      "text": "Manos a la obra.",
+      "words": 4,
+      "chars": 16,
+      "lines": 2,
+      "size": 66,
+      "vw": 16.9,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 0.93,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.85,
+      "top": 232,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Lo que necesitas. Sin darle más vueltas.",
+      "words": 7,
+      "chars": 40,
+      "lines": 2,
+      "size": 35,
+      "vw": 9,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 1080,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Listos para tu próximo arreglo.",
+      "words": 5,
+      "chars": 31,
+      "lines": 2,
+      "size": 35,
+      "vw": 9,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 2010,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Una buena elección. Un trabajo bien hecho.",
+      "words": 7,
+      "chars": 42,
+      "lines": 2,
+      "size": 35,
+      "vw": 9,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 3093,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Perfora. Atornilla. Resuelve.",
+      "words": 3,
+      "chars": 29,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Barlow Condensed",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 3258,
+      "tag": "button",
+      "kind": "heading"
+     },
+     {
+      "text": "Todo en su lugar.",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Barlow Condensed",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 3323,
+      "tag": "button",
+      "kind": "heading"
+     },
+     {
+      "text": "Adiós a esa fuga.",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Barlow Condensed",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 3389,
+      "tag": "button",
+      "kind": "heading"
+     },
+     {
+      "text": "¿Tienes un arreglo en mente?",
+      "words": 5,
+      "chars": 28,
+      "lines": 1,
+      "size": 35,
+      "vw": 9,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 3961,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Que quede bien fijo.",
+      "words": 4,
+      "chars": 20,
+      "lines": 2,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 4203,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Ese arreglo pendiente.",
+      "words": 3,
+      "chars": 22,
+      "lines": 2,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 4443,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Un jardín a punto.",
+      "words": 4,
+      "chars": 18,
+      "lines": 2,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 4683,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "La confianza también viene en la caja.",
+      "words": 7,
+      "chars": 38,
+      "lines": 2,
+      "size": 42,
+      "vw": 10.8,
+      "font": "Barlow Condensed",
+      "weight": 600,
+      "tracking": -0.025,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.85,
+      "top": 4945,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope",
+       "share": 0.83,
+       "mono": false
+      },
+      {
+       "family": "Barlow Condensed",
+       "share": 0.17,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      16,
+      17,
+      26,
+      28,
+      35,
+      42,
+      66
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Manrope",
+      "size": 16,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 4.6
+     },
+     "measureChars": 43,
+     "max": {
+      "size": 66,
+      "vw": 16.9,
+      "font": "Barlow Condensed",
+      "text": "Manos a la obra."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Electricidad e iluminación",
+      "above": "Listos para tu próximo arreglo.",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 16,
+      "top": 1893
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f5f2ec",
+     "bodyBgHsl": {
+      "h": 40,
+      "s": 0.31,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f5f2ec",
+       "top": 0,
+       "hsl": {
+        "h": 40,
+        "s": 0.31,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#e4261e",
+       "top": 190,
+       "hsl": {
+        "h": 2,
+        "s": 0.79,
+        "l": 0.51
+       }
+      },
+      {
+       "color": "#1d3659",
+       "top": 3048,
+       "hsl": {
+        "h": 215,
+        "s": 0.51,
+        "l": 0.23
+       }
+      },
+      {
+       "color": "#d5dce1",
+       "top": 3485,
+       "hsl": {
+        "h": 205,
+        "s": 0.17,
+        "l": 0.86
+       }
+      },
+      {
+       "color": "#e5e1d8",
+       "top": 4910,
+       "hsl": {
+        "h": 42,
+        "s": 0.2,
+        "l": 0.87
+       }
+      },
+      {
+       "color": "#12161b",
+       "top": 5406,
+       "hsl": {
+        "h": 213,
+        "s": 0.2,
+        "l": 0.09
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#12161b",
+       "share": 0.51
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.13
+      },
+      {
+       "color": "#f5f2ec",
+       "share": 0.1
+      },
+      {
+       "color": "#b2b4b6",
+       "share": 0.07
+      },
+      {
+       "color": "#5c5b59",
+       "share": 0.07
+      }
+     ],
+     "button": {
+      "bg": "#f5f2ec",
+      "hsl": {
+       "h": 40,
+       "s": 0.31,
+       "l": 0.94
+      },
+      "fg": "#12161b"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 2,
+     "radius": 0,
+     "height": 83,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Ir al contenido",
+      "Encuentra lo que necesitas"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 3,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 4136
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.3
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 132,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "manrope",
+     "barlow condensed"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 6016,
+    "margins": {
+     "left": 22,
+     "right": 22
+    },
+    "sections": [
+     {
+      "sel": "header.fr-header",
+      "tag": "header",
+      "top": 58,
+      "height": 132,
+      "words": 0,
+      "media": 0,
+      "middle": 146,
+      "heading": null,
+      "left": 22,
+      "right": 22,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.home-hero",
+      "tag": "section",
+      "top": 190,
+      "height": 820,
+      "words": 30,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Manos a la obra.",
+       "size": 66,
+       "tag": "h1"
+      },
+      "left": 30,
+      "right": 68,
+      "textLeft": 30,
+      "textRight": 68,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.shop-section.section-space",
+      "tag": "section",
+      "top": 1080,
+      "height": 860,
+      "words": 34,
+      "media": 6,
+      "middle": 0,
+      "heading": {
+       "text": "Sin darle más vueltas.",
+       "size": 35,
+       "tag": "h2"
+      },
+      "left": 22,
+      "right": 22,
+      "textLeft": 22,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section-space.essentials",
+      "tag": "section",
+      "top": 2010,
+      "height": 968,
+      "words": 70,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "Taladro percutor inalámbrico 12 V",
+       "size": 16,
+       "tag": "h3"
+      },
+      "left": 22,
+      "right": 22,
+      "textLeft": 22,
+      "textRight": 25,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.object-section",
+      "tag": "section",
+      "top": 3048,
+      "height": 843,
+      "words": 38,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Una buena elección.",
+       "size": 35,
+       "tag": "h2"
+      },
+      "left": 22,
+      "right": 22,
+      "textLeft": 22,
+      "textRight": 62,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#por-tarea.section-space.task-section",
+      "tag": "section",
+      "top": 3961,
+      "height": 879,
+      "words": 34,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Que quede bien fijo.",
+       "size": 28,
+       "tag": "h3"
+      },
+      "left": 22,
+      "right": 44,
+      "textLeft": 22,
+      "textRight": 45,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.closing-banner",
+      "tag": "section",
+      "top": 4910,
+      "height": 488,
+      "words": 19,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "La confianza también",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 30,
+      "right": 30,
+      "textLeft": 30,
+      "textRight": 47,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.fr-footer",
+      "tag": "footer",
+      "top": 5406,
+      "height": 610,
+      "words": 49,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Tu ferretería, a un clic.",
+       "size": 17,
+       "tag": "h2"
+      },
+      "left": 22,
+      "right": 22,
+      "textLeft": 22,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Manos a la obra.",
+      "size": 66,
+      "top": 232,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 22,
+      "n": 15
+     },
+     {
+      "x": 201,
+      "n": 5
+     },
+     {
+      "x": 44,
+      "n": 3
+     }
+    ],
+    "leftBlocks": 23,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "palette-cream",
+   "width": 1440,
+   "message": "Yellow-cream background (page background #f5f2ec, section #f5f2ec, text #f5f2ec).",
+   "fix": "Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "grey-body",
+   "width": 1440,
+   "message": "The running text is a soft grey on its ground (4.6:1).",
+   "fix": "Set body copy in the full ink (7:1 or more). Keep the muted ink for secondary notes; pages read thin and unfinished when everything is grey.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 390,
+   "message": "1 eyebrow/kicker label(s) above headings: \"Electricidad e iluminación\" above \"Listos para tu próximo arreglo.\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\ljuan\\OneDrive\\Escritorio\\Proyectos\\hive_web\\.taste-skill\\checked\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\ljuan\\OneDrive\\Escritorio\\Proyectos\\hive_web\\.taste-skill\\checked\\desktop-page-01.jpg",
+    "C:\\Users\\ljuan\\OneDrive\\Escritorio\\Proyectos\\hive_web\\.taste-skill\\checked\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\ljuan\\OneDrive\\Escritorio\\Proyectos\\hive_web\\.taste-skill\\checked\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\ljuan\\OneDrive\\Escritorio\\Proyectos\\hive_web\\.taste-skill\\checked\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\ljuan\\OneDrive\\Escritorio\\Proyectos\\hive_web\\.taste-skill\\checked\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\ljuan\\OneDrive\\Escritorio\\Proyectos\\hive_web\\.taste-skill\\checked\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

@@ -1,10 +1,19 @@
 import Link from "next/link";
+import { CampaignHome as HomeView } from "@/components/ferready/campaign-home";
+import { isDemoEnabled } from "@/lib/prototype.mjs";
 
-import { isBackendReachable, listCategories, listProducts, priceOf, referenceOf } from "@/lib/medusa";
+import {
+  isBackendReachable,
+  listCategories,
+  listProducts,
+  priceOf,
+  referenceOf,
+} from "@/lib/medusa";
 
 export const dynamic = "force-dynamic";
 
 export default async function HomePage() {
+  if (isDemoEnabled(process.env.FERREADY_DEMO)) return <HomeView />;
   const [categories, products, reachable] = await Promise.all([
     listCategories(),
     listProducts(),
@@ -17,7 +26,8 @@ export default async function HomePage() {
 
       {!reachable && (
         <p className="notice">
-          El backend no responde o falta <code>NEXT_PUBLIC_MEDUSA_PUBLISHABLE_KEY</code>. Esta página no
+          El backend no responde o falta{" "}
+          <code>NEXT_PUBLIC_MEDUSA_PUBLISHABLE_KEY</code>. Esta página no
           muestra productos hasta que el catálogo local esté disponible.
         </p>
       )}
@@ -45,7 +55,11 @@ export default async function HomePage() {
                   <Link href={`/p/${product.handle}`}>{product.title}</Link>
                 </h2>
                 {reference && <p className="meta">{reference}</p>}
-                {price ? <p className="price">{price}</p> : <p className="meta">Precio por confirmar</p>}
+                {price ? (
+                  <p className="price">{price}</p>
+                ) : (
+                  <p className="meta">Precio por confirmar</p>
+                )}
               </li>
             );
           })}

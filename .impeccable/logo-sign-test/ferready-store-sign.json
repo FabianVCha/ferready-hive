@@ -1,0 +1,14 @@
+{
+  "job_id": "4e4b22c1-95b3-48e4-a18d-0323883d8a62",
+  "status": "completed",
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3LzMkZOatD0iZV3A4EGYveAiNob/hf_20261113_005323_4e4b22c1-95b3-48e4-a18d-0323883d8a62.png",
+  "model": "gpt_image_2_6",
+  "quality": "low",
+  "resolution": "1k",
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "reference_media_id": "a94f90d1-bac0-402c-81e4-0e1038d7a7d9",
+  "reference_path": ".impeccable/logo-sign-test/official-logo-reference.png",
+  "prompt": "Simple daylight frontal photo of a small hardware store facade. One single navy blue (#1D3659) rectangular sign mounted above the entrance. Apply the supplied reference logo onto the sign exactly as provided: do not redraw, restyle, recolor, distort or add letters; keep its red (#E4261E) and white elements and proportions intact, centered with clear margin. No other text, signs, numbers or claims anywhere. No people. Clean, realistic, neutral storefront with glass door and windows.",
+  "notes": "One accepted generation. Initial reference-array string format failed validation with 422; corrected to MCP medias role image_references. No plan changes."
+}

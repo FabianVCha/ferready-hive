@@ -1,0 +1,817 @@
+- generic [ref=f1e3]:
+  - progressbar [aria-hidden]
+  - generic [ref=f1e6]:
+    - navigation "Todo el sitio":
+      - generic [ref=f1e7]:
+        - generic [ref=f1e8]:
+          - button "Iniciar sesión" [ref=f1e10] [cursor=pointer]
+          - generic [ref=f1e11]:
+            - list "Menú de navegación principal para móviles" [ref=f1e12]:
+              - listitem [ref=f1e13]:
+                - link "Explorar" [ref=f1e14] [cursor=pointer]:
+                  - /url: /?tracking_source=nav20
+              - listitem [ref=f1e16]:
+                - link "Trabajos" [ref=f1e17] [cursor=pointer]:
+                  - /url: /joblist?tracking_source=nav20
+              - listitem [ref=f1e19]:
+                - button "Recursos" [ref=f1e20] [cursor=pointer]
+              - listitem [ref=f1e24]:
+                - button "Contratar" [ref=f1e25] [cursor=pointer]
+              - listitem [ref=f1e29]:
+                - button "Compartir trabajo" [ref=f1e30] [cursor=pointer]
+            - list [ref=f1e35]:
+              - listitem [ref=f1e36]:
+                - link "Descarga en la App Store" [ref=f1e37] [cursor=pointer]:
+                  - /url: https://itunes.apple.com/us/app/behance/id489667151
+              - listitem [ref=f1e38]:
+                - link "Consíguelo en Google Play" [ref=f1e39] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.behance.behance
+            - heading [level=3] [ref=f1e41]:
+              - button "Más Behance" [ref=f1e42] [cursor=pointer]
+            - combobox "Visita Behance en el idioma que prefieras" [ref=f1e49]:
+              - option "English"
+              - option "Čeština"
+              - option "Dansk"
+              - option "Deutsch"
+              - option "Español" [selected]
+              - option "Français"
+              - option "Italiano"
+              - option "Nederlands"
+              - option "Norsk"
+              - option "Polski"
+              - option "Português"
+              - option "Pусский"
+              - option "Suomi"
+              - option "Svenska"
+              - option "Türkçe"
+              - option "日本語"
+              - option "한국어"
+              - option "中文(简体)"
+              - option "中文(繁體)"
+            - link "Condiciones de uso" [ref=f1e51] [cursor=pointer]:
+              - /url: https://www.adobe.com/legal/terms.html
+            - link "Privacidad" [ref=f1e53] [cursor=pointer]:
+              - /url: https://www.adobe.com/privacy.html
+            - link "Comunidad" [ref=f1e55] [cursor=pointer]:
+              - /url: /misc/community
+            - link "Ayuda" [ref=f1e57] [cursor=pointer]:
+              - /url: https://help.behance.net/
+            - button "Preferencias de cookies" [ref=f1e59] [cursor=pointer]
+            - link "No vender ni compartir mi información personal" [ref=f1e61] [cursor=pointer]:
+              - /url: https://www.adobe.com/privacy/us-rights.html
+            - generic [ref=f1e62]:
+              - img "Adobe, Inc." [ref=f1e63]
+              - list [ref=f1e73]:
+                - listitem [ref=f1e74]:
+                  - link "Ir a adobe.com" [ref=f1e75] [cursor=pointer]:
+                    - /url: https://www.adobe.com?promoid=TTGWL148
+                - listitem [ref=f1e76]:
+                  - link "Obtener Adobe Express de forma gratuita" [ref=f1e77] [cursor=pointer]:
+                    - /url: https://www.adobe.com/express/?geocheck=on&mv=other&promoid=8WLD4Y3J
+        - generic [ref=f1e78]:
+          - link "Ir al contenido principal" [ref=f1e79] [cursor=pointer]:
+            - /url: javascript:void(0)
+          - link "Ir al pie de página" [ref=f1e80] [cursor=pointer]:
+            - /url: javascript:void(0)
+          - button "Menú de navegación principal para móviles" [ref=f1e82] [cursor=pointer]
+          - list "Menú de navegación principal para escritorio" [ref=f1e87]:
+            - listitem [ref=f1e88]:
+              - link "Navegar a behance.net" [ref=f1e89] [cursor=pointer]:
+                - /url: /
+    - generic [ref=f1e98]:
+      - main [ref=f1e99]:
+        - generic [ref=f1e102]:
+          - generic [ref=f1e104]:
+            - generic [ref=f1e105]:
+              - generic [ref=f1e109] [cursor=pointer]:
+                - link [ref=f1e113]:
+                  - /url: javascript:void(0)
+                  - img "Perfil de Tariq Ahmed" [ref=f1e114]
+                  - img "Perfil de Aminur Rahman" [ref=f1e115]
+                  - img "Perfil de Mihir Ghosh" [ref=f1e116]
+                  - img "Perfil de Orbiq Studio" [ref=f1e117]
+                  - img "Perfil de Munna Rahman ✪" [ref=f1e118]
+                  - img "Perfil de Agentic Expert" [ref=f1e119]
+                - button "Seguir a todos" [ref=f1e123]
+              - generic [ref=f1e127] [cursor=pointer]: Seguir
+            - generic [ref=f1e131] [cursor=pointer]:
+              - button "Contratar" [ref=f1e132]
+              - generic [ref=f1e138]: Contratar
+            - generic "Herramientas" [ref=f1e139] [cursor=pointer]:
+              - link "Herramientas" [ref=f1e141]:
+                - /url: /search/projects?tools=185289859
+                - img "Adobe Photoshop" [ref=f1e142]
+              - text: ","
+            - generic [ref=f1e143] [cursor=pointer]: Herramientas
+            - button "Guardar" [ref=f1e146] [cursor=pointer]
+            - generic [ref=f1e149] [cursor=pointer]: Guardar
+            - button "Compartir" [ref=f1e152] [cursor=pointer]
+            - generic [ref=f1e157] [cursor=pointer]: Compartir
+            - generic [ref=f1e158]:
+              - button "Valorar" [ref=f1e162] [cursor=pointer]
+              - generic [ref=f1e166] [cursor=pointer]: Valorar
+          - generic [ref=f1e167]:
+            - generic [ref=f1e168]:
+              - generic [ref=f1e169]:
+                - link "Perfil de Tariq Ahmed Perfil de Aminur Rahman Perfil de Mihir Ghosh Perfil de Orbiq Studio Perfil de Munna Rahman ✪ Perfil de Agentic Expert":
+                  - /url: javascript:void(0)
+                  - img "Perfil de Tariq Ahmed"
+                  - img "Perfil de Aminur Rahman"
+                  - img "Perfil de Mihir Ghosh"
+                  - img "Perfil de Orbiq Studio"
+                  - img "Perfil de Munna Rahman ✪"
+                  - img "Perfil de Agentic Expert"
+              - generic [ref=f1e170]:
+                - heading "DTC Beverage Website Design | Vibrant Shopify Store" [level=1] [ref=f1e172]
+                - generic [ref=f1e173]:
+                  - generic [ref=f1e174]: Varios propietarios
+                  - generic [ref=f1e178]: •
+                  - generic [ref=f1e179]: Seguir a todos
+            - generic [ref=f1e183]:
+              - generic [ref=f1e187]:
+                - region "Project Module 0" [ref=f1e188]:
+                  - link "Vínculo permanente del módulo de proyecto 1496924247" [ref=f1e192] [cursor=pointer]:
+                    - /url: /gallery/256607761/DTC-Beverage-Website-Design-Vibrant-Shopify-Store/modules/1496924247
+                    - img "Shopify Website Design DTC Website beverage branding protein drink website playful website vibrant ui design dropshipping Storefront Ecommerce drink website"
+                - region "Project Module 1" [ref=f1e194]:
+                  - link "Vínculo permanente del módulo de proyecto 1496924261" [ref=f1e198] [cursor=pointer]:
+                    - /url: /gallery/256607761/DTC-Beverage-Website-Design-Vibrant-Shopify-Store/modules/1496924261
+                    - img "Shopify Website Design DTC Website beverage branding protein drink website playful website vibrant ui design dropshipping Storefront Ecommerce drink website"
+                - region "Project Module 2" [ref=f1e200]:
+                  - link "Vínculo permanente del módulo de proyecto 1496924265" [ref=f1e204] [cursor=pointer]:
+                    - /url: /gallery/256607761/DTC-Beverage-Website-Design-Vibrant-Shopify-Store/modules/1496924265
+                    - img "Shopify Website Design DTC Website beverage branding protein drink website playful website vibrant ui design dropshipping Storefront Ecommerce drink website"
+                - region "Project Module 3" [ref=f1e206]:
+                  - link "Vínculo permanente del módulo de proyecto 1496924267" [ref=f1e210] [cursor=pointer]:
+                    - /url: /gallery/256607761/DTC-Beverage-Website-Design-Vibrant-Shopify-Store/modules/1496924267
+                    - img "Shopify Website Design DTC Website beverage branding protein drink website playful website vibrant ui design dropshipping Storefront Ecommerce drink website"
+                - region "Project Module 4" [ref=f1e213]:
+                  - link "Vínculo permanente del módulo de proyecto 1496924249" [ref=f1e217] [cursor=pointer]:
+                    - /url: /gallery/256607761/DTC-Beverage-Website-Design-Vibrant-Shopify-Store/modules/1496924249
+                    - img "Shopify Website Design DTC Website beverage branding protein drink website playful website vibrant ui design dropshipping Storefront Ecommerce drink website"
+                - region "Project Module 5" [ref=f1e220]:
+                  - link "Vínculo permanente del módulo de proyecto 1496924255" [ref=f1e224] [cursor=pointer]:
+                    - /url: /gallery/256607761/DTC-Beverage-Website-Design-Vibrant-Shopify-Store/modules/1496924255
+                    - img "Shopify Website Design DTC Website beverage branding protein drink website playful website vibrant ui design dropshipping Storefront Ecommerce drink website"
+                - region "Project Module 6" [ref=f1e227]:
+                  - link "Vínculo permanente del módulo de proyecto 1496924269" [ref=f1e231] [cursor=pointer]:
+                    - /url: /gallery/256607761/DTC-Beverage-Website-Design-Vibrant-Shopify-Store/modules/1496924269
+                    - img "Shopify Website Design DTC Website beverage branding protein drink website playful website vibrant ui design dropshipping Storefront Ecommerce drink website"
+                - region "Project Module 7" [ref=f1e234]:
+                  - link "Vínculo permanente del módulo de proyecto 1496924263" [ref=f1e238] [cursor=pointer]:
+                    - /url: /gallery/256607761/DTC-Beverage-Website-Design-Vibrant-Shopify-Store/modules/1496924263
+                    - img "Shopify Website Design DTC Website beverage branding protein drink website playful website vibrant ui design dropshipping Storefront Ecommerce drink website"
+                - region "Project Module 8" [ref=f1e241]:
+                  - link "Vínculo permanente del módulo de proyecto 1496924253" [ref=f1e245] [cursor=pointer]:
+                    - /url: /gallery/256607761/DTC-Beverage-Website-Design-Vibrant-Shopify-Store/modules/1496924253
+                    - img "Shopify Website Design DTC Website beverage branding protein drink website playful website vibrant ui design dropshipping Storefront Ecommerce drink website"
+                - region "Project Module 9" [ref=f1e248]:
+                  - link "Vínculo permanente del módulo de proyecto 1496924259" [ref=f1e252] [cursor=pointer]:
+                    - /url: /gallery/256607761/DTC-Beverage-Website-Design-Vibrant-Shopify-Store/modules/1496924259
+                    - img "Shopify Website Design DTC Website beverage branding protein drink website playful website vibrant ui design dropshipping Storefront Ecommerce drink website"
+                - region "Project Module 10" [ref=f1e255]:
+                  - link "Vínculo permanente del módulo de proyecto 1496924257" [ref=f1e259] [cursor=pointer]:
+                    - /url: /gallery/256607761/DTC-Beverage-Website-Design-Vibrant-Shopify-Store/modules/1496924257
+                    - img "Shopify Website Design DTC Website beverage branding protein drink website playful website vibrant ui design dropshipping Storefront Ecommerce drink website"
+                - region "Project Module 11" [ref=f1e262]:
+                  - link "Vínculo permanente del módulo de proyecto 1496924251" [ref=f1e266] [cursor=pointer]:
+                    - /url: /gallery/256607761/DTC-Beverage-Website-Design-Vibrant-Shopify-Store/modules/1496924251
+                    - img "Shopify Website Design DTC Website beverage branding protein drink website playful website vibrant ui design dropshipping Storefront Ecommerce drink website"
+                - region "Project Module 12" [ref=f1e269]:
+                  - link "Vínculo permanente del módulo de proyecto 1496924271" [ref=f1e273] [cursor=pointer]:
+                    - /url: /gallery/256607761/DTC-Beverage-Website-Design-Vibrant-Shopify-Store/modules/1496924271
+                    - img "Shopify Website Design DTC Website beverage branding protein drink website playful website vibrant ui design dropshipping Storefront Ecommerce drink website"
+                - region "Project Module 13" [ref=f1e276]:
+                  - generic [ref=f1e280]:
+                    - generic [ref=f1e283]: Looking to Build or Redesign Your DTC Shopify Store?
+                    - generic [ref=f1e287]: A high-converting e-commerce store is more than just pretty visuals-it’s about seamless navigation, reduced cart abandonment, and an effortless checkout experience.
+                    - generic [ref=f1e288]: Whether you’re launching a new functional beverage brand, a supplement line, or scaling an existing DTC business, I help brand owners design custom, user-focused Shopify experiences that boost sales and brand loyalty.
+                    - generic [ref=f1e290]:
+                      - generic [ref=f1e291]: "How I Can Help Your Brand:"
+                      - generic [ref=f1e293]: 1. Custom Shopify UI/UX Design (Mobile-First & Conversion Optimized)2. Product Detail Page (PDP) Architecture (Subscriptions, Flavor Selectors & Bundles)3. Cart & Checkout Optimization (Custom Slide-out Carts, Upsells & Cross-sells)4. Brand Identity & Figma-to-Shopify/Framer Handoff & AI Design
+                    - generic [ref=f1e295]:
+                      - generic [ref=f1e296]: Let’s Talk About Your Project!
+                      - text: If you have a project in mind or want to audit your current store’s UI/UX, feel free to reach out. I’m currently available for freelance projects and long-term collaborations.
+                    - generic [ref=f1e298]:
+                      - generic [ref=f1e300]: DM Me
+                      - generic [ref=f1e303]:
+                        - generic [ref=f1e304]:
+                          - link "WhatsApp" [ref=f1e305] [cursor=pointer]:
+                            - /url: https://api.whatsapp.com/send?phone=8801300883899
+                          - text: "-"
+                        - link "+8801300883899" [ref=f1e306] [cursor=pointer]:
+                          - /url: https://api.whatsapp.com/send?phone=8801300883899
+                        - link [ref=f1e307] [cursor=pointer]:
+                          - /url: https://api.whatsapp.com/send?phone=8801300883899
+                        - text: l
+                        - link "Telegram" [ref=f1e308] [cursor=pointer]:
+                          - /url: https://t.me/tariqului
+                        - text: "-"
+                        - link "+01300883899" [ref=f1e309] [cursor=pointer]:
+                          - /url: https://t.me/tariqului
+                      - generic [ref=f1e310]:
+                        - text: "E-mail: tariqulislam221122@gmail.com"
+                        - generic [ref=f1e311]: Project Manager
+                        - text: "WhatsApp:"
+                        - link "+8801917573605" [ref=f1e312] [cursor=pointer]:
+                          - /url: https://api.whatsapp.com/send?phone=8801917573605
+              - generic [ref=f1e315]:
+                - button "Valorar" [ref=f1e319] [cursor=pointer]
+                - generic [ref=f1e323]:
+                  - generic [ref=f1e324]: DTC Beverage Website Design | Vibrant Shopify Store
+                  - generic [ref=f1e325]:
+                    - group "189 valoraciones" [ref=f1e326]:
+                      - generic [aria-hidden] [ref=f1e330]: "189"
+                    - group "NaN vistas" [ref=f1e331]:
+                      - generic [aria-hidden] [ref=f1e334]: 1,2 mil
+                    - group "146 comentarios" [ref=f1e335]:
+                      - generic [aria-hidden] [ref=f1e339]: "146"
+                  - generic [ref=f1e340]:
+                    - text: "Publicado:"
+                    - time [ref=f1e341]: 3 de octubre de 2026
+              - generic [ref=f1e342]:
+                - generic [ref=f1e343]:
+                  - generic [ref=f1e344]:
+                    - link "Perfil de Tariq Ahmed Perfil de Aminur Rahman Perfil de Mihir Ghosh Perfil de Orbiq Studio Perfil de Munna Rahman ✪ Perfil de Agentic Expert":
+                      - /url: javascript:void(0)
+                      - img "Perfil de Tariq Ahmed"
+                      - img "Perfil de Aminur Rahman"
+                      - img "Perfil de Mihir Ghosh"
+                      - img "Perfil de Orbiq Studio"
+                      - img "Perfil de Munna Rahman ✪"
+                      - img "Perfil de Agentic Expert"
+                  - generic [ref=f1e345]:
+                    - generic [ref=f1e346]: Varios propietarios
+                    - button "Seguir a todos" [ref=f1e352] [cursor=pointer]
+                - generic [ref=f1e355]:
+                  - button "Desliza elementos a la izquierda" [ref=f1e356] [cursor=pointer]
+                  - list [ref=f1e360]:
+                    - listitem [ref=f1e361]:
+                      - generic "Fashion E-Commerce Mobile App UI/UX Design" [ref=f1e362]:
+                        - generic [ref=f1e364]:
+                          - generic [ref=f1e365]:
+                            - generic:
+                              - img "Fashion E-Commerce Mobile App UI/UX Design"
+                          - generic [ref=f1e367]:
+                            - link "Enlace al proyecto - Fashion E-Commerce Mobile App UI/UX Design" [ref=f1e368] [cursor=pointer]:
+                              - /url: /gallery/258164069/Fashion-E-Commerce-Mobile-App-UIUX-Design?tracking_source=project_owner_other_projects
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - link "Enlace al proyecto - Fashion E-Commerce Mobile App UI/UX Design" [ref=f1e369] [cursor=pointer]:
+                                    - /url: /gallery/258164069/Fashion-E-Commerce-Mobile-App-UIUX-Design
+                                    - text: Fashion E-Commerce Mobile App UI/UX Design
+                                  - generic:
+                                    - generic [ref=f1e370]: Varios propietarios
+                                    - generic:
+                                      - generic [aria-hidden]: "57"
+                                      - generic: 57 valoraciones para Fashion E-Commerce Mobile App UI/UX Design
+                                      - generic [aria-hidden]: "115"
+                                      - generic: 115 visualizaciones para Fashion E-Commerce Mobile App UI/UX Design
+                    - listitem [ref=f1e373]:
+                      - generic "Perfume Shopping App UI/UX Design" [ref=f1e374]:
+                        - generic [ref=f1e376]:
+                          - generic [ref=f1e377]:
+                            - generic:
+                              - img "Perfume Shopping App UI/UX Design"
+                          - generic [ref=f1e379]:
+                            - link "Enlace al proyecto - Perfume Shopping App UI/UX Design" [ref=f1e380] [cursor=pointer]:
+                              - /url: /gallery/257242387/Perfume-Shopping-App-UIUX-Design?tracking_source=project_owner_other_projects
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - link "Enlace al proyecto - Perfume Shopping App UI/UX Design" [ref=f1e381] [cursor=pointer]:
+                                    - /url: /gallery/257242387/Perfume-Shopping-App-UIUX-Design
+                                    - text: Perfume Shopping App UI/UX Design
+                                  - generic:
+                                    - generic [ref=f1e382]: Varios propietarios
+                                    - generic:
+                                      - generic [aria-hidden]: "201"
+                                      - generic: 201 valoraciones para Perfume Shopping App UI/UX Design
+                                      - generic [aria-hidden]: "902"
+                                      - generic: 902 visualizaciones para Perfume Shopping App UI/UX Design
+                    - listitem [ref=f1e385]:
+                      - generic "Shopify Sportswear E-Commerce Website" [ref=f1e386]:
+                        - generic [ref=f1e388]:
+                          - generic [ref=f1e389]:
+                            - generic:
+                              - img "Shopify Sportswear E-Commerce Website"
+                          - generic [ref=f1e391]:
+                            - link "Enlace al proyecto - Shopify Sportswear E-Commerce Website" [ref=f1e392] [cursor=pointer]:
+                              - /url: /gallery/256091463/Shopify-Sportswear-E-Commerce-Website?tracking_source=project_owner_other_projects
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - link "Enlace al proyecto - Shopify Sportswear E-Commerce Website" [ref=f1e393] [cursor=pointer]:
+                                    - /url: /gallery/256091463/Shopify-Sportswear-E-Commerce-Website
+                                    - text: Shopify Sportswear E-Commerce Website
+                                  - generic:
+                                    - generic [ref=f1e394]: Varios propietarios
+                                    - generic:
+                                      - generic [aria-hidden]: "176"
+                                      - generic: 176 valoraciones para Shopify Sportswear E-Commerce Website
+                                      - generic [aria-hidden]: 2,3 mil
+                                      - generic: 2254 visualizaciones para Shopify Sportswear E-Commerce Website
+                    - listitem [ref=f1e397]:
+                      - generic "Jewelry E-Commerce Website" [ref=f1e398]:
+                        - generic [ref=f1e400]:
+                          - generic [ref=f1e401]:
+                            - generic:
+                              - img "Jewelry E-Commerce Website"
+                          - generic [ref=f1e403]:
+                            - link "Enlace al proyecto - Jewelry E-Commerce Website" [ref=f1e404] [cursor=pointer]:
+                              - /url: /gallery/255036083/Jewelry-E-Commerce-Website?tracking_source=project_owner_other_projects
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - link "Enlace al proyecto - Jewelry E-Commerce Website" [ref=f1e405] [cursor=pointer]:
+                                    - /url: /gallery/255036083/Jewelry-E-Commerce-Website
+                                    - text: Jewelry E-Commerce Website
+                                  - generic:
+                                    - generic [ref=f1e406]: Varios propietarios
+                                    - generic:
+                                      - generic [aria-hidden]: "260"
+                                      - generic: 260 valoraciones para Jewelry E-Commerce Website
+                                      - generic [aria-hidden]: 2,6 mil
+                                      - generic: 2621 visualizaciones para Jewelry E-Commerce Website
+              - generic [ref=f1e410]:
+                - generic [ref=f1e411]:
+                  - generic [ref=f1e413]:
+                    - heading [level=2]
+                    - generic [ref=f1e414]: Iniciar sesión para unirse a la conversación
+                    - generic [ref=f1e415]: Puedes añadir tus comentarios para el proyecto de Tariq Ahmed iniciando sesión o registrándote.
+                    - generic [ref=f1e417]:
+                      - button "Iniciar sesión" [ref=f1e418] [cursor=pointer]
+                      - generic [ref=f1e420] [cursor=pointer]: o
+                      - link "Iniciar sesión con Apple" [ref=f1e421] [cursor=pointer]:
+                        - /url: "#"
+                      - link "Iniciar sesión con Facebook" [ref=f1e428] [cursor=pointer]:
+                        - /url: "#"
+                        - img "SuSiFacebook" [ref=f1e429]
+                      - link "Iniciar sesión con Google" [ref=f1e437] [cursor=pointer]:
+                        - /url: "#"
+                  - list [ref=f1e445]:
+                    - listitem [ref=f1e446]:
+                      - generic [ref=f1e447]:
+                        - link [ref=f1e453] [cursor=pointer]:
+                          - /url: https://www.behance.net/mdabusayamdesign
+                          - img "Perfil de Md Abu Sayam" [ref=f1e455]
+                        - generic [ref=f1e456]:
+                          - generic [ref=f1e457]:
+                            - link "Md Abu Sayam" [ref=f1e461] [cursor=pointer]:
+                              - /url: https://www.behance.net/mdabusayamdesign
+                            - generic [ref=f1e462]: •Hace 3 días
+                          - generic [ref=f1e463]: Really nice work!
+                    - listitem [ref=f1e464]:
+                      - generic [ref=f1e465]:
+                        - link [ref=f1e471] [cursor=pointer]:
+                          - /url: https://www.behance.net/f0e1eb94
+                          - img "Perfil de Sapphire Studio" [ref=f1e473]
+                        - generic [ref=f1e474]:
+                          - generic [ref=f1e475]:
+                            - link "Sapphire Studio" [ref=f1e479] [cursor=pointer]:
+                              - /url: https://www.behance.net/f0e1eb94
+                            - button "Insignia de abono Pro. Más información sobre Behance PRO." [ref=f1e483]: Pro
+                            - generic [ref=f1e484]: •Hace 4 días
+                          - generic [ref=f1e485]: A perfect balance between aesthetics and functionality.
+                    - listitem [ref=f1e486]:
+                      - generic [ref=f1e487]:
+                        - link [ref=f1e493] [cursor=pointer]:
+                          - /url: https://www.behance.net/nota_indesign
+                          - img "Perfil de Ksenia Nota" [ref=f1e495]
+                        - generic [ref=f1e496]:
+                          - generic [ref=f1e497]:
+                            - link "Ksenia Nota" [ref=f1e501] [cursor=pointer]:
+                              - /url: https://www.behance.net/nota_indesign
+                            - generic [ref=f1e502]: •Hace 4 días
+                          - generic [ref=f1e503]: Great work!
+                    - listitem [ref=f1e504]:
+                      - generic [ref=f1e505]:
+                        - link [ref=f1e511] [cursor=pointer]:
+                          - /url: https://www.behance.net/nataliiamatiash
+                          - img "Perfil de Matias Art Lab" [ref=f1e513]
+                        - generic [ref=f1e514]:
+                          - generic [ref=f1e515]:
+                            - link "Matias Art Lab" [ref=f1e519] [cursor=pointer]:
+                              - /url: https://www.behance.net/nataliiamatiash
+                            - generic [ref=f1e520]: •Hace 4 días
+                          - generic [ref=f1e521]: Great job!
+                    - listitem [ref=f1e522]:
+                      - generic [ref=f1e523]:
+                        - link [ref=f1e529] [cursor=pointer]:
+                          - /url: https://www.behance.net/Lumin-Osity
+                          - img "Perfil de Lumin Osity" [ref=f1e531]
+                        - generic [ref=f1e532]:
+                          - generic [ref=f1e533]:
+                            - link "Lumin Osity" [ref=f1e537] [cursor=pointer]:
+                              - /url: https://www.behance.net/Lumin-Osity
+                            - button "Insignia de abono Pro. Más información sobre Behance PRO." [ref=f1e541]: Pro
+                            - generic [ref=f1e542]: •Hace 5 días
+                          - generic [ref=f1e543]: Excellent work!
+                    - listitem [ref=f1e544]:
+                      - generic [ref=f1e545]:
+                        - link [ref=f1e551] [cursor=pointer]:
+                          - /url: https://www.behance.net/danakalitchenko
+                          - img "Perfil de Bogdana Matlova" [ref=f1e553]
+                        - generic [ref=f1e554]:
+                          - generic [ref=f1e555]:
+                            - link "Bogdana Matlova" [ref=f1e559] [cursor=pointer]:
+                              - /url: https://www.behance.net/danakalitchenko
+                            - generic [ref=f1e560]: •Hace 5 días
+                          - generic [ref=f1e561]: Creative and very stylish project !
+                    - listitem [ref=f1e562]:
+                      - generic [ref=f1e563]:
+                        - link [ref=f1e569] [cursor=pointer]:
+                          - /url: https://www.behance.net/EsraaBassionyDesign
+                          - img "Perfil de Esraa Bassiony" [ref=f1e571]
+                        - generic [ref=f1e572]:
+                          - generic [ref=f1e573]:
+                            - link "Esraa Bassiony" [ref=f1e577] [cursor=pointer]:
+                              - /url: https://www.behance.net/EsraaBassionyDesign
+                            - generic [ref=f1e578]: •Hace 6 días
+                          - generic [ref=f1e579]: Amazing!
+                    - listitem [ref=f1e580]:
+                      - generic [ref=f1e581]:
+                        - link [ref=f1e587] [cursor=pointer]:
+                          - /url: https://www.behance.net/osinachiiezenwa
+                          - img "Perfil de Osinachi Ezenwa" [ref=f1e589]
+                        - generic [ref=f1e590]:
+                          - generic [ref=f1e591]:
+                            - link "Osinachi Ezenwa" [ref=f1e595] [cursor=pointer]:
+                              - /url: https://www.behance.net/osinachiiezenwa
+                            - generic [ref=f1e596]: •Hace 7 días
+                          - generic [ref=f1e597]: This is really clean!
+                    - listitem [ref=f1e598]:
+                      - generic [ref=f1e599]:
+                        - link [ref=f1e605] [cursor=pointer]:
+                          - /url: https://www.behance.net/zubailhasan
+                          - 'img "Perfil de MD: ZUBAIL HASAN" [ref=f1e607]'
+                        - generic [ref=f1e608]:
+                          - generic [ref=f1e609]:
+                            - 'link "MD: ZUBAIL HASAN" [ref=f1e613] [cursor=pointer]':
+                              - /url: https://www.behance.net/zubailhasan
+                            - generic [ref=f1e614]: •31 oct 2026
+                          - generic [ref=f1e615]: Creative work.
+                    - listitem [ref=f1e616]:
+                      - generic [ref=f1e617]:
+                        - link [ref=f1e623] [cursor=pointer]:
+                          - /url: https://www.behance.net/gfxumarfaruq
+                          - img "Perfil de Umar Faruq" [ref=f1e625]
+                        - generic [ref=f1e626]:
+                          - generic [ref=f1e627]:
+                            - link "Umar Faruq" [ref=f1e631] [cursor=pointer]:
+                              - /url: https://www.behance.net/gfxumarfaruq
+                            - generic [ref=f1e632]: •27 oct 2026
+                          - generic [ref=f1e633]: Really Great Work
+                  - button "Ver más comentarios" [ref=f1e634] [cursor=pointer]
+                - generic [ref=f1e637]:
+                  - generic [ref=f1e638]:
+                    - heading "Propietarios" [level=2] [ref=f1e639]
+                    - generic [ref=f1e640]:
+                      - link [ref=f1e646] [cursor=pointer]:
+                        - /url: https://www.behance.net/uitariq1
+                        - img "Perfil de Tariq Ahmed" [ref=f1e648]
+                      - generic [ref=f1e649]:
+                        - link "Tariq Ahmed" [ref=f1e654] [cursor=pointer]:
+                          - /url: https://www.behance.net/uitariq1
+                        - link "Bangladesh" [ref=f1e655] [cursor=pointer]:
+                          - /url: https://www.behance.net/search/users?country=BD&city=
+                      - generic "Seguir a Tariq Ahmed" [ref=f1e661]:
+                        - button "Seguir" [ref=f1e662] [cursor=pointer]
+                    - generic [ref=f1e664]:
+                      - link [ref=f1e670] [cursor=pointer]:
+                        - /url: https://www.behance.net/uiinnovativedesigner
+                        - img "Perfil de Aminur Rahman" [ref=f1e672]
+                      - generic [ref=f1e673]:
+                        - generic [ref=f1e677] [cursor=pointer]:
+                          - link "Aminur Rahman" [ref=f1e678]:
+                            - /url: https://www.behance.net/uiinnovativedesigner
+                          - generic [ref=f1e679]: Pro
+                        - link "Khulna, Bangladesh" [ref=f1e682] [cursor=pointer]:
+                          - /url: https://www.behance.net/search/users?country=BD&city=Khulna
+                      - generic "Seguir a Aminur Rahman" [ref=f1e688]:
+                        - button "Seguir" [ref=f1e689] [cursor=pointer]
+                    - generic [ref=f1e691]:
+                      - link [ref=f1e697] [cursor=pointer]:
+                        - /url: https://www.behance.net/uxexpert
+                        - img "Perfil de Mihir Ghosh" [ref=f1e699]
+                      - generic [ref=f1e700]:
+                        - link "Mihir Ghosh" [ref=f1e705] [cursor=pointer]:
+                          - /url: https://www.behance.net/uxexpert
+                        - link "Bangladesh" [ref=f1e706] [cursor=pointer]:
+                          - /url: https://www.behance.net/search/users?country=BD&city=
+                      - generic "Seguir a Mihir Ghosh" [ref=f1e712]:
+                        - button "Seguir" [ref=f1e713] [cursor=pointer]
+                    - generic [ref=f1e715]:
+                      - link [ref=f1e721] [cursor=pointer]:
+                        - /url: https://www.behance.net/itsorbiqstudio
+                        - img "Perfil de Orbiq Studio" [ref=f1e723]
+                      - generic [ref=f1e724]:
+                        - link "Orbiq Studio" [ref=f1e729] [cursor=pointer]:
+                          - /url: https://www.behance.net/itsorbiqstudio
+                        - link "Dubai, United Arab Emirates" [ref=f1e730] [cursor=pointer]:
+                          - /url: https://www.behance.net/search/users?country=AE&city=Dubai
+                      - generic "Seguir a Orbiq Studio" [ref=f1e736]:
+                        - button "Seguir" [ref=f1e737] [cursor=pointer]
+                    - generic [ref=f1e739]:
+                      - link [ref=f1e745] [cursor=pointer]:
+                        - /url: https://www.behance.net/mdmunnaislam19
+                        - img "Perfil de Munna Rahman ✪" [ref=f1e747]
+                      - generic [ref=f1e748]:
+                        - link "Munna Rahman ✪" [ref=f1e753] [cursor=pointer]:
+                          - /url: https://www.behance.net/mdmunnaislam19
+                        - link "Satkhira, Bangladesh" [ref=f1e754] [cursor=pointer]:
+                          - /url: https://www.behance.net/search/users?country=BD&city=Satkhira
+                      - generic "Seguir a Munna Rahman ✪" [ref=f1e760]:
+                        - button "Seguir" [ref=f1e761] [cursor=pointer]
+                    - generic [ref=f1e763]:
+                      - link [ref=f1e769] [cursor=pointer]:
+                        - /url: https://www.behance.net/agenticexpert
+                        - img "Perfil de Agentic Expert" [ref=f1e771]
+                      - generic [ref=f1e772]:
+                        - link "Agentic Expert" [ref=f1e777] [cursor=pointer]:
+                          - /url: https://www.behance.net/agenticexpert
+                        - link "United Arab Emirates" [ref=f1e778] [cursor=pointer]:
+                          - /url: https://www.behance.net/search/users?country=AE&city=
+                      - generic "Seguir a Agentic Expert" [ref=f1e784]:
+                        - button "Seguir" [ref=f1e785] [cursor=pointer]
+                  - generic [ref=f1e787]:
+                    - heading "Créditos" [level=2] [ref=f1e788]
+                    - generic [ref=f1e789]:
+                      - link [ref=f1e795] [cursor=pointer]:
+                        - /url: https://www.behance.net/uitariq1
+                        - img "Perfil de Tariq Ahmed" [ref=f1e797]
+                      - link "Tariq Ahmed" [ref=f1e803] [cursor=pointer]:
+                        - /url: https://www.behance.net/uitariq1
+                      - generic "Seguir a Tariq Ahmed" [ref=f1e807]:
+                        - button "Seguir" [ref=f1e808] [cursor=pointer]
+                  - generic [ref=f1e810]:
+                    - heading "DTC Beverage Website Design | Vibrant Shopify Store" [level=2] [ref=f1e811]
+                    - heading "ZUGA is a vibrant, modern DTC (Direct-to-Consumer) functional beverage brand specializing in protein and focus-enhancing drinks. Designed with a Leer más" [level=2] [ref=f1e812]:
+                      - text: ZUGA is a vibrant, modern DTC (Direct-to-Consumer) functional beverage brand specializing in protein and focus-enhancing drinks. Designed with a
+                      - generic [ref=f1e813] [cursor=pointer]: Leer más
+                    - generic [ref=f1e814]:
+                      - group "189 valoraciones" [ref=f1e815]:
+                        - generic [aria-hidden] [ref=f1e819]: "189"
+                      - group "NaN vistas" [ref=f1e820]:
+                        - generic [aria-hidden] [ref=f1e823]: 1,2 mil
+                      - group "146 comentarios" [ref=f1e824]:
+                        - generic [aria-hidden] [ref=f1e828]: "146"
+                    - generic [ref=f1e829]:
+                      - text: "Publicado:"
+                      - time [ref=f1e830]: 3 de octubre de 2026
+                  - generic [ref=f1e831]:
+                    - generic [ref=f1e832]:
+                      - heading "Herramientas" [level=2] [ref=f1e833]
+                      - list [ref=f1e834]:
+                        - listitem [ref=f1e835]:
+                          - link [ref=f1e836] [cursor=pointer]:
+                            - /url: /search/projects?tools=185289859
+                            - paragraph [ref=f1e838]: Photoshop
+                        - listitem
+                        - listitem [ref=f1e839]:
+                          - link "Figma" [ref=f1e840] [cursor=pointer]:
+                            - /url: /search/projects?tools=442140153
+                          - text: ","
+                        - listitem [ref=f1e841]:
+                          - link "Shopify" [ref=f1e842] [cursor=pointer]:
+                            - /url: /search/projects?tools=931667
+                    - generic [ref=f1e843]:
+                      - heading "Sectores creativos" [level=2] [ref=f1e844]
+                      - list [ref=f1e845]:
+                        - listitem [ref=f1e846]:
+                          - link [ref=f1e847] [cursor=pointer]:
+                            - /url: /search/projects?field=Graphic Design
+                            - paragraph [ref=f1e849]: Diseño gráfico
+                        - listitem [ref=f1e850]:
+                          - link [ref=f1e851] [cursor=pointer]:
+                            - /url: /search/projects?field=UI/UX
+                            - paragraph [ref=f1e853]: Interfaz y exp. de usuario
+                        - listitem [ref=f1e854]:
+                          - link [ref=f1e855] [cursor=pointer]:
+                            - /url: /search/projects?field=Web Design
+                            - paragraph [ref=f1e857]: Diseño web
+                  - list [ref=f1e858]:
+                    - listitem [ref=f1e859]:
+                      - link "Shopify Website Design" [ref=f1e860] [cursor=pointer]:
+                        - /url: /search/projects/Shopify%20Website%20Design?tracking_source=project_tag
+                    - listitem [ref=f1e861]:
+                      - link "DTC Website" [ref=f1e862] [cursor=pointer]:
+                        - /url: /search/projects/DTC%20Website?tracking_source=project_tag
+                    - listitem [ref=f1e863]:
+                      - link "beverage branding" [ref=f1e864] [cursor=pointer]:
+                        - /url: /search/projects/beverage%20branding?tracking_source=project_tag
+                    - listitem [ref=f1e865]:
+                      - link "protein drink website" [ref=f1e866] [cursor=pointer]:
+                        - /url: /search/projects/protein%20drink%20website?tracking_source=project_tag
+                    - listitem [ref=f1e867]:
+                      - link "playful website" [ref=f1e868] [cursor=pointer]:
+                        - /url: /search/projects/playful%20website?tracking_source=project_tag
+                    - listitem [ref=f1e869]:
+                      - link "vibrant ui design" [ref=f1e870] [cursor=pointer]:
+                        - /url: /search/projects/vibrant%20ui%20design?tracking_source=project_tag
+                    - listitem [ref=f1e871]:
+                      - link "dropshipping" [ref=f1e872] [cursor=pointer]:
+                        - /url: /search/projects/dropshipping?tracking_source=project_tag
+                    - listitem [ref=f1e873]:
+                      - link "Storefront" [ref=f1e874] [cursor=pointer]:
+                        - /url: /search/projects/Storefront?tracking_source=project_tag
+                    - listitem [ref=f1e875]:
+                      - link "Ecommerce" [ref=f1e876] [cursor=pointer]:
+                        - /url: /search/projects/Ecommerce?tracking_source=project_tag
+                    - listitem [ref=f1e877]:
+                      - link "drink website" [ref=f1e878] [cursor=pointer]:
+                        - /url: /search/projects/drink%20website?tracking_source=project_tag
+                  - generic [ref=f1e879]:
+                    - generic [ref=f1e880] [cursor=pointer]: © All Rights Reserved
+                    - link "Denunciar" [ref=f1e885] [cursor=pointer]:
+                      - /url: /gallery/256607761/DTC-Beverage-Website-Design-Vibrant-Shopify-Store#report
+      - contentinfo "principal" [ref=f1e892]:
+        - generic [ref=f1e893]:
+          - link "Saltar al contenido principal" [ref=f1e894] [cursor=pointer]:
+            - /url: javascript:void(0)
+          - button "Más Behance" [ref=f1e898] [cursor=pointer]
+          - 'button "Idioma seleccionado: Español" [ref=f1e902] [cursor=pointer]':
+            - generic [ref=f1e907]: Español
+          - list [ref=f1e909]:
+            - listitem [ref=f1e910] [cursor=pointer]:
+              - link [ref=f1e911]:
+                - /url: /pro?tracking_source=footer_pro_marketing_page_gallery
+                - paragraph [ref=f1e912]: Probar Behance Pro
+          - list [ref=f1e914]:
+            - listitem [ref=f1e915]:
+              - link [ref=f1e916] [cursor=pointer]:
+                - /url: https://www.adobe.com/legal/terms.html
+                - paragraph [ref=f1e917]: Condiciones de uso
+            - listitem [ref=f1e918]:
+              - link [ref=f1e919] [cursor=pointer]:
+                - /url: https://www.adobe.com/privacy.html
+                - paragraph [ref=f1e920]: Privacidad
+            - listitem [ref=f1e921]:
+              - link [ref=f1e922] [cursor=pointer]:
+                - /url: /misc/community?tracking_source=footer_infinity_gallery
+                - paragraph [ref=f1e923]: Comunidad
+            - listitem [ref=f1e924]:
+              - link [ref=f1e925] [cursor=pointer]:
+                - /url: https://help.behance.net/
+                - paragraph [ref=f1e926]: Ayuda
+            - listitem [ref=f1e927]:
+              - button "Preferencias de cookies" [ref=f1e928] [cursor=pointer]
+            - listitem [ref=f1e929]:
+              - link [ref=f1e930] [cursor=pointer]:
+                - /url: https://www.adobe.com/privacy/us-rights.html
+                - paragraph [ref=f1e931]: No vender ni compartir mi información personal
+          - generic [ref=f1e932]:
+            - link "Ve a adobe.com" [ref=f1e935] [cursor=pointer]:
+              - /url: https://www.adobe.com?promoid=RYGDMYVW
+            - generic:
+              - generic:
+                - button "Abrir las opciones de Adobe":
+                  - generic [ref=f1e947] [cursor=pointer]
+      - contentinfo "principal" [ref=f1e948]:
+        - generic [ref=f1e949]:
+          - link "Saltar al contenido principal" [ref=f1e950] [cursor=pointer]:
+            - /url: javascript:void(0)
+          - generic [ref=f1e951]:
+            - link "Behance" [ref=f1e953] [cursor=pointer]:
+              - /url: /
+              - img "Behance" [ref=f1e954]
+            - generic [ref=f1e957]:
+              - generic [ref=f1e958]:
+                - heading "Creado para creativos" [level=2] [ref=f1e959]
+                - list [ref=f1e961]:
+                  - listitem [ref=f1e962]:
+                    - link [ref=f1e963] [cursor=pointer]:
+                      - /url: /pro?tracking_source=footer_static_gallery
+                      - paragraph [ref=f1e964]: Probar Behance Pro
+                  - listitem [ref=f1e965]:
+                    - link [ref=f1e966] [cursor=pointer]:
+                      - /url: /galleries?tracking_source=footer_static_gallery
+                      - paragraph [ref=f1e967]: Encontrar la inspiración
+                  - listitem [ref=f1e968]:
+                    - link [ref=f1e969] [cursor=pointer]:
+                      - /url: /updates/get-hired-on-behance?tracking_source=footer_static_gallery
+                      - paragraph [ref=f1e970]: Conseguir que te contraten
+                  - listitem [ref=f1e971]:
+                    - link [ref=f1e972] [cursor=pointer]:
+                      - /url: /updates/behance-assets?tracking_source=footer_static_gallery
+                      - paragraph [ref=f1e973]: Vender recursos creativos
+                  - listitem [ref=f1e974]:
+                    - link [ref=f1e975] [cursor=pointer]:
+                      - /url: /updates/get-hired-on-behance-with-services?tracking_source=footer_static_gallery
+                      - paragraph [ref=f1e976]: Vender servicios autónomos
+              - generic [ref=f1e977]:
+                - heading "Encontrar talento" [level=2] [ref=f1e978]
+                - list [ref=f1e980]:
+                  - listitem [ref=f1e981]:
+                    - link [ref=f1e982] [cursor=pointer]:
+                      - /url: /joblist?tracking_source=footer_static_gallery
+                      - paragraph [ref=f1e983]: Publicar una oferta de empleo
+                  - listitem [ref=f1e984]:
+                    - link [ref=f1e985] [cursor=pointer]:
+                      - /url: /hire/graphic-designers?tracking_source=footer_static_gallery
+                      - paragraph [ref=f1e986]: Diseñadores/as gráficos
+                  - listitem [ref=f1e987]:
+                    - link [ref=f1e988] [cursor=pointer]:
+                      - /url: /hire/photographers?tracking_source=footer_static_gallery
+                      - paragraph [ref=f1e989]: Fotógrafos/as
+                  - listitem [ref=f1e990]:
+                    - link [ref=f1e991] [cursor=pointer]:
+                      - /url: /hire/video-editors?tracking_source=footer_static_gallery
+                      - paragraph [ref=f1e992]: Editores/as de vídeo
+                  - listitem [ref=f1e993]:
+                    - link [ref=f1e994] [cursor=pointer]:
+                      - /url: /hire/web-designers?tracking_source=footer_static_gallery
+                      - paragraph [ref=f1e995]: Diseñadores/as web
+                  - listitem [ref=f1e996]:
+                    - link [ref=f1e997] [cursor=pointer]:
+                      - /url: /hire/illustrators?tracking_source=footer_static_gallery
+                      - paragraph [ref=f1e998]: Ilustradores/as
+              - generic [ref=f1e999]:
+                - heading "Behance" [level=2] [ref=f1e1000]
+                - list [ref=f1e1002]:
+                  - listitem [ref=f1e1003]:
+                    - link [ref=f1e1004] [cursor=pointer]:
+                      - /url: /about?tracking_source=footer_static_gallery
+                      - paragraph [ref=f1e1005]: Acerca de Behance
+                  - listitem [ref=f1e1006]:
+                    - link [ref=f1e1007] [cursor=pointer]:
+                      - /url: https://portfolio.adobe.com/
+                      - paragraph [ref=f1e1008]: Adobe Portfolio
+                  - listitem [ref=f1e1009]:
+                    - button "Descargar la aplicación" [ref=f1e1010] [cursor=pointer]
+                  - listitem [ref=f1e1011]:
+                    - link [ref=f1e1012] [cursor=pointer]:
+                      - /url: /blog?tracking_source=footer_static_gallery
+                      - paragraph [ref=f1e1013]: Blog
+                  - listitem [ref=f1e1014]:
+                    - link [ref=f1e1015] [cursor=pointer]:
+                      - /url: https://www.adobe.com/careers.html
+                      - paragraph [ref=f1e1016]: Trabajo en Behance
+                  - listitem [ref=f1e1017]:
+                    - link [ref=f1e1018] [cursor=pointer]:
+                      - /url: https://help.behance.net/
+                      - paragraph [ref=f1e1019]: Centro de ayuda
+                  - listitem [ref=f1e1020]:
+                    - link [ref=f1e1021] [cursor=pointer]:
+                      - /url: https://help.behance.net/hc/en-us/requests/new?ticket_form_id=4164
+                      - paragraph [ref=f1e1022]: Contacto
+                  - listitem [ref=f1e1023]:
+                    - link [ref=f1e1024] [cursor=pointer]:
+                      - /url: /tags?tracking_source=footer_static_gallery
+                      - paragraph [ref=f1e1025]: Términos de búsqueda populares
+                  - listitem [ref=f1e1026]:
+                    - link [ref=f1e1027] [cursor=pointer]:
+                      - /url: /login?tracking_source=footer_static_gallery
+                      - paragraph [ref=f1e1028]: Iniciar sesión
+              - generic [ref=f1e1029]:
+                - heading "Social" [level=2] [ref=f1e1030]
+                - list [ref=f1e1032]:
+                  - listitem [ref=f1e1033]:
+                    - link [ref=f1e1034] [cursor=pointer]:
+                      - /url: http://instagram.com/behance
+                      - paragraph [ref=f1e1035]: Instagram
+                  - listitem [ref=f1e1039]:
+                    - link [ref=f1e1040] [cursor=pointer]:
+                      - /url: http://twitter.com/behance
+                      - paragraph [ref=f1e1041]: Twitter
+                  - listitem [ref=f1e1046]:
+                    - link [ref=f1e1047] [cursor=pointer]:
+                      - /url: http://www.pinterest.com/behance
+                      - paragraph [ref=f1e1048]: Pinterest
+                  - listitem [ref=f1e1054]:
+                    - link [ref=f1e1055] [cursor=pointer]:
+                      - /url: http://www.facebook.com/Behance
+                      - paragraph [ref=f1e1056]: Facebook
+                  - listitem [ref=f1e1061]:
+                    - link [ref=f1e1062] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/151575
+                      - paragraph [ref=f1e1063]: LinkedIn
+          - separator [ref=f1e1070]
+          - generic [ref=f1e1071]:
+            - generic [ref=f1e1072]:
+              - link "Ve a adobe.com se abre en una pestaña nueva" [ref=f1e1074] [cursor=pointer]:
+                - /url: https://www.adobe.com?promoid=RYGDMYVW
+              - generic [ref=f1e1086]: © 2026 Adobe Inc. All rights reserved.
+            - list [ref=f1e1087]:
+              - listitem [ref=f1e1088]:
+                - 'button "Idioma seleccionado: Español" [ref=f1e1091] [cursor=pointer]':
+                  - generic [ref=f1e1096]: Español
+              - listitem [ref=f1e1097]:
+                - link [ref=f1e1098] [cursor=pointer]:
+                  - /url: https://www.adobe.com/legal/terms.html
+                  - paragraph [ref=f1e1099]: Condiciones de uso
+              - listitem [ref=f1e1100]:
+                - link [ref=f1e1101] [cursor=pointer]:
+                  - /url: https://www.adobe.com/privacy.html
+                  - paragraph [ref=f1e1102]: Privacidad
+              - listitem [ref=f1e1103]:
+                - link [ref=f1e1104] [cursor=pointer]:
+                  - /url: /misc/community?tracking_source=footer_static_gallery
+                  - paragraph [ref=f1e1105]: Comunidad
+              - listitem [ref=f1e1106]:
+                - button "Preferencias de cookies" [ref=f1e1107] [cursor=pointer]
+              - listitem [ref=f1e1108]:
+                - link [ref=f1e1109] [cursor=pointer]:
+                  - /url: https://www.adobe.com/privacy/us-rights.html
+                  - paragraph [ref=f1e1110]: No vender ni compartir mi información personal

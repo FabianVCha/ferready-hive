@@ -1,0 +1,17 @@
+{
+  "regions": [
+    {"id":"studio-scene","kind":"plate","pixelBox":{"x":0,"y":132,"w":2688,"h":1028},"note":"Continuous photographic studio set with a central cordless drill, case, bits and wood; regenerate clean with no interface lettering and no fictional Ferready product marks."},
+    {"id":"navigation","kind":"chrome","pixelBox":{"x":0,"y":0,"w":2688,"h":132},"note":"Navigation layout; official supplied logo, category links, search and cart drawn as semantic controls."},
+    {"id":"headline","kind":"text","pixelBox":{"x":108,"y":300,"w":880,"h":240},"note":"Ideas que toman forma. in white bold sans serif on two lines."},
+    {"id":"support","kind":"text","pixelBox":{"x":114,"y":600,"w":630,"h":120},"note":"Herramientas para tus proyectos en casa. supporting sentence."},
+    {"id":"featured-title","kind":"text","pixelBox":{"x":1920,"y":325,"w":720,"h":180},"note":"Selected product name, two-line white text."},
+    {"id":"featured-price","kind":"text","pixelBox":{"x":1900,"y":555,"w":730,"h":120},"note":"Price in Colombian pesos."},
+    {"id":"price-disclosure","kind":"text","pixelBox":{"x":1930,"y":708,"w":600,"h":50},"note":"Precio de demostración."},
+    {"id":"quantity","kind":"control","pixelBox":{"x":1832,"y":813,"w":265,"h":110},"note":"Quantity decrement, output and increment."},
+    {"id":"add-to-cart","kind":"control","pixelBox":{"x":2130,"y":808,"w":505,"h":120},"note":"Agregar al carrito primary button."},
+    {"id":"projects-title","kind":"text","pixelBox":{"x":155,"y":1220,"w":1300,"h":90},"note":"Elige tu próximo proyecto section heading."},
+    {"id":"project-shelf","kind":"image","pixelBox":{"x":74,"y":1345,"w":825,"h":175},"note":"Photographic shelf and warm timber project crop."},
+    {"id":"project-frame","kind":"image","pixelBox":{"x":944,"y":1345,"w":825,"h":175},"note":"Hands placing a picture frame project crop."},
+    {"id":"project-garden","kind":"image","pixelBox":{"x":1810,"y":1345,"w":805,"h":175},"note":"Garden planter project photograph crop."}
+  ]
+}
