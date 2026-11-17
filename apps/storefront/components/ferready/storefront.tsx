@@ -306,7 +306,7 @@ export function CatalogView({
   const heading = query
     ? `Resultados para “${query}”`
     : categories.find((c) => c.slug === category)?.name ||
-      "Buenas herramientas. Buenas soluciones.";
+      "Catálogo de ejemplo";
   return (
     <div className="catalog-page page-pad">
       <div className="breadcrumb">
@@ -317,7 +317,7 @@ export function CatalogView({
       <div className="catalog-intro">
         <h1>{heading}</h1>
         <p>
-          La herramienta correcta, sin complicaciones.
+          Tu espacio para presentar productos.
           <br />
           Encuentra lo que buscas y revisa sus detalles.
         </p>
@@ -386,9 +386,9 @@ export function CatalogView({
           <div className="filter-note">
             <Icon name="pin" />
             <p>
-              Desde Bogotá,
+              Envíos de ejemplo,
               <br />
-              hasta tu próximo arreglo.
+              por personalizar.
             </p>
             <Link href="/informacion">Consulta los envíos</Link>
           </div>
@@ -422,12 +422,7 @@ export function ProductView({ product }: { product: DemoProduct }) {
   const [zone, setZone] = useState("Bogotá");
   const router = useRouter();
   const related = products
-    .filter(
-      (p) =>
-        p.slug !== product.slug &&
-        (p.categorySlug === product.categorySlug ||
-          p.categorySlug === "accesorios-fijacion"),
-    )
+    .filter((p) => p.slug !== product.slug)
     .slice(0, 4);
   const buy = () => {
     add(product.slug, quantity);
@@ -572,7 +567,7 @@ export function ProductView({ product }: { product: DemoProduct }) {
       </section>
       <section className="related-products section-space">
         <div className="section-heading">
-          <h2>Completa tu próximo arreglo.</h2>
+          <h2>Explora otros productos.</h2>
           <Link href="/catalogo" className="text-link">
             Explorar catálogo <Icon name="arrow" size={20} />
           </Link>

@@ -1,7 +1,7 @@
 const { chromium } = require('/home/fabianvcha/playwright-login/node_modules/playwright');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
-const out = '/tmp/opencode/auto-packing-transition';
+const out = '/tmp/opencode/neutral-template/auto-packing-transition';
 fs.mkdirSync(out, { recursive: true });
 (async () => {
   const browser = await chromium.launch({ executablePath: '/usr/bin/chromium', args: ['--no-sandbox'] });
@@ -15,7 +15,7 @@ fs.mkdirSync(out, { recursive: true });
   for (const reduced of [false, true]) for (const [width, height] of [[1440,900],[390,844],[320,740]]) {
     await page.setViewportSize({ width, height });
     await page.emulateMedia({ reducedMotion: reduced ? 'reduce' : 'no-preference' });
-    await page.goto('http://localhost:8000/p/taladro-bauker-12v', { waitUntil: 'networkidle' });
+    await page.goto('http://localhost:8000/p/producto-ejemplo-1', { waitUntil: 'networkidle' });
     const tabs = page.locator('.journey-stops a');
     const price = await page.locator('.detail-price').innerText();
     await tabs.nth(1).click(); await page.waitForTimeout(450);
@@ -68,7 +68,7 @@ fs.mkdirSync(out, { recursive: true });
   await page.emulateMedia({ reducedMotion: 'no-preference' });
   // Repeated mounts each get one fresh entry, and hidden/offscreen work pauses.
   for (let mount = 0; mount < 2; mount++) {
-    await page.goto('http://localhost:8000/p/taladro-bauker-12v', { waitUntil: 'networkidle' });
+    await page.goto('http://localhost:8000/p/producto-ejemplo-1', { waitUntil: 'networkidle' });
     await page.locator('.journey-stops a').nth(3).click(); await page.waitForTimeout(150);
     await page.evaluate(() => window.dispatchEvent(new Event('pagehide')));
     const hidden = await sample(); await page.waitForTimeout(300);
@@ -84,7 +84,7 @@ fs.mkdirSync(out, { recursive: true });
     assert((await sample()).packing > 0 && (await sample()).packing < .5);
     await page.waitForTimeout(1000); assert((await sample()).close > .999);
   }
-  await page.goto('http://localhost:8000/p/taladro-inalambrico-20v', { waitUntil: 'networkidle' });
+  await page.goto('http://localhost:8000/p/producto-ejemplo-2', { waitUntil: 'networkidle' });
   assert.equal(await page.locator('.kit-table').count(), 0);
   assert.deepEqual(errors, []);
   fs.writeFileSync(`${out}/report.json`, JSON.stringify({ report, errors }, null, 2));

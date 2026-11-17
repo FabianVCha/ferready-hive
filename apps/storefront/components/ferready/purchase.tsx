@@ -20,7 +20,7 @@ export function CartView() {
       </div>
       <div className="section-heading">
         <h1>
-          Tu próximo arreglo,
+          Tu selección,
           <br />a un paso.
         </h1>
         <Link className="text-link" href="/catalogo">
@@ -32,7 +32,7 @@ export function CartView() {
       ) : !cart.length ? (
         <div className="empty-state">
           <Icon name="bag" size={48} />
-          <h2>Tu caja de herramientas empieza aquí.</h2>
+          <h2>Tu carrito empieza aquí.</h2>
           <p>Aún no tienes productos en el carrito.</p>
           <Link href="/catalogo" className="button button-red">
             Explorar productos <Icon name="arrow" />
@@ -129,14 +129,13 @@ export function InformationView() {
         Comprar con confianza.
       </h1>
       <p className="information-intro">
-        Lo que necesitas saber de esta primera versión de Ferready.
+        Información de ejemplo para personalizar tu tienda.
       </p>
       <section>
         <h2>Entregas cerca de ti.</h2>
         <p>
-          El lanzamiento está pensado para Bogotá y zonas cercanas, con entregas
-          propias. Para probar la experiencia, esta demo muestra Bogotá, Chía y
-          Soacha.
+          Para probar el flujo, esta plantilla usa Bogotá, Chía y Soacha como
+          zonas de ejemplo. No representan la cobertura de una tienda activa.
         </p>
         <p>
           Tarifas de ejemplo: Bogotá $12.000 y alrededores $18.000. Plazos de
@@ -153,9 +152,8 @@ export function InformationView() {
           ficha.
         </p>
         <p>
-          Las recomendaciones no sustituyen las instrucciones del fabricante ni
-          una evaluación profesional para trabajos eléctricos, estructurales o
-          con riesgo.
+          Reemplaza estos textos por la información real de tus productos antes
+          de publicar el catálogo.
         </p>
       </section>
       <section>
@@ -171,30 +169,19 @@ export function InformationView() {
         <h2>Una demostración, no una tienda activa.</h2>
         <p>
           Precios, existencias, envíos y el flujo de compra son simulados. No
-          hay pasarela de pago, pedidos reales, formularios enviados ni servicio
-          de atención humana. Solo el carrito se guarda en este navegador.
+          hay pasarela de pago, pedidos reales ni formularios enviados. El carrito
+          y las selecciones de objetivos se guardan en este navegador. Los datos
+          de entrega solo permanecen en memoria; el PDF se descarga localmente.
         </p>
         <p>
-          El catálogo contiene 15 candidatos, no referencias aprobadas por un
-          proveedor. Las fotografías de Homecenter y Easy son referencias para
-            revisión interna; el banner usa una imagen generada con IA y colores de
-            marca. Los derechos y condiciones de uso deben revisarse antes de publicar. Las
-          fotografías comerciales requieren autorización antes de un lanzamiento
-          público.
+          El catálogo contiene tres productos de ejemplo con espacios reservados
+          para imágenes. Los nombres, descripciones, precios y contenidos no
+          representan productos a la venta.
         </p>
         <p>
-          No se atribuyen reseñas ni calificaciones de otros comercios a
-          Ferready. Las especificaciones y el contenido definitivo deben
-          validarse con el proveedor.
+          Personaliza la identidad, el catálogo y las condiciones comerciales
+          antes de habilitar ventas. No se incluyen reseñas ni garantías ficticias.
         </p>
-        <a
-          className="text-link"
-          href="/ferready/image-sources.json"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Consultar fuentes de las imágenes <Icon name="diagonal" size={18} />
-        </a>
       </section>
       <Link className="button button-dark" href="/catalogo">
         Volver a la tienda <Icon name="arrow" />

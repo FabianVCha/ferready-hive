@@ -1,25 +1,22 @@
 import { productMedia, productStoryOverrides } from "../data/ferready-product-media.mjs";
+import { storefront } from "../data/storefront.mjs";
 
 /** Replace campaign content here when adapting the storefront to another niche. */
 export const campaign = {
   brand: {
-    name: "Ferready",
-    red: "#E4261E",
-    navy: "#1D3659",
-    ink: "#12161B",
-    steel: "#4F7399",
-    paper: "#F5F2EC",
-    logo: "/ferready/logo.svg",
-    logoLight: "/ferready/logo-light.svg",
+    name: storefront.brandName,
+    red: storefront.tokens.accent,
+    navy: storefront.tokens.ink,
+    ink: storefront.tokens.ink,
+    steel: storefront.tokens.muted,
+    paper: storefront.tokens.paper,
+    logo: storefront.placeholder,
+    logoLight: storefront.placeholder,
   },
-  headline: "Ideas que toman forma.",
-  description: "Herramientas para tus proyectos en casa.",
-  featured: ["taladro-bauker-12v", "caja-herramientas-bauker", "manguera-flexible-50cm"],
-  projects: [
-    { title: "Dale forma a tu idea.", description: "Perforar, instalar y construir.", href: "/c/herramientas-electricas", image: "/ferready/products/484299.webp", tone: "blue" },
-    { title: "Resuelve ese pendiente.", description: "Las piezas pequeñas también cuentan.", href: "/c/plomeria-hogar", image: "/ferready/products/690526.webp", tone: "paper" },
-    { title: "Dale vida a tu espacio.", description: "Cuidar, cortar y volver a empezar.", href: "/c/seguridad-jardin", image: "/ferready/products/137879.webp", tone: "red" },
-  ],
+  headline: storefront.hero.title,
+  description: storefront.hero.description,
+  featured: storefront.products.map(product => product.slug),
+  projects: storefront.objectives.map((objective, index) => ({ title: objective.title, description: objective.description, href: `/c/${storefront.categories[index].slug}`, image: objective.image, tone: "paper" })),
 };
 
 /** Derive every claim from the selected product, not from its category's hero. */
@@ -29,6 +26,7 @@ export function productStory(product) {
     media: productMedia[product.slug] ?? null,
     video: null,
     ...productStoryOverrides[product.slug],
+    ...(product.slug === storefront.kitSlug ? { contents: storefront.kitPieces.map(piece => `1 ${piece.label.toLowerCase()}`), contentNote: "Contenido de ejemplo, por personalizar." } : {}),
     specs: Object.entries(product.specs),
     chapters: [
       { title: "Míralo de cerca.", body: product.description, detail: Object.entries(product.specs)[0] },

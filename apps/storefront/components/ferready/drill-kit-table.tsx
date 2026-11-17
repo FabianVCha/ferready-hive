@@ -3,12 +3,9 @@
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { kitPackingDuration, kitPackingState } from "@/lib/campaign.mjs";
+import { storefront } from "@/data/storefront.mjs";
 
-const pieces = [
-  { id: "drill", label: "Taladro", detail: "Taladro inalámbrico de 12 V.", width: 769, height: 820 },
-  { id: "battery", label: "Batería", detail: "Una batería incluida en el kit.", width: 473, height: 325 },
-  { id: "charger", label: "Cargador", detail: "Cargador incluido, con su cable.", width: 361, height: 494 },
-];
+const pieces = storefront.kitPieces;
 
 export function renderKitPacking(root: HTMLElement, packing: number) {
   const state = kitPackingState(packing);
@@ -107,7 +104,7 @@ export function DrillKitTable({ chapter, still, pointer, replay }: { chapter: nu
     <div className="hero-counter kit-counter" aria-hidden="true"><div className="hero-counter-top" /><div className="hero-counter-edge" /></div>
     {pieces.map((piece, index) => <div className={`kit-piece kit-piece-${piece.id}`} key={piece.id}>
       <button className="kit-select" type="button" aria-pressed={selected === index} aria-label={`Ver ${piece.label.toLowerCase()} incluido`} disabled={chapter !== 2} onClick={event => { setManual(true); setPointerSelection(event.detail > 0); setSelected(index); }}>
-        <span className="kit-emphasis" data-active={selected === index}><b className="hero-object-sway"><img src={`/ferready/products/drill-kit-${piece.id}.webp`} alt="" width={piece.width} height={piece.height} /></b></span>
+        <span className="kit-emphasis" data-active={selected === index}><b className="hero-object-sway"><img src={storefront.placeholder} alt="" width={piece.width} height={piece.height} /></b></span>
         <span className="kit-label">{piece.label}</span>
       </button>
     </div>)}

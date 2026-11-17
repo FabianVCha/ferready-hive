@@ -1,3 +1,4 @@
+import { storefront } from "../data/storefront.mjs";
 export type Delivery = { fullName: string; email: string; phone: string; address: string; city: string; municipality: string; neighborhood: string; complement: string };
 export const emptyDelivery: Delivery = { fullName: "", email: "", phone: "", address: "", city: "Bogotá", municipality: "", neighborhood: "", complement: "" };
 export type DeliveryErrors = Partial<Record<keyof Delivery, string>>;
@@ -74,7 +75,7 @@ export function receiptLines(order: OrderSnapshot): string[] {
   };
   const money = (amount: number) => `$${new Intl.NumberFormat("es-CO").format(amount)}`;
   const rule = () => lines.push("-".repeat(width));
-  text("          Ferready DEMO");
+  text(`${storefront.brandName} DEMO`);
   text("     COMPROBANTE NO FISCAL");
   rule();
   text("PAGO DE PRUEBA SIMULADO");

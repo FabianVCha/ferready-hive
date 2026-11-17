@@ -2,10 +2,10 @@ const { chromium } = require('/home/fabianvcha/playwright-login/node_modules/pla
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const { execFileSync } = require('node:child_process');
-const products = require('../data/prototype-products.json');
-const out = '/tmp/opencode/receipt-paper-review';
+const out = '/tmp/opencode/neutral-template/checkout';
 fs.mkdirSync(out, { recursive: true });
 (async () => {
+  const { products } = (await import('../data/storefront.mjs')).storefront;
   const browser = await chromium.launch({ executablePath: '/usr/bin/chromium', args: ['--no-sandbox'] });
   const page = await browser.newPage({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
   const errors = [], writes = [];
@@ -70,7 +70,7 @@ fs.mkdirSync(out, { recursive: true });
   for (const label of ['Nombre:', 'Correo:', 'Teléfono:', 'Dirección:', 'Ciudad o municipio:', 'Barrio:', 'Complemento:']) assert(text.includes(label), label);
   assert(text.replace(/\s/g, '').includes(email));
   for (const product of products) assert(text.replace(/\s/g, '').includes(product.name.replace(/\s/g, '')), product.name);
-  assert.equal(await page.evaluate(() => JSON.parse(localStorage.getItem('ferready-demo-cart-v1')).length), 15);
+  assert.equal(await page.evaluate(() => JSON.parse(localStorage.getItem('ferready-demo-cart-v1')).length), products.length);
   for (const width of [320, 390, 1440]) {
     await page.setViewportSize({ width, height: 900 });
     await page.evaluate(() => window.scrollTo(0, 0));

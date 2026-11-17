@@ -97,7 +97,7 @@ export function ProductHero({ config = heroConfig }: { config?: typeof heroConfi
       <strong>{money(current.product.price)} <small>COP</small></strong>
       <span className="hero-price-note">Precio de demostración</span>
       <div className="hero-actions"><AddButton key={current.slug} className="button button-red" disabled={!ready} onClick={() => add(current.slug)}>Agregar al carrito</AddButton><Link className="hero-product-link" href={`/p/${current.slug}`}>Ver ficha del producto</Link></div>
-      <small className="hero-disclosure">Render ilustrativo creado con IA. Forma, textos y accesorios pueden variar; consulta la fotografía y el contenido en la ficha.</small>
+      <small className="hero-disclosure">Imágenes, productos y precios de ejemplo. Personaliza el catálogo antes de publicar.</small>
       <Link className="hero-catalog-link" href="/catalogo">Explorar todo el catálogo</Link>
     </div>
   </section>;

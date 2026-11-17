@@ -1,11 +1,6 @@
-/** Editorial configuration only; product truth remains in the catalog. */
+import { storefront } from "./storefront.mjs";
+/** Compatibility entry point; customize the central storefront configuration. */
 export const heroConfig = {
-  title: "Hazlo realidad.",
-  description: "Elige con qué empezar tu próximo proyecto.",
-  background: "var(--navy)",
-  products: [
-    { slug: "taladro-bauker-12v", label: "Taladro", render: "/ferready/hero/drill.webp" },
-    { slug: "herramientas-44-piezas", label: "Kit de herramientas", render: "/ferready/hero/toolkit.webp" },
-    { slug: "tijera-podar-8", label: "Tijera de podar", render: "/ferready/hero/shears.webp" },
-  ],
+  ...storefront.hero,
+  products: storefront.products.map(product => ({ slug: product.slug, label: product.name, render: product.image })),
 };

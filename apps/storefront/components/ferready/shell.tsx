@@ -5,9 +5,10 @@ import { createContext, useContext, useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import { restoreCart, updateCart, type CartItem } from "@/lib/prototype.mjs";
 import { products, categories } from "./catalog";
-import { campaign } from "@/lib/campaign.mjs";
 import { selectionResult, type ObjectiveItem } from "@/lib/objectives.mjs";
 import { RouteMotion } from "./route-motion";
+import { storefront } from "@/data/storefront.mjs";
+import type { CSSProperties } from "react";
 
 export function Icon({ name, size = 22 }: { name: string; size?: number }) {
   const paths: Record<string, React.ReactNode> = {
@@ -164,26 +165,21 @@ export function DemoShell({ children }: { children: React.ReactNode }) {
     <CartContext.Provider
       value={{ cart, ready, setQuantity, add, addSelection, clear: () => setCart([]) }}
     >
-      <div className="ferready campaign-theme">
+      <div className="ferready campaign-theme neutral-template" style={Object.fromEntries(Object.entries(storefront.tokens).map(([key, value]) => [`--template-${key}`, value])) as CSSProperties}>
         <a className="skip-link" href="#contenido">
           Ir al contenido
         </a>
         <div className="announcement">
           <span>
-            <Icon name="truck" size={17} /> De nuestra ferretería a tu puerta.
+            <Icon name="truck" size={17} /> Tienda de demostración.
           </span>
           <span>
             Bogotá y alrededores <Icon name="pin" size={15} />
           </span>
         </div>
         <header className="fr-header">
-          <Link href="/" className="fr-brand" aria-label="Ferready, inicio">
-            <img
-              src={campaign.brand.logoLight}
-              alt="Ferready"
-              width="190"
-              height="48"
-            />
+          <Link href="/" className="fr-brand" aria-label={`${storefront.brandName}, inicio`}>
+            <span className="template-wordmark">{storefront.brandName}</span>
           </Link>
           <form action="/catalogo" className="header-search" role="search">
             <Icon name="search" size={20} />
@@ -236,7 +232,7 @@ export function DemoShell({ children }: { children: React.ReactNode }) {
             </Link>
           ))}
           <Link href="/#por-tarea" className="task-nav">
-            Ideas para tu próximo arreglo <Icon name="arrow" size={15} />
+            Explorar por objetivo <Icon name="arrow" size={15} />
           </Link>
         </nav>
         <main id="contenido" className="fr-main">
@@ -245,25 +241,20 @@ export function DemoShell({ children }: { children: React.ReactNode }) {
         <footer className="fr-footer">
           <div className="footer-top">
             <div>
-              <img
-                src={campaign.brand.logoLight}
-                width="210"
-                height="50"
-                alt="Ferready"
-              />
+              <span className="template-wordmark">{storefront.brandName}</span>
               <p>
-                Buenas herramientas.
+                Tu contenido.
                 <br />
-                Mejores soluciones.
+                Tu espacio.
               </p>
             </div>
             <div>
-              <h2>Tu ferretería, a un clic.</h2>
+              <h2>Explora tu tienda.</h2>
               <Link href="/catalogo">
                 Todos los productos <Icon name="arrow" />
               </Link>
               <Link href="/#por-tarea">
-                Encuentra por tarea <Icon name="arrow" />
+                Encuentra por objetivo <Icon name="arrow" />
               </Link>
               <Link href="/informacion">
                 Envíos y preguntas frecuentes <Icon name="arrow" />
@@ -272,14 +263,14 @@ export function DemoShell({ children }: { children: React.ReactNode }) {
             <div className="footer-location">
               <Icon name="pin" size={26} />
               <p>
-                Bogotá, Colombia.
-                <br />Y un poco más cerca de resolverlo.
+                Plantilla de demostración.
+                <br />Personaliza tu información.
               </p>
               <span>Precios en pesos colombianos.</span>
             </div>
           </div>
           <div className="footer-bottom">
-            <span>© {new Date().getFullYear()} Ferready.</span>
+            <span>© {new Date().getFullYear()} {storefront.brandName}.</span>
             <span>
               Prototipo privado · imágenes y condiciones comerciales de
               demostración.

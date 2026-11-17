@@ -42,12 +42,14 @@ test("kit components pack in causal order and lids wait for the last object", ()
   for (const name of ["drill", "battery", "charger"]) assert.ok(readFileSync(new URL(`../public/ferready/products/drill-kit-${name}.webp`, import.meta.url)).length > 0);
 });
 
-test("campaign keeps official brand assets and editable niche content separate", () => {
-  assert.equal(campaign.brand.red, "#E4261E");
-  assert.equal(campaign.brand.navy, "#1D3659");
-  assert.equal(campaign.brand.logo, "/ferready/logo.svg");
-  assert.equal(campaign.brand.logoLight, "/ferready/logo-light.svg");
-  assert.ok(campaign.featured.every((slug) => products.some((p) => p.slug === slug)));
+test("campaign uses neutral configuration independently of legacy niche fixtures", async () => {
+  const { storefront } = await import('../data/storefront.mjs');
+  assert.equal(campaign.brand.name, storefront.brandName);
+  assert.equal(campaign.brand.red, storefront.tokens.accent);
+  assert.equal(campaign.brand.navy, storefront.tokens.ink);
+  assert.equal(campaign.brand.logo, storefront.placeholder);
+  assert.equal(campaign.brand.logoLight, storefront.placeholder);
+  assert.ok(campaign.featured.every((slug) => storefront.products.some((p) => p.slug === slug)));
   assert.equal(campaign.projects.length, 3);
   assert.ok(campaign.projects.every((p) => p.href.startsWith("/c/")));
 });

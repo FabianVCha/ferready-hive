@@ -1,10 +1,11 @@
 import { receiptDeliveryFields, type OrderSnapshot } from "@/lib/guest-checkout";
 import { money } from "./catalog";
+import { storefront } from "@/data/storefront.mjs";
 
 export function ThermalReceipt({ order, mode }: { order: OrderSnapshot; mode: "pending" | "paid" }) {
   const paid = mode === "paid" && order.paymentStatus === "simulated-paid";
   return <article className="thermal-receipt" aria-label={paid ? "Comprobante térmico no fiscal" : "Vista previa del comprobante sin pagar"}>
-    <header className="receipt-heading"><strong>Ferready DEMO</strong><p>Comprobante no fiscal</p><p className="receipt-status">{paid ? "Pago de prueba simulado" : "Vista previa · Sin pagar"}</p><p>{paid ? "Sin cobro real" : "Pendiente de pago de prueba"}</p></header>
+    <header className="receipt-heading"><strong>{storefront.brandName} DEMO</strong><p>Comprobante no fiscal</p><p className="receipt-status">{paid ? "Pago de prueba simulado" : "Vista previa · Sin pagar"}</p><p>{paid ? "Sin cobro real" : "Pendiente de pago de prueba"}</p></header>
     {paid && <div className="receipt-block"><p>Ref: {order.reference}</p><p>{new Intl.DateTimeFormat("es-CO", { dateStyle: "short", timeStyle: "short", timeZone: "America/Bogota" }).format(new Date(order.createdAt))}</p><p>Hora de Bogotá (America/Bogota)</p></div>}
     <section className="receipt-block"><h2>Entrega y contacto</h2><dl className="receipt-contact">{receiptDeliveryFields(order.delivery).map(field => <div key={field.label}><dt>{field.label}</dt><dd>{field.value}</dd></div>)}</dl></section>
     <section className="receipt-block"><h2>Productos · COP</h2>{order.items.map(item => <div className="receipt-item" key={item.slug}><p>{item.name}</p><div className="receipt-amounts"><span>{item.quantity} × {money(item.unitPrice)}</span><strong>{money(item.subtotal)}</strong></div></div>)}</section>

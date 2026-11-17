@@ -4,11 +4,12 @@ import Link from "next/link";
 import { useEffect, useLayoutEffect, useRef, useState, type ReactNode } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import { campaign, journeyState, productStory } from "@/lib/campaign.mjs";
+import { journeyState, productStory } from "@/lib/campaign.mjs";
 import type { DemoProduct } from "@/lib/prototype.mjs";
 import { Icon } from "./shell";
 import { ProductFigure } from "./product-figure";
 import { DrillKitTable } from "./drill-kit-table";
+import { storefront } from "@/data/storefront.mjs";
 
 function headerInset() {
   return Math.ceil(document.querySelector(".fr-header")?.getBoundingClientRect().height ?? 88);
@@ -23,7 +24,7 @@ export function ProductJourney({ product, children }: { product: DemoProduct; ch
   const [chapter, setChapter] = useState(0);
   const [pointer, setPointer] = useState(true);
   const [replay, setReplay] = useState(0);
-  const kit = product.slug === "taladro-bauker-12v";
+  const kit = product.slug === storefront.kitSlug;
   const story = productStory(product);
   useEffect(() => {
     const scrollInput = () => setPointer(true);
@@ -154,10 +155,10 @@ export function ProductJourney({ product, children }: { product: DemoProduct; ch
               <div className="parcel-back" />
               <div className="parcel-flap parcel-flap-left" />
               <div className="parcel-flap parcel-flap-right" />
-              <div className="parcel-front"><img src={campaign.brand.logoLight} alt="" width="180" height="48" /><span>Una nueva idea por abrir.</span></div>
+              <div className="parcel-front"><strong>{storefront.brandName}</strong><span>Empaque de ejemplo</span></div>
               <div className="parcel-side" />
             </div>
-            <p className="journey-image-note">{story.media?.[chapter]?.note ?? "Fotografía de referencia · animación ilustrativa"}</p>
+            <p className="journey-image-note">{story.media?.[chapter]?.note ?? "Imagen del producto · espacio de ejemplo"}</p>
           </div>
         </div>
         <div className="journey-progress" aria-hidden="true"><span /></div>

@@ -61,7 +61,7 @@ export function CampaignHome() {
         {objectives.map((entry) => <MotionButton key={entry.id} disabled={!draftReady} aria-pressed={entry.id === selected} onClick={(event) => changeObjective(entry.id, event.detail > 0)}><SafeImage src={entry.image} alt="" width="90" height="90" /><span>{entry.title}</span><span className="selection-feedback-icon" aria-hidden="true"><span><Icon name="arrow" size={21} /></span><span><Icon name="check" size={21} /></span></span></MotionButton>)}
       </div>
       <div className="objective-workspace" ref={workspace} aria-busy={!draftReady} inert={!draftReady}>
-        <div className="objective-intro"><h3>{objective.title}</h3><p>{objective.description}</p><span>Selección de ejemplo. Las cantidades son iniciales, no un cálculo de materiales.</span><button className="text-link" onClick={() => setItems(objectiveItems(objective, products))}>Restablecer selección <Icon name="arrow" size={18} /></button></div>
+        <div className="objective-intro"><h3>{objective.title}</h3><p>{objective.description}</p><span>Selección de ejemplo. Ajusta las cantidades según lo que necesites.</span><button className="text-link" onClick={() => setItems(objectiveItems(objective, products))}>Restablecer selección <Icon name="arrow" size={18} /></button></div>
         <div className="objective-products">
           {items.length === 0 && <p className="objective-empty">Quitaste todos los productos. Restablece la selección o elige otro objetivo.</p>}
           {items.map((item) => {
@@ -77,6 +77,6 @@ export function CampaignHome() {
         </div>
       </div>
     </section>
-    <section className="campaign-section home-products"><div className="section-heading"><h2>Encuentra lo que te falta.</h2><Link href="/catalogo" className="text-link">Ver catálogo <Icon name="arrow" /></Link></div><div className="product-grid">{[products[0], products[5], products[6], products[14]].map((product) => <ProductCard product={product} key={product.slug} />)}</div></section>
+    <section className="campaign-section home-products"><div className="section-heading"><h2>Productos de ejemplo</h2><Link href="/catalogo" className="text-link">Ver catálogo <Icon name="arrow" /></Link></div><div className="product-grid">{products.map((product) => <ProductCard product={product} key={product.slug} />)}</div></section>
   </div>;
 }
