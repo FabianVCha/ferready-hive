@@ -1,0 +1,32 @@
+# Ferready demonstration design
+
+The home follows the user-pinned commercial reference: a navy navigation bar, official Ferready logo, category links, product search and persistent demo cart. The hero places three independently selectable illustrative product renders on a solid brand-navy stage. The selected object comes forward while both alternatives remain visible; the catalog name, demo price, product link and cart action update together. Editable objective selections follow. No questionnaire or scroll storytelling is part of the home.
+
+## Tokens and composition
+
+- Navy `#1d3659`: navigation, selection state and primary text.
+- Red `#e4261e`: purchase actions; white text.
+- Ink `#12161b`, paper `#f5f2ec`, working surface `#f1f3f5`.
+- Existing self-hosted Manrope; bold, compact headings and readable body copy.
+- Desktop: left-aligned headline and purchase controls, broad product stage on the right. Mobile: headline, compact stage and purchase detail, then stacked objective choices and product controls.
+- Native button semantics, visible focus, quantity bounds, disabled empty selection and reduced-motion support are required.
+
+Selection feedback uses CSS transform/opacity transitions: pointer-only press at 140ms (scale .97), fine-pointer hover at scale 1.01, and 180ms check swaps. Successful additions show a temporary check for 1.2 seconds without blocking repeat clicks; blocked additions retain the original icon and existing accurate cart message. Objective changes cancel the previous 180ms WAAPI description bridge; prices, quantities, row removal and draft updates remain immediate. Keyboard interactions are instant, and reduced motion removes travel while retaining static feedback and a description fade. No new motion dependency is required.
+
+## Content boundaries
+
+Guest checkout is an Operate extension of the existing navy/red system: delivery fields, editable review, then a non-fiscal pending-payment document. Forms use 16px inputs, associated inline errors and first-error focus. Contact information remains in component memory only; reloading resets it. The PDF generator is lazy-loaded and embeds the existing self-hosted Manrope font. Bogotá/Chía/Soacha retain explicitly illustrative rates; unknown municipalities show an incomplete total with shipping pending confirmation. No payment or order success state is presented, and generation preserves the cart.
+
+`lib/objectives.mjs` is the reusable objective model. `data/ferready-objectives.ts` supplies example goals, product references and editorial starting quantities. No niche-specific estimation belongs in the generic model.
+
+Objective drafts persist in sessionStorage under `storefront-objective-draft-v1`, independently of the cart. Restoration validates the version, objective ID, catalog references and integer quantities (1–20), retaining intentional empty selections. Only explicit goal changes or reset replace the draft. Direct quantity inputs retain the last valid value when an invalid edit loses focus.
+
+`data/ferready-hero.ts` supplies the editorial product slugs, render paths, short selector labels and brand-background token separately from `components/ferready/product-hero.tsx`. Catalog records supply all names, prices, links and cart SKUs. Missing renders fall back to the corresponding catalog photograph. The default configuration is specific to Ferready, not universal niche logic.
+
+`public/ferready/hero/{drill,toolkit,shears}-ai.png` are parent-supplied AI-generated source renders, preserved unchanged. They contain native alpha; `scripts/prepare-hero.cjs` crops transparent margins and creates alpha WebP derivatives. Its legacy opaque-source path removes only near-white pixels connected to an image edge. Do not remove internal white product details. Render lettering, shape and accessories are illustrative, not exact product evidence; the hero discloses this and demo pricing explicitly. Original catalog photographs remain on product pages. Publication rights and final product identity require review before release.
+
+All three scene objects retarget together with CSS transform transitions, 260ms using the existing selection ease-out token, without delays or automatic selection. Name, price and CTA update immediately; containers and copy do not travel. Keyboard selection preserves button focus and changes instantly. Reduced motion removes travel; fine-pointer press feedback is gated. `tests/browser-hero.probe.cjs` covers four widths, synchronized product state, interruption, keyboard, reduced motion and cart SKU correctness.
+
+The hero presents a shop counter covered with a navy cloth whose base color is the exact configured hero background (`--hero-cloth`). Static lighting on the surface, a bright front seam and soft irregular folds on the draped front edge distinguish it from the background without a new asset. An 800px CSS perspective and a tabletop rotated 45 degrees around X establish the elevated frontal view. The existing alpha renders remain upright 2.5D billboards, not flattened onto the tabletop or re-rendered from a new camera. All three products share a contact baseline with local foot shadows and bottom-centered transform origins, so selection scaling and interrupted transitions never lift their support anchors. Labels sit below the cloth edge. `tests/browser-counter.probe.cjs` verifies twelve viewport/selection combinations and four mid-transition contact checks, writing screenshots and geometry to `/tmp/opencode/counter-hero`.
+
+The explicitly requested idle motion runs on an independent `.hero-object-sway` wrapper: a 9-second CSS cycle with cubic-bezier(.77, 0, .175, 1), ±.8deg around Z and ±3deg around Y, offset between products. It never makes a full rotation or changes layout. Ground shadows stay on the surface; the bottom-center support anchor does not travel (billboard corners vary by less than 2.5px in the sampled viewports). The visible pause/resume control freezes the current pose; keyboard focus also pauses motion. IntersectionObserver and document visibility pause offscreen/hidden loops, with subscription cleanup on unmount. Reduced motion removes the sway and its unnecessary control. `tests/browser-tablecloth.probe.cjs` records twelve screenshots at 1440/768/390/320px, sixty sampled animation frames, exact cloth color, contact geometry, pause/resume, keyboard, offscreen and reduced-motion checks in `/tmp/opencode/tablecloth-motion`.

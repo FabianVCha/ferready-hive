@@ -21,7 +21,7 @@ Create a reusable ecommerce template rather than the final production website. P
 ## Capabilities and Constraints
 
 - The local demonstration remains opt-in through FERREADY_DEMO=1 and independent of the default Medusa storefront.
-- Preserve working catalog, product detail, cart, and simulated checkout routes. Do not activate real payments, submit real orders, or publish.
+- Preserve working catalog, product detail, cart, and guest demo checkout routes. The checkout collects test delivery/contact details only in memory, offers review and a downloadable non-fiscal PDF marked pending payment, and never clears the cart. Do not activate real payments, submit real orders, or publish.
 - Demonstration product selection is flexible; previously supplied products are not an exclusive catalog.
 - Make brand, campaign imagery, and niche content replaceable without rebuilding the storefront.
 - Existing storefront UI is Colombian Spanish. No invented testimonials, business statistics, guarantees, or support channels.
@@ -45,5 +45,6 @@ The user requests a modern, elegant, professional and lively design, informed by
 
 - Product imagery and storytelling support shopping rather than conceal prices and navigation.
 - Separate reusable structure from the first niche's campaign content.
+- Universal objective flow: choose a predefined objective, review associated products and editorial initial quantities, remove or adjust items, then add the selected set to the demo cart. No questionnaires or niche-specific calculations. Ferready supplies example content only.
 - Motion is purposeful, responsive and accessible with reduced-motion alternatives.
 - Verify the rendered desktop and mobile experience, not just the source.
