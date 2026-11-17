@@ -7,13 +7,15 @@ import { searchProducts, type DemoProduct } from "@/lib/prototype.mjs";
 import { categories, products, money } from "./catalog";
 import { Icon, useCart } from "./shell";
 import { ProductJourney } from "./product-journey";
+import { SafeImage } from "./safe-image";
+import { AddButton } from "./selection-motion";
 
 export function ProductCard({ product }: { product: DemoProduct }) {
   const { add, ready } = useCart();
   return (
     <article className="product-card">
       <Link href={`/p/${product.slug}`} className="product-image">
-        <img
+        <SafeImage
           src={product.image}
           alt={product.name}
           width="500"
@@ -34,14 +36,13 @@ export function ProductCard({ product }: { product: DemoProduct }) {
         </p>
         <div className="product-price-row">
           <span>{money(product.price)}</span>
-          <button
+          <AddButton
             disabled={!ready}
             className="quick-add"
             onClick={() => add(product.slug)}
             aria-label={`Añadir ${product.name} al carrito`}
           >
-            <Icon name="plus" size={20} />
-          </button>
+          </AddButton>
         </div>
       </div>
     </article>
@@ -211,7 +212,7 @@ export function HomeView() {
         </div>
         <div className="task-grid">
           <Link href="/c/accesorios-fijacion" className="task-tile task-red">
-            <img
+            <SafeImage
               src={products[5].image}
               alt="Brocas para elegir según el material"
               width="500"
@@ -418,17 +419,8 @@ export function CatalogView({
 export function ProductView({ product }: { product: DemoProduct }) {
   const { add, ready } = useCart();
   const [quantity, setQuantity] = useState(1);
-  const [gallery, setGallery] = useState(0);
   const [zone, setZone] = useState("Bogotá");
   const router = useRouter();
-  const photos =
-    product.slug === "taladro-bauker-12v"
-      ? [
-          product.image,
-          "/ferready/products/484299_01.webp",
-          "/ferready/products/484299_12.webp",
-        ]
-      : [product.image];
   const related = products
     .filter(
       (p) =>
@@ -450,59 +442,9 @@ export function ProductView({ product }: { product: DemoProduct }) {
         <span>/</span>
         <span>{product.brand}</span>
       </div>
-      <section className="product-detail">
-        <div className="product-gallery">
-          <div className="gallery-main">
-            <img
-              src={photos[gallery]}
-              alt={`${product.name}${gallery ? `, vista ${gallery + 1}` : ""}`}
-              width="900"
-              height="900"
-              fetchPriority="high"
-            />
-            <span className="gallery-count">
-              {gallery + 1} / {photos.length}
-            </span>
-          </div>
-          {photos.length > 1 && (
-            <div className="gallery-thumbs" aria-label="Vistas del producto">
-              {photos.map((src, i) => (
-                <button
-                  aria-label={`Ver imagen ${i + 1}`}
-                  aria-pressed={gallery === i}
-                  className={gallery === i ? "active" : ""}
-                  key={src}
-                  onClick={() => setGallery(i)}
-                >
-                  <img src={src} width="100" height="100" alt="" />
-                </button>
-              ))}
-            </div>
-          )}
-          <p className="image-caption">
-            Fotografía de referencia del producto. Selección de demostración.
-          </p>
-        </div>
+      <ProductJourney key={product.slug} product={product}>
         <div className="product-purchase">
-          <Link
-            className="product-brand"
-            href={`/catalogo?q=${encodeURIComponent(product.brand)}`}
-          >
-            {product.brand}
-          </Link>
-          <h1>{product.name}</h1>
           <p className="detail-description">{product.description}</p>
-          <Link href="#recorrido" className="text-link product-journey-link">Explorar el producto en movimiento <Icon name="diagonal" size={19} /></Link>
-          <div className="spec-chips">
-            {Object.entries(product.specs)
-              .slice(0, 3)
-              .map(([key, value]) => (
-                <span key={key}>
-                  <small>{key}</small>
-                  {value}
-                </span>
-              ))}
-          </div>
           <p className="detail-price">
             {money(product.price)} <small>IVA incluido · precio demo</small>
           </p>
@@ -527,13 +469,13 @@ export function ProductView({ product }: { product: DemoProduct }) {
                 <Icon name="plus" size={16} />
               </button>
             </div>
-            <button
+            <AddButton
               className="button button-red"
               disabled={!ready}
               onClick={() => add(product.slug, quantity)}
             >
-              Añadir al carrito <Icon name="bag" size={20} />
-            </button>
+              Añadir al carrito
+            </AddButton>
           </div>
           <button
             className="button button-dark buy-now"
@@ -542,6 +484,9 @@ export function ProductView({ product }: { product: DemoProduct }) {
           >
             Comprar ahora <Icon name="arrow" size={20} />
           </button>
+        </div>
+      </ProductJourney>
+      <section className="product-delivery" aria-label="Entrega y compra de demostración">
           <div className="delivery-box">
             <Icon name="truck" size={25} />
             <div>
@@ -572,7 +517,6 @@ export function ProductView({ product }: { product: DemoProduct }) {
             <Icon name="shield" size={18} />
             <span>Revisa compatibilidad y contenido antes de elegir.</span>
           </div>
-        </div>
       </section>
       <section className="product-information" id="especificaciones">
         <div>
@@ -639,7 +583,6 @@ export function ProductView({ product }: { product: DemoProduct }) {
           ))}
         </div>
       </section>
-      <ProductJourney key={product.slug} product={product} />
     </div>
   );
 }

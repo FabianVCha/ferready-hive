@@ -1,3 +1,5 @@
+import { productMedia, productStoryOverrides } from "../data/ferready-product-media.mjs";
+
 /** Replace campaign content here when adapting the storefront to another niche. */
 export const campaign = {
   brand: {
@@ -24,7 +26,9 @@ export const campaign = {
 export function productStory(product) {
   return {
     image: product.image,
+    media: productMedia[product.slug] ?? null,
     video: null,
+    ...productStoryOverrides[product.slug],
     specs: Object.entries(product.specs),
     chapters: [
       { title: "Míralo de cerca.", body: product.description, detail: Object.entries(product.specs)[0] },
@@ -45,5 +49,19 @@ export function journeyState(progress) {
     scale: 1 + Math.sin(p * Math.PI) * 0.06 - packing * 0.63,
     rotation: -7 + Math.sin(p * Math.PI * 2) * 9 + packing * 7,
     rotationY: Math.sin(p * Math.PI * 2) * 16,
+  };
+}
+
+/** Total automatic drill packing duration, including the lids, in seconds. */
+export const kitPackingDuration = 1;
+
+/** Each object clears the rim before the lids can move; pure and reversible. */
+export function kitPackingState(packing) {
+  const clamp = value => Math.max(0, Math.min(1, value));
+  const p = Number.isFinite(packing) ? clamp(packing) : 0;
+  return {
+    items: [[0, .36], [.28, .65], [.57, .86]].map(([start, end]) => clamp((p - start) / (end - start))),
+    close: clamp((p - .89) / .11),
+    table: 1 - clamp(p / .28),
   };
 }
