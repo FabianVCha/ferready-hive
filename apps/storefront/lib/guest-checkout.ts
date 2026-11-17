@@ -18,7 +18,7 @@ export function validateDelivery(value: Delivery): DeliveryErrors {
 export function deliveryEstimate(city: string) {
   return city === "Bogotá" ? { amount: 12000, timing: "1–2 días hábiles de ejemplo" } : ["Chía", "Soacha"].includes(city) ? { amount: 18000, timing: "2–3 días hábiles de ejemplo" } : { amount: null, timing: "Cobertura, tarifa y plazo por confirmar" };
 }
-export type OrderSnapshot = { reference: string; createdAt: string; delivery: Delivery; items: { slug: string; name: string; quantity: number; unitPrice: number; subtotal: number }[]; subtotal: number; shipping: number | null; total: number; timing: string };
+export type OrderSnapshot = { paymentStatus: "pending" | "simulated-paid"; reference: string; createdAt: string; delivery: Delivery; items: { slug: string; name: string; quantity: number; unitPrice: number; subtotal: number }[]; subtotal: number; shipping: number | null; total: number; timing: string };
 export function createSnapshot(cart: { slug: string; quantity: number }[], catalog: { slug: string; name: string; price: number }[], delivery: Delivery, reference: string, createdAt: string): OrderSnapshot {
   if (Object.keys(validateDelivery(delivery)).length) throw new Error("Invalid delivery");
   const items = cart.map(item => {
@@ -29,5 +29,78 @@ export function createSnapshot(cart: { slug: string; quantity: number }[], catal
   if (!items.length) throw new Error("Empty cart");
   const subtotal = items.reduce((sum, item) => sum + item.subtotal, 0);
   const shipping = deliveryEstimate(delivery.city);
-  return { reference, createdAt, delivery: Object.fromEntries(Object.entries(delivery).map(([key, text]) => [key, text.trim()])) as Delivery, items, subtotal, shipping: shipping.amount, total: subtotal + (shipping.amount ?? 0), timing: shipping.timing };
+  return { paymentStatus: "pending", reference, createdAt, delivery: Object.fromEntries(Object.entries(delivery).map(([key, text]) => [key, text.trim()])) as Delivery, items, subtotal, shipping: shipping.amount, total: subtotal + (shipping.amount ?? 0), timing: shipping.timing };
+}
+
+export function simulatePayment(order: OrderSnapshot): OrderSnapshot {
+  if (order.paymentStatus !== "pending") throw new Error("Payment already simulated");
+  const copy = structuredClone(order);
+  copy.paymentStatus = "simulated-paid";
+  Object.freeze(copy.delivery);
+  copy.items.forEach(Object.freeze);
+  Object.freeze(copy.items);
+  return Object.freeze(copy);
+}
+
+/** Labeled contact data shared by the screen and the selectable-text PDF. */
+export function receiptDeliveryFields(delivery: Delivery) {
+  return [
+    { label: "Nombre", value: delivery.fullName },
+    { label: "Correo", value: delivery.email },
+    { label: "Teléfono", value: delivery.phone },
+    { label: "Dirección", value: delivery.address },
+    { label: "Ciudad o municipio", value: delivery.city === "Otro municipio" ? delivery.municipality : delivery.city },
+    { label: "Barrio", value: delivery.neighborhood },
+    { label: "Complemento", value: delivery.complement },
+  ].filter(field => field.value.trim());
+}
+
+/** Printable layout for the 80 mm PDF; pending orders cannot be exported. */
+export function receiptLines(order: OrderSnapshot): string[] {
+  if (order.paymentStatus !== "simulated-paid") throw new Error("Simulate payment before generating a receipt");
+  const width = 34;
+  const lines: string[] = [];
+  const text = (value: string) => {
+    for (const paragraph of value.split("\n")) {
+      let remaining = paragraph;
+      while (remaining.length > width) {
+        const space = remaining.lastIndexOf(" ", width);
+        const cut = space > 0 ? space : width;
+        lines.push(remaining.slice(0, cut));
+        remaining = remaining.slice(cut).trimStart();
+      }
+      lines.push(remaining);
+    }
+  };
+  const money = (amount: number) => `$${new Intl.NumberFormat("es-CO").format(amount)}`;
+  const rule = () => lines.push("-".repeat(width));
+  text("          Ferready DEMO");
+  text("     COMPROBANTE NO FISCAL");
+  rule();
+  text("PAGO DE PRUEBA SIMULADO");
+  text("SIN COBRO REAL");
+  rule();
+  text(`Ref: ${order.reference}`);
+  text(new Intl.DateTimeFormat("es-CO", { dateStyle: "short", timeStyle: "short", timeZone: "America/Bogota" }).format(new Date(order.createdAt)));
+  text("Hora de Bogotá (America/Bogota)");
+  rule(); text("ENTREGA Y CONTACTO");
+  for (const field of receiptDeliveryFields(order.delivery)) { text(`${field.label}:`); text(field.value); }
+  rule(); text("CANT. x UNITARIO / SUBTOTAL (COP)");
+  for (const item of order.items) {
+    text(item.name);
+    const left = `${item.quantity} x ${money(item.unitPrice)}`;
+    const right = money(item.subtotal);
+    text(left + " ".repeat(Math.max(1, width - left.length - right.length)) + right);
+  }
+  rule();
+  text(`Subtotal: ${money(order.subtotal)}`);
+  text(`Envío: ${order.shipping === null ? "por confirmar (no incluido)" : money(order.shipping)}`);
+  text(`${order.shipping === null ? "TOTAL PARCIAL SIN ENVÍO" : "TOTAL"}: ${money(order.total)} COP`);
+  rule(); text("PAGO DE PRUEBA - SIN COBRO REAL");
+  text("No es factura electrónica ni documento fiscal DIAN. No acredita pago ni pedido real.");
+  text(`Entrega de ejemplo: ${order.timing}.`);
+  text("Precios y tarifas de demostración. El carrito se conserva.");
+  text("Datos solo en memoria; el PDF los guarda en tu dispositivo.");
+  rule(); text("       Gracias por probar");
+  return lines;
 }
