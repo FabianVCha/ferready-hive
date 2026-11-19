@@ -5,7 +5,7 @@
  * runtime. The template update workflow preserves this path during merges.
  */
 export const projectConfig = Object.freeze({
-  projectId: "template",
+  projectId: "ferready-hive",
   paymentProvider: "demo",
   storefront: {
     brandName: "Tu tienda",

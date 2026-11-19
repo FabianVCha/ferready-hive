@@ -5,7 +5,7 @@
     "version": "0.1.0"
   },
   "project": {
-    "id": "template",
+    "id": "ferready-hive",
     "configPath": "apps/storefront/data/project-config.mjs"
   },
   "sync": {
