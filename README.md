@@ -29,7 +29,7 @@ Para entender el contrato de actualización y la configuración del proyecto,
 consulta [`docs/template-updates.md`](docs/template-updates.md). El registro de
 nuevos consumidores se realiza en el repositorio upstream de la template.
 
-Sitio personal con tienda: storefront Next.js y backend Medusa, ambos locales. Fase actual: **F0 + F1**, catálogo local sin pagos y sin despliegue.
+Sitio personal con tienda: storefront Next.js y backend Medusa. Fase actual: **F2**, tienda completa desplegada en el VPS `mew` en https://ferready.odelza.com, con catálogo aprobado y pagos simulados.
 
 - **Visibilidad**: privada. No hacerla pública sin autorización explícita de Fabián.
 - **Rama por defecto**: `main`.
@@ -84,6 +84,19 @@ pública de cliente, no un secreto de servidor.
 > **Aviso**: si tu shell exporta `DATABASE_URL` (por ejemplo desde
 > `~/.config/environment.d/`), Medusa la usará por encima de `.env`. Verifica con
 > `env -u DATABASE_URL DATABASE_URL=<tu-url> npx medusa exec ./src/scripts/whoami.ts`.
+
+## Despliegue
+
+La tienda completa (storefront, backend y Postgres) corre en el VPS `mew` con Docker Compose y se
+publica en https://ferready.odelza.com a través del túnel de Cloudflare, sin abrir puertos en el
+firewall. El procedimiento completo, la actualización y la operación están en
+[`docs/despliegue-vps.md`](docs/despliegue-vps.md).
+
+```bash
+# En el VPS, dentro de /opt/ferready
+git pull
+docker compose --env-file infra/production/.env -f infra/production/docker-compose.yml up -d --build
+```
 
 ## Catálogo
 
@@ -232,4 +245,5 @@ de 2026, con el repositorio vacío y sin rama sobre la cual trabajar. Fue el ún
 
 ## Fuera de alcance en esta fase
 
-Sin pagos, sin SumUp, sin despliegue, sin VPS, sin Pages y sin cambios de plan, visibilidad o gasto.
+Sin pagos reales, sin SumUp y sin cambios de plan, visibilidad o gasto. El despliegue en el VPS `mew` ya
+no es un pendiente: se documenta en [`docs/despliegue-vps.md`](docs/despliegue-vps.md).
