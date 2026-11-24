@@ -1,12 +1,13 @@
-# hive-web
+# ferready-hive
 
 ## 🚀 ACTUALIZACIONES DE LA TEMPLATE
 
 > [!IMPORTANT]
-> **Este repositorio es la fuente de verdad del código compartido.**
+> **Este repositorio es un proyecto derivado de [`FabianVCha/hive-web`](https://github.com/FabianVCha/hive-web).**
 >
-> Cuando publiques una nueva release, los proyectos derivados recibirán una
-> propuesta automática de actualización mediante un **Pull Request**.
+> La fuente de verdad del código compartido es el repositorio de la template.
+> Las actualizaciones llegan aquí mediante una propuesta automática de
+> **Pull Request**.
 >
 > **Nunca se hace push directo a `main`.** Cada proyecto conserva su marca,
 > catálogo, imágenes, secretos y configuración propia; la actualización trae
@@ -15,17 +16,18 @@
 ### Flujo
 
 ```text
-Nueva release de hive-web
-          ↓
-Notificación a proyectos derivados
+Nueva release de `hive-web`
+           ↓
+Notificación a este proyecto derivado
           ↓
 Rama chore/template-update-*
           ↓
 Pull Request + QA + revisión humana
 ```
 
-Para registrar proyectos, configurar el token y ejecutar la primera
-actualización, consulta [`docs/template-updates.md`](docs/template-updates.md).
+Para entender el contrato de actualización y la configuración del proyecto,
+consulta [`docs/template-updates.md`](docs/template-updates.md). El registro de
+nuevos consumidores se realiza en el repositorio upstream de la template.
 
 Sitio personal con tienda: storefront Next.js y backend Medusa, ambos locales. Fase actual: **F0 + F1**, catálogo local sin pagos y sin despliegue.
 
@@ -85,15 +87,23 @@ pública de cliente, no un secreto de servidor.
 
 ## Catálogo
 
-### Plantilla neutral de demostración
+El catálogo Ferready actual tiene 45 referencias aprobadas, sincronizadas como
+borradores y sin precios. El carrito guarda la selección en Medusa/PostgreSQL,
+sin habilitar pedidos ni pagos mientras faltan los datos comerciales.
+Operación y pruebas E2E: [carrito persistente](docs/ferready-persistent-cart.md).
 
-Activa `FERREADY_DEMO=1` para usar la plantilla sin backend. La variable y los
-directorios `ferready` conservan sus nombres históricos por compatibilidad; no
-representan la identidad pública de la demo actual.
+### Demostración con identidad Ferready
+
+Activa `FERREADY_DEMO=1` para usar la tienda Ferready sin backend. Conserva el
+layout de la template, los productos de ejemplo y el checkout simulado.
+Los cuatro SVG oficiales suministrados viven en `public/project/`.
 
 - Personaliza nombre, textos principales, colores, productos, categorías,
-  objetivos, piezas del empaque y guía en `apps/storefront/data/storefront.mjs`.
-- `apps/storefront/app/template.css` aplica el lienzo blanco y los grises.
+  objetivos, piezas del empaque y guía en
+  `apps/storefront/data/project-config.mjs`.
+- `apps/storefront/app/template.css` aplica los tokens configurados: papel,
+  negro metal, azul marino, acero y rojo Ferready. Los logos y el icono son
+  opcionales; otras tiendas pueden conservar la marca de texto neutral.
 - Reemplaza `public/template/product-placeholder.svg` o las rutas de imagen de
   la configuración por tus propios recursos autorizados.
 - Las rutas de ejemplo son `/p/producto-ejemplo-1` y `/c/categoria-1`.
@@ -112,6 +122,7 @@ node tests/browser-guest-checkout.probe.cjs
 ```
 
 Las capturas y el PDF de prueba se guardan en `/tmp/opencode/neutral-template`.
+Puedes cambiar esa carpeta con `BROWSER_EVIDENCE_DIR` si `/tmp` no tiene espacio.
 
 ### Catálogo real aprobado
 
@@ -138,16 +149,17 @@ data/approved/catalog.json → npm run catalog:import → producto en DRAFT
 El importador es idempotente (busca por `handle`) y **nunca publica**: un borrador solo se publica
 desde el admin, por decisión humana. No hay integración con Odelza ni sincronización automática.
 
-## Template y proyectos derivados
+## Template y proyecto derivado
 
-Este repositorio es la fuente de la template. La configuración propia de cada
-proyecto vive en `apps/storefront/data/project-config.mjs`; el código común y
-las reglas de actualización están descritos en `template-manifest.json`.
+Este repositorio recibe el código común de `FabianVCha/hive-web` mediante ramas
+y Pull Requests automáticos. La configuración propia del proyecto vive en
+`apps/storefront/data/project-config.mjs`; los recursos propios pueden vivir
+en `apps/storefront/public/project/`.
 
-Las actualizaciones se publican como releases y llegan a los proyectos
-derivados mediante ramas y Pull Requests automáticos. No se hace push directo a
-`main`. El procedimiento completo, el registro de consumidores y los secretos
-necesarios están documentados en [`docs/template-updates.md`](docs/template-updates.md).
+No se hace push directo a `main`. El código común y las reglas de actualización
+están descritos en `template-manifest.json`; el procedimiento completo y los
+secretos necesarios están documentados en
+[`docs/template-updates.md`](docs/template-updates.md).
 
 El checkout usa el contrato `PaymentProvider` y conserva `demo` como proveedor
 por defecto. No hay todavía una pasarela real ni credenciales financieras.
