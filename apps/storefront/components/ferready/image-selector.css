@@ -1,0 +1,10 @@
+.image-selector { position: relative; z-index: 5; max-width: 100%; color: #12161b; }
+.image-selector-thumbnails { display: flex; flex-wrap: wrap; gap: 6px; }
+.image-selector-thumbnails button { width: 76px; min-height: 76px; padding: 4px; border: 2px solid transparent; background: #f5f2ec; cursor: pointer; }
+.image-selector-thumbnails button[aria-pressed="true"] { border-color: #12161b; }
+.image-selector-thumbnails button:focus-visible { outline: 3px solid #1d3659; outline-offset: 2px; }
+.image-selector-thumbnails img { width: 64px; height: 48px; object-fit: contain; }
+.image-selector-thumbnails span { display: block; font-size: 10px; line-height: 1.5; }
+.image-selector p { font-size: 12px; line-height: 1.5; margin: 6px 0 0; max-width: 46ch; }
+.hero-detail > .image-selector { margin: 12px 0; }
+.journey-stage > .image-selector { margin: 8px 0; }
