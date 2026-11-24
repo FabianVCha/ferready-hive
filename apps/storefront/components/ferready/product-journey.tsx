@@ -5,17 +5,22 @@ import { useEffect, useLayoutEffect, useRef, useState, type ReactNode } from "re
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { journeyState, productStory } from "@/lib/campaign.mjs";
-import type { DemoProduct } from "@/lib/prototype.mjs";
 import { Icon } from "./shell";
 import { ProductFigure } from "./product-figure";
 import { DrillKitTable } from "./drill-kit-table";
+import { confirmedContents, productTablePieces } from "@/lib/editorial-media.mjs";
 import { storefront } from "@/data/storefront.mjs";
+import { brandLogo } from "@/lib/storefront-brand.mjs";
+import { useVisualCatalog, type DisplayProduct } from "./catalog-context";
 
 function headerInset() {
   return Math.ceil(document.querySelector(".fr-header")?.getBoundingClientRect().height ?? 88);
 }
 
-export function ProductJourney({ product, children }: { product: DemoProduct; children: ReactNode }) {
+export function ProductJourney({ product, children }: { product: DisplayProduct; children: ReactNode }) {
+  const parcelLogo = brandLogo(storefront);
+  const tapeLogo = brandLogo(storefront, true);
+  const { informational } = useVisualCatalog();
   const root = useRef<HTMLElement>(null);
   const object = useRef<HTMLDivElement>(null);
   const box = useRef<HTMLDivElement>(null);
@@ -24,8 +29,13 @@ export function ProductJourney({ product, children }: { product: DemoProduct; ch
   const [chapter, setChapter] = useState(0);
   const [pointer, setPointer] = useState(true);
   const [replay, setReplay] = useState(0);
-  const kit = product.slug === storefront.kitSlug;
+  const [sceneAngle, setSceneAngle] = useState(0);
+  const tablePieces = informational ? productTablePieces(product) : undefined;
+  const sceneViews = tablePieces?.[0]?.views ?? [];
+  const kit = informational ? Boolean(tablePieces?.length) : product.slug === storefront.kitSlug;
   const story = productStory(product);
+  const currentScene = sceneAngle && chapter < 2 ? sceneViews.filter(view => view.src !== story.media?.[chapter]?.src)[sceneAngle - 1] : null;
+  const contents = confirmedContents(product);
   useEffect(() => {
     const scrollInput = () => setPointer(true);
     window.addEventListener("wheel", scrollInput, { passive: true });
@@ -120,7 +130,7 @@ export function ProductJourney({ product, children }: { product: DemoProduct; ch
   };
 
   return (
-    <section ref={root} data-phase={chapter} className={`product-journey product-first ${kit ? "drill-kit-journey" : ""} ${still ? "journey-still" : ""}`} id="recorrido" aria-label={`Recorrido visual de ${product.name}`}>
+    <section ref={root} data-phase={chapter} data-contents-confirmed={Boolean(contents)} className={`product-journey product-first ${kit ? "drill-kit-journey" : ""} ${still ? "journey-still" : ""}`} id="recorrido" aria-label={`Recorrido visual de ${product.name}`}>
       <div className="journey-stage">
         <div className="journey-product-heading"><h1>{product.name}</h1><Link className="product-brand" href={`/catalogo?q=${encodeURIComponent(product.brand)}`}>{product.brand}</Link></div>
         <div className="journey-topline"><h2>Conoce lo que eliges.</h2><button className="text-link" onClick={() => setStill(!still)} aria-pressed={still}>{still ? "Activar animación" : "Ver sin animación"}<Icon name={still ? "arrow" : "minus"} size={17} /></button></div>
@@ -131,14 +141,14 @@ export function ProductJourney({ product, children }: { product: DemoProduct; ch
           <div className="journey-copy">
             <div className="journey-chapters">
             {story.chapters.map((entry, index) => <article data-journey-chapter aria-hidden={chapter !== index} inert={chapter !== index} id={`etapa-${index}-${product.slug}`} key={entry.title}>
-               <h3>{index === 2 && story.contents ? "Qué incluye" : entry.title}</h3>
-               {index === 2 && story.contents ? <><ul className="journey-contents">{story.contents.map(item => <li key={item}>{item}</li>)}</ul><p className="journey-content-note">{story.contentNote}</p></> : index > 0 && <p>{entry.body}</p>}
+               <h3>{index === 2 && (story.contents || informational) ? "Qué incluye" : entry.title}</h3>
+               {index === 2 && informational && contents ? <><ul className="journey-contents"><li>1 taladro</li>{contents.components.map(piece => <li key={piece.id}>1 {piece.label.toLocaleLowerCase("es")}</li>)}</ul><p className="journey-content-note">Inclusión confirmada por el usuario (23/11/2026), no por el fabricante. Accesorios ilustrados; el mango es el mismo montado.</p></> : index === 2 && informational ? <p>{(tablePieces?.length ?? 0) > 1 ? "Producto y accesorios ilustrados; inclusión por confirmar con el fabricante." : "Contenido del empaque por confirmar con el fabricante."}</p> : index === 2 && story.contents ? <><ul className="journey-contents">{story.contents.map(item => <li key={item}>{item}</li>)}</ul><p className="journey-content-note">{story.contentNote}</p></> : index > 0 && <p>{entry.body}</p>}
               {index === 0 && entry.detail && <p className="journey-spec">{entry.detail[0]}: <strong>{entry.detail[1]}</strong></p>}
                {index === 2 && <Link className="text-link" href="#especificaciones">Revisar todos los detalles <Icon name="arrow" size={20} /></Link>}
             </article>)}
             <article data-journey-chapter aria-hidden={chapter !== 3} inert={chapter !== 3} id={`etapa-3-${product.slug}`} className="journey-checkout">
-              <h3>Tu próximo proyecto. En camino.</h3>
-              <p>Empaque y pedido de demostración. No se realiza un pago.</p>
+              <h3>{informational ? "Conoce los detalles antes de elegir." : "Tu próximo proyecto. En camino."}</h3>
+              <p>{informational ? "Empaque ilustrativo. Precio y disponibilidad por confirmar; sin compra en línea." : "Empaque y pedido de demostración. No se realiza un pago."}</p>
             </article>
             </div>
             {children}
@@ -146,19 +156,34 @@ export function ProductJourney({ product, children }: { product: DemoProduct; ch
           <div className="journey-visual" aria-label="Presentación visual y empaque ilustrativo">
             <div className="journey-orbit" aria-hidden="true" />
             <div ref={object} className="journey-object">
-               {story.media ? story.media.map((view, index) => kit && index > 1 ? null : <div className={`journey-media-layer ${view.presentation === "plate" ? "journey-media-plate" : ""}`} data-media-src={view.src} data-active={chapter === index} aria-hidden={chapter !== index} key={view.src}>
-                 {view.presentation === "plate" ? <img src={view.src} alt={view.alt} width="1200" height="800" /> : <ProductFigure src={view.src} alt={view.alt} priority />}
-              </div>) : <ProductFigure src={story.image} alt={product.name} priority />}
+               {story.media ? story.media.map((view, index) => {
+                 if (kit && index > 1) return null;
+                 const alternatives = sceneViews.filter(item => item.src !== view.src);
+                 const selected = sceneAngle && alternatives.length ? alternatives[(sceneAngle - 1) % alternatives.length] : null;
+                 const src = selected?.src ?? view.src;
+                 return <div className={`journey-media-layer ${view.presentation === "plate" ? "journey-media-plate" : ""}`} data-media-src={src} data-active={chapter === index} aria-hidden={chapter !== index} key={`${index}-${view.src}`}>
+                   {view.presentation === "plate" ? <img src={src} alt={view.alt} width="1200" height="800" /> : <ProductFigure src={src} alt={view.alt} priority preservePixels={informational} />}
+                   {sceneViews.length > 1 && index < 2 && <button type="button" className="journey-change-view" aria-label={`Cambiar vista de ${product.name}`} disabled={chapter !== index} onClick={() => setSceneAngle(value => (value + 1) % sceneViews.length)}><span>Cambiar vista · {sceneAngle + 1}/{sceneViews.length}</span></button>}
+                 </div>;
+               }) : product.missingImage ? <div className="approved-missing-image">Fotografía no disponible</div> : <ProductFigure src={story.image} alt={product.name} priority preservePixels={Boolean(product.gallery?.length)} />}
             </div>
-            {kit && <DrillKitTable chapter={chapter} still={still} pointer={pointer} replay={replay} />}
-            <div ref={box} className="shipping-parcel" aria-hidden="true">
+            {kit && <DrillKitTable key={product.slug} chapter={chapter} still={still} pointer={pointer} replay={replay} pieces={tablePieces} confirmed={!informational || Boolean(contents)} />}
+            <div ref={box} className="shipping-parcel" data-branded={Boolean(parcelLogo)} aria-hidden="true">
               <div className="parcel-back" />
-              <div className="parcel-flap parcel-flap-left" />
-              <div className="parcel-flap parcel-flap-right" />
-              <div className="parcel-front"><strong>{storefront.brandName}</strong><span>Empaque de ejemplo</span></div>
-              <div className="parcel-side" />
+              {["left", "right"].map(side => <div className={`parcel-flap parcel-flap-${side}`} key={side}>
+                {parcelLogo && tapeLogo && <div className="parcel-seal" data-dark={Boolean(storefront.logoDark)}>
+                  {[0, 1].map(index => <img src={tapeLogo.src} width={tapeLogo.width} height={tapeLogo.height} alt="" key={index} />)}
+                </div>}
+              </div>)}
+              <div className="parcel-front">
+                {parcelLogo ? <img className="parcel-brand-logo" src={parcelLogo.src} width={parcelLogo.width} height={parcelLogo.height} alt="" /> : <strong>{storefront.brandName}</strong>}
+                <span>Empaque ilustrativo</span>
+              </div>
+              <div className="parcel-side">
+                {parcelLogo && storefront.mark && <img className="parcel-brand-mark" src={storefront.mark.src} width={storefront.mark.width} height={storefront.mark.height} alt="" />}
+              </div>
             </div>
-            <p className="journey-image-note">{story.media?.[chapter]?.note ?? "Imagen del producto · espacio de ejemplo"}</p>
+            <p className="journey-image-note">{currentScene?.detail ?? story.media?.[chapter]?.note ?? (product.missingImage ? "Fotografía pendiente de procedencia verificable" : "Imagen del producto · empaque ilustrativo")}</p>
           </div>
         </div>
         <div className="journey-progress" aria-hidden="true"><span /></div>

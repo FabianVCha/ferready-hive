@@ -1,8 +1,9 @@
 import type { DemoProduct } from "../lib/prototype.mjs";
 import type { Objective } from "../lib/objectives.mjs";
-export const storefront: {
+import type { BrandAssets } from "../lib/storefront-brand.mjs";
+export const storefront: BrandAssets & {
   brandName: string; description: string; placeholder: string; kitSlug: string;
-  tokens: Record<"paper" | "surface" | "ink" | "muted" | "border" | "accent", string>;
+  tokens: Record<"paper" | "surface" | "ink" | "muted" | "border" | "accent", string> & Partial<Record<"navy" | "steel" | "footer" | "onFooter", string>>;
   hero: { title: string; description: string; background: string };
   guides: { slug: string; title: string; updated: null; markdown: string }[];
   categories: { slug: string; name: string; short: string; image: string }[];

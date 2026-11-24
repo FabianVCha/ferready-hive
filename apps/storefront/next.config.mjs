@@ -1,5 +1,9 @@
+import { fileURLToPath } from "node:url";
+
 /** @type {import('next').NextConfig} */
 const config = {
+  // The approved catalog and shared schema live at the repository level.
+  turbopack: { root: fileURLToPath(new URL("../../", import.meta.url)) },
   // The floating development badge covers product controls on small screens.
   devIndicators: false,
   // Trust this demo tunnel only; keep other remote development origins blocked.

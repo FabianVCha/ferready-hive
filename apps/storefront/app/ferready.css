@@ -1239,6 +1239,9 @@ body:has(.ferready) {
 .order-summary .button {
   width: 100%;
 }
+.order-summary > a[href="#resumen-seleccion"] + .button {
+  margin-block-start: 12px;
+}
 .demo-note {
   font-size: 10px;
   color: var(--muted);

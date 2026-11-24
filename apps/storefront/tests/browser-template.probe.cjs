@@ -1,7 +1,7 @@
 const { chromium } = require('/home/fabianvcha/playwright-login/node_modules/playwright');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
-const out = '/tmp/opencode/neutral-template';
+const out = process.env.BROWSER_EVIDENCE_DIR || '/tmp/opencode/neutral-template';
 fs.mkdirSync(out, { recursive: true });
 (async () => {
   const { storefront } = await import('../data/storefront.mjs');
@@ -12,15 +12,23 @@ fs.mkdirSync(out, { recursive: true });
   async function check(route, width, name) {
     const response = await page.goto(`http://localhost:8000${route}`, { waitUntil: 'networkidle' });
     assert.equal(response.status(), 200, route);
-    assert.doesNotMatch(await page.locator('body').innerText(), /ferready|bauker|taladro|ferretería|herramientas|homecenter|bosch/i);
-    assert.doesNotMatch(await page.title(), /ferready/i);
+    assert.doesNotMatch(await page.locator('body').innerText(), /bauker|taladro|ferretería|herramientas|homecenter|bosch/i);
+    assert.match(await page.title(), /Ferready/);
     assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `${route} overflow ${width}`);
     const images = await page.locator('main img').evaluateAll(async images => {
       await Promise.all(images.map(async image => { image.loading = 'eager'; await image.decode().catch(() => {}); }));
       return images.map(image => ({ src: image.getAttribute('src'), loaded: image.complete && image.naturalWidth > 0, alt: image.alt }));
     });
     assert(images.every(image => image.loaded && image.src.startsWith('/template/')), JSON.stringify(images));
-    assert.equal(await page.locator('.fr-header').evaluate(element => getComputedStyle(element).backgroundColor), 'rgb(255, 255, 255)');
+    assert.equal(await page.locator('.fr-header').evaluate(element => getComputedStyle(element).backgroundColor), 'rgb(245, 242, 236)');
+    assert.equal(await page.locator('.fr-header .template-logo').getAttribute('src'), storefront.logo.src);
+    const mark = page.locator('.fr-header .template-brand-mark');
+    assert.equal(await mark.getAttribute('src'), storefront.mark.src);
+    await mark.evaluate(image => image.decode());
+    const markBox = await mark.boundingBox();
+    assert(markBox.width >= 34 && markBox.height >= 39, 'official cat is visible at every viewport');
+    assert.equal(await mark.getAttribute('alt'), '');
+    assert.equal(await page.locator('.fr-footer .template-logo').getAttribute('src'), storefront.logoDark.src);
     await page.evaluate(() => scrollTo(0, 0));
     await page.screenshot({ path: `${out}/${name}-${width}.png`, fullPage: true });
     report.push({ route, width, images });

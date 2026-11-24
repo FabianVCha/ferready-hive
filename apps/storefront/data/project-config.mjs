@@ -7,13 +7,19 @@
 export const projectConfig = Object.freeze({
   projectId: "ferready-hive",
   paymentProvider: "demo",
+  // The approved catalog is informational; Medusa publication remains manual.
+  catalogSource: "approved",
   storefront: {
-    brandName: "Tu tienda",
-    description: "Plantilla de tienda con productos y precios de ejemplo.",
+    brandName: "Ferready",
+    description: "Ferready: tienda de demostración con productos y precios de ejemplo. Sin cobros ni pedidos reales.",
+    logo: { src: "/project/ferready-logotipo-claro.svg", width: 680, height: 178 },
+    logoDark: { src: "/project/ferready-logotipo-oscuro.svg", width: 680, height: 178 },
+    mark: { src: "/project/ferready-isotipo-claro.svg", width: 207, height: 241 },
+    icon: "/project/ferready-isotipo-claro.svg",
     placeholder: "/template/product-placeholder.svg",
     kitSlug: "producto-ejemplo-1",
-    tokens: { paper: "#ffffff", surface: "#f5f5f5", ink: "#202020", muted: "#595959", border: "#dedede", accent: "#303030" },
-    hero: { title: "Tu tienda, a tu manera.", description: "Un espacio para tus productos.", background: "#ffffff" },
+    tokens: { paper: "#F5F2EC", surface: "#E8E9E8", ink: "#12161B", muted: "#1D3659", border: "#4F7399", accent: "#E4261E", navy: "#1D3659", steel: "#4F7399", footer: "#12161B", onFooter: "#F5F2EC" },
+    hero: { title: "Ferready.", description: "Explora esta tienda de demostración. Productos y precios de ejemplo.", background: "#F5F2EC" },
     guides: [{ slug: "guia-ejemplo", title: "Guía de ejemplo", updated: null, markdown: "Espacio para una guía de tu tienda. Sustituye este contenido por información útil para tus productos." }],
     categories: [1, 2, 3].map(index => ({ slug: `categoria-${index}`, name: `Categoría ${index}`, short: `Categoría ${index}`, image: "/template/product-placeholder.svg" })),
     products: [1, 2, 3].map(index => ({

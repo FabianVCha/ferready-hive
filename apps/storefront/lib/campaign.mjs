@@ -1,5 +1,6 @@
 import { productMedia, productStoryOverrides } from "../data/ferready-product-media.mjs";
 import { storefront } from "../data/storefront.mjs";
+import { editorialMedia } from "./editorial-media.mjs";
 
 /** Replace campaign content here when adapting the storefront to another niche. */
 export const campaign = {
@@ -23,7 +24,7 @@ export const campaign = {
 export function productStory(product) {
   return {
     image: product.image,
-    media: productMedia[product.slug] ?? null,
+    media: product.reference ? editorialMedia(product) : productMedia[product.slug] ?? null,
     video: null,
     ...productStoryOverrides[product.slug],
     ...(product.slug === storefront.kitSlug ? { contents: storefront.kitPieces.map(piece => `1 ${piece.label.toLowerCase()}`), contentNote: "Contenido de ejemplo, por personalizar." } : {}),

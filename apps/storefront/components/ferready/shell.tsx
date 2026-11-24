@@ -1,6 +1,8 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
+import { brandLogo } from "@/lib/storefront-brand.mjs";
 import { createContext, useContext, useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import { restoreCart, updateCart, type CartItem } from "@/lib/prototype.mjs";
@@ -9,6 +11,7 @@ import { selectionResult, type ObjectiveItem } from "@/lib/objectives.mjs";
 import { RouteMotion } from "./route-motion";
 import { storefront } from "@/data/storefront.mjs";
 import type { CSSProperties } from "react";
+import { VisualCatalogProvider, type VisualCatalog } from "./catalog-context";
 
 export function Icon({ name, size = 22 }: { name: string; size?: number }) {
   const paths: Record<string, React.ReactNode> = {
@@ -79,6 +82,10 @@ export function Icon({ name, size = 22 }: { name: string; size?: number }) {
 type CartContextValue = {
   cart: CartItem[];
   ready: boolean;
+  busy: boolean;
+  error: string;
+  retry: () => void;
+  saveSelection: (slug: string, quantity: number) => Promise<boolean>;
   setQuantity: (slug: string, quantity: number) => void;
   add: (slug: string, quantity?: number) => boolean;
   addSelection: (items: ObjectiveItem[]) => boolean;
@@ -92,13 +99,37 @@ export function useCart() {
   return value;
 }
 
-export function DemoShell({ children }: { children: React.ReactNode }) {
+function Brand({ dark = false, showMark = false }: { dark?: boolean; showMark?: boolean }) {
+  const logo = brandLogo(storefront, dark);
+  return logo ? (
+    <span className="template-brand-assets">
+      {showMark && storefront.mark && (
+        <Image className="template-brand-mark" src={storefront.mark.src} width={storefront.mark.width} height={storefront.mark.height} alt="" aria-hidden="true" loading="eager" unoptimized />
+      )}
+      <Image className="template-logo" src={logo.src} width={logo.width} height={logo.height} alt={storefront.brandName} loading="eager" unoptimized />
+    </span>
+  ) : <span className="template-wordmark">{storefront.brandName}</span>;
+}
+
+export function DemoShell({ children, informational = false, approvedCategories = [], visualCatalog }: { children: React.ReactNode; informational?: boolean; approvedCategories?: { handle: string; name: string }[]; visualCatalog?: VisualCatalog }) {
   const [cart, setCart] = useState<CartItem[]>([]);
   const [ready, setReady] = useState(false);
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState("");
+  const saving = useRef(false);
   const [toast, setToast] = useState("");
   const [menu, setMenu] = useState(false);
   const menuTrigger = useRef<HTMLButtonElement>(null);
   const menuNav = useRef<HTMLElement>(null);
+  const header = useRef<HTMLElement>(null);
+  useEffect(() => {
+    if (!header.current) return;
+    const update = () => menuNav.current?.style.setProperty("--fr-header-height", `${header.current!.getBoundingClientRect().height}px`);
+    const observer = new ResizeObserver(update);
+    observer.observe(header.current);
+    update();
+    return () => observer.disconnect();
+  }, []);
   const cartRef = useRef(cart);
   cartRef.current = cart;
   useEffect(() => {
@@ -121,6 +152,14 @@ export function DemoShell({ children }: { children: React.ReactNode }) {
   }, [menu]);
   const path = usePathname();
   useEffect(() => {
+    if (informational) {
+      const refresh = () => { void loadSelection(); };
+      refresh();
+      window.addEventListener("focus", refresh);
+      const channel = new BroadcastChannel("ferready-selection");
+      channel.onmessage = refresh;
+      return () => { window.removeEventListener("focus", refresh); channel.close(); };
+    }
     try {
       setCart(
         restoreCart(localStorage.getItem("ferready-demo-cart-v1"), products),
@@ -129,16 +168,50 @@ export function DemoShell({ children }: { children: React.ReactNode }) {
       /* Private mode may disable browser storage. */
     }
     setReady(true);
-  }, []);
+  }, [informational]);
+  async function loadSelection() {
+    if (saving.current) return;
+    try {
+      const response = await fetch("/api/selection-cart", { cache: "no-store" });
+      if (!response.ok) throw new Error();
+      const data = await response.json();
+      setCart(data.items);
+      setError("");
+    } catch { setError("No pudimos cargar el carrito. Intenta de nuevo."); }
+    finally { setReady(true); }
+  }
+  async function saveSelection(slug: string, quantity: number) {
+    if (saving.current) return false;
+    saving.current = true;
+    setBusy(true);
+    setError("");
+    try {
+      const response = await fetch("/api/selection-cart", {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ slug, quantity }),
+      });
+      if (!response.ok) throw new Error();
+      const data = await response.json();
+      setCart(data.items);
+      setToast(quantity > 0 ? "Carrito guardado. Precio y disponibilidad por confirmar." : "Producto eliminado del carrito.");
+      const channel = new BroadcastChannel("ferready-selection");
+      channel.postMessage("updated");
+      channel.close();
+      return true;
+    } catch {
+      setError("No pudimos guardar el carrito. Intenta de nuevo.");
+      return false;
+    } finally { saving.current = false; setBusy(false); }
+  }
   useEffect(() => {
-    if (ready) {
+    if (ready && !informational) {
       try {
         localStorage.setItem("ferready-demo-cart-v1", JSON.stringify(cart));
       } catch {
         /* The in-memory cart remains usable. */
       }
     }
-  }, [cart, ready]);
+  }, [cart, ready, informational]);
   useEffect(() => {
     setMenu(false);
   }, [path]);
@@ -147,14 +220,16 @@ export function DemoShell({ children }: { children: React.ReactNode }) {
     const timer = setTimeout(() => setToast(""), 12000);
     return () => clearTimeout(timer);
   }, [toast]);
-  const setQuantity = (slug: string, quantity: number) =>
+  const setQuantity = (slug: string, quantity: number) => {
+    if (informational) { void saveSelection(slug, quantity); return; }
     setCart((current) => updateCart(current, slug, quantity, products));
+  };
   const add = (slug: string, quantity = 1) => {
-    if (!ready) return false;
+    if (!ready || informational) return false;
     return addSelection([{ slug, quantity }]);
   };
   const addSelection = (items: ObjectiveItem[]) => {
-    if (!ready) return false;
+    if (!ready || informational) return false;
     const result = selectionResult(cartRef.current, items, products);
     cartRef.current = result.cart;
     setCart(result.cart);
@@ -163,7 +238,7 @@ export function DemoShell({ children }: { children: React.ReactNode }) {
   };
   return (
     <CartContext.Provider
-      value={{ cart, ready, setQuantity, add, addSelection, clear: () => setCart([]) }}
+      value={{ cart, ready, busy, error, retry: () => { void loadSelection(); }, saveSelection, setQuantity, add, addSelection, clear: () => { if (!informational) setCart([]); } }}
     >
       <div className="ferready campaign-theme neutral-template" style={Object.fromEntries(Object.entries(storefront.tokens).map(([key, value]) => [`--template-${key}`, value])) as CSSProperties}>
         <a className="skip-link" href="#contenido">
@@ -171,15 +246,15 @@ export function DemoShell({ children }: { children: React.ReactNode }) {
         </a>
         <div className="announcement">
           <span>
-            <Icon name="truck" size={17} /> Tienda de demostración.
+            <Icon name="truck" size={17} /> {informational ? "Catálogo informativo · sin compra en línea" : "Tienda de demostración."}
           </span>
           <span>
             Bogotá y alrededores <Icon name="pin" size={15} />
           </span>
         </div>
-        <header className="fr-header">
+        <header ref={header} className="fr-header">
           <Link href="/" className="fr-brand" aria-label={`${storefront.brandName}, inicio`}>
-            <span className="template-wordmark">{storefront.brandName}</span>
+            <Brand showMark />
           </Link>
           <form action="/catalogo" className="header-search" role="search">
             <Icon name="search" size={20} />
@@ -194,7 +269,7 @@ export function DemoShell({ children }: { children: React.ReactNode }) {
             </button>
           </form>
           <div className="header-actions">
-            <Link
+            {<Link
               href="/carrito"
               className="cart-link"
               aria-label={`Carrito, ${cart.reduce((n, p) => n + p.quantity, 0)} productos`}
@@ -203,7 +278,7 @@ export function DemoShell({ children }: { children: React.ReactNode }) {
               <span className="cart-count">
                 {cart.reduce((n, p) => n + p.quantity, 0)}
               </span>
-            </Link>
+            </Link>}
             <button
               ref={menuTrigger}
               aria-controls="category-navigation"
@@ -220,32 +295,35 @@ export function DemoShell({ children }: { children: React.ReactNode }) {
           id="category-navigation"
           ref={menuNav}
           onClick={(event) => { if ((event.target as Element).closest("a")) setMenu(false); }}
-          className={`category-nav ${menu ? "is-open" : ""}`}
+          className={`category-nav ${informational ? "approved-navigation" : ""} ${menu ? "is-open" : ""}`}
           aria-label="Categorías de productos"
         >
           <Link className="all-categories" href="/catalogo">
             <Icon name="menu" size={18} /> Todos los productos
           </Link>
-          {categories.map((c) => (
+          {informational ? approvedCategories.map((c) => (
+            <Link key={c.handle} href={`/c/${c.handle}`}>{c.name}</Link>
+          )) : categories.map((c) => (
             <Link key={c.slug} href={`/c/${c.slug}`}>
               {c.short}
             </Link>
           ))}
           <Link href="/#por-tarea" className="task-nav">
-            Explorar por objetivo <Icon name="arrow" size={15} />
+            {informational ? "Explorar por categoría" : "Explorar por objetivo"} <Icon name="arrow" size={15} />
           </Link>
         </nav>
         <main id="contenido" className="fr-main">
-          <RouteMotion>{children}</RouteMotion>
+          {informational && error && <div className="page-pad" role="alert"><p>{error}</p><button className="text-link" onClick={() => { void loadSelection(); }}>Reintentar conexión</button></div>}
+          <RouteMotion>{visualCatalog ? <VisualCatalogProvider catalog={visualCatalog}>{children}</VisualCatalogProvider> : children}</RouteMotion>
         </main>
         <footer className="fr-footer">
           <div className="footer-top">
             <div>
-              <span className="template-wordmark">{storefront.brandName}</span>
+              <Brand dark />
               <p>
-                Tu contenido.
+                {informational ? "Herramientas Truper." : "Tu contenido."}
                 <br />
-                Tu espacio.
+                {informational ? "Referencias y fichas técnicas." : "Tu espacio."}
               </p>
             </div>
             <div>
@@ -254,28 +332,27 @@ export function DemoShell({ children }: { children: React.ReactNode }) {
                 Todos los productos <Icon name="arrow" />
               </Link>
               <Link href="/#por-tarea">
-                Encuentra por objetivo <Icon name="arrow" />
+                {informational ? "Explora por categoría" : "Encuentra por objetivo"} <Icon name="arrow" />
               </Link>
-              <Link href="/informacion">
+              {!informational && <Link href="/informacion">
                 Envíos y preguntas frecuentes <Icon name="arrow" />
-              </Link>
+              </Link>}
             </div>
             <div className="footer-location">
               <Icon name="pin" size={26} />
               <p>
-                Plantilla de demostración.
-                <br />Personaliza tu información.
+                {informational ? "Catálogo aprobado." : "Plantilla de demostración."}
+                <br />{informational ? "Sin compra en línea." : "Personaliza tu información."}
               </p>
-              <span>Precios en pesos colombianos.</span>
+              <span>{informational ? "Precio y disponibilidad por confirmar." : "Precios en pesos colombianos."}</span>
             </div>
           </div>
           <div className="footer-bottom">
             <span>© {new Date().getFullYear()} {storefront.brandName}.</span>
             <span>
-              Prototipo privado · imágenes y condiciones comerciales de
-              demostración.
+              {informational ? "Referencias aprobadas · condiciones comerciales por confirmar." : "Prototipo privado · imágenes y condiciones comerciales de demostración."}
             </span>
-            <Link href="/informacion#demo">Acerca de esta demo</Link>
+            {!informational && <Link href="/informacion#demo">Acerca de esta demo</Link>}
           </div>
         </footer>
         <div className="toast" role="status" aria-live="polite">
