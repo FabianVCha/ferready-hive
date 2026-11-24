@@ -80,6 +80,9 @@ services:
       MEDUSA_PUBLISHABLE_KEY: ${MEDUSA_PUBLISHABLE_KEY:-}
     ports:
       - "127.0.0.1:18400:8000"
+    volumes:
+      # Product photography lives on the host, not in the image or the repository.
+      - ${MEDIA_HOST_PATH:-/opt/ferready/media}:/app/apps/storefront/public/project/products:ro
     healthcheck:
       test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:8000/').then(r => process.exit(r.ok ? 0 : 1)).catch(() => process.exit(1))"]
       interval: 15s

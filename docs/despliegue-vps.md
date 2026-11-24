@@ -14,6 +14,7 @@ Cloudflare  (túnel "odelza", regla para ferready.odelza.com)
    │
    ▼
 127.0.0.1:18400  storefront (Next.js, contenedor ferready-storefront-1)
+                     └── /opt/ferready/media → /app/.../public/project/products (ro)
 127.0.0.1:18410  backend    (Medusa API + admin, contenedor ferready-backend-1)
                      │
                      ▼
@@ -33,11 +34,24 @@ solo se publica en loopback para poder entrar al admin por un túnel SSH, nunca 
 | `apps/storefront/Dockerfile` | Imagen de Next.js |
 | `.dockerignore` | Deja fuera `node_modules`, `.next`, `.medusa`, `data/research` |
 
+La fotografía de producto no se versiona: `.gitignore` excluye
+`apps/storefront/public/project/products/` y vive en el host (`/opt/ferready/media`).
+
 ## Primer despliegue
 
-1. En el VPS, clonar el repositorio en `/opt/ferready` (llave de solo lectura).
+1. En el VPS, clonar el repositorio en `/opt/ferready`.
 
-2. Crear el archivo de entorno:
+2. Copiar la fotografía de producto. **No está en el repositorio**: viaja desde el PC una sola vez y
+   se queda en el host, montada de solo lectura en el contenedor.
+
+```bash
+# En el PC
+rsync -a ~/ferready-media-backup/products/ root@31.220.96.107:/opt/ferready/media/
+# En el VPS: comprobar que llegaron las 224
+ls /opt/ferready/media | wc -l
+```
+
+3. Crear el archivo de entorno:
 
 ```bash
 cd /opt/ferready/infra/production
@@ -47,14 +61,14 @@ sed -i "s|replace_with_openssl_rand_hex_32|$(openssl rand -hex 32)|g" .env
 chmod 600 .env
 ```
 
-3. Construir y levantar:
+4. Construir y levantar:
 
 ```bash
 cd /opt/ferready
 docker compose --env-file infra/production/.env -f infra/production/docker-compose.yml up -d --build
 ```
 
-4. Preparar el canal de venta, la clave publicable y el catálogo. Las migraciones no se piden a
+5. Preparar el canal de venta, la clave publicable y el catálogo. Las migraciones no se piden a
 mano: el servicio `migrate` las corre en cada `up` antes de que arranque el backend.
 
 ```bash
@@ -70,13 +84,13 @@ sed -i "s|^MEDUSA_PUBLISHABLE_KEY=.*|MEDUSA_PUBLISHABLE_KEY=<valor>|" infra/prod
 docker compose ... up -d storefront
 ```
 
-5. Crear el usuario admin (una sola vez):
+6. Crear el usuario admin (una sola vez):
 
 ```bash
 docker compose ... exec backend npx medusa user -e admin@ferready.local -p '<password>'
 ```
 
-6. Publicar el origen en Cloudflare: ver `docs/cloudflare-ferready.md`.
+7. Publicar el origen en Cloudflare: ver `docs/cloudflare-ferready.md`.
 
 ## Actualizar la tienda
 

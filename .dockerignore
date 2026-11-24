@@ -11,6 +11,8 @@
 odd
 data/research
 docs
+# Product photography is mounted at runtime, never baked into the image.
+apps/storefront/public/project/products
 tests
 scripts/__pycache__
 *.md
