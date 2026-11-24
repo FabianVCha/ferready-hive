@@ -10,3 +10,6 @@ node_modules/
 .medusa/
 *.tsbuildinfo
 .atl/
+# Local research downloads and Python caches stay out of the repository.
+data/research/
+__pycache__/
