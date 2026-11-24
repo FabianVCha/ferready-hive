@@ -24,13 +24,16 @@ Runner de verificación: `npm test`, `npm run lint`, `npm run build` en `apps/st
 
 ## Tasks
 
-- T1. Verificar el estado actual (test, lint, build) y corregir lo que falle. Route: inline.
-- T2. Commits por tema del trabajo pendiente. Route: inline.
-- T3. Dockerfile del backend, Dockerfile del storefront, compose de producción, `.env.example`.
-  Route: inline.
-- T4. Documentación de fase y de operación (S6, S7). Route: inline.
-- T5. Construir las imágenes en local y hacer smoke test real (arranque + HTTP 200 + import).
-  Route: inline.
+- T1. [hecho] Verificar el estado actual (test, lint, build). Route: inline. Evidencia: 48 tests
+  storefront, 13 tests schema, typecheck backend y ambos builds en verde.
+- T2. [hecho] Commits por tema del trabajo pendiente. Route: inline. Evidencia: 7 commits, de
+  `chore(repo)` a `docs(odd)`, con el árbol limpio y `data/research/` fuera de git.
+- T3. [hecho] Dockerfile del backend, Dockerfile del storefront, compose de producción,
+  `.env.example`, script de bootstrap. Route: inline.
+- T4. [hecho] Documentación de fase y de operación (S6, S7). Route: inline.
+- T5. [hecho] Imágenes construidas y stack real levantado: los tres servicios `healthy`, tienda con
+  200 y título Ferready, catálogo con productos reales, admin 200, bootstrap emitiendo clave,
+  import de 45 borradores. Route: inline.
 - T6. Llevar el código al VPS y ejecutar el primer arranque (migraciones, admin, publishable key,
   import del catálogo). Route: inline, requiere passphrase del usuario.
 - T7. Regla del túnel Cloudflare para `ferready.odelza.com`, reinicio de `cloudflared` y verificación
@@ -49,3 +52,14 @@ Runner de verificación: `npm test`, `npm run lint`, `npm run build` en `apps/st
 - L5 (2026-11-24, hallazgo): el estado de partida tiene 97 archivos sin commitear y la rama no
   existe en `origin`. `README.md` y `PROTOTYPE.md` declaran que no hay despliegue autorizado; S6
   cubre esa corrección. Sin commit y push, el VPS no puede recibir el trabajo.
+- L6 (2026-11-24, verificación T5): hallazgos corregidos, todos encontrados solo al construir en
+  limpio. (a) `node:22` rompe el prerender de Next 16; se usa `node:24`. (b) `NODE_ENV=development`
+  durante `next build` también lo rompe; las devDependencies se instalan con `--include=dev` en vez
+  de fijar el entorno. (c) `npm ci` fallaba porque el lock no traía las dependencias opcionales de
+  otras plataformas; se regeneró con `--package-lock-only --include=optional`. (d) Medusa agotaba el
+  pool de 10 conexiones al migrar; `medusa-config.ts` fija `DB_POOL_MAX` (20 por defecto). (e)
+  `medusa start` sirve el admin relativo al cwd: el contenedor arranca desde `.medusa/server`.
+- L7 (2026-11-24, push): "Sí, sube la rama feat/ferready-identity (main no se toca)". Rama subida a
+  origin con seguimiento; main intacto.
+- L8 (2026-11-24, bloqueo): el socket `/tmp/ssh-agent-kyara.sock` no existe, así que el VPS rechaza
+  la llave. T6 y T7 esperan que el usuario ejecute `bash ~/unlock-vps-key.sh`.
