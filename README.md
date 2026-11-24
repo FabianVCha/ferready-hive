@@ -31,7 +31,8 @@ nuevos consumidores se realiza en el repositorio upstream de la template.
 
 Sitio personal con tienda: storefront Next.js y backend Medusa. Fase actual: **F2**, tienda completa desplegada en el VPS `mew` en https://ferready.odelza.com, con catálogo aprobado y pagos simulados.
 
-- **Visibilidad**: privada. No hacerla pública sin autorización explícita de Fabián.
+- **Visibilidad**: pública desde el 24 de noviembre de 2026, por decisión explícita de Fabián. La
+  fotografía de producto no se versiona: vive en el host de despliegue y se monta de solo lectura.
 - **Rama por defecto**: `main`.
 
 ## Estructura

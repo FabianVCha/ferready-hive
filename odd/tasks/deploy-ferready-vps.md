@@ -62,4 +62,8 @@ Runner de verificación: `npm test`, `npm run lint`, `npm run build` en `apps/st
 - L7 (2026-11-24, push): "Sí, sube la rama feat/ferready-identity (main no se toca)". Rama subida a
   origin con seguimiento; main intacto.
 - L8 (2026-11-24, bloqueo): el socket `/tmp/ssh-agent-kyara.sock` no existe, así que el VPS rechaza
-  la llave. T6 y T7 esperan que el usuario ejecute `bash ~/unlock-vps-key.sh`.
+  la llave. T6 y T7 esperan que el usuario ejecute `bash ~/unlock-vps-key.sh`.- L9 (2026-11-24, decisión de visibilidad): "haz eel repo publico porfavor" y, ante el riesgo
+  detectado, "Publicarlo pero sacando antes las fotos de producto del repo". Las 224 fotos del
+  catálogo (89 MB) se eliminaron de todo el historial con `git filter-repo` y force-push; quedan en
+  el host del VPS, montadas de solo lectura en `/opt/ferready/media`. El repo es público: un clon
+  anónimo trae 0 fotos. `main` no cambió.
