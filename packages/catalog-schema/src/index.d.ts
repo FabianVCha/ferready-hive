@@ -11,6 +11,13 @@ export type CatalogProduct = {
   summary: string | null;
   description: string | null;
   price_cop: number | null;
+  images: string[];
+  gallery: { src: string; original?: string; kind: "photo" | "illustration"; caption: string; provenance: string; role?: "angle" | "detail" | "accessory"; observation?: string }[];
+  specifications: Record<string, string>;
+  brand: string | null;
+  model: string | null;
+  source_url: string | null;
+  image_source_url: string | null;
   content_variants: CatalogContentVariant[];
   approved_by: string;
   approved_at: string;

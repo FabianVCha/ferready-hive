@@ -1,0 +1,50 @@
+[
+  {
+    "source": "data/research/truper/images/herramientas-electricas/104412-a12-rot-1/ChatGPT Image Nov 22, 2026, 07_37_30 PM-7.png",
+    "reason": "Isolated wide slide-mount battery conflicts with the compact tool's narrow base."
+  },
+  {
+    "source": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/ChatGPT Image Nov 22, 2026, 03_26_38 PM-1.png",
+    "reason": "Tres cuartos frontal; disco rotulado 6 pulgadas/150 mm, texto y cifras incoherentes"
+  },
+  {
+    "source": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/ChatGPT Image Nov 22, 2026, 03_26_38 PM-2.png",
+    "reason": "Perfil, cabezal a la izquierda; disco nominal 9 pulgadas/230 mm pero carcasa rotulada 6-700 W, no 2350 W"
+  },
+  {
+    "source": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/ChatGPT Image Nov 22, 2026, 03_26_39 PM-3.png",
+    "reason": "Tres cuartos posterior; disco rotulado 6 pulgadas/150 mm y potencia alterada"
+  },
+  {
+    "source": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/ChatGPT Image Nov 22, 2026, 03_26_40 PM-4.png",
+    "reason": "Tres cuartos frontal elevado; disco rotulado 6 pulgadas/150 mm, no 9 pulgadas"
+  },
+  {
+    "source": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/Truper Expert Abrasive Grinding Disc-1.png",
+    "reason": "Disco aislado rotulado 7 pulgadas/175 mm, código 11559 ABT-778; no corresponde al diámetro nominal 9 pulgadas"
+  },
+  {
+    "source": "data/research/truper/images/equipo-automotriz/104495-arba-12/ChatGPT Image Nov 23, 2026, 07_20_19 PM-1.png",
+    "reason": "Full-resolution label says 100 mAh; verified ARBA-12 capacity is 12,000 mAh."
+  },
+  {
+    "source": "data/research/truper/images/equipo-automotriz/104495-arba-12/ChatGPT Image Nov 23, 2026, 07_20_20 PM-3.png",
+    "reason": "Full-resolution rear label says 10,000 mAh / 3.7 V; verified ARBA-12 is 12,000 mAh / 14.8 V."
+  },
+  {
+    "source": "data/research/truper/images/herramientas-manuales/104274-n20-des-2/TRUPER Industrial Cordless Tool Collection-2.png",
+    "reason": "Composición de tres herramientas distintas; no atribuir este conjunto al producto individual"
+  },
+  {
+    "source": "data/research/truper/images/herramientas-manuales/13178-enne-160/Metal Demolition Chisel Bit-9.png",
+    "reason": "Cincel plano de demolición: no representa una pieza propia de la engrapadora mostrada"
+  },
+  {
+    "source": "data/research/truper/images/herramientas-manuales/13178-enne-160/Metal Demolition Hammer Point Bit-8.png",
+    "reason": "Cincel de punta de demolición: no representa una pieza propia de la engrapadora mostrada"
+  },
+  {
+    "source": "data/research/truper/images/medicion-y-trazado/104111-nl-16/TRUPER 4D Laser Level Close-Up-3.png",
+    "reason": "Full-resolution rear label says NLL-4D / 20 V; verified product is NL-16 / 11.1 V."
+  }
+]
