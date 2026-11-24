@@ -1,0 +1,91 @@
+name: ferready
+
+# Every port is bound to loopback. Public traffic arrives through the Cloudflare
+# tunnel, so no inbound firewall rule is needed on the host.
+
+x-backend-environment: &backend-environment
+  NODE_ENV: production
+  DATABASE_URL: postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-ferready}
+  STORE_CORS: ${STORE_CORS:?set STORE_CORS in the env file}
+  ADMIN_CORS: ${ADMIN_CORS:?set ADMIN_CORS in the env file}
+  AUTH_CORS: ${AUTH_CORS:?set AUTH_CORS in the env file}
+  JWT_SECRET: ${JWT_SECRET:?set JWT_SECRET in the env file}
+  COOKIE_SECRET: ${COOKIE_SECRET:?set COOKIE_SECRET in the env file}
+  CATALOG_ASSET_ORIGIN: ${CATALOG_ASSET_ORIGIN:?set CATALOG_ASSET_ORIGIN in the env file}
+  DB_POOL_MAX: ${DB_POOL_MAX:-20}
+
+x-backend-image: &backend-image
+  build:
+    context: ../..
+    dockerfile: apps/backend/Dockerfile
+  image: ferready-backend
+
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:?set POSTGRES_USER in the env file}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in the env file}
+      POSTGRES_DB: ${POSTGRES_DB:-ferready}
+    volumes:
+      - ferready_db:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+
+  # Runs the schema migrations once per release and exits. The backend waits for
+  # it, so a fresh database never starts the API before its tables exist.
+  migrate:
+    <<: *backend-image
+    restart: "no"
+    command: ["npm", "--prefix", "apps/backend", "run", "db:migrate"]
+    depends_on:
+      db:
+        condition: service_healthy
+    environment: *backend-environment
+
+  backend:
+    <<: *backend-image
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+      migrate:
+        condition: service_completed_successfully
+    environment: *backend-environment
+    ports:
+      - "127.0.0.1:18410:9000"
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:9000/health').then(r => process.exit(r.ok ? 0 : 1)).catch(() => process.exit(1))"]
+      interval: 15s
+      timeout: 5s
+      retries: 20
+      start_period: 90s
+
+  storefront:
+    build:
+      context: ../..
+      dockerfile: apps/storefront/Dockerfile
+    image: ferready-storefront
+    restart: unless-stopped
+    depends_on:
+      backend:
+        condition: service_healthy
+    environment:
+      NODE_ENV: production
+      MEDUSA_BACKEND_URL: http://backend:9000
+      MEDUSA_PUBLISHABLE_KEY: ${MEDUSA_PUBLISHABLE_KEY:-}
+    ports:
+      - "127.0.0.1:18400:8000"
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:8000/').then(r => process.exit(r.ok ? 0 : 1)).catch(() => process.exit(1))"]
+      interval: 15s
+      timeout: 5s
+      retries: 20
+      start_period: 30s
+
+volumes:
+  ferready_db:

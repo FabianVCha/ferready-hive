@@ -1,0 +1,19 @@
+# Build context is the repository root: both apps link packages/catalog-schema
+# through a relative file: dependency.
+**/node_modules
+**/.next
+**/.medusa
+**/__pycache__
+**/*.tsbuildinfo
+**/.playwright-mcp
+.git
+.github
+odd
+data/research
+docs
+tests
+scripts/__pycache__
+*.md
+.env
+.env.local
+.env.*.local
