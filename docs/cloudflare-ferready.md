@@ -1,74 +1,99 @@
-# Publicar ferready.odelza.com en el túnel
+# Publicar ferready.odelza.com
 
-El túnel `odelza` sirve hoy `odelza.com` y `*.odelza.com` apuntando a `127.0.0.1:18300` (Twenty CRM).
-Un subdominio nuevo necesita su propia regla **antes** del comodín; si se deja después, el CRM
-responde en lugar de la tienda.
+La tienda usa un túnel **dedicado** llamado `ferready`. El túnel `odelza` sigue sirviendo
+`odelza.com`, `*.odelza.com` y el resto de subdominios hacia `127.0.0.1:18300` (Twenty CRM), y no se
+toca: crear o reiniciar el túnel de la tienda nunca afecta al CRM ni a los agentes.
 
-## 1. Respaldo y edición
+## 1. Crear el túnel (una sola vez)
+
+`/root/.cloudflared/cert.pem` ya autoriza la cuenta en el servidor:
 
 ```bash
-cp /etc/cloudflared/config.yml /etc/cloudflared/config.yml.bak-$(date +%Y%m%dT%H%M%S)
+cloudflared tunnel create ferready
+# Created tunnel ferready with id <UUID>
 ```
 
-Insertar la regla justo antes de la entrada comodín:
+## 2. Configuración y servicio
+
+`/etc/cloudflared/ferready.yml`, con permisos `600`:
 
 ```yaml
+tunnel: <UUID>
+credentials-file: /root/.cloudflared/<UUID>.json
+
 ingress:
   - hostname: ferready.odelza.com
     service: http://127.0.0.1:18400
-  - hostname: odelza.com
-    service: http://127.0.0.1:18300
-  - hostname: '*.odelza.com'
-    service: http://127.0.0.1:18300
   - service: http_status:404
 ```
 
-Validar que el YAML sigue siendo válido antes de reiniciar:
+Validar y levantar la unidad propia (no se reinicia `cloudflared`):
 
 ```bash
-python3 -c "import yaml,sys; yaml.safe_load(open('/etc/cloudflared/config.yml'))" && echo YAML_OK
+cloudflared tunnel ingress validate --config /etc/cloudflared/ferready.yml
+systemctl daemon-reload
+systemctl enable --now cloudflared-ferready
+systemctl is-active cloudflared-ferready          # active
+journalctl -u cloudflared-ferready --since "2 min ago" --no-pager | grep -c "Registered tunnel connection"
 ```
 
-## 2. DNS
+## 3. DNS: apuntar al túnel correcto
 
-Comprobar si el nombre ya resuelve al túnel:
+El comodín `*.odelza.com` ya existe y apunta al túnel `odelza`; el nombre de la tienda necesita su
+propio registro explícito.
 
 ```bash
-dig +short ferready.odelza.com
-cloudflared tunnel list
+cloudflared tunnel route dns ferready ferready.odelza.com
 ```
 
-Si no existe el registro, crearlo apuntando al túnel `odelza`:
+**Trampa comprobada:** con la versión instalada (2026.7.3) ese comando escribió el CNAME apuntando
+al túnel `odelza` (`4f35f51b…`) en vez de al nuevo. Comprobar siempre a qué túnel quedó apuntando:
 
 ```bash
-cloudflared tunnel route dns odelza ferready.odelza.com
+dig +short CNAME ferready.odelza.com     # debe ser <UUID nuevo>.cfargotunnel.com
 ```
 
-## 3. Aplicar
+Si quedó apuntando al túnel equivocado, corregirlo con la API (o recrear el registro) hacia
+`<UUID nuevo>.cfargotunnel.com`, proxied. El comodín debe seguir intacto.
 
-```bash
-systemctl restart cloudflared
-systemctl is-active cloudflared
-journalctl -u cloudflared --since "2 min ago" --no-pager | tail -20
+## 4. Access: abrir el hostname
+
+Existe la aplicación `*.odelza.com` ("Odelza Unknown Subdomains") que exige autenticación a todo
+subdominio no listado. La tienda debe ser pública, así que tiene su propia aplicación, que gana por
+ser más específica:
+
+```text
+Aplicación:  Odelza Ferready
+Dominio:     ferready.odelza.com
+Política:    Bypass tienda publica · decision=bypass · include=[everyone]
 ```
 
-## 4. Verificar
+Ni la aplicación comodín ni sus políticas se modifican. Con el bypass, la respuesta deja de ser un
+`302` al login de Access.
+
+## 5. Verificar
 
 ```bash
-# La tienda responde y llega al storefront, no al CRM.
-curl -sI https://ferready.odelza.com | head -5
+# Público, sin login, y sirviendo el storefront (no el CRM)
+curl -s -o /dev/null -w '%{http_code}\n' https://ferready.odelza.com
 curl -s https://ferready.odelza.com | grep -o '<title>[^<]*</title>' | head -1
 
-# Los hostnames que ya existían siguen igual.
-curl -sI https://mew.odelza.com | head -3
-curl -sI https://morgan.odelza.com | head -3
+# Foto servida desde /opt/ferready/media
+curl -s -o /dev/null -w '%{http_code} %{size_download}\n' https://ferready.odelza.com/project/products/truper/100105.jpg
+
+# Los hostnames que ya existían siguen igual
+curl -s -o /dev/null -w 'mew %{http_code}\n' https://mew.odelza.com
+curl -s -o /dev/null -w 'morgan %{http_code}\n' https://morgan.odelza.com
 ```
+
+Lectura de códigos: `200` correcto · `302` sigue el login de Access · `502` el túnel llega pero el
+storefront está caído · `404` el túnel no tiene regla para ese hostname.
 
 ## Reversión
 
 ```bash
-cp /etc/cloudflared/config.yml.bak-<marca> /etc/cloudflared/config.yml
-systemctl restart cloudflared
+systemctl disable --now cloudflared-ferready
 ```
 
-El backup deja el túnel exactamente como estaba: mismo certificado, mismas reglas, mismo DNS.
+Después: borrar la aplicación `Odelza Ferready` en Access y el registro CNAME
+`ferready.odelza.com`. El túnel `odelza` nunca se modificó, así que no hay nada que restaurar en él.
