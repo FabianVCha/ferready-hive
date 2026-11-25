@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { ProductView } from "@/components/ferready/storefront";
 import { products } from "@/components/ferready/catalog";
 import { isDemoEnabled } from "@/lib/prototype.mjs";
+import { approvedCatalog, approvedVisualCatalog, usesApprovedCatalog } from "@/lib/approved-catalog";
 
 import { getProductByHandle, priceOf, referenceOf } from "@/lib/medusa";
 
@@ -20,6 +21,10 @@ export async function generateMetadata({ params }: Props) {
       robots: { index: false, follow: false },
     };
   }
+  if (usesApprovedCatalog) return {
+    title: approvedCatalog.products.find((item) => item.handle === slug)?.title ?? "Producto no disponible",
+    alternates: { canonical: `/p/${slug}` },
+  };
   const product = await getProductByHandle(slug);
   const canonical = `/p/${slug}`;
 
@@ -35,6 +40,11 @@ export default async function ProductPage({ params }: Props) {
     const candidate = products.find((p) => p.slug === slug);
     if (!candidate) notFound();
     return <ProductView key={slug} product={candidate} />;
+  }
+  if (usesApprovedCatalog) {
+    const product = approvedVisualCatalog.products.find((item) => item.slug === slug);
+    if (!product) notFound();
+    return <ProductView key={slug} product={product} />;
   }
   const product = await getProductByHandle(slug);
 

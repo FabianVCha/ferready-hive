@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { CatalogView } from "@/components/ferready/storefront";
 import { categories as demoCategories } from "@/components/ferready/catalog";
 import { isDemoEnabled } from "@/lib/prototype.mjs";
+import { approvedCatalog, usesApprovedCatalog } from "@/lib/approved-catalog";
 
 import {
   listCategories,
@@ -23,6 +24,10 @@ export async function generateMetadata({ params }: Props) {
       alternates: { canonical: `/c/${handle}` },
       robots: { index: false, follow: false },
     };
+  if (usesApprovedCatalog) return {
+    title: approvedCatalog.categories.find((item) => item.handle === handle)?.name ?? "Categoría",
+    alternates: { canonical: `/c/${handle}` },
+  };
   const categories = await listCategories();
   const category = categories.find((item) => item.handle === handle);
   return {
@@ -35,6 +40,10 @@ export default async function CategoryPage({ params }: Props) {
   const { handle } = await params;
   if (isDemoEnabled(process.env.FERREADY_DEMO)) {
     if (!demoCategories.some((c) => c.slug === handle)) notFound();
+    return <CatalogView key={handle} category={handle} />;
+  }
+  if (usesApprovedCatalog) {
+    if (!approvedCatalog.categories.some((item) => item.handle === handle)) notFound();
     return <CatalogView key={handle} category={handle} />;
   }
   const [categories, products] = await Promise.all([

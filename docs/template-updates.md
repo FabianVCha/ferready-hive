@@ -1,7 +1,9 @@
-# Actualizaciones de proyectos derivados
+# Actualizaciones de la template en este proyecto derivado
 
-Este repositorio es la fuente de la template. Un proyecto derivado conserva su
-identidad comercial y sus secretos, pero recibe el código común mediante
+Este repositorio es un proyecto derivado de
+[`FabianVCha/hive-web`](https://github.com/FabianVCha/hive-web). La template
+upstream es la fuente del código compartido. Este proyecto conserva su
+identidad comercial y sus secretos, pero recibe las actualizaciones mediante
 Pull Requests.
 
 ## Capas
@@ -18,7 +20,10 @@ Pull Requests.
 identificador del proyecto, el proveedor de pago elegido y la configuración
 visual/catalográfica de la tienda.
 
-## Registrar un proyecto derivado
+## Registrar un nuevo proyecto derivado
+
+Los siguientes pasos se ejecutan en el repositorio upstream al dar de alta un
+nuevo consumidor. No son necesarios para cada actualización de este proyecto.
 
 1. Copia esta base a un repositorio nuevo.
 2. Conserva `template-manifest.json` y cambia `project.id`.

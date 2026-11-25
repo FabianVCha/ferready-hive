@@ -168,6 +168,42 @@ export function validateCatalog(input) {
         }
       }
 
+      const images = product.images ?? [];
+      if (!Array.isArray(images) || images.some((image) =>
+        typeof image !== "string" || !/^\/project\/products\/[a-zA-Z0-9/_-]+\.(jpg|png|webp)$/.test(image)
+      )) {
+        errors.push(`${at}.images must contain local /project/products/ image paths`);
+      }
+      const specifications = product.specifications ?? {};
+      const gallery = product.gallery ?? [];
+      if (!Array.isArray(gallery) || gallery.some((entry) =>
+        !isPlainObject(entry) ||
+        !/^\/project\/products\/[a-zA-Z0-9/_-]+\.(jpg|png|webp)$/.test(entry.src ?? "") ||
+        !["photo", "illustration"].includes(entry.kind) ||
+        !isNonEmptyString(entry.caption) || !isNonEmptyString(entry.provenance)
+      ) || new Set(gallery.map((entry) => entry.src)).size !== gallery.length) {
+        errors.push(`${at}.gallery requires unique local images with kind, caption and provenance`);
+      }
+      if (!isPlainObject(specifications) || Object.entries(specifications).some(
+        ([key, value]) => !isNonEmptyString(key) || !isNonEmptyString(value)
+      )) {
+        errors.push(`${at}.specifications must contain non-empty string values`);
+      }
+      for (const field of ["brand", "model", "source_url", "image_source_url"]) {
+        if (product[field] !== undefined && !isNonEmptyString(product[field])) {
+          errors.push(`${at}.${field} must be a non-empty string`);
+        }
+      }
+      for (const field of ["source_url", "image_source_url"]) {
+        if (product[field] !== undefined) {
+          try {
+            if (new URL(product[field]).protocol !== "https:") throw new Error("insecure source");
+          } catch {
+            errors.push(`${at}.${field} must be an absolute HTTPS URL`);
+          }
+        }
+      }
+
       products.push({
         reference: String(product.reference),
         title: String(product.title ?? "").trim(),
@@ -177,6 +213,13 @@ export function validateCatalog(input) {
         summary: isNonEmptyString(product.summary) ? String(product.summary).trim() : null,
         description: isNonEmptyString(product.description) ? String(product.description).trim() : null,
         price_cop: Number.isInteger(product.price_cop) ? product.price_cop : null,
+        images: Array.isArray(images) ? images : [],
+        gallery: Array.isArray(gallery) ? gallery : [],
+        specifications: isPlainObject(specifications) ? specifications : {},
+        brand: product.brand ?? null,
+        model: product.model ?? null,
+        source_url: product.source_url ?? null,
+        image_source_url: product.image_source_url ?? null,
         content_variants: variants,
         approved_by: String(product.approved_by ?? "").trim(),
         approved_at: String(product.approved_at ?? "").trim(),

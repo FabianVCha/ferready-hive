@@ -7,10 +7,18 @@ import { money, products } from "./catalog";
 import { AddButton } from "./selection-motion";
 import { useCart } from "./shell";
 import { SafeImage } from "./safe-image";
+import { useVisualCatalog, type DisplayProduct } from "./catalog-context";
 
 export function ProductHero({ config = heroConfig }: { config?: typeof heroConfig }) {
+  const { products: visualProducts, informational } = useVisualCatalog();
+  const catalogProducts: DisplayProduct[] = informational ? visualProducts : products;
+  if (informational) config = {
+    ...config,
+    description: "Herramientas Truper. Explora las referencias y sus características.",
+    products: catalogProducts.filter((product) => !product.missingImage).slice(0, 3).map((product) => ({ slug: product.slug, label: product.model ?? product.name, render: product.image })),
+  };
   const entries = config.products.flatMap((entry) => {
-    const product = products.find((candidate) => candidate.slug === entry.slug);
+    const product = catalogProducts.find((candidate) => candidate.slug === entry.slug);
     return product ? [{ ...entry, product }] : [];
   });
   const [selected, setSelected] = useState(0);
@@ -94,10 +102,10 @@ export function ProductHero({ config = heroConfig }: { config?: typeof heroConfi
     </div>
     <div className="hero-detail" aria-live={manualSelection ? "polite" : "off"} aria-atomic="true">
       <h2><Link href={`/p/${current.slug}`}>{current.product.name}</Link></h2>
-      <strong>{money(current.product.price)} <small>COP</small></strong>
-      <span className="hero-price-note">Precio de demostración</span>
-      <div className="hero-actions"><AddButton key={current.slug} className="button button-red" disabled={!ready} onClick={() => add(current.slug)}>Agregar al carrito</AddButton><Link className="hero-product-link" href={`/p/${current.slug}`}>Ver ficha del producto</Link></div>
-      <small className="hero-disclosure">Imágenes, productos y precios de ejemplo. Personaliza el catálogo antes de publicar.</small>
+      <strong>{current.product.price === null ? "Precio por confirmar" : money(current.product.price)} {!informational && <small>COP</small>}</strong>
+      <span className="hero-price-note">{informational ? "Precio y disponibilidad por confirmar" : "Precio de demostración"}</span>
+      <div className="hero-actions">{!informational && <AddButton key={current.slug} className="button button-red" disabled={!ready} onClick={() => add(current.slug)}>Agregar al carrito</AddButton>}<Link className={informational ? "button button-red" : "hero-product-link"} href={`/p/${current.slug}`}>Ver ficha del producto</Link></div>
+      <small className="hero-disclosure">{informational ? "Catálogo informativo. Sin compra en línea." : "Imágenes, productos y precios de ejemplo. Personaliza el catálogo antes de publicar."}</small>
       <Link className="hero-catalog-link" href="/catalogo">Explorar todo el catálogo</Link>
     </div>
   </section>;

@@ -19,7 +19,8 @@ receives shared-code updates through Pull Requests.
   `apps/storefront/data/project-config.mjs`.
 - The payment provider is still `demo`; no real payment credentials or gateway
   are configured.
-- There is no production deployment or live commercial catalog yet.
+- Production runs on the mew VPS behind the Cloudflare tunnel at ferready.odelza.com. The catalog
+  stays draft-only until a person publishes each reference.
 - The first niche adaptation is the Ferready storefront and should be
   introduced through project-owned configuration and approved assets.
 

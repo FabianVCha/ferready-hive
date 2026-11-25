@@ -10,3 +10,8 @@ node_modules/
 .medusa/
 *.tsbuildinfo
 .atl/
+# Local research downloads and Python caches stay out of the repository.
+data/research/
+__pycache__/
+# Product photography is served from the VPS, not versioned.
+apps/storefront/public/project/products/

@@ -2,16 +2,17 @@
 
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
+import type { TablePiece } from "@/lib/editorial-media.mjs";
 import { kitPackingDuration, kitPackingState } from "@/lib/campaign.mjs";
 import { storefront } from "@/data/storefront.mjs";
 
-const pieces = storefront.kitPieces;
+const demoPieces = storefront.kitPieces.map(piece => ({ ...piece, src: storefront.placeholder }));
 
 export function renderKitPacking(root: HTMLElement, packing: number) {
   const state = kitPackingState(packing);
   const parcel = root.querySelector<HTMLElement>(".shipping-parcel");
   root.querySelectorAll<HTMLElement>(".kit-piece").forEach((piece, index) => {
-    const p = state.items[index];
+    const p = state.items[index] ?? state.items.at(-1)!;
     const eased = p * p * (3 - 2 * p);
     // Both objects share the visual's coordinate system. Target the actual
     // parcel interior so portrait, landscape and resized scenes land alike.
@@ -26,9 +27,13 @@ export function renderKitPacking(root: HTMLElement, packing: number) {
   root.dataset.packed = String(packing >= 1);
 }
 
-export function DrillKitTable({ chapter, still, pointer, replay }: { chapter: number; still: boolean; pointer: boolean; replay: number }) {
+export function DrillKitTable({ chapter, still, pointer, replay, pieces = demoPieces, confirmed = true }: { chapter: number; still: boolean; pointer: boolean; replay: number; pieces?: TablePiece[]; confirmed?: boolean }) {
   const scene = useRef<HTMLDivElement>(null);
   const [selected, setSelected] = useState(0);
+  const [accessoryPage, setAccessoryPage] = useState(0);
+  const pages = Math.max(1, Math.ceil((pieces.length - 1) / 2));
+  const shownPieces = [pieces[0], ...pieces.slice(1 + accessoryPage * 2, 3 + accessoryPage * 2)].filter(Boolean);
+  const selectedDetail = shownPieces[selected]?.detail;
   const [paused, setPaused] = useState(false);
   const [visible, setVisible] = useState(false);
   const [focused, setFocused] = useState(false);
@@ -70,9 +75,9 @@ export function DrillKitTable({ chapter, still, pointer, replay }: { chapter: nu
   }, []);
   useEffect(() => {
     if (!running) return;
-    const timer = setTimeout(() => { setManual(false); setPointerSelection(true); setSelected(value => (value + 1) % pieces.length); }, 10_000);
+    const timer = setTimeout(() => { setManual(false); setPointerSelection(true); setSelected(value => (value + 1) % shownPieces.length); }, 10_000);
     return () => clearTimeout(timer);
-  }, [running, selected]);
+  }, [running, selected, shownPieces.length]);
   useEffect(() => {
     const root = scene.current?.closest<HTMLElement>(".product-journey");
     if (!root) return;
@@ -95,20 +100,20 @@ export function DrillKitTable({ chapter, still, pointer, replay }: { chapter: nu
     window.addEventListener("pageshow", show);
     return () => { window.removeEventListener("pagehide", hide); window.removeEventListener("pageshow", show); };
   }, [visible]);
-  return <div ref={scene} className="kit-table" data-idle={running ? "running" : "paused"} data-motion={pointerSelection ? "pointer" : "keyboard"} data-selected={selected}
-    aria-label="Componentes incluidos en el kit" role="group" inert={chapter !== 2 && chapter !== 3} aria-hidden={chapter !== 2 && chapter !== 3}
+  return <div ref={scene} className="kit-table" data-count={shownPieces.length} data-total={pieces.length} data-pages={pages} data-idle={running ? "running" : "paused"} data-motion={pointerSelection ? "pointer" : "keyboard"} data-selected={selected}
+    aria-label={confirmed ? "Componentes incluidos en el kit" : "Producto y accesorios ilustrados · inclusión por confirmar"} role="group" inert={chapter !== 2 && chapter !== 3} aria-hidden={chapter !== 2 && chapter !== 3}
     onFocusCapture={() => { if (focusModality.current === "keyboard") setFocused(true); }} onBlurCapture={event => { if (!event.currentTarget.contains(event.relatedTarget)) setFocused(false); }}
     onKeyDownCapture={() => { focusModality.current = "keyboard"; setFocused(true); }}
     onPointerDownCapture={() => { focusModality.current = "pointer"; setFocused(false); }}
     onPointerEnter={event => { if (event.pointerType === "mouse" && matchMedia("(hover: hover) and (pointer: fine)").matches) setHovered(true); }} onPointerLeave={() => setHovered(false)}>
     <div className="hero-counter kit-counter" aria-hidden="true"><div className="hero-counter-top" /><div className="hero-counter-edge" /></div>
-    {pieces.map((piece, index) => <div className={`kit-piece kit-piece-${piece.id}`} key={piece.id}>
-      <button className="kit-select" type="button" aria-pressed={selected === index} aria-label={`Ver ${piece.label.toLowerCase()} incluido`} disabled={chapter !== 2} onClick={event => { setManual(true); setPointerSelection(event.detail > 0); setSelected(index); }}>
-        <span className="kit-emphasis" data-active={selected === index}><b className="hero-object-sway"><img src={storefront.placeholder} alt="" width={piece.width} height={piece.height} /></b></span>
-        <span className="kit-label">{piece.label}</span>
+    {shownPieces.map((piece, index) => <div className={`kit-piece kit-piece-${piece.id}`} data-slot={index} key={piece.id}>
+      <button className="kit-select" type="button" aria-pressed={selected === index} aria-label={`Ver ${piece.label.toLowerCase()}${confirmed ? " · componente incluido" : index === 0 ? " fotografiado" : " · ilustración, inclusión por confirmar"}`} disabled={chapter !== 2} onClick={event => { setManual(true); setPointerSelection(event.detail > 0); setSelected(index); }}>
+        <span className="kit-emphasis" data-active={selected === index}><b className="hero-object-sway"><img src={piece.src} alt="" width={piece.width} height={piece.height} /></b></span>
+        <span className="kit-label">{piece.label}{!confirmed && index > 0 && piece.label !== "Accesorio ilustrado" ? " · ilustrado" : ""}</span>
       </button>
     </div>)}
-    {chapter === 2 && <><button className="hero-motion-toggle" type="button" onClick={() => setPaused(value => !value)} aria-pressed={paused}>{paused ? "Activar animación" : "Pausar animación"}</button><p className="kit-info" aria-live={manual ? "polite" : "off"}>{pieces[selected].detail}</p></>}
+    {chapter === 2 && <>{pages > 1 && <nav className="kit-pages" aria-label="Accesorios ilustrados"><button type="button" disabled={accessoryPage === 0} onClick={() => { setAccessoryPage(value => value - 1); setSelected(0); }}>Anteriores</button><span>{accessoryPage + 1} / {pages}</span><button type="button" disabled={accessoryPage === pages - 1} onClick={() => { setAccessoryPage(value => value + 1); setSelected(0); }}>Siguientes</button></nav>}<button className="hero-motion-toggle" type="button" onClick={() => setPaused(value => !value)} aria-pressed={paused}>{paused ? "Activar animación" : "Pausar animación"}</button><p className="kit-info" aria-live={manual ? "polite" : "off"}>{selectedDetail}</p></>}
     {chapter === 3 && <button className="kit-replay text-link" type="button" onClick={event => { replayInput.current = event.detail > 0; setPlay(value => value + 1); }}>Ver empaque de nuevo</button>}
   </div>;
 }

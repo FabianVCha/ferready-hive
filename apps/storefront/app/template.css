@@ -1,9 +1,16 @@
 /* Neutral template layer. Public palette comes from data/storefront.mjs. */
+.neutral-template .approved-navigation { flex-wrap: wrap; row-gap: 0; }
+.neutral-template .approved-missing-image { display: grid; place-items: center; min-height: 220px; padding: 24px; color: var(--navy); text-align: center; }
+.neutral-template .approved-quote { display: grid; gap: 12px; margin-top: 20px; }
+.neutral-template .approved-quote .detail-price { font-size: clamp(22px, 3vw, 34px); }
+.neutral-template .approved-quote .button { justify-self: start; }
+.neutral-template .product-card h3, .neutral-template .journey-product-heading h1 { overflow-wrap: anywhere; min-width: 0; }
+.neutral-template .product-price-row .quote-status { font-size: 12px; line-height: 1.5; font-weight: 500; color: var(--navy); }
 body:has(.neutral-template) { background: #fff; }
 .ferready.campaign-theme.neutral-template {
   --paper: var(--template-paper); --surface: var(--template-surface);
-  --ink: var(--template-ink); --navy: var(--template-ink);
-  --red: var(--template-accent); --steel: var(--template-muted); --muted: var(--template-muted);
+  --ink: var(--template-ink); --navy: var(--template-navy, var(--template-ink));
+  --red: var(--template-accent); --steel: var(--template-steel, var(--template-muted)); --muted: var(--template-muted);
   color: var(--ink); background: var(--paper);
   caret-color: var(--ink); accent-color: var(--ink); scrollbar-color: var(--muted) var(--paper);
 }
@@ -33,12 +40,88 @@ body:has(.neutral-template) { background: #fff; }
 .neutral-template .journey-orbit { background: var(--surface); }
 .neutral-template .drill-kit-journey:is([data-phase="2"], [data-phase="3"]) .journey-visual { background: var(--paper); }
 .neutral-template .kit-table { --hero-cloth: var(--paper); }
+
+/* Reuse the original counter, selection, sway and packing for a verified product.
+   A single photograph must not turn into three invented accessories. */
+.neutral-template .kit-table[data-count="1"] .kit-piece-product {
+  left: 20%;
+  width: 60%;
+  height: 57%;
+}
+.neutral-template .kit-table :focus-visible { outline-color: var(--ink); }
 .neutral-template .parcel-back { background: #d4d4d4; }
 .neutral-template .parcel-front { background: linear-gradient(110deg, #fafafa, #e2e2e2); border-color: #bbb; color: var(--ink); }
 .neutral-template .parcel-front span { color: var(--muted); }
 .neutral-template .parcel-front strong { font-size: clamp(12px, 2vw, 22px); }
+.neutral-template .parcel-front:has(.parcel-brand-logo) {
+  padding: 3px 8%;
+  background: var(--paper);
+  border-top-color: var(--ink);
+  align-items: flex-start;
+  box-shadow: inset 0 -6px 0 var(--red);
+  overflow: hidden;
+}
+.neutral-template .shipping-parcel[data-branded="true"] .parcel-front::after {
+  content: "";
+  position: absolute;
+  inset: 0 0 0 82%;
+  background: var(--red);
+  clip-path: polygon(100% 0, 100% 100%, 0 100%);
+}
+.neutral-template .parcel-front .parcel-brand-logo {
+  display: block;
+  width: 90%;
+  max-height: 70%;
+  height: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+@media (max-width: 600px) {
+  .neutral-template .parcel-front .parcel-brand-logo { max-height: 100%; height: 100%; }
+}
 .neutral-template .parcel-side { background: #c4c4c4; }
 .neutral-template .parcel-flap { background: #eee; border-color: #bbb; }
+/* Both halves are printed in the lid's own coordinates, then clipped and
+   moved by the existing flaps. Their seam meets at 57% back / 42% front. */
+.neutral-template .shipping-parcel[data-branded="true"] .parcel-flap {
+  background: color-mix(in srgb, var(--paper) 94%, var(--ink));
+  border-color: color-mix(in srgb, var(--paper) 72%, var(--ink));
+}
+.neutral-template .parcel-seal {
+  position: absolute;
+  inset: 0;
+  background: var(--paper);
+  clip-path: polygon(48% 0, 66% 0, 51% 100%, 33% 100%);
+}
+.neutral-template .parcel-seal[data-dark="true"] { background: var(--ink); }
+.neutral-template .parcel-seal img {
+  position: absolute;
+  width: 13%;
+  height: auto;
+  left: 47%;
+  top: 18%;
+  transform: skewX(-48deg) scaleY(.65);
+}
+.neutral-template .parcel-seal img + img { left: 40%; top: 65%; }
+.neutral-template .shipping-parcel[data-branded="true"] .parcel-side {
+  background: color-mix(in srgb, var(--paper) 80%, var(--ink));
+}
+.neutral-template .shipping-parcel[data-branded="true"] .parcel-side::after {
+  content: "";
+  position: absolute;
+  inset: 62% 0 0;
+  background: var(--red);
+  clip-path: polygon(0 70%, 100% 0, 100% 30%, 0 100%);
+}
+.neutral-template .parcel-brand-mark {
+  position: absolute;
+  left: 22%;
+  top: 36%;
+  width: 56%;
+  height: 30%;
+  object-fit: contain;
+  transform: skewY(-40deg);
+}
 .neutral-template .shipping-parcel::after { background: #0002; }
 .neutral-template .stock, .neutral-template .stock span { color: var(--ink); }
 .neutral-template .stock span { background: #777; }
@@ -55,13 +138,43 @@ body:has(.neutral-template) { background: #fff; }
 .neutral-template .guest-checkout .receipt-result, .neutral-template .guest-order-items > div,
 .neutral-template .form-grid input, .neutral-template .form-grid select { border-color: var(--template-border); }
 .neutral-template .journey-progress { background: var(--template-border); }
-.neutral-template .drill-kit-journey .kit-label { font-size: 11px; white-space: nowrap; width: 120%; left: -10%; }
+.neutral-template .drill-kit-journey .kit-label { font-size: 11px; white-space: normal; width: 120%; left: -10%; }
+.neutral-template .kit-pages button { color: var(--ink); border-color: var(--muted); }
+.neutral-template .kit-pages button:disabled { color: var(--muted); opacity: 1; border-color: var(--template-border); }
 .neutral-template .cart-items, .neutral-template .order-summary { min-width: 0; }
 .neutral-template .detail-description { color: var(--muted); }
+.neutral-template .template-logo { width: 172px; height: auto; object-fit: contain; }
+.neutral-template .template-brand-assets { display: inline-flex; align-items: center; gap: 10px; }
+.neutral-template .fr-brand:has(.template-brand-mark) { flex-basis: 226px; width: auto; }
+.neutral-template .fr-brand .template-brand-mark { width: 44px; height: auto; flex: none; }
+.neutral-template .fr-footer { background: var(--template-footer, var(--paper)); color: var(--template-onFooter, var(--ink)); }
+.neutral-template .fr-footer :is(p, h2, a, .footer-location span, .footer-bottom) { color: inherit; }
+.neutral-template ::selection { background: var(--navy); color: var(--paper); }
 @media (max-width: 600px) {
   .neutral-template .hero-object span, .neutral-template .hero-object:not([aria-pressed="true"]) span { font-size: 11px; }
   .neutral-template .cart-item { grid-template-columns: 88px minmax(0, 1fr); }
   .neutral-template .cart-item > div { min-width: 0; }
+}
+@media (max-width: 760px) {
+  .neutral-template .drill-kit-journey .kit-table[data-pages]:not([data-pages="1"]) .kit-info { display: block; top: 56px; bottom: auto; left: 8px; width: calc(100% - 16px); font-size: 10px; line-height: 1.3; text-align: left; padding: 0; margin: 0; }
+  .neutral-template .drill-kit-journey .kit-piece-product { height: max(44px, calc(100% - 110px)); }
+  .neutral-template .drill-kit-journey .kit-table[data-pages]:not([data-pages="1"]) .kit-piece { height: max(44px, calc(100% - 138px)); }
+  .neutral-template .kit-pages { left: 8px; top: 2px; gap: 4px; font-size: 10px; }
+  .neutral-template .kit-pages button { padding-inline: 4px; font-size: 10px; }
+  .neutral-template .category-nav.is-open {
+    position: fixed;
+    inset-inline: 0;
+    top: var(--fr-header-height, 126px);
+    max-height: calc(100dvh - var(--fr-header-height, 126px));
+    overflow-y: auto;
+    z-index: 40;
+    grid-template-columns: minmax(0, 1fr);
+    border-bottom: 1px solid var(--template-border);
+  }
+  .neutral-template .fr-brand:has(.template-brand-mark) { width: 164px; flex-basis: 164px; }
+  .neutral-template .fr-brand .template-brand-assets { gap: 8px; }
+  .neutral-template .fr-brand .template-brand-mark { width: 34px; height: auto; }
+  .neutral-template .fr-brand:has(.template-brand-mark) .template-logo { width: 122px; height: auto; }
 }
 @media (max-width: 360px) {
   .neutral-template .cart-item-controls { grid-column: 1 / -1; }

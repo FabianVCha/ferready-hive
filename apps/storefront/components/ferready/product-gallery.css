@@ -1,0 +1,14 @@
+.product-gallery { margin: 3rem 0; max-width: 960px; }
+.product-gallery h2 { margin-bottom: 1.5rem; }
+.product-gallery figure { margin: 0; }
+.product-gallery figure > img { width: 100%; height: min(65vh, 600px); object-fit: contain; background: var(--paper, #f5f2ec); }
+.product-gallery figcaption { padding: 1rem 0; line-height: 1.6; overflow-wrap: anywhere; }
+.product-gallery summary { cursor: pointer; }
+.gallery-controls { display: flex; justify-content: space-between; gap: 1rem; margin: 1rem 0; }
+.gallery-controls button { min-height: 44px; padding: .5rem 1rem; border: 1px solid currentColor; }
+.gallery-thumbnails { display: flex; flex-wrap: wrap; gap: .75rem; }
+.gallery-thumbnails button { width: 100px; padding: 4px; border: 2px solid transparent; }
+.gallery-thumbnails button[aria-pressed="true"] { border-color: currentColor; }
+.gallery-thumbnails img { width: 88px; height: 88px; object-fit: contain; }
+.gallery-thumbnails span { display: block; font-size: .75rem; }
+.product-gallery button:focus-visible { outline: 3px solid currentColor; outline-offset: 3px; }

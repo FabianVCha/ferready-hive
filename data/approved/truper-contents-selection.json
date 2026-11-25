@@ -1,0 +1,31 @@
+{
+  "103068": {
+    "reference": "103068",
+    "model": "TAL-1/2N2",
+    "confirmation": {
+      "source": "user-confirmed",
+      "confirmed_at": "2026-11-23",
+      "manufacturer_verified": false,
+      "question": "¿Confirmas que el taladro 103068/TAL-1/2N2 incluye ese mango y esa llave?",
+      "answer": "si, confirmo procede"
+    },
+    "components": [
+      {
+        "id": "handle",
+        "label": "Mango auxiliar",
+        "source": "data/research/truper/images/herramientas-electricas/103068-tal-1-2n2/Gemini_Generated_Image_d9ta5ud9ta5ud9ta.jpg",
+        "sha256": "be2dbd7cd70387b554d77b6329c494063aa2d1f082de5b180f98eeb81637bbf6",
+        "src": "/project/products/truper/103068-contents-handle-be2dbd7cd703.webp",
+        "kind": "illustration"
+      },
+      {
+        "id": "key",
+        "label": "Llave de broquero",
+        "source": "data/research/truper/images/herramientas-electricas/103068-tal-1-2n2/Gemini_Generated_Image_d9ta5ud9ta5ud9ta(1).jpg",
+        "sha256": "e3cd46b9969496c04110c4d8f27014a7ddcc913ca3aee0ce435331e8350eebe9",
+        "src": "/project/products/truper/103068-contents-key-e3cd46b99694.webp",
+        "kind": "illustration"
+      }
+    ]
+  }
+}

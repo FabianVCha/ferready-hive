@@ -2,7 +2,19 @@ import { receiptDeliveryFields, type OrderSnapshot } from "@/lib/guest-checkout"
 import { money } from "./catalog";
 import { storefront } from "@/data/storefront.mjs";
 
-export function ThermalReceipt({ order, mode }: { order: OrderSnapshot; mode: "pending" | "paid" }) {
+type ReceiptProps = { order: OrderSnapshot; mode: "pending" | "paid" } | {
+  mode: "selection";
+  items: { slug: string; name: string; quantity: number }[];
+};
+
+export function ThermalReceipt(props: ReceiptProps) {
+  if (props.mode === "selection") return <article className="thermal-receipt" aria-label="Resumen térmico de selección">
+    <header className="receipt-heading"><strong>{storefront.brandName}</strong><h2>Resumen de selección</h2><p className="receipt-status">No es comprobante de pago</p><p>Precios por definir</p></header>
+    <section className="receipt-block"><h2>Productos</h2>{props.items.map(item => <div className="receipt-item" key={item.slug}><p>{item.name}</p><div className="receipt-amounts"><span>{item.quantity} {item.quantity === 1 ? "unidad" : "unidades"}</span><strong>Por definir</strong></div></div>)}</section>
+    <dl className="receipt-block receipt-totals"><div><dt>Subtotal</dt><dd>Por definir</dd></div><div><dt>Envío</dt><dd>Por confirmar</dd></div><div className="receipt-total"><dt>Total</dt><dd>Por definir</dd></div></dl>
+    <footer className="receipt-block"><p>No es factura electrónica ni documento fiscal DIAN.</p><p>No acredita pago ni pedido. No reserva existencias.</p><p>Precio y disponibilidad por confirmar. Tu selección se conserva en el carrito.</p></footer>
+  </article>;
+  const { order, mode } = props;
   const paid = mode === "paid" && order.paymentStatus === "simulated-paid";
   return <article className="thermal-receipt" aria-label={paid ? "Comprobante térmico no fiscal" : "Vista previa del comprobante sin pagar"}>
     <header className="receipt-heading"><strong>{storefront.brandName} DEMO</strong><p>Comprobante no fiscal</p><p className="receipt-status">{paid ? "Pago de prueba simulado" : "Vista previa · Sin pagar"}</p><p>{paid ? "Sin cobro real" : "Pendiente de pago de prueba"}</p></header>

@@ -1,7 +1,7 @@
 const { chromium } = require('/home/fabianvcha/playwright-login/node_modules/playwright');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
-const out = '/tmp/opencode/neutral-template/auto-packing-transition';
+const out = `${process.env.BROWSER_EVIDENCE_DIR || '/tmp/opencode/neutral-template'}/auto-packing-transition`;
 fs.mkdirSync(out, { recursive: true });
 (async () => {
   const browser = await chromium.launch({ executablePath: '/usr/bin/chromium', args: ['--no-sandbox'] });

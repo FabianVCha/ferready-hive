@@ -1,5 +1,2977 @@
 {
   "version": 1,
-  "categories": [],
-  "products": []
+  "categories": [
+    {
+      "handle": "herramientas-electricas",
+      "name": "Herramientas eléctricas"
+    },
+    {
+      "handle": "herramientas-neumaticas",
+      "name": "Herramientas neumáticas"
+    },
+    {
+      "handle": "accesorios-para-herramientas-electricas",
+      "name": "Accesorios para herramientas eléctricas"
+    },
+    {
+      "handle": "aire-comprimido-y-pintura",
+      "name": "Aire comprimido y pintura"
+    },
+    {
+      "handle": "construccion",
+      "name": "Construcción"
+    },
+    {
+      "handle": "jardineria",
+      "name": "Jardinería"
+    },
+    {
+      "handle": "corte-y-abrasivos",
+      "name": "Corte y abrasivos"
+    },
+    {
+      "handle": "equipo-automotriz",
+      "name": "Equipo automotriz"
+    },
+    {
+      "handle": "ferreteria-y-fijacion",
+      "name": "Ferretería y fijación"
+    },
+    {
+      "handle": "herramientas-manuales",
+      "name": "Herramientas manuales"
+    },
+    {
+      "handle": "medicion-y-trazado",
+      "name": "Medición y trazado"
+    }
+  ],
+  "products": [
+    {
+      "reference": "101895",
+      "handle": "101895-tpn-861-2",
+      "title": "Lijadora orbital neumática industrial 6\", TRUPER",
+      "category": "herramientas-neumaticas",
+      "description": "Marca: TRUPER. Modelo: TPN-861-2.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER",
+      "model": "TPN-861-2",
+      "specifications": {
+        "Diámetro de respaldo": "6\" (15 cm)",
+        "Velocidad sin carga": "10,000 rpm",
+        "Diámetro de órbita": "2.5 mm",
+        "Presión de trabajo": "90 psi (6 bar)",
+        "Consumo nominal": "3.5 CFM @ 90 psi",
+        "Entrada de aire": "1/4\" NPT",
+        "Diámetro mínimo de la manguera": "1/4\" (6.5 mm)",
+        "Diámetro del eje": "5/16\" - 24 UNF",
+        "Nivel de ruido": "85 dB",
+        "Nivel de vibración": "< 2.5 m/s2",
+        "Ciclo de trabajo": "Continuo (lubricar constantemente)",
+        "Peso de la lijadora orbital": "0.9 kg"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=101895",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/TPN-861-2.jpg",
+      "images": [
+        "/project/products/truper/101895.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/101895-alpha.png",
+          "original": "/project/products/truper/101895.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/TPN-861-2.jpg",
+          "background": "edge-connected-white-250"
+        },
+        {
+          "src": "/project/products/truper/101895-illustration-e5c8950599f9.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-electricas/101895-tpn-861-2/ChatGPT Image Nov 22, 2026, 03_32_25 PM-1.png",
+          "source_sha256": "e5c8950599f9cf85d1c02d94a53cc2a9dc19dc6569edeb5b5b5e182ffed9d31e",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Tres cuartos; entrada neumática a la derecha, palanca superior y plato visibles"
+        },
+        {
+          "src": "/project/products/truper/101895-illustration-243d3540959e.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-electricas/101895-tpn-861-2/ChatGPT Image Nov 22, 2026, 03_32_26 PM-2.png",
+          "source_sha256": "243d3540959eca4a3cbf158a70a2c09ede85ef392688e9515a7b37286a78815d",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Perfil; entrada a la derecha y etiqueta frontal del cuerpo"
+        },
+        {
+          "src": "/project/products/truper/101895-illustration-0fcebc0e778c.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-electricas/101895-tpn-861-2/ChatGPT Image Nov 22, 2026, 03_32_26 PM-3.png",
+          "source_sha256": "0fcebc0e778c073f84f7cce6db7bb3e83e6d1341e4e763efbd2bbdb92bb0a955",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Tres cuartos opuesto; entrada neumática a la izquierda"
+        },
+        {
+          "src": "/project/products/truper/101895-illustration-c6de0c3ca656.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-electricas/101895-tpn-861-2/ChatGPT Image Nov 22, 2026, 03_32_27 PM-4.png",
+          "source_sha256": "c6de0c3ca65615fb66f3fea29c9a7e5b0b20f79cac9cab6f2f427e4aa0b5f9ca",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista elevada; palanca superior y superficie del plato más expuestas"
+        },
+        {
+          "src": "/project/products/truper/101895-illustration-888690395013.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/101895-tpn-861-2/ChatGPT Image Nov 22, 2026, 03_32_28 PM-5.png",
+          "source_sha256": "88869039501340c7901ea8fb1d1dfe3a9f14015ca30de93525865a662c1e8319",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Plato de respaldo aislado; marca 19390 y 6 pulgadas, pieza montada visible en original"
+        },
+        {
+          "src": "/project/products/truper/101895-illustration-515096bc35dc.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/101895-tpn-861-2/ChatGPT Image Nov 22, 2026, 03_32_28 PM-6.png",
+          "source_sha256": "515096bc35dc136837c9320234f381e87b28e0a9aeb598104c3b76fe8253ace6",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Llave plana abierta aislada"
+        }
+      ]
+    },
+    {
+      "reference": "103068",
+      "handle": "103068-tal-1-2n2",
+      "title": "Taladro/destornillador 1/2\", 800W dos velocidades,INDUSTRIAL",
+      "category": "herramientas-electricas",
+      "description": "Marca: TRUPER INDUSTRIAL. Modelo: TAL-1/2N2.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER INDUSTRIAL",
+      "model": "TAL-1/2N2",
+      "specifications": {
+        "Potencia": "800 W",
+        "Broquero": "1/2\" (13 mm)",
+        "2 Velocidades": "0 - 1,200 rpm / 0 - 3,200 rpm",
+        "Ø Máximo de perforación en metal": "1/2\" (13 mm)",
+        "Ø Máximo de perforación en madera": "1-9/16\" (40 mm)",
+        "Consumo": "6.5 A",
+        "Tensión / Frecuencia": "127 V / 60 Hz",
+        "Largo del cable de alimentación": "1.9 m",
+        "Ciclo de trabajo a corriente nominal": "50 minutos trabajo por 20 minutos descanso. Máximo diario: 6 horas",
+        "Dimensiones (Largo x Alto)": "36 x 21 cm",
+        "Peso": "2.7 kg"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=103068",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/TAL-1-2N2.jpg",
+      "images": [
+        "/project/products/truper/103068.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/103068-alpha.png",
+          "original": "/project/products/truper/103068.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/TAL-1-2N2.jpg",
+          "background": "edge-connected-white-250"
+        },
+        {
+          "src": "/project/products/truper/103068-illustration-2b9a7918cf3a.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-electricas/103068-tal-1-2n2/Gemini_Generated_Image_wy6jwnwy6jwnwy6j(1).jpg",
+          "source_sha256": "2b9a7918cf3aa4a28c2bacda8cfec6d169e49555c7359e5e9625579e8084611d",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Taladro completo de perfil, broquero a la izquierda, mango montado y cable extendido"
+        },
+        {
+          "src": "/project/products/truper/103068-illustration-35b3505f6187.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-electricas/103068-tal-1-2n2/Gemini_Generated_Image_wy6jwnwy6jwnwy6j.jpg",
+          "source_sha256": "35b3505f6187c3494cc1eef9ac3f545bb0d70bb4fe1631a6f1b80b6c029ea7f7",
+          "background": "edge-connected-white-250",
+          "role": "detail",
+          "observation": "Acercamiento del broquero dentado, carcasa frontal, selector y unión del mango"
+        }
+      ]
+    },
+    {
+      "reference": "103740",
+      "handle": "103740-sici-7-1-4n5",
+      "title": "Sierra circular 7-1/4\" 1900W, TRUPER INDUSTRIAL",
+      "category": "herramientas-electricas",
+      "description": "Marca: TRUPER INDUSTRIAL. Modelo: SICI-7-1/4N5.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER INDUSTRIAL",
+      "model": "SICI-7-1/4N5",
+      "specifications": {
+        "Velocidad": "5,800 rpm",
+        "Capacidad de corte a 45° | 90°": "1-13/16\" (46 mm) | 2-1/2\" (64 mm)",
+        "Capacidad de biselado": "Hasta  48°",
+        "Largo del cable de alimentación": "1.8 m",
+        "Consumo": "15 A",
+        "Ciclo de trabajo a corriente nominal": "50 minutos de trabajo por 20 minutos de descanso. Máximo diario: 6 horas",
+        "Dimensiones (Largo x Alto)": "36 x 26 cm",
+        "Carbones expuestos": "No",
+        "Grado de protección": "IP20",
+        "Peso": "4.9 kg"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=103740",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/SICI-7-1-4X.jpg",
+      "images": [
+        "/project/products/truper/103740.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/103740-alpha.png",
+          "original": "/project/products/truper/103740.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/SICI-7-1-4X.jpg",
+          "background": "edge-connected-white-250",
+          "cleanup": "Detached Nuevo badge removed from reviewed empty corner [0,0,380,220]; product pixels unchanged."
+        }
+      ]
+    },
+    {
+      "reference": "103741",
+      "handle": "103741-sme-10s",
+      "title": "Sierra de mesa 10\", 2-1/2 HP (1900 W), TRUPER",
+      "category": "herramientas-electricas",
+      "description": "Marca: TRUPER. Modelo: SME-10S.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER",
+      "model": "SME-10S",
+      "specifications": {
+        "Potencia": "2-1/2 HP (1,900 W)",
+        "Diámetro del disco": "10\" (250 mm)",
+        "Mesa extendible": "Hasta 95 cm",
+        "Velocidad": "4,800 rpm",
+        "Capacidad máxima de corte (ángulos)": "45° 2-1/2\" (65 mm) | 90° 3-3/8\" (85 mm)",
+        "Capacidad máxima de corte (izquierda / derecha)": "12-5/8\" (32 cm) | 24-5/8\" (62.5 cm)",
+        "Disco para madera": "Diámetro 10\" | 40 dientes",
+        "Escala para inglete": "45° izquierda y derecha",
+        "Eje": "5/8\" (16 mm)",
+        "Largo de cable de alimentación": "3.2 m",
+        "Tensión / Frecuencia": "127 V / 60 Hz",
+        "Consumo": "15 A",
+        "Dimensiones (Largo x Ancho x Alto)": "58 x 54 x 30 cm",
+        "Ciclo de trabajo a corriente nominal": "30 minutos de trabajo por 15 minutos de descanso. Máximo diario: 6 horas",
+        "Peso": "16 kg"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=103741",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/SME-10S.jpg",
+      "images": [
+        "/project/products/truper/103741.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/103741-alpha.png",
+          "original": "/project/products/truper/103741.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/SME-10S.jpg",
+          "background": "edge-connected-white-250"
+        }
+      ]
+    },
+    {
+      "reference": "104271",
+      "handle": "104271-n20-rat-2",
+      "title": "Rotomartillo/destornillador 1/2\", 20V, 150Nm, 2 baterías 4Ah",
+      "category": "herramientas-electricas",
+      "description": "Marca: TRUPER INDUSTRIAL. Modelo: N20-RAT-2.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER INDUSTRIAL",
+      "model": "N20-RAT-2",
+      "specifications": {
+        "Motor": "Libre de carbones (brushless)",
+        "Broquero": "1/2\" (13 mm)",
+        "Torque máximo": "150 Nm (111 lb-ft)",
+        "Impactos por nivel": "0 - 8,800 / 0 - 35,000 gpm",
+        "Velocidad reversible por nivel": "0 - 550 / 0 - 2,200 rpm",
+        "Ø máximo de perforación en madera": "1-9/16\" (40 mm)",
+        "Ø máximo de perforación en metal": "1/2\" (13 mm)",
+        "Ø máximo de perforación en concreto": "1/2\" (13 mm)",
+        "Tensión": "20 V",
+        "Tecnología de la batería": "Ion litio",
+        "Capacidad de la batería": "4 Ah",
+        "Tiempo de carga": "2 Horas",
+        "Grado de protección": "IP20",
+        "Nivel de ruido": "100 dB",
+        "Tensión del cargador": "127 / 220 V",
+        "Frecuencia del cargador": "60 / 50 Hz",
+        "Peso con batería": "2.3 kg"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=104271",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/ROTI-20N3.jpg",
+      "images": [
+        "/project/products/truper/104271.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/104271-alpha.png",
+          "original": "/project/products/truper/104271.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/ROTI-20N3.jpg",
+          "background": "edge-connected-white-250",
+          "cleanup": "Detached Nuevo badge removed from reviewed empty corner [0,0,380,220]; product pixels unchanged."
+        },
+        {
+          "src": "/project/products/truper/104271-illustration-2a143f2ad7c6.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/104271-n20-rat-2/04_bateria_4Ah.png",
+          "source_sha256": "2a143f2ad7c639ccdf4aa4baec26c91fad72a165228010f93f7e6414b348207f",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Batería aislada; rótulo visible 20V-IND 4 Ah"
+        },
+        {
+          "src": "/project/products/truper/104271-illustration-2a4e495d5c43.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/104271-n20-rat-2/05_cargador.png",
+          "source_sha256": "2a4e495d5c43a18cec1bb8af6798b1f2e27ebf74e79d076feeea80dff6ff31c2",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Cargador aislado, ranura superior y ventilaciones laterales"
+        },
+        {
+          "src": "/project/products/truper/104271-illustration-c75508df2a74.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/104271-n20-rat-2/06_maleta.png",
+          "source_sha256": "c75508df2a741e94e612d00e229d574f2e9a43bea854032beb30638f5c368751",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Bolsa negra/naranja con asas y correa; fragmento gris ajeno en esquina superior"
+        },
+        {
+          "src": "/project/products/truper/104271-illustration-1210b61f6f4a.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/104271-n20-rat-2/07_mango_auxiliar.png",
+          "source_sha256": "1210b61f6f4a261f90408ddea968f046fdefb5542e82f6390a8eb1b9c9354f03",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Mango auxiliar con abrazadera y varilla metálica"
+        },
+        {
+          "src": "/project/products/truper/104271-illustration-96d40b7753fd.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/104271-n20-rat-2/08_clip_cinturon.png",
+          "source_sha256": "96d40b7753fd3311c6ff6495cd06e7da96f360c7b70e2db42d9217e1bf7f5ba4",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Clip metálico de cinturón"
+        }
+      ]
+    },
+    {
+      "reference": "104275",
+      "handle": "104275-n20-combo-rd",
+      "title": "Combo rotomartillo/dest + dest/impacto, 20V, INDUSTRIAL",
+      "category": "herramientas-electricas",
+      "description": "Marca: TRUPER INDUSTRIAL. Modelo: N20-COMBO-RD.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER INDUSTRIAL",
+      "model": "N20-COMBO-RD",
+      "specifications": {
+        "Motor": "Libre de carbones (brushless)",
+        "Tensión": "20 V",
+        "Tecnología de las baterías": "Ion litio",
+        "Capacidad de la batería": "2 Ah",
+        "Tiempo de carga": "1 Hora 10 minutos",
+        "Broquero": "1/2\" (13 mm)",
+        "Torque máximo": "230 Nm (170 lb-ft)",
+        "Niveles de torque": "4",
+        "Impactos por nivel": "0 - 1,400 / 0 - 2,200 / 0 - 3,000 / 0 - 4,000 gpm",
+        "Velocidad reversible por nivel": "0 - 500 / 0 - 1,800 rpm",
+        "Ø Máximo de perforación en madera": "1-3/16\" (30 mm)",
+        "Ø Máximo de perforación en metal": "1/2\" (13 mm)",
+        "Ø Máximo de perforación en concreto": "1/2\" (13 mm)",
+        "Peso": "1 kg",
+        "Portapuntas": "1/4\" (6.5 mm)",
+        "Torque de rompimiento": "320 Nm (236 lb-ft)",
+        "Velocidad por nivel": "0 - 1,200 / 0 - 1,900 / 0 - 2,500 / 0 - 3,200 rpm",
+        "Capacidad de tornillos": "M5 - M12"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=104275",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/N20-COMBO-RD+MP1.jpg",
+      "images": [
+        "/project/products/truper/104275.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/104275-alpha.png",
+          "original": "/project/products/truper/104275.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/N20-COMBO-RD+MP1.jpg",
+          "background": "edge-connected-white-250"
+        },
+        {
+          "src": "/project/products/truper/104275-illustration-df997fdf415a.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_05 PM-1.png",
+          "source_sha256": "df997fdf415a09a186b37f656f59942b0483d7c086aa2fcd37a0e0baa134048c",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Rotomartillo con batería, tres cuartos frontal, broquero dirigido arriba-izquierda"
+        },
+        {
+          "src": "/project/products/truper/104275-illustration-60aa5815dde8.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_06 PM-2.png",
+          "source_sha256": "60aa5815dde86367913ca0527cf3f497a8b51014ba7f57c1b4b763d800b2d440",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Rotomartillo con batería de perfil, broquero a la izquierda"
+        },
+        {
+          "src": "/project/products/truper/104275-illustration-8d4cb5b2053b.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_06 PM-3.png",
+          "source_sha256": "8d4cb5b2053b7a1c7bd33b4a46fd76dfcec305527530281b92cbffc99b97b6c3",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Rotomartillo con batería, tres cuartos frontal cercano al archivo 1, no duplicado binario"
+        },
+        {
+          "src": "/project/products/truper/104275-illustration-5d3f9bea13bc.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_07 PM-4.png",
+          "source_sha256": "5d3f9bea13bcd830a1841e7b7de92e391974c094540ef0af7578c30e4888e6f2",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Atornillador de impacto con batería, tres cuartos frontal, portapuntas circular visible"
+        },
+        {
+          "src": "/project/products/truper/104275-illustration-819f8f5b8865.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_08 PM-5.png",
+          "source_sha256": "819f8f5b8865c23bc43243b37c33e6a702492021f42861ea9b98655056ad145f",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Atornillador de impacto con batería de perfil, portapuntas a la izquierda y clip lateral"
+        },
+        {
+          "src": "/project/products/truper/104275-illustration-6ff56e2da499.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_08 PM-6.png",
+          "source_sha256": "6ff56e2da499ead276772b89c1cb482ce6a8ee87e9499ad621119d3e7cd6b0db",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Atornillador de impacto con batería, tres cuartos frontal cercano al archivo 4"
+        },
+        {
+          "src": "/project/products/truper/104275-illustration-e56d23365635.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_09 PM-7.png",
+          "source_sha256": "e56d2336563504699935c6754ea59b68a5a840da79f7ac21b2c073bdca7ff5e4",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Cargador aislado con contactos superiores y luces roja/verde"
+        },
+        {
+          "src": "/project/products/truper/104275-illustration-1671adb42077.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_10 PM-8.png",
+          "source_sha256": "1671adb420776307fb0818f8df6f6a20aa1635676ea791f7d8e49daa607da377",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Estuche abierto de brocas de distintas geometrías; cantidad no certificada"
+        },
+        {
+          "src": "/project/products/truper/104275-illustration-b3da688dba37.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_11 PM-10.png",
+          "source_sha256": "b3da688dba375990fd76385feaa5cf911722c2e10ac44d59a59e81a0d31abec1",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Bolsa de transporte negra/naranja aislada"
+        },
+        {
+          "src": "/project/products/truper/104275-illustration-26fd1317ddaa.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_11 PM-9.png",
+          "source_sha256": "26fd1317ddaa8ee591a514bcf835ac710b4acbbe1647209b412391f4fd471908",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Estuche abierto de puntas de atornillar; cantidad no certificada"
+        }
+      ]
+    },
+    {
+      "reference": "104412",
+      "handle": "104412-a12-rot-1",
+      "title": "Rotomartillo/destornillador 3/8\", 12V, 1 batería 2 Ah, PRO",
+      "category": "herramientas-electricas",
+      "description": "Marca: TRUPER PRO. Modelo: A12-ROT-1.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER PRO",
+      "model": "A12-ROT-1",
+      "specifications": {
+        "Motor": "Libre de carbones (brushless)",
+        "Broquero": "3/8\" (10 mm)",
+        "Torque máximo": "50 Nm (36.8 lb-ft)",
+        "Niveles de torque": "2",
+        "Niveles de ajuste": "20",
+        "Torque por nivel": "50 Nm (36.8 lb-ft) / 20 Nm (14.7 lb-ft)",
+        "Velocidad por nivel": "0 - 400 / 0 - 1,700 rpm",
+        "Impactos por nivel": "0 - 6,000 / 0 - 25,000 gpm",
+        "Ø máximo de perforación en madera": "7/8\" (22 mm)",
+        "Ø máximo de perforación en metal y concreto": "3/8\" (10 mm)",
+        "Tensión": "12 V",
+        "Tecnología de la batería": "Ion litio",
+        "Capacidad de la batería": "2 Ah",
+        "Tiempo de carga": "1 Hora 15 minutos",
+        "Grado de protección": "IP20",
+        "Nivel de ruido": "85 dB",
+        "Peso": "0.7 kg"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=104412",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/A12-ROT-1+FC1.jpg",
+      "images": [
+        "/project/products/truper/104412.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/104412-alpha.png",
+          "original": "/project/products/truper/104412.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/A12-ROT-1+FC1.jpg",
+          "background": "edge-connected-white-250"
+        },
+        {
+          "src": "/project/products/truper/104412-illustration-90e798d4500c.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-electricas/104412-a12-rot-1/ChatGPT Image Nov 22, 2026, 07_37_26 PM-1.png",
+          "source_sha256": "90e798d4500ceb8d44cd987cc7e9dfd10de1dc771ebda71cb9197c32a4782157",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Rotomartillo compacto de perfil, broquero a la izquierda, base estrecha integrada al mango"
+        },
+        {
+          "src": "/project/products/truper/104412-illustration-2877ffd182a7.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-electricas/104412-a12-rot-1/ChatGPT Image Nov 22, 2026, 07_37_26 PM-2.png",
+          "source_sha256": "2877ffd182a74cfeca93a78a0e6ca64fe0923c6c4bc7d621aa867a82f7bd05c9",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Lado opuesto y parte trasera ventilada; broquero a la derecha"
+        },
+        {
+          "src": "/project/products/truper/104412-illustration-71f953aa4039.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/104412-a12-rot-1/ChatGPT Image Nov 22, 2026, 07_37_27 PM-3.png",
+          "source_sha256": "71f953aa40393b8d5a72aa08f25d98e2ba31809454f478240d7f97b564670b01",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Cargador de alojamiento profundo aislado"
+        },
+        {
+          "src": "/project/products/truper/104412-illustration-6a025a993112.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-electricas/104412-a12-rot-1/ChatGPT Image Nov 22, 2026, 07_37_28 PM-4.png",
+          "source_sha256": "6a025a993112e969f9827a71f6b7229a459547b0b1908fc63a7b5f40497bc928",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Tres cuartos frontal; broquero a la izquierda y parte superior visible"
+        },
+        {
+          "src": "/project/products/truper/104412-illustration-e7004d6a8b51.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/104412-a12-rot-1/ChatGPT Image Nov 22, 2026, 07_37_28 PM-5.png",
+          "source_sha256": "e7004d6a8b519ead11a45e2ea8f6e3971d82172ee7f0ab557a7cdfa5d5c0ae0c",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Adaptador de enchufe de dos espigas redondas a dos ranuras planas"
+        },
+        {
+          "src": "/project/products/truper/104412-illustration-6bc62d57b8b5.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/104412-a12-rot-1/ChatGPT Image Nov 22, 2026, 07_37_29 PM-6.png",
+          "source_sha256": "6bc62d57b8b5436d07b2e409557a8d0b779fbd835624541f58ae94d32af478af",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Clip metálico de cinturón con orificio y gancho"
+        }
+      ]
+    },
+    {
+      "reference": "11452",
+      "handle": "11452-brou-r2-1-4m",
+      "title": "Broca para router, recta 2 filos, 1/4\", mediana, TRUPER",
+      "category": "accesorios-para-herramientas-electricas",
+      "description": "Marca: TRUPER. Modelo: BROU-R2-1/4M.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER",
+      "model": "BROU-R2-1/4M",
+      "specifications": {
+        "Zanco": "1/4\" (6.5 mm)",
+        "Largo de corte": "25/32\" (20 mm)",
+        "Velocidad de corte": "30,000 rpm",
+        "Diámetro de corte": "1/4\" (6.5 mm)",
+        "Largo total": "2\" (50 mm)"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=11452",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/BROU-R2-1-4M.jpg",
+      "images": [
+        "/project/products/truper/11452.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/11452-alpha.png",
+          "original": "/project/products/truper/11452.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/BROU-R2-1-4M.jpg",
+          "background": "edge-connected-white-250"
+        }
+      ]
+    },
+    {
+      "reference": "13448",
+      "handle": "13448-liba-3x21a2",
+      "title": "Lijadora de banda 3 x 21\", 1010W, TRUPER PRO",
+      "category": "herramientas-electricas",
+      "description": "Marca: TRUPER PRO. Modelo: LIBA-3X21A2.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER PRO",
+      "model": "LIBA-3X21A2",
+      "specifications": {
+        "Banda de lija": "3\" x 21\" (75 x 525 mm)",
+        "Potencia": "1,010 W",
+        "Velocidad de banda": "210 - 450 m/min",
+        "Consumo": "8 A",
+        "Tensión / Frecuencia": "127 V / 60 Hz",
+        "Largo del cable de alimentación": "1.8 m",
+        "Dimensiones (Base x Alto x Fondo)": "34 x 16 x 16 cm",
+        "Ciclo de trabajo a corriente nominal": "30 minutos de trabajo por 15 minutos de descanso. Máximo diario: 3 horas",
+        "Peso": "3.6 kg"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=13448",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/LIBA-3X21A2.jpg",
+      "images": [
+        "/project/products/truper/13448.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/13448-alpha.png",
+          "original": "/project/products/truper/13448.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/LIBA-3X21A2.jpg",
+          "background": "edge-connected-white-250"
+        },
+        {
+          "src": "/project/products/truper/13448-illustration-6f0d3ad2b3d9.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/13448-liba-3x21a2/Black Fabric Dust Bag with Connector.png",
+          "source_sha256": "6f0d3ad2b3d9664e20a8bebce35626e9ec7519bc98bef7c294ed1aa464760b4b",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Bolsa de tela recolectora con conector cilíndrico"
+        },
+        {
+          "src": "/project/products/truper/13448-illustration-31196fa14ba9.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/13448-liba-3x21a2/Reddish-Brown Sandpaper Belt Loop.png",
+          "source_sha256": "31196fa14ba97c81d397f6fa46a20237749eb5818bbc45263027aaa9b94a4a85",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Banda de lija marrón en bucle aislada"
+        },
+        {
+          "src": "/project/products/truper/13448-illustration-6a7326bdae79.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-electricas/13448-liba-3x21a2/Truper Pro Motor Vent Close-Up.png",
+          "source_sha256": "6a7326bdae79eed5396bdf49c1d5c62505fb0a92ab7e6781886f92ad5333f39c",
+          "background": "edge-connected-white-250",
+          "role": "detail",
+          "observation": "Acercamiento de rejillas del motor y tapa TRUPER PRO con tornillos"
+        }
+      ]
+    },
+    {
+      "reference": "14012",
+      "handle": "14012-esma-7a3",
+      "title": "Esmeriladora angular 7\", 2200W, TRUPER PRO",
+      "category": "herramientas-electricas",
+      "description": "Marca: TRUPER PRO. Modelo: ESMA-7A3.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER PRO",
+      "model": "ESMA-7A3",
+      "specifications": {
+        "Velocidad": "8,500 rpm",
+        "Consumo": "16.5 A",
+        "Largo del cable de alimentación": "1.98 m",
+        "Carbones expuestos": "Sí",
+        "Grado de protección": "IP20",
+        "Ciclo de trabajo a corriente nominal": "30 minutos de trabajo por 15 minutos de descanso. Máximo diario: 3 horas",
+        "Eje": "5/8\"-11 UNC-1A",
+        "Dimensiones (Largo x Alto)": "49 x 15 cm",
+        "Peso": "5 kg"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=14012",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/ESMA-7A3.jpg",
+      "images": [
+        "/project/products/truper/14012.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/14012-alpha.png",
+          "original": "/project/products/truper/14012.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/ESMA-7A3.jpg",
+          "background": "edge-connected-white-250"
+        },
+        {
+          "src": "/project/products/truper/14012-illustration-c49d43941fcd.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/14012-esma-7a3/Black Angle Grinder Flange Set-4.png",
+          "source_sha256": "c49d43941fcd60775d8ff11fb9b87042269df3695e05345d353b9eb6940a00be",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Par de bridas negras de fijación de disco"
+        },
+        {
+          "src": "/project/products/truper/14012-illustration-7be2c5382731.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/14012-esma-7a3/Black Power Tool Auxiliary Handle-3.png",
+          "source_sha256": "7be2c5382731f817358eb31c0c36ee35e2e4588538bf9e2ebc62fd27aa675935",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Mango auxiliar negro con espárrago roscado"
+        },
+        {
+          "src": "/project/products/truper/14012-illustration-06748e891c7d.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/14012-esma-7a3/Metallic Angle Grinder Guard Shield-2.png",
+          "source_sha256": "06748e891c7dfd5f2b19bfc8de9fa28a1d2f75ae53bc3c447757023cbf0c8f6c",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Guarda metálica semicircular con abrazadera"
+        },
+        {
+          "src": "/project/products/truper/14012-illustration-44acdf93f572.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/14012-esma-7a3/Paired Graphite Carbon Brushes with Springs-5.png",
+          "source_sha256": "44acdf93f57228d8ee682d390c1874c4bad16c1af0eab496721ee103d37c5db8",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Par de carbones con resortes y terminales"
+        },
+        {
+          "src": "/project/products/truper/14012-illustration-388f6165aec4.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/14012-esma-7a3/Silver Spanner Wrench with Pegged Fork-6.png",
+          "source_sha256": "388f6165aec4e10b7768c93e9776804dfbdabca58d5751d6cef78538158cce00",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Llave de dos pernos para bridas"
+        },
+        {
+          "src": "/project/products/truper/14012-illustration-0cf960a1fa88.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-electricas/14012-esma-7a3/TRUPER PRO Angle Grinder Product Shot-1.png",
+          "source_sha256": "0cf960a1fa887a0fd40fd5985ef5ca7a406b261f331073f7354c07c2308ca68d",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Esmeriladora naranja/gris de perfil, cabezal a la izquierda y cable a la derecha"
+        },
+        {
+          "src": "/project/products/truper/14012-illustration-950d8a2fee91.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/14012-esma-7a3/Truper Expert Abrasive Grinding Disc-1.png",
+          "source_sha256": "950d8a2fee9113ee1d43942e45450bf67867e55ee235733788224c4cac549b51",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Disco abrasivo aislado; rótulo 7 pulgadas, 175 mm, código 11559 ABT-778"
+        },
+        {
+          "src": "/project/products/truper/14012-illustration-309dadc0927f.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-electricas/14012-esma-7a3/Truper Pro Angle Grinder Product Photo-2.png",
+          "source_sha256": "309dadc0927fc2b89cf9682e0b67dfcfb8840adb050207726acd89a4734add45",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Tres cuartos frontal elevado; disco, guarda y cabezal dominan el encuadre"
+        },
+        {
+          "src": "/project/products/truper/14012-illustration-869d9da7948d.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-electricas/14012-esma-7a3/Truper Pro Angle Grinder Product Shot-3.png",
+          "source_sha256": "869d9da7948da2daad78ffdb584d83463c706438d7ea5588b07adb1d08467708",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Tres cuartos posterior elevado; cable a la izquierda y mango lateral a la derecha"
+        }
+      ]
+    },
+    {
+      "reference": "16182",
+      "handle": "16182-tapi-17",
+      "title": "Taladro de piso 17\", 1-1/2 HP (1200 W), broquero 5/8\",TRUPER",
+      "category": "herramientas-electricas",
+      "description": "Marca: TRUPER. Modelo: TAPI-17.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER",
+      "model": "TAPI-17",
+      "specifications": {
+        "Potencia nominal": "1-1/2 HP (1,200 W)",
+        "Velocidades": "12 (300 - 3,000 rpm)",
+        "Diámetro de giro": "17\" (43 cm)",
+        "Altura máxima de trabajo": "24\" (60 cm)",
+        "Tensión / Frecuencia": "127 V / 60 Hz",
+        "Broquero": "5/8\" (16 mm)",
+        "Cono de broquero": "B16",
+        "Mesa de trabajo": "13\" x 13\" (33 x 33 cm)",
+        "Grados de inclinación de la mesa": "± 45° (izquierda / derecha)",
+        "Tope máximo de profundidad": "10 cm",
+        "Dimensiones (Largo x Alto x Ancho)": "34 x 167 x 56 cm",
+        "Consumo": "9.5 A",
+        "Ciclo de trabajo a corriente nominal": "120 minutos de trabajo por 30 minutos de descanso. Máximo diario: 6 horas",
+        "Peso del taladro de piso": "77 kg"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=16182",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/TAPI-17.jpg",
+      "images": [
+        "/project/products/truper/16182.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/16182-alpha.png",
+          "original": "/project/products/truper/16182.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/TAPI-17.jpg",
+          "background": "edge-connected-white-250"
+        },
+        {
+          "src": "/project/products/truper/16182-illustration-83002cb445a2.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/16182-tapi-17/B16 Drill Chuck Assembly on White-3.png",
+          "source_sha256": "83002cb445a2335f37c3a7f0af9cfc71336c1f35ab5e1182e7b765856088d49d",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Broquero con cono B16 aislado; rótulo 5/8 pulgadas 16 mm"
+        },
+        {
+          "src": "/project/products/truper/16182-illustration-ab24b84895f1.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-electricas/16182-tapi-17/TRUPER Drill Press Rear View-2.png",
+          "source_sha256": "ab24b84895f1a356febd236213fd07b3bc688ddb8454366a308e2c944a154830",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Taladro de pedestal desde atrás/lado; motor cilíndrico posterior expuesto"
+        },
+        {
+          "src": "/project/products/truper/16182-illustration-b2b01b995f73.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/16182-tapi-17/Three Ribbed Machinery Handles-4.png",
+          "source_sha256": "b2b01b995f73592e7f52eaeb5b313be7994c068ea490919c790810e416a40d4b",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Tres palancas roscadas con pomos negros aisladas"
+        },
+        {
+          "src": "/project/products/truper/16182-illustration-9482d60c3265.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-electricas/16182-tapi-17/Truper Orange-Top Floor Drill Press-1.png",
+          "source_sha256": "9482d60c32653869215ffc5b25186ded0392d84c683fb5e6f720298c4c883cc5",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Taladro de pedestal desde delante/lado; mesa, base, broquero y palancas montadas"
+        }
+      ]
+    },
+    {
+      "reference": "16590",
+      "handle": "16590-esma-9n2",
+      "title": "Esmeriladora angular 9\", 2350W, TRUPER INDUSTRIAL",
+      "category": "herramientas-electricas",
+      "description": "Marca: TRUPER INDUSTRIAL. Modelo: ESMA-9N2.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER INDUSTRIAL",
+      "model": "ESMA-9N2",
+      "specifications": {
+        "Velocidad": "6,000 rpm",
+        "Consumo": "18.1 A",
+        "Largo de cable de alimentación": "1.88 m",
+        "Carbones expuestos": "Sí",
+        "Grado de protección": "IP20",
+        "Ciclo de trabajo a corriente nominal": "50 minutos de trabajo por 20 minutos de descanso. Máximo diario: 6 horas",
+        "Eje": "5/8\"-11 UNC-1A",
+        "Dimensiones (Largo x Alto)": "56 x 16 cm",
+        "Peso": "6.5 kg"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=16590",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/ESMA-9N2.jpg",
+      "images": [
+        "/project/products/truper/16590.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/16590-alpha.png",
+          "original": "/project/products/truper/16590.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/ESMA-9N2.jpg",
+          "background": "edge-connected-white-250"
+        },
+        {
+          "src": "/project/products/truper/16590-illustration-c49d43941fcd.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/Black Angle Grinder Flange Set-4.png",
+          "source_sha256": "c49d43941fcd60775d8ff11fb9b87042269df3695e05345d353b9eb6940a00be",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Par de bridas negras; archivo idéntico al de 14012, no prueba ajuste para 9 pulgadas"
+        },
+        {
+          "src": "/project/products/truper/16590-illustration-7be2c5382731.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/Black Power Tool Auxiliary Handle-3.png",
+          "source_sha256": "7be2c5382731f817358eb31c0c36ee35e2e4588538bf9e2ebc62fd27aa675935",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Mango auxiliar negro; archivo idéntico al de 14012, rosca exacta no verificada"
+        },
+        {
+          "src": "/project/products/truper/16590-illustration-06748e891c7d.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/Metallic Angle Grinder Guard Shield-2.png",
+          "source_sha256": "06748e891c7dfd5f2b19bfc8de9fa28a1d2f75ae53bc3c447757023cbf0c8f6c",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Guarda metálica; archivo idéntico al de 14012, tamaño/abrazadera para 9 pulgadas sin verificar"
+        },
+        {
+          "src": "/project/products/truper/16590-illustration-44acdf93f572.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/Paired Graphite Carbon Brushes with Springs-5.png",
+          "source_sha256": "44acdf93f57228d8ee682d390c1874c4bad16c1af0eab496721ee103d37c5db8",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Par de carbones; archivo idéntico al de 14012, dimensiones exactas sin verificar"
+        },
+        {
+          "src": "/project/products/truper/16590-illustration-388f6165aec4.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/Silver Spanner Wrench with Pegged Fork-6.png",
+          "source_sha256": "388f6165aec4e10b7768c93e9776804dfbdabca58d5751d6cef78538158cce00",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Llave de dos pernos; archivo idéntico al de 14012, separación exacta sin verificar"
+        }
+      ]
+    },
+    {
+      "reference": "103030",
+      "handle": "103030-comp-10l2",
+      "title": "Compresor lubricado, 10 L, 2HP, horizontal, 127 V, TRUPER",
+      "category": "aire-comprimido-y-pintura",
+      "description": "Marca: TRUPER. Modelo: COMP-10L2.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER",
+      "model": "COMP-10L2",
+      "specifications": {
+        "Potencia máxima": "2 HP",
+        "Potencia nominal": "1 HP",
+        "Capacidad del tanque": "10 L",
+        "Presión máxima de operación": "116 psi (800 kPa)",
+        "Flujo de aire": "3.3 CFM @ 40 psi | 2.4 CFM @ 90 psi",
+        "Tipo de aceite": "Monogrado SAE 30",
+        "Tensión / Frecuencia": "127 V / 60 Hz",
+        "Consumo": "6 A",
+        "Material del embobinado de motor": "Cobre",
+        "Velocidad": "3,450 rpm",
+        "Largo de cable de alimentación": "1.6 m",
+        "Dimensiones (Base x Alto x Ancho)": "19 x 49 x 47 cm",
+        "Peso": "16 kg"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=103030",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/COMP-10L2.jpg",
+      "images": [
+        "/project/products/truper/103030.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/103030-alpha.png",
+          "original": "/project/products/truper/103030.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/COMP-10L2.jpg",
+          "background": "edge-connected-white-250"
+        },
+        {
+          "src": "/project/products/truper/103030-illustration-d00412d8eeba.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/aire-comprimido-y-pintura/103030-comp-10l2/ChatGPT Image Nov 22, 2026, 08_00_44 PM-1.png",
+          "source_sha256": "d00412d8eebaf2c77d284ccdf803a211d2b14623143745325a998219cc303cff",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Compresor 10 L, tres cuartos del lado de los dos manómetros; asa naranja y depósito frontal"
+        },
+        {
+          "src": "/project/products/truper/103030-illustration-bc5a1e0f723d.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/aire-comprimido-y-pintura/103030-comp-10l2/ChatGPT Image Nov 22, 2026, 08_00_45 PM-2.png",
+          "source_sha256": "bc5a1e0f723d07a1888e232c7831e5173c11e7148bedb2471422d3325ff89202",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Compresor 10 L, frente oblicuo más cercano; dos manómetros y regulador expuestos"
+        },
+        {
+          "src": "/project/products/truper/103030-illustration-19159ba69528.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/aire-comprimido-y-pintura/103030-comp-10l2/ChatGPT Image Nov 22, 2026, 08_00_46 PM-3.png",
+          "source_sha256": "19159ba69528f819e7e1476872b2ab5d4d27859dbd6b421f800bbddc19d8d8a0",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Lado opuesto; cilindro metálico del motor más visible, manómetros parcialmente ocultos"
+        },
+        {
+          "src": "/project/products/truper/103030-illustration-697901607557.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/aire-comprimido-y-pintura/103030-comp-10l2/ChatGPT Image Nov 22, 2026, 08_00_47 PM-4.png",
+          "source_sha256": "69790160755790f373a39ccc5a89494d928ef93ceae6d08537041456ca4872b7",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Botella de aceite monogrado SAE30, 250 ml; volumen ilustrado no prueba entrega"
+        },
+        {
+          "src": "/project/products/truper/103030-illustration-67a9108fe0e5.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/aire-comprimido-y-pintura/103030-comp-10l2/ChatGPT Image Nov 22, 2026, 08_00_48 PM-5.png",
+          "source_sha256": "67a9108fe0e51a53e621ca8ed7e9711ac2de033869b241f8d3819604182d5d75",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Filtro de aire cilíndrico amarillo con malla, tapas negras y rosca inferior"
+        },
+        {
+          "src": "/project/products/truper/103030-illustration-9adc838ac824.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/aire-comprimido-y-pintura/103030-comp-10l2/ChatGPT Image Nov 22, 2026, 08_00_49 PM-6.png",
+          "source_sha256": "9adc838ac82449963d25c55d9e370ea399561a05544f52304516b120cf2829ef",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Tapón negro roscado con símbolo OIL y junta naranja"
+        },
+        {
+          "src": "/project/products/truper/103030-illustration-f66d22724af1.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/aire-comprimido-y-pintura/103030-comp-10l2/ChatGPT Image Nov 22, 2026, 08_00_50 PM-7.png",
+          "source_sha256": "f66d22724af1f68c18f3f7b3e7cd49cd404e34c230f629f62db4f87302cebc0c",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Bolsa de tornillos, tuercas y arandelas; cantidades y destino sin verificar"
+        }
+      ]
+    },
+    {
+      "reference": "104215",
+      "handle": "104215-wt-400f",
+      "title": "Lubricante multiusos aerosol aplicador doble acción, 400 ml",
+      "category": "aire-comprimido-y-pintura",
+      "description": "Marca: TRUPER. Modelo: WT-400F.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER",
+      "model": "WT-400F",
+      "specifications": {
+        "Contenido": "400 ml (14 oz)",
+        "Punto de inflamación": "63 °C",
+        "Densidad relativa": "0.780 - 0.870 g/cm³",
+        "% de volatilidad": "20 – 40%"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=104215",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/WT-400F.jpg",
+      "images": [
+        "/project/products/truper/104215.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/104215-alpha.png",
+          "original": "/project/products/truper/104215.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/WT-400F.jpg",
+          "background": "edge-connected-white-250"
+        }
+      ]
+    },
+    {
+      "reference": "104491",
+      "handle": "104491-comp-50m",
+      "title": "Compresor silencioso, grado médico, 50 L, 1HP, 127V, TRUPER",
+      "category": "aire-comprimido-y-pintura",
+      "description": "Marca: TRUPER. Modelo: COMP-50M.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER",
+      "model": "COMP-50M",
+      "specifications": {
+        "Potencia máxima": "2 HP",
+        "Potencia nominal": "1 HP",
+        "Flujo de aire": "3.8 CFM @ 40 psi | 2.5 CFM @ 90 psi",
+        "Capacidad del tanque": "50 L",
+        "Presión máxima de operación": "116 psi",
+        "Tensión / Frecuencia": "127 V / 60 Hz",
+        "Consumo": "8 A",
+        "Velocidad del motor": "1,750 rpm",
+        "Material del embobinado de motor": "Cobre",
+        "Nivel máximo de ruido": "70 dB",
+        "Dimensiones (Base x Alto x Ancho)": "44 x 87 x 37 cm",
+        "Peso": "22 kg"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=104491",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/COMP-50M.jpg",
+      "images": [
+        "/project/products/truper/104491.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/104491-alpha.png",
+          "original": "/project/products/truper/104491.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/COMP-50M.jpg",
+          "background": "edge-connected-white-250"
+        }
+      ]
+    },
+    {
+      "reference": "10745",
+      "handle": "10745-maja-9x",
+      "title": "Maneral de 9\", reforzado, con jaula para rodillo, TRUPER",
+      "category": "aire-comprimido-y-pintura",
+      "description": "Marca: TRUPER. Modelo: MAJA-9X.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER",
+      "model": "MAJA-9X",
+      "specifications": {
+        "Largo de jaula": "9\"",
+        "Espesor de varilla": "8 mm",
+        "Diámetro": "1-1/2\""
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=10745",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/MAJA-9X.jpg",
+      "images": [
+        "/project/products/truper/10745.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/10745-alpha.png",
+          "original": "/project/products/truper/10745.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/MAJA-9X.jpg",
+          "background": "edge-connected-white-250"
+        }
+      ]
+    },
+    {
+      "reference": "12465",
+      "handle": "12465-brt-1-2c",
+      "title": "Brocha pelo de camello de 1/2\" con mango de madera, TRUPER",
+      "category": "aire-comprimido-y-pintura",
+      "description": "Marca: TRUPER. Modelo: BRT-1/2C.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER",
+      "model": "BRT-1/2C",
+      "specifications": {
+        "Ancho": "1/2\" (13 mm)",
+        "Cerda expuesta": "28 mm",
+        "Largo del mango": "4-3/4\" (118 cm)"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=12465",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/BRT-1-2C.jpg",
+      "images": [
+        "/project/products/truper/12465.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/12465-alpha.png",
+          "original": "/project/products/truper/12465.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/BRT-1-2C.jpg",
+          "background": "edge-connected-white-250"
+        }
+      ]
+    },
+    {
+      "reference": "13879",
+      "handle": "13879-ropi-930",
+      "title": "Rodillo para pintar 9 x 1-1/4\" superficies extra rugosas",
+      "category": "aire-comprimido-y-pintura",
+      "description": "Marca: TRUPER. Modelo: ROPI-930.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER",
+      "model": "ROPI-930",
+      "specifications": {
+        "Largo del rodillo": "9\" (230 mm)",
+        "Espesor de la felpa": "1-1/4\" (32 mm)",
+        "Diámetro del centro": "1-1/2\" (38 mm)",
+        "Diámetro de la varilla": "6 mm"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=13879",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/ROPI-930.jpg",
+      "images": [
+        "/project/products/truper/13879.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/13879-alpha.png",
+          "original": "/project/products/truper/13879.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/ROPI-930.jpg",
+          "background": "edge-connected-white-250"
+        }
+      ]
+    },
+    {
+      "reference": "17849",
+      "handle": "17849-brt-1-2x",
+      "title": "Brocha profesional de 1/2\" mango de plástico, TRUPER EXPERT",
+      "category": "aire-comprimido-y-pintura",
+      "description": "Marca: TRUPER-EXPERT. Modelo: BRT-1/2X.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER-EXPERT",
+      "model": "BRT-1/2X",
+      "specifications": {
+        "Ancho": "1/2\" (13 mm)",
+        "Cerda expuesta": "45 mm",
+        "Largo del mango": "4-3/8\" (110 mm)"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=17849",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/BRT-1-2X.jpg",
+      "images": [
+        "/project/products/truper/17849.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/17849-alpha.png",
+          "original": "/project/products/truper/17849.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/BRT-1-2X.jpg",
+          "background": "edge-connected-white-250"
+        }
+      ]
+    },
+    {
+      "reference": "100416",
+      "handle": "100416-cat-50x",
+      "title": "Carretilla 5.5ft3 Imponchable bastidor tubular,TRUPER EXPERT",
+      "category": "construccion",
+      "description": "Marca: TRUPER-EXPERT. Modelo: CAT-50X.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER-EXPERT",
+      "model": "CAT-50X",
+      "specifications": {
+        "Capacidad (sólidos / líquidos)": "5.5 ft³ (156 L) / 2.8 ft³ (80 L)",
+        "Dimensiones de la concha (Ancho x Largo x Alto)": "69 x 93 x 28 cm (27\" x 36-1/2\" x 11\")",
+        "Tipo de llanta": "Imponchable de poliuretano",
+        "Peso total (carretilla ensamblada)": "19.6 kg",
+        "Dimensiones de la carretilla (Ancho x Largo x Alto)": "68.3 x 156.9 x 62.7 cm",
+        "Llanta": "Imponchable de poliuretano",
+        "Resistencia de carga": "750 kg"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=100416",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/CAT-50X.jpg",
+      "images": [
+        "/project/products/truper/100416.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/100416-alpha.png",
+          "original": "/project/products/truper/100416.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/CAT-50X.jpg",
+          "background": "edge-connected-white-250"
+        }
+      ]
+    },
+    {
+      "reference": "102639",
+      "handle": "102639-lla-12",
+      "title": "Llana 12\" canto redondo, 6 remaches, mango madera, TRUPER",
+      "category": "construccion",
+      "description": "Marca: TRUPER. Modelo: LLA-12.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER",
+      "model": "LLA-12",
+      "specifications": {
+        "Medidas": "12\" (30 cm) x 5\" (13 cm)",
+        "Número de remaches": "6"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=102639",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/LLA-12.jpg",
+      "images": [
+        "/project/products/truper/102639.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/102639-alpha.png",
+          "original": "/project/products/truper/102639.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/LLA-12.jpg",
+          "background": "edge-connected-white-250"
+        }
+      ]
+    },
+    {
+      "reference": "11776",
+      "handle": "11776-cat-60nd",
+      "title": "Carretilla 6 ft3 Neumática, bastidor tubular, TRUPER",
+      "category": "construccion",
+      "description": "Marca: TRUPER. Modelo: CAT-60ND.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER",
+      "model": "CAT-60ND",
+      "specifications": {
+        "Capacidad (sólidos / líquidos)": "6 ft³ (170 L) / 3.5 ft³ (100 L)",
+        "Dimensiones de la concha (Ancho x Largo x Alto)": "65 x 97 x 41 cm (25 1/2\" x 38\" x 16\")",
+        "Tipo de llanta": "Neumática reforzada",
+        "Peso total (carretilla ensamblada)": "18. 5 kg",
+        "Dimensiones de la carretilla (Ancho x Largo x Alto)": "64.7 x 157.3 x 74.6 cm",
+        "Llanta": "Neumática reforzada",
+        "Resistencia de carga": "580 kg"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=11776",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/CAT-60ND.jpg",
+      "images": [
+        "/project/products/truper/11776.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/11776-alpha.png",
+          "original": "/project/products/truper/11776.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/CAT-60ND.jpg",
+          "background": "edge-connected-white-250"
+        }
+      ]
+    },
+    {
+      "reference": "15020",
+      "handle": "15020-gts-sh",
+      "title": "Cuchara para jardín, mango de 6\", TRUPER",
+      "category": "jardineria",
+      "description": "Marca: TRUPER. Modelo: GTS-SH.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER",
+      "model": "GTS-SH",
+      "specifications": {
+        "Material de la cabeza": "Acero al carbono",
+        "Material del mango": "Madera",
+        "Dimensiones de cabeza": "6\" x 3-7/16\" (15.2 x 8.7 cm)",
+        "Largo del mango": "6\" (15 cm)"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=15020",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/GTS-SH.jpg",
+      "images": [
+        "/project/products/truper/15020.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/15020-alpha.png",
+          "original": "/project/products/truper/15020.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/GTS-SH.jpg",
+          "background": "edge-connected-white-250"
+        }
+      ]
+    },
+    {
+      "reference": "15850",
+      "handle": "15850-et-2fx",
+      "title": "Espátula flexible 2\" acero inoxidable, Comfort Grip, EXPERT",
+      "category": "construccion",
+      "description": "Marca: TRUPER. Modelo: ET-2FX.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER",
+      "model": "ET-2FX",
+      "specifications": {
+        "Ancho": "2\" (5 cm)"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=15850",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/ET-2FX.jpg",
+      "images": [
+        "/project/products/truper/15850.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/15850-alpha.png",
+          "original": "/project/products/truper/15850.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/ET-2FX.jpg",
+          "background": "edge-connected-white-250"
+        }
+      ]
+    },
+    {
+      "reference": "19784",
+      "handle": "19784-bas-2b",
+      "title": "Juego de 2 baleros para carretillas EXPERT, TRUPER y PRETUL",
+      "category": "construccion",
+      "description": "Marca: TRUPER. Modelo: BAS-2B.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER",
+      "model": "BAS-2B",
+      "specifications": {},
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=19784",
+      "images": [],
+      "gallery": []
+    },
+    {
+      "reference": "100105",
+      "handle": "100105-st-1040ex",
+      "title": "Disco sierra 10\" para madera, 40 dientes centro 1\", EXPERT",
+      "category": "corte-y-abrasivos",
+      "description": "Marca: TRUPER-EXPERT. Modelo: ST-1040EX.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER-EXPERT",
+      "model": "ST-1040EX",
+      "specifications": {
+        "Diámetro exterior": "10\" (250 mm)",
+        "No. de dientes": "40",
+        "Tipo de dentado": "Alternado hacia la derecha y la izquierda",
+        "Eje": "1\" (25 mm)",
+        "Velocidad máxima": "6,000 rpm",
+        "Espesor de corte": "2.8 mm",
+        "Uso/corte": "General"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=100105",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/ST-1040EX.jpg",
+      "images": [
+        "/project/products/truper/100105.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/100105-alpha.png",
+          "original": "/project/products/truper/100105.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/ST-1040EX.jpg",
+          "background": "edge-connected-white-250"
+        }
+      ]
+    },
+    {
+      "reference": "102364",
+      "handle": "102364-jbs-5",
+      "title": "Juego de 5 brocas para concreto SDS Plus, TRUPER",
+      "category": "corte-y-abrasivos",
+      "description": "Marca: TRUPER. Modelo: JBS-5.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER",
+      "model": "JBS-5",
+      "specifications": {
+        "Longitud total": "6\" (150 mm)",
+        "Longitud de trabajo": "3-3/8\" (86 mm)"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=102364",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/JBS-5.jpg",
+      "images": [
+        "/project/products/truper/102364.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/102364-alpha.png",
+          "original": "/project/products/truper/102364.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/JBS-5.jpg",
+          "background": "edge-connected-white-250"
+        }
+      ]
+    },
+    {
+      "reference": "103660",
+      "handle": "103660-trm-141",
+      "title": "Tronzadora / cortadora de metales 14\", 2200 W mango en \"D\"",
+      "category": "corte-y-abrasivos",
+      "description": "Marca: TRUPER INDUSTRIAL. Modelo: TRM-141.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER INDUSTRIAL",
+      "model": "TRM-141",
+      "specifications": {
+        "Tipo de mango": "En \"D\"",
+        "Potencia nominal": "2,200 W (3 HP)",
+        "Diámetro del disco": "14\" (350 mm)",
+        "Eje": "1\" (25 mm)",
+        "Tensión / Frecuencia": "127 V / 60 Hz",
+        "Consumo": "17 A",
+        "Velocidad": "4,200 rpm",
+        "Largo del cable": "320 cm",
+        "Grado de protección": "IP20",
+        "Dimensiones (Largo x Ancho x Alto)": "29 x 47 x 63 cm",
+        "Ciclo de trabajo a corriente nominal": "50 minutos de trabajo por 20 minutos de descanso. Máximo diario: 6 horas",
+        "Peso de la cortadora": "16 kg"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=103660",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/TRM-141.jpg",
+      "images": [
+        "/project/products/truper/103660.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/103660-alpha.png",
+          "original": "/project/products/truper/103660.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/TRM-141.jpg",
+          "background": "edge-connected-white-250"
+        },
+        {
+          "src": "/project/products/truper/103660-illustration-441cda28e751.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/corte-y-abrasivos/103660-trm-141/ChatGPT Image Nov 22, 2026, 08_08_01 PM-1.png",
+          "source_sha256": "441cda28e751f0efa6476cc48ded4e7826e8f1caca730dc1afa3a71da7aa8a72",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Tronzadora tres cuartos frontal; mordaza y disco bajo guarda visibles"
+        },
+        {
+          "src": "/project/products/truper/103660-illustration-eb0821caa7d5.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/corte-y-abrasivos/103660-trm-141/ChatGPT Image Nov 22, 2026, 08_08_02 PM-2.png",
+          "source_sha256": "eb0821caa7d5908d4a200e9f6f5c2294c7b810f316f85164cc9eb91e26cfc627",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Perfil del lado de la guarda; base horizontal y mordaza delante"
+        },
+        {
+          "src": "/project/products/truper/103660-illustration-741e4be13124.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/corte-y-abrasivos/103660-trm-141/ChatGPT Image Nov 22, 2026, 08_08_03 PM-3.png",
+          "source_sha256": "741e4be1312498eec96792af00fed80a432597cc6b08b95b7da25b8ea8dcf715",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Tres cuartos posterior; motor cilíndrico y soporte trasero visibles"
+        },
+        {
+          "src": "/project/products/truper/103660-illustration-602941769553.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/corte-y-abrasivos/103660-trm-141/ChatGPT Image Nov 22, 2026, 08_08_04 PM-4.png",
+          "source_sha256": "6029417695534d2f6035def96aab67d6bee4cc15fcce6ced3e82113d95189df6",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Disco abrasivo aislado, rótulo 14 pulgadas/355 mm, 12568 ABT-739"
+        },
+        {
+          "src": "/project/products/truper/103660-illustration-1b78dbb75c77.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/corte-y-abrasivos/103660-trm-141/ChatGPT Image Nov 22, 2026, 08_08_04 PM-5.png",
+          "source_sha256": "1b78dbb75c77083a9ffa6ad5426e06b1c3838aeddeb9ac5edb9623fa945464c2",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Llave hexagonal en L aislada"
+        },
+        {
+          "src": "/project/products/truper/103660-illustration-0f4fefc2ae22.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/corte-y-abrasivos/103660-trm-141/ChatGPT Image Nov 22, 2026, 08_08_05 PM-6.png",
+          "source_sha256": "0f4fefc2ae22bbb6b9a2ae7659f3f395b8885aa2e76df4ac0278e184b6b77a4f",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Par de carbones con resortes y terminales"
+        }
+      ]
+    },
+    {
+      "reference": "104549",
+      "handle": "104549-caz-120lx",
+      "title": "Cortador azulejo 47\" (120 cm) guía láser con maletín, EXPERT",
+      "category": "corte-y-abrasivos",
+      "description": "Marca: TRUPER-EXPERT. Modelo: CAZ-120LX.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER-EXPERT",
+      "model": "CAZ-120LX",
+      "specifications": {
+        "Corte recto máximo": "47\" (120 cm)",
+        "Corte diagonal máximo": "80 x 80 cm",
+        "Espesor de corte": "5 a 14 mm",
+        "Material de la cuchilla": "Carburo de tungsteno",
+        "Diámetro de la cuchilla": "22 mm",
+        "Peso": "15.4 kg",
+        "Pilas (no incluidas)": "2 Pilas alcalinas AAA de 1.5 V c. c.",
+        "Clase del láser": "III",
+        "Longitud de onda del láser": "520 nm",
+        "Grado de protección": "IP20",
+        "Temperatura de operación": "-10 a 60 °C",
+        "Temperatura de almacenamiento": "-40 a 85 °C"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=104549",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/CAZ-120LX.jpg",
+      "images": [
+        "/project/products/truper/104549.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/104549-alpha.png",
+          "original": "/project/products/truper/104549.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/CAZ-120LX.jpg",
+          "background": "edge-connected-white-250"
+        }
+      ]
+    },
+    {
+      "reference": "11110",
+      "handle": "11110-bav-1-16",
+      "title": "Broca HSS 1/16\" Trugold para metal, TRUPER EXPERT",
+      "category": "corte-y-abrasivos",
+      "description": "Marca: TRUPER-EXPERT. Modelo: BAV-1/16.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER-EXPERT",
+      "model": "BAV-1/16",
+      "specifications": {
+        "Largo total": "2\"",
+        "Largo de flauta": "7/8\"",
+        "Tipo de zanco": "Redondo",
+        "Ángulo de punta": "135°"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=11110",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/BAV-1-16.jpg",
+      "images": [
+        "/project/products/truper/11110.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/11110-alpha.png",
+          "original": "/project/products/truper/11110.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/BAV-1-16.jpg",
+          "background": "edge-connected-white-250"
+        }
+      ]
+    },
+    {
+      "reference": "11423",
+      "handle": "11423-mt-5-8x11",
+      "title": "Machuelo semicónico 5/8\"x11 UNC, estuche individual, TRUPER",
+      "category": "corte-y-abrasivos",
+      "description": "Marca: TRUPER. Modelo: MT-5/8X11.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER",
+      "model": "MT-5/8X11",
+      "specifications": {
+        "Medida": "5/8\"",
+        "Hilos por pulgada": "11",
+        "Número de canales": "4",
+        "Cuerda": "UNC (Cuerda gruesa)"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=11423",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/MT-5-8X11.jpg",
+      "images": [
+        "/project/products/truper/11423.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/11423-alpha.png",
+          "original": "/project/products/truper/11423.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/MT-5-8X11.jpg",
+          "background": "edge-connected-white-250"
+        }
+      ]
+    },
+    {
+      "reference": "12544",
+      "handle": "12544-dicof-3010",
+      "title": "Disco abrasivo de corte preciso metal 3\" x 1 mm, TRUPER",
+      "category": "corte-y-abrasivos",
+      "description": "Marca: TRUPER. Modelo: DICOF-3010.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER",
+      "model": "DICOF-3010",
+      "specifications": {
+        "Diámetro exterior": "3\" (75 mm)",
+        "Diámetro interno": "3/8\" (9.5 mm)",
+        "Espesor": "3/64\" (1 mm)",
+        "Velocidad máxima": "20,000 rpm"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=12544",
+      "images": [],
+      "gallery": []
+    },
+    {
+      "reference": "15711",
+      "handle": "15711-dltp-7040",
+      "title": "Disco laminado 7\" grano 40 centro 7/8\", plástico, TRUPER",
+      "category": "corte-y-abrasivos",
+      "description": "Marca: TRUPER. Modelo: DLTP-7040.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER",
+      "model": "DLTP-7040",
+      "specifications": {
+        "Grano": "40",
+        "Diámetro exterior": "7\" (180 mm)",
+        "Abrasivo": "Zirconia y óxido de aluminio",
+        "Eje": "7/8\" (22 mm)",
+        "Velocidad máxima": "8,600 rpm",
+        "Respaldo": "Plástico"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=15711",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/DLTP-7040.jpg",
+      "images": [
+        "/project/products/truper/15711.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/15711-alpha.png",
+          "original": "/project/products/truper/15711.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/DLTP-7040.jpg",
+          "background": "edge-connected-white-250"
+        }
+      ]
+    },
+    {
+      "reference": "17025",
+      "handle": "17025-nv-7x",
+      "title": "Navaja abatible 7\" cuerpo de aluminio y acero inox, TRUPER",
+      "category": "corte-y-abrasivos",
+      "description": "Marca: TRUPER. Modelo: NV-7X.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER",
+      "model": "NV-7X",
+      "specifications": {
+        "Material de la cuchilla": "Acero SK2",
+        "Material del cuerpo de la navaja": "Aluminio y acero inoxidable",
+        "Tipo de navaja": "Abatible",
+        "Largo de la navaja": "7\" (18 cm)",
+        "Largo de la cacha": "4-3/4\" (12 cm)"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=17025",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/NV-7X.jpg",
+      "images": [
+        "/project/products/truper/17025.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/17025-alpha.png",
+          "original": "/project/products/truper/17025.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/NV-7X.jpg",
+          "background": "edge-connected-white-250"
+        }
+      ]
+    },
+    {
+      "reference": "17903",
+      "handle": "17903-rep-cut-7",
+      "title": "Estuche con 10 cuchillas SK4 de 25 mm para cutter, TRUPER",
+      "category": "corte-y-abrasivos",
+      "description": "Marca: TRUPER. Modelo: REP-CUT-7.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER",
+      "model": "REP-CUT-7",
+      "specifications": {
+        "Contenido": "10 Cuchillas",
+        "Ancho": "25 mm",
+        "Espesor": "0.7 mm"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=17903",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/REP-CUT-7.jpg",
+      "images": [
+        "/project/products/truper/17903.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/17903-alpha.png",
+          "original": "/project/products/truper/17903.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/REP-CUT-7.jpg",
+          "background": "edge-connected-white-250"
+        }
+      ]
+    },
+    {
+      "reference": "50004",
+      "handle": "50004-desp-bav-29c",
+      "title": "Juego de 29 brocas HSS para metal en estuche, TRUPER EXPERT",
+      "category": "corte-y-abrasivos",
+      "description": "Marca: TRUPER-EXPERT. Modelo: DESP-BAV-29C.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-22",
+      "brand": "TRUPER-EXPERT",
+      "model": "DESP-BAV-29C",
+      "specifications": {
+        "Tipo de zanco": "P3 antiderrapante (3-16\" a 1/2\") y Redondo (1/16\" a 11/64\")",
+        "Ángulo de punta": "135°"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=50004",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/DESP-BAV-29C.jpg",
+      "images": [
+        "/project/products/truper/50004.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/50004-alpha.png",
+          "original": "/project/products/truper/50004.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/DESP-BAV-29C.jpg",
+          "background": "edge-connected-white-250"
+        }
+      ]
+    },
+    {
+      "reference": "104495",
+      "handle": "104495-arba-12",
+      "title": "Arrancador de baterías c/inflador, 1200 A, batería de litio",
+      "category": "equipo-automotriz",
+      "description": "Marca: TRUPER. Modelo: ARBA-12.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-24",
+      "brand": "TRUPER",
+      "model": "ARBA-12",
+      "specifications": {
+        "Impulso de arranque / tensión": "1,200 A / 12 V c. c.",
+        "Calibre del cable": "8 AWG",
+        "Ciclo de trabajo": "Por cada 3 segundos de arranque, el equipo debe permanecer apagado 60 segundos",
+        "Capacidad": "12,000 mAh",
+        "Tensión de salida puerto USB-A": "5 V c. c., 2 A / 9 V c. c., 2 A / 12 V c. c., 1.5 A",
+        "Tensión de entrada puerto USB-C": "5 V c. c., 2 A / 9 V c. c., 2 A",
+        "Presión máxima": "160 psi (1,103 kPa)",
+        "Ruido": "87 dBA",
+        "Tensión de la batería de ion litio": "14.8 V c. c.",
+        "Temperatura de operación": "-20 °C a 50 °C",
+        "Temperatura de carga": "0 °C a 40 °C",
+        "Temperatura de almacenamiento": "-20 °C a 50 °C",
+        "Peso": "1 kg"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=104495",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/ARBA-12.jpg",
+      "images": [
+        "/project/products/truper/104495.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/104495-alpha.png",
+          "original": "/project/products/truper/104495.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/ARBA-12.jpg",
+          "background": "edge-connected-white-250"
+        },
+        {
+          "src": "/project/products/truper/104495-illustration-054ab6988161.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/equipo-automotriz/104495-arba-12/ChatGPT Image Nov 23, 2026, 07_20_20 PM-2.png",
+          "source_sha256": "054ab698816142971fdafb7decdb169180c16ab52ae3060b153b991867bb3195",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/104495-illustration-cc2a9061363c.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/equipo-automotriz/104495-arba-12/ChatGPT Image Nov 23, 2026, 07_20_21 PM-4.png",
+          "source_sha256": "cc2a9061363c5bb92794d372f4a424ea69ed43c91b9a66a624b8f6e9388ff94b",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Estuche rígido negro y naranja"
+        },
+        {
+          "src": "/project/products/truper/104495-illustration-aba0f75c96d3.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/equipo-automotriz/104495-arba-12/ChatGPT Image Nov 23, 2026, 07_20_22 PM-5.png",
+          "source_sha256": "aba0f75c96d3c13f3e0f46cbc1b77fb01d3a7c9bf604c89ab695b7d67a95aabe",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Dos boquillas negras y dos agujas metálicas"
+        },
+        {
+          "src": "/project/products/truper/104495-illustration-a6868a5f8e54.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/equipo-automotriz/104495-arba-12/ChatGPT Image Nov 23, 2026, 07_20_23 PM-6.png",
+          "source_sha256": "a6868a5f8e5462feb19c529e325527a0213f9c8d8ab6e971374f86b84eac4456",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Cable rojo y negro con pinzas y módulo"
+        },
+        {
+          "src": "/project/products/truper/104495-illustration-959879414413.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/equipo-automotriz/104495-arba-12/ChatGPT Image Nov 23, 2026, 07_20_24 PM-7.png",
+          "source_sha256": "95987941441347784162841e9b30ee85aeab4bfd6088f179f8ff85d39a32b4d1",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Manguera corta flexible con conectores"
+        },
+        {
+          "src": "/project/products/truper/104495-illustration-30e4508bb4e5.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/equipo-automotriz/104495-arba-12/ChatGPT Image Nov 23, 2026, 07_20_25 PM-8.png",
+          "source_sha256": "30e4508bb4e51fc1c86aae30cea2231d3aeb23882f0e84fa80b144501ea6ad73",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Cabezal de inflado con palanca"
+        }
+      ]
+    },
+    {
+      "reference": "103722",
+      "handle": "103722-clne-70",
+      "title": "Clavadora neumática de bobina para clavo rolado,70mm, TRUPER",
+      "category": "ferreteria-y-fijacion",
+      "description": "Marca: TRUPER. Modelo: CLNE-70.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-24",
+      "brand": "TRUPER",
+      "model": "CLNE-70",
+      "specifications": {
+        "Calibre": "12 GA",
+        "Presión de trabajo": "75 - 110 psi",
+        "Largo de clavos": "1-3/4\" a 2-3/4\" (45 a 70 mm)",
+        "Entrada de aire": "1/4\" NPT",
+        "Capacidad de cartucho": "300 clavos",
+        "Consumo nominal": "5.2 CFM @ 90 psi / 100 clavos/min",
+        "Diámetro interno de manguera": "3/8\" (9.5 mm)",
+        "Ciclo de trabajo": "Continuo (lubricar constantemente)",
+        "Peso de la clavadora": "3.6 kg"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=103722",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/CLNE-70.jpg",
+      "images": [
+        "/project/products/truper/103722.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/103722-alpha.png",
+          "original": "/project/products/truper/103722.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/CLNE-70.jpg",
+          "background": "edge-connected-white-250"
+        },
+        {
+          "src": "/project/products/truper/103722-illustration-bca47a985a1f.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/ferreteria-y-fijacion/103722-clne-70/ChatGPT Image Nov 23, 2026, 07_30_42 PM-1.png",
+          "source_sha256": "bca47a985a1fd75f8ac5210956c91de22406d5702aa8fe478cde3a6e42988883",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/103722-illustration-caf4369311a1.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/ferreteria-y-fijacion/103722-clne-70/ChatGPT Image Nov 23, 2026, 07_30_43 PM-2.png",
+          "source_sha256": "caf4369311a1dca74be8097b4d4a7b4b2916a31483f50c7e237cf173037ed50c",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/103722-illustration-e2c1bb2ff750.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/ferreteria-y-fijacion/103722-clne-70/ChatGPT Image Nov 23, 2026, 07_30_44 PM-3.png",
+          "source_sha256": "e2c1bb2ff750617cfddf881f23bd73171d388f4c0c388b863c723dd29efffccc",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/103722-illustration-62a8d8ab1063.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/ferreteria-y-fijacion/103722-clne-70/ChatGPT Image Nov 23, 2026, 07_30_45 PM-4.png",
+          "source_sha256": "62a8d8ab10633700a944abdfd342ded70fa8b99ec9495dc410251d2cc51e264a",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Llave hexagonal larga"
+        },
+        {
+          "src": "/project/products/truper/103722-illustration-501d5d71868f.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/ferreteria-y-fijacion/103722-clne-70/ChatGPT Image Nov 23, 2026, 07_30_46 PM-5.png",
+          "source_sha256": "501d5d71868f506ac08074153a581bb7bdf0fed215030cb54b7877f655f1dd9c",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Llave hexagonal corta"
+        },
+        {
+          "src": "/project/products/truper/103722-illustration-8f784c82ee8c.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/ferreteria-y-fijacion/103722-clne-70/ChatGPT Image Nov 23, 2026, 07_30_47 PM-6.png",
+          "source_sha256": "8f784c82ee8c79827daf46447eb8f433450c62a570c2f1878ed9f0ada579d6ea",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Conector neumático roscado"
+        }
+      ]
+    },
+    {
+      "reference": "100891",
+      "handle": "100891-made-10nx",
+      "title": "Martillo demoledor SDS Max 10kg, 25J, 1500W, TRUPER EXPERT",
+      "category": "herramientas-manuales",
+      "description": "Marca: TRUPER-EXPERT. Modelo: MADE-10NX.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-24",
+      "brand": "TRUPER-EXPERT",
+      "model": "MADE-10NX",
+      "specifications": {
+        "Golpes/min": "1,000 - 1,900 gpm",
+        "Largo de cable de alimentación": "3 m",
+        "Consumo": "14 A",
+        "Posiciones de ángulo": "12",
+        "Dimensiones (Largo x Alto)": "59 x 27 cm",
+        "Ciclo de trabajo a corriente nominal": "50 minutos de trabajo por 20 minutos de descanso. Máximo diario: 6 horas",
+        "Peso": "10 kg"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=100891",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/MADE-10NX.jpg",
+      "images": [
+        "/project/products/truper/100891.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/100891-alpha.png",
+          "original": "/project/products/truper/100891.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/MADE-10NX.jpg",
+          "background": "edge-connected-white-250"
+        },
+        {
+          "src": "/project/products/truper/100891-illustration-94f2c2cc2eee.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/Metal Chisel Bit on White-13.png",
+          "source_sha256": "94f2c2cc2eeecb616ec2171b9cca1a0f4796207209ea5a4df0f73647f9db8335",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Cincel de punta"
+        },
+        {
+          "src": "/project/products/truper/100891-illustration-a33875d30319.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/Metal Flat Chisel Bit on White-14.png",
+          "source_sha256": "a33875d30319e37496e54cfd4095554b304897fc396e8fd78fbe8469bf94351a",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Cincel plano"
+        },
+        {
+          "src": "/project/products/truper/100891-illustration-52fcf89ac4e9.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/Minimal White Squeezable Tube-15.png",
+          "source_sha256": "52fcf89ac4e93738e0ba3124237af151d03431c8a854158bc9b65f0e4a332d33",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Tubo blanco sin rotulado visible"
+        },
+        {
+          "src": "/project/products/truper/100891-illustration-c60e6724a334.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/TRUPER Demolition Hammer Rear Profile-12.png",
+          "source_sha256": "c60e6724a33474f84633bebfb5ae450da86981265707b92256fd04ed437c0e3b",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/100891-illustration-4333b3cab5e5.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/TRUPER Expert Demolition Hammer Product Shot-3.png",
+          "source_sha256": "4333b3cab5e56210e0524338a819d696a5c0210d3f7fab342f4f7d271047cc80",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/100891-illustration-7ee46a953966.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/TRUPER Expert Demolition Hammer Product Shot-4.png",
+          "source_sha256": "7ee46a9539664b4f6dfb838eb7901c37fed98752c375583fea36c721e642f334",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/100891-illustration-d4a3631e6771.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/TRUPER Expert Demolition Hammer Product Shot-5.png",
+          "source_sha256": "d4a3631e67714186464ba43aef08d731e6922e8b29c34ba95a98a8d6d7febc57",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/100891-illustration-056258d7cb9e.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/TRUPER Expert Demolition Hammer Product Shot-7.png",
+          "source_sha256": "056258d7cb9ecd6cde0256e1846b02e3b83bc3e6cb11d5e1787a480f9f8ef00a",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/100891-illustration-14ce9a7b00f8.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/TRUPER Expert Demolition Hammer Rear View-10.png",
+          "source_sha256": "14ce9a7b00f8f5db0ef34c63554bf3625586a3f9bb192f77fb722ef2ac78726a",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/100891-illustration-95686bf543fd.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/TRUPER Expert Demolition Hammer-8.png",
+          "source_sha256": "95686bf543fdd77205a93c23f3c590935c503cc3a245dddff33f7a08edaaa8d0",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/100891-illustration-c675d055fe86.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/TRUPER Expert Hammer Rear Profile-9.png",
+          "source_sha256": "c675d055fe8635561093ab8eabceaa99ce87067548125ecfd2e4f56757a12670",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/100891-illustration-aa1345d3e448.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/TRUPER Expert Hammer Rear View-11.png",
+          "source_sha256": "aa1345d3e44843652889763d09f366950e881e93666a23887f60ba668d7a536e",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/100891-illustration-988c847abc91.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/Truper Expert Demolition Hammer-1.png",
+          "source_sha256": "988c847abc9137317cb3de8ef4eb8c2effd55a8528705c9cac76674dbc808bc0",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/100891-illustration-ec3bdb03e83f.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/Truper Expert Demolition Hammer-6.png",
+          "source_sha256": "ec3bdb03e83f738cf9facc6b84cecdc97256a05096416f20b0ee9bb7ec881ed0",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/100891-illustration-14b8c2af054b.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/Truper Expert Rotary Demolition Hammer-2.png",
+          "source_sha256": "14b8c2af054b28e2ba1a8ba7600b04054370c82e32f1cd45e1f95eb3a22590fc",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        }
+      ]
+    },
+    {
+      "reference": "100894",
+      "handle": "100894-made-30nx",
+      "title": "Martillo demoledor HEX 30 kg, 62J, 2000W, TRUPER EXPERT",
+      "category": "herramientas-manuales",
+      "description": "Marca: TRUPER-EXPERT. Modelo: MADE-30NX.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-24",
+      "brand": "TRUPER-EXPERT",
+      "model": "MADE-30NX",
+      "specifications": {
+        "Golpes/min": "1,000 gpm",
+        "Largo de cable de alimentación": "4 m",
+        "Consumo": "15 A",
+        "Dimensiones (Largo x Alto)": "62 x 76 cm",
+        "Ciclo de trabajo": "50 minutos trabajo por 20 minutos descanso. Máximo diario 6 horas",
+        "Peso": "30 Kg"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=100894",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/MADE-30NX.jpg",
+      "images": [
+        "/project/products/truper/100894.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/100894-alpha.png",
+          "original": "/project/products/truper/100894.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/MADE-30NX.jpg",
+          "background": "edge-connected-white-250"
+        },
+        {
+          "src": "/project/products/truper/100894-illustration-1b2ccbed63a4.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_50_51 PM-1.png",
+          "source_sha256": "1b2ccbed63a4b37312cd0dd2d9f002714c304612b5c5e5cc64cd1957e036385e",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/100894-illustration-1f5f591ca9c6.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_50_52 PM-2.png",
+          "source_sha256": "1f5f591ca9c642f44dc5be5b438e12b143931310dd08b8e46be43c90b7d840e4",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/100894-illustration-e7a97b57521f.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_50_53 PM-3.png",
+          "source_sha256": "e7a97b57521f5a03c8a7541de25db9b85a0984b6d1da7826900dfeb19e731576",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/100894-illustration-1bdd6730cb4c.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_50_54 PM-4.png",
+          "source_sha256": "1bdd6730cb4c4185090a9caf124ed644cb70d4c0e1333756cfd1649a61caa0fe",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Cincel de punta"
+        },
+        {
+          "src": "/project/products/truper/100894-illustration-aae676353b7d.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_50_55 PM-5.png",
+          "source_sha256": "aae676353b7d18b5b7bc0ca15ec45eac2ec6f34bc80c6451c4dbf88b23348584",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Cincel plano"
+        },
+        {
+          "src": "/project/products/truper/100894-illustration-06b95c5d2fbd.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_50_56 PM-6.png",
+          "source_sha256": "06b95c5d2fbd465c082c779b2d0aa29684296d0f4ef1ec6425891bc4dae2fb7e",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Dos tubos rotulados como grasa"
+        },
+        {
+          "src": "/project/products/truper/100894-illustration-5eefed784da9.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_50_57 PM-7.png",
+          "source_sha256": "5eefed784da93855bda39bdbaa85974729e8becffd7704f77fdc41204a90f6a5",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Dos carbones con conductor trenzado"
+        },
+        {
+          "src": "/project/products/truper/100894-illustration-f08767fdd29f.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_50_58 PM-8.png",
+          "source_sha256": "f08767fdd29fb39da7139f137aac213bc3ef3c52ff3ecebfffbbf11c6654e00e",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Mango auxiliar con abrazadera"
+        },
+        {
+          "src": "/project/products/truper/100894-illustration-9caa6990db8b.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_50_59 PM-9.png",
+          "source_sha256": "9caa6990db8b1f83dd1771797b2ca29f99fe09fa17e839f04722e4d2defa06cf",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Cuatro tornillos negros"
+        },
+        {
+          "src": "/project/products/truper/100894-illustration-c3ff19e16b84.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_51_00 PM-10.png",
+          "source_sha256": "c3ff19e16b84ed6ee554acbb785711debaf3d2a0433b3d6c8f3a8f40e6ea381a",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Llave hexagonal"
+        }
+      ]
+    },
+    {
+      "reference": "104242",
+      "handle": "104242-tpn-797-6-3",
+      "title": "Llave (pistola) de impacto neumática 1\", industrial, TRUPER",
+      "category": "herramientas-manuales",
+      "description": "Marca: TRUPER. Modelo: TPN-797-6-3.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-24",
+      "brand": "TRUPER",
+      "model": "TPN-797-6-3",
+      "specifications": {
+        "Cuadro": "1” (25 mm)",
+        "Torque máximo": "1,800 lb-ft (2,445 Nm)",
+        "Velocidad sin carga": "4,000 rpm",
+        "Velocidades": "3 velocidades reversibles",
+        "Golpes por minuto": "650 gpm",
+        "Consumo nominal": "9.5 CFM @ 90 psi (269 L/min)",
+        "Entrada de aire": "1/2\" NPT",
+        "Largo del vástago": "8\" (20 cm)",
+        "Diámetro interno de la manguera": "3/4” (19 mm)",
+        "Capacidad de tornillos": "1-3/4\" (45 mm)",
+        "Ciclo de trabajo": "Continuo (lubricar constantemente)",
+        "Peso": "11 kg"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=104242",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/TPN-797-6-3.jpg",
+      "images": [
+        "/project/products/truper/104242.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/104242-alpha.png",
+          "original": "/project/products/truper/104242.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/TPN-797-6-3.jpg",
+          "background": "edge-connected-white-250"
+        },
+        {
+          "src": "/project/products/truper/104242-illustration-f0c9ff4263f7.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-manuales/104242-tpn-797-6-3/Black Auxiliary Power Tool Handle-1.png",
+          "source_sha256": "f0c9ff4263f7977ceac3bc23a2d93d0b46b1e216acc2cedc9a2b49219cdb4521",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Mango auxiliar con abrazadera"
+        },
+        {
+          "src": "/project/products/truper/104242-illustration-8aeeb815872f.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-manuales/104242-tpn-797-6-3/Four Black Hex Socket Cap Bolts-4.png",
+          "source_sha256": "8aeeb815872f5f943934e76005b26f570e28951ff3f6a5c2f9da4d9e2f0d4090",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Cuatro tornillos negros"
+        },
+        {
+          "src": "/project/products/truper/104242-illustration-8c4f11a76ce5.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-manuales/104242-tpn-797-6-3/Matte Black L-Shaped Hex Key-2.png",
+          "source_sha256": "8c4f11a76ce51c8c2eb14362d3208871bfa7be279d2e428bde6cf39b47a37d9a",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Llave hexagonal"
+        },
+        {
+          "src": "/project/products/truper/104242-illustration-90c28b0e3e89.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-manuales/104242-tpn-797-6-3/TRUPER Heavy-Duty Pneumatic Impact Wrench-5.png",
+          "source_sha256": "90c28b0e3e896cdbf9c69a34466bfe6de5b47f8811cb306a53c12408e7cb5ff1",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/104242-illustration-53c44167dfbd.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-manuales/104242-tpn-797-6-3/TRUPER Heavy-Duty Pneumatic Impact Wrench-6.png",
+          "source_sha256": "53c44167dfbd6dfca98d2c733300c76401308dafb34257c362c8a60f979999cd",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/104242-illustration-129b21401f3a.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-manuales/104242-tpn-797-6-3/Truper 1_4_ NPT Pneumatic Coupler-3.png",
+          "source_sha256": "129b21401f3a1b73ee4728494c8f2f0c475071f57f96015dd2412c829eb4ae37",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Conector neumático"
+        }
+      ]
+    },
+    {
+      "reference": "104274",
+      "handle": "104274-n20-des-2",
+      "title": "Destornillador de impacto 1/4\" 20V 2baterías 2Ah, INDUSTRIAL",
+      "category": "herramientas-manuales",
+      "description": "Marca: TRUPER INDUSTRIAL. Modelo: N20-DES-2.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-24",
+      "brand": "TRUPER INDUSTRIAL",
+      "model": "N20-DES-2",
+      "specifications": {
+        "Torque máximo": "230 Nm (170 lb-ft)",
+        "Motor": "Libre de carbones (brushless)",
+        "Portapuntas": "1/4\" (6.5 mm)",
+        "Capacidad de la batería": "2 Ah",
+        "Torque de rompimiento": "320 Nm (236 lb-ft)",
+        "Niveles de torque": "4",
+        "Torque por nivel": "100 / 150 / 200 / 230 Nm",
+        "Velocidad por nivel": "0-1,200 / 0-1,900 / 0-2,500 / 0-3,200 rpm",
+        "Impactos por nivel": "0-1,400 / 0-2,200 / 0-3,000 / 0-4,000 gpm",
+        "Tensión": "20 V",
+        "Tecnología de la batería": "Ion litio",
+        "Tiempo de carga": "70 minutos",
+        "Cargador bivoltaje": "127 / 220 V",
+        "Capacidad de tornillos": "M5 - M12",
+        "Nivel de ruido": "100 dBA",
+        "Peso": "1.4 kg"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=104274",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/DIMI-20N.jpg",
+      "images": [
+        "/project/products/truper/104274.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/104274-alpha.png",
+          "original": "/project/products/truper/104274.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/DIMI-20N.jpg",
+          "background": "edge-connected-white-250"
+        },
+        {
+          "src": "/project/products/truper/104274-illustration-145d973511cb.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-manuales/104274-n20-des-2/Black and Orange Cordless Impact Driver-4.png",
+          "source_sha256": "145d973511cb9f9fbaa161b686352fa262670f7daccc9e7c79c94f00495abbcc",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/104274-illustration-aa17373a5395.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-manuales/104274-n20-des-2/Industrial Truper Battery Charger-6.png",
+          "source_sha256": "aa17373a5395b762a9ca611273e7797a84306be34e306be49ca9c1f30430bfa9",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Cargador negro"
+        },
+        {
+          "src": "/project/products/truper/104274-illustration-562f0a967374.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-manuales/104274-n20-des-2/Truper Brushless Cordless Impact Driver-3.png",
+          "source_sha256": "562f0a967374f27c6a4c6116d5f6739ca4cf64b5e8ceed5e20d919ef14e67c3c",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/104274-illustration-2833f70b9d43.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-manuales/104274-n20-des-2/Truper Industrial 20V Lithium-Ion Battery-5.png",
+          "source_sha256": "2833f70b9d436b7fad87f6e0c60b8529a85f7105c5bef5f17732053559e536bf",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Batería naranja y negra"
+        },
+        {
+          "src": "/project/products/truper/104274-illustration-3b68c6231d8e.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-manuales/104274-n20-des-2/Truper Industrial Brushless Impact Driver-1.png",
+          "source_sha256": "3b68c6231d8ec71ca93d350e16cad5600a6b0f99fd5ded32c4db6b7373c79708",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        }
+      ]
+    },
+    {
+      "reference": "13178",
+      "handle": "13178-enne-160",
+      "title": "Engrapadora neumática, calibre 16, TRUPER",
+      "category": "herramientas-manuales",
+      "description": "Marca: TRUPER. Modelo: ENNE-160.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-24",
+      "brand": "TRUPER",
+      "model": "ENNE-160",
+      "specifications": {
+        "Calibre": "16 GA",
+        "Presión de trabajo": "75  - 110 psi",
+        "Corona de las grapas": "7/16”",
+        "Largo de grapas": "3/4\" a 2\" (19 a 50 mm)",
+        "Entrada de aire": "1/4\" NPT",
+        "Capacidad de cartucho": "100 grapas",
+        "Consumo nominal": "8.9 CFM @ 90 psi",
+        "Diámetro interno de manguera": "3/8\" (9.5 mm)",
+        "Nivel de ruido": "90 dB",
+        "Ciclo de trabajo": "Continuo (lubricar constantemente)",
+        "Peso de la engrapadora": "2.4 kg"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=13178",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/ENNE-160.jpg",
+      "images": [
+        "/project/products/truper/13178.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/13178-alpha.png",
+          "original": "/project/products/truper/13178.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/ENNE-160.jpg",
+          "background": "edge-connected-white-250"
+        },
+        {
+          "src": "/project/products/truper/13178-illustration-f6f62ccb5f93.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-manuales/13178-enne-160/Matte Black L-Shaped Hex Key-3.png",
+          "source_sha256": "f6f62ccb5f93c5cb52336fcfda5d0d1a5a47e108a19f6bf7bf0ebf70fea2f08d",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Llave hexagonal"
+        },
+        {
+          "src": "/project/products/truper/13178-illustration-990e321eb3fe.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-manuales/13178-enne-160/Metallic Pneumatic Quick-Connect Plug-7.png",
+          "source_sha256": "990e321eb3fe82de8c53e04f6c7200d12fd33a4fa84d592aa172024d188d91d6",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Conector neumático"
+        },
+        {
+          "src": "/project/products/truper/13178-illustration-1b32d56c4c7b.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-manuales/13178-enne-160/Minimalist L-Shaped Hex Key-5.png",
+          "source_sha256": "1b32d56c4c7befe8279fd854205d46b5cb9599c959982face2f49c7096a6c94b",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Segunda llave hexagonal"
+        },
+        {
+          "src": "/project/products/truper/13178-illustration-d8ac043b5418.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-manuales/13178-enne-160/Orange and Black Pneumatic Nail Gun-2.png",
+          "source_sha256": "d8ac043b5418faa53d42c159051fb9707e63bc023d059ae45b00258838ebafa8",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/13178-illustration-d7657d164448.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-manuales/13178-enne-160/Symmetrical White Squeeze Tubes-10.png",
+          "source_sha256": "d7657d164448f5b3b3790886c09ffb20244629fc80baee9e554be20c0049b5b8",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Dos tubos blancos sin etiqueta"
+        },
+        {
+          "src": "/project/products/truper/13178-illustration-90a81575fcb6.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-manuales/13178-enne-160/TRUPER 16 Pneumatic Stapler Product Shot-4.png",
+          "source_sha256": "90a81575fcb644e258570f43814b94cfd2a00303a825deca3b0d9d1e557e15a6",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/13178-illustration-5552e98445f7.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/herramientas-manuales/13178-enne-160/TRUPER Orange Pneumatic Nail Gun-6.png",
+          "source_sha256": "5552e98445f73dbbe6108c8c3c33acd9f4ad6cd7872bbfe248dc6e15654b1eb5",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/13178-illustration-b0d0419b3841.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/herramientas-manuales/13178-enne-160/Translucent Oil Squeeze Bottle-1.png",
+          "source_sha256": "b0d0419b384111148a36798762c991d98431f677a7eefb020c64e924d9a7cfe1",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Botella translúcida de aceite"
+        }
+      ]
+    },
+    {
+      "reference": "100362",
+      "handle": "100362-mut-60a",
+      "title": "Multímetro profesional, rango automático, NCV, TRMS, 750 V",
+      "category": "medicion-y-trazado",
+      "description": "Marca: TRUPER. Modelo: MUT-60A.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-24",
+      "brand": "TRUPER",
+      "model": "MUT-60A",
+      "specifications": {
+        "Tensión c.c. / c.a.": "400 mV - 1000 V / 4 V - 750 V",
+        "Corriente c.c. / c.a.": "40 mA - 10 A / 40 mA - 10 A",
+        "Resistencia": "400 Ohm - 40 M Ohm",
+        "Temperatura (°C)": "-40 °C a 1,370 °C",
+        "Capacitancia": "4 nF - 40 mF",
+        "Frecuencia": "10 Hz - 10 MHz",
+        "CAT (Categoría de seguridad)": "CAT II (1000 V)<br />\r\nCAT III (600 V)",
+        "Dimensiones (Largo x Ancho x Fondo)": "19 x 8.5 x 5.5 cm",
+        "Peso (incluye funda y batería)": "365 g"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=100362",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/MUT-60A.jpg",
+      "images": [
+        "/project/products/truper/100362.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/100362-alpha.png",
+          "original": "/project/products/truper/100362.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/MUT-60A.jpg",
+          "background": "edge-connected-white-250"
+        },
+        {
+          "src": "/project/products/truper/100362-illustration-c1e068f39122.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/medicion-y-trazado/100362-mut-60a/01_frontal.png",
+          "source_sha256": "c1e068f3912276281a1978e514b5999ea7bbddbf936b1d3af9a74f710898317c",
+          "background": "edge-connected-white-250",
+          "role": "detail",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/100362-illustration-09896073de58.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/medicion-y-trazado/100362-mut-60a/02_tres_cuartos.png",
+          "source_sha256": "09896073de587b22081b204e4eff6459fb830ba348ea90aa8a670a8168f2fce8",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/100362-illustration-e80478247f8d.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/medicion-y-trazado/100362-mut-60a/03_posterior_aproximada.png",
+          "source_sha256": "e80478247f8d3af05ccda930dddba1e992febfa514adb6ef4d5c5526cd675daa",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/100362-illustration-5cb79a03d9d1.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/medicion-y-trazado/100362-mut-60a/04_puntas_prueba.png",
+          "source_sha256": "5cb79a03d9d1761205d077ef9d605148f048640e70a4e7d7f00c2c44487be95e",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Puntas de prueba roja y negra"
+        },
+        {
+          "src": "/project/products/truper/100362-illustration-01692d48f6fb.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/medicion-y-trazado/100362-mut-60a/05_sonda_termopar.png",
+          "source_sha256": "01692d48f6fb272652859a089b440c365c5a0ff5a35f9646770ecb5f83737e06",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Sonda térmica con cable blanco"
+        },
+        {
+          "src": "/project/products/truper/100362-illustration-46bf1308b0ed.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/medicion-y-trazado/100362-mut-60a/06_adaptador.png",
+          "source_sha256": "46bf1308b0ed52f2860a7a7a41c5bc607434b727633f153919cc5bc7c99e4b49",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Adaptador pequeño negro y rojo"
+        },
+        {
+          "src": "/project/products/truper/100362-illustration-d9d87a78e520.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/medicion-y-trazado/100362-mut-60a/07_cubierta_protectora.png",
+          "source_sha256": "d9d87a78e5205ffec87a310565ff128baeb039c59c4cb5471f151c30fe0c2fb3",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Cubierta protectora negra"
+        },
+        {
+          "src": "/project/products/truper/100362-illustration-dae2bfcdc00a.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/medicion-y-trazado/100362-mut-60a/08_pila_9v.png",
+          "source_sha256": "dae2bfcdc00a6b1670566fc9ac688927e1b8aff435f4baeb247b8ec4b099d8e9",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Pila rectangular de 9 V"
+        }
+      ]
+    },
+    {
+      "reference": "104111",
+      "handle": "104111-nl-16",
+      "title": "Nivel láser verde, alcance 30m,16 líneas, recargable, TRUPER",
+      "category": "medicion-y-trazado",
+      "description": "Marca: TRUPER. Modelo: NL-16.",
+      "approved_by": "Ferready",
+      "approved_at": "2026-11-24",
+      "brand": "TRUPER",
+      "model": "NL-16",
+      "specifications": {
+        "Precisión de nivelación": "0.3 mm/m",
+        "Alcance máximo (interior / exterior)": "30 m / 5 m",
+        "Rango de autonivelación": "±3°",
+        "Batería (ion litio)": "11.1 V c. c. / 2,600 mAh",
+        "Duración de batería": "7 Horas",
+        "Tiempo de carga": "3.5 Horas",
+        "Líneas láser / planos": "16 / 4",
+        "Dimensiones (Largo x Ancho x Alto)": "15 cm x 8 cm x 14 cm",
+        "Parámetros de carga": "USB-C / 5 V c. c. / 2.0 A",
+        "Clase de láser": "ll",
+        "Longitud de onda del láser": "510 - 530 nm",
+        "Rosca para tripié": "1/4\" - 20 UNC",
+        "Grado de protección": "IP54",
+        "Temperatura de operación": "-10 a 50 °C",
+        "Temperatura de almacenamiento": "-20 a 70 °C",
+        "Peso": "891 g"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=104111",
+      "image_source_url": "https://www.truper.com/media/import/imagenes/NL-16.jpg",
+      "images": [
+        "/project/products/truper/104111.jpg"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/truper/104111-alpha.png",
+          "original": "/project/products/truper/104111.jpg",
+          "kind": "photo",
+          "caption": "Fotografía del fabricante · fondo blanco retirado",
+          "provenance": "https://www.truper.com/media/import/imagenes/NL-16.jpg",
+          "background": "edge-connected-white-250"
+        },
+        {
+          "src": "/project/products/truper/104111-illustration-bb72117b90b8.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/medicion-y-trazado/104111-nl-16/Black Magnetic Laser Level Bracket-5.png",
+          "source_sha256": "bb72117b90b8efa3e5a80a4c9ab952aaf29127b6b93b72a9571ef51fee314440",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Soporte negro con dos imanes"
+        },
+        {
+          "src": "/project/products/truper/104111-illustration-256b9d6a5d42.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/medicion-y-trazado/104111-nl-16/Black USB-A to USB-C Cable Product Photo-4.png",
+          "source_sha256": "256b9d6a5d4288a39f2722b5a0658d016493b154d4723a10557c91169299a93f",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Cable USB-A a USB-C"
+        },
+        {
+          "src": "/project/products/truper/104111-illustration-03fd09d165c0.webp",
+          "kind": "illustration",
+          "caption": "Accesorio ilustrado · inclusión por confirmar",
+          "provenance": "data/research/truper/images/medicion-y-trazado/104111-nl-16/TRUPER 12V Lithium-Ion Battery Pack-6.png",
+          "source_sha256": "03fd09d165c05bfd4736ee4aa1623d8d73b58c0a27614f830f588e7db209d973",
+          "background": "edge-connected-white-250",
+          "role": "accessory",
+          "observation": "Batería naranja de 12 V"
+        },
+        {
+          "src": "/project/products/truper/104111-illustration-75c37fe805c6.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/medicion-y-trazado/104111-nl-16/TRUPER Orange Laser Level Close-Up-1.png",
+          "source_sha256": "75c37fe805c67a0a967b3e4ed8c25047f717e6714865a337ae12a88a31cc4d97",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        },
+        {
+          "src": "/project/products/truper/104111-illustration-34dc0fc82277.webp",
+          "kind": "illustration",
+          "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+          "provenance": "data/research/truper/images/medicion-y-trazado/104111-nl-16/TRUPER Orange Laser Level Studio Shot-2.png",
+          "source_sha256": "34dc0fc82277a6df2c37dd27decd4e7cd872d857febf756d275f19a4b1e770b8",
+          "background": "edge-connected-white-250",
+          "role": "angle",
+          "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+        }
+      ]
+    }
+  ]
 }

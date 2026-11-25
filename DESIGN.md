@@ -1,16 +1,16 @@
-# Neutral storefront template
+# Ferready storefront demonstration
 
-The approved direction is a white canvas, not a new layout: preserve navigation, selectable three-object counter scene, objectives, catalog, animated product detail, cart, guest checkout and thermal receipt. Remove the former niche's public identity, photographs, colors and commercial copy. Visitor mode: shopping and checkout are Operate; the home demonstrates the same template interactions.
+The approved direction applies the supplied Ferready identity without a new layout: preserve navigation, selectable three-object counter scene, objectives, catalog, animated product detail, cart, guest checkout and thermal receipt. Visitor mode: shopping and checkout are Operate; the home demonstrates the same template interactions. No historical product photographs or commercial claims are activated.
 
 ## Tokens and composition
 
-`apps/storefront/data/storefront.mjs` owns the public identity and palette. `app/template.css` maps these values to legacy component tokens without changing the real Medusa storefront.
+`apps/storefront/data/project-config.mjs` owns the public identity and palette, exported by `data/storefront.mjs`. `app/template.css` maps these values to legacy component tokens without changing the real Medusa storefront.
 
-- Paper `#ffffff`; quiet surface `#f5f5f5`.
-- Ink `#202020`; secondary text `#595959`; border `#dedede`.
-- Action `#303030` with white text. Selection adds a dark outline and gray surface, not color alone.
+- Paper `#F5F2EC`; quiet surface `#E8E9E8`.
+- Metal-black ink/footer `#12161B`; navy secondary text `#1D3659`; steel borders `#4F7399`.
+- Red action `#E4261E` with white text. Selection retains a dark outline and gray surface, not color alone.
 - Retain self-hosted Manrope, readable body type and the established responsive grid.
-- Header and footer are white with a text wordmark. Counter, cloth, box and contact shadows use only neutral tones.
+- Header uses paper with the official dark-ink wordmark; footer uses metal black with the official paper-colored wordmark. All four supplied SVGs are preserved unmodified in `public/project/`. Optional logo and icon configuration retains text-only/placeholder fallback for neutral template consumers. Counter, cloth, box and contact shadows remain neutral.
 - `public/template/product-placeholder.svg` is an intentional, accessible placeholder, labeled “Imagen del producto”; no generated images or niche object silhouettes.
 
 ## Content and behavior

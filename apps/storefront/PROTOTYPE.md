@@ -4,7 +4,7 @@
 
 This checkpoint preserves the functional campaign prototype, not a finished visual release. Current supplier-photo cutouts were rejected for final delivery; custom Higgsfield campaign photography remains pending. A separate basic-settings storefront-sign diagnostic successfully generated an image with the official logo, so image generation is not universally blocked. Earlier higher-setting requests were refused, and the exact eligibility cause is unconfirmed. The diagnostic is not integrated into the website.
 
-Snapshot checks: all 13 unit tests and TypeScript passed. Earlier isolated Webpack production and browser checks passed; the final tablet typography recheck remains pending. This checkpoint does not authorize a public deployment or real transactions.
+Snapshot checks: all 13 unit tests and TypeScript passed. Earlier isolated Webpack production and browser checks passed; the final tablet typography recheck remains pending. A production deployment is authorized through `docs/despliegue-vps.md`; real transactions remain out of scope.
 
 The prototype is opt-in, local, private and non-transactional. The default Medusa-backed storefront is preserved. No backend services are needed for the prototype.
 
@@ -33,7 +33,7 @@ UI language is Colombian Spanish as requested by the product context. No human-s
 
 ## Isolation and data
 
-`FERREADY_DEMO=1` is checked only on the server. The demo does not call Medusa, write approved catalog data, persist personal details or submit checkout data. Only the cart's product handles and bounded integer quantities are stored under `ferready-demo-cart-v1` in localStorage. Invalid stored items are discarded; storage denial falls back to in-memory use. Demonstration pages are marked noindex; this does not provide authentication or authorize hosting them publicly.
+`FERREADY_DEMO=1` is checked only on the server. The demo does not call Medusa, write approved catalog data, persist personal details or submit checkout data. Only the cart's product handles and bounded integer quantities are stored under `ferready-demo-cart-v1` in localStorage. Invalid stored items are discarded; storage denial falls back to in-memory use. Demonstration pages are marked noindex; this does not provide authentication and does not authorize hosting the demo mode itself publicly. Production uses the approved catalog, not this mode.
 
 Official logos were copied unchanged from the user-supplied brand folder. `/ferready/image-sources.json` records image provenance. Homecenter/Easy photographs are presentation references, not claimed licenses, supplier inventory, Ferready reviews or guarantees. The Higgsfield generation attempt was rejected with `only_mcp_usage_on_trial_is_available`; no generated asset is claimed or substituted from another provider. The current editorial composition uses actual reference photography on brand-colored fields.
 

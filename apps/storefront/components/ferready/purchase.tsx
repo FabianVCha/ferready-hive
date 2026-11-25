@@ -7,9 +7,14 @@ import { products, money } from "./catalog";
 import { Icon, useCart } from "./shell";
 import { QuantityInput } from "./quantity-input";
 import { SafeImage } from "./safe-image";
+import { useVisualCatalog } from "./catalog-context";
+import { ThermalReceipt } from "./thermal-receipt";
+import "./thermal-receipt.css";
 
-export function CartView() {
-  const { cart, ready, setQuantity } = useCart();
+export function CartView({ selection = false }: { selection?: boolean }) {
+  const { cart, ready, busy, error, setQuantity } = useCart();
+  const catalog = useVisualCatalog();
+  const displayedProducts = selection ? catalog.products : products;
   const total = cartTotal(cart, products);
   return (
     <div className="page-pad purchase-page">
@@ -33,16 +38,17 @@ export function CartView() {
         <div className="empty-state">
           <Icon name="bag" size={48} />
           <h2>Tu carrito empieza aquí.</h2>
-          <p>Aún no tienes productos en el carrito.</p>
+            <p>{error ? "Reintenta la conexión para recuperar tu selección." : "Aún no tienes productos en el carrito."}</p>
           <Link href="/catalogo" className="button button-red">
             Explorar productos <Icon name="arrow" />
           </Link>
         </div>
       ) : (
-        <div className="purchase-layout">
+        <div className="purchase-layout" aria-busy={busy}>
           <div className="cart-items">
             {cart.map((item) => {
-              const product = products.find((p) => p.slug === item.slug)!;
+              const product = displayedProducts.find((p) => p.slug === item.slug);
+              if (!product) return null;
               return (
                 <article className="cart-item" key={item.slug}>
                   <Link href={`/p/${item.slug}`}>
@@ -54,21 +60,22 @@ export function CartView() {
                     />
                   </Link>
                   <div>
-                    <span className="product-brand">{product.brand}</span>
+                    <span className="product-brand">{product.brand}{"reference" in product && product.reference ? ` · ${product.reference}` : ""}</span>
                     <h2>
                       <Link href={`/p/${item.slug}`}>{product.name}</Link>
                     </h2>
-                    <span>{money(product.price)} por unidad</span>
+                    <span>{product.price === null ? "Precio por confirmar" : `${money(product.price)} por unidad`}</span>
                     <button
                       className="remove-item"
+                      disabled={busy}
                       onClick={() => setQuantity(item.slug, 0)}
                     >
                       Eliminar
                     </button>
                   </div>
                   <div className="cart-item-controls">
-                    <strong>{money(product.price * item.quantity)}</strong>
-                    <QuantityInput name={product.name} value={item.quantity} onChange={(quantity) => setQuantity(item.slug, quantity)} />
+                    <strong>{product.price === null ? "Por definir" : money(product.price * item.quantity)}</strong>
+                    <QuantityInput name={product.name} value={item.quantity} disabled={busy} commitOnBlur={selection} onChange={(quantity) => setQuantity(item.slug, quantity)} />
                   </div>
                 </article>
               );
@@ -82,30 +89,40 @@ export function CartView() {
             </div>
           </div>
           <aside className="order-summary">
-            <h2>Resumen de tu compra</h2>
+            <h2>{selection ? "Resumen de tu selección" : "Resumen de tu compra"}</h2>
             <div className="summary-row">
               <span>
                 Productos ({cart.reduce((n, p) => n + p.quantity, 0)})
               </span>
-              <span>{money(total)}</span>
+              <span>{selection ? "Por definir" : money(total)}</span>
             </div>
             <div className="summary-row">
-              <span>Envío estimado a Bogotá</span>
-              <span>{money(12000)}</span>
+              <span>{selection ? "Envío" : "Envío estimado a Bogotá"}</span>
+              <span>{selection ? "Por confirmar" : money(12000)}</span>
             </div>
             <p className="summary-note">
-              Podrás elegir la zona en el siguiente paso.
+              {selection ? "Carrito guardado. Precio y disponibilidad por confirmar." : "Podrás elegir la zona en el siguiente paso."}
             </p>
             <div className="summary-total">
               <span>Total estimado</span>
-              <strong>{money(total + 12000)}</strong>
+              <strong>{selection ? "Por definir" : money(total + 12000)}</strong>
             </div>
-            <Link href="/checkout" className="button button-red">
+            {selection ? <>
+              <a href="#resumen-seleccion" className="button button-dark">Ver resumen <Icon name="arrow" size={20} /></a>
+              <button className="button button-red" disabled>Compra aún no disponible</button>
+            </> : <Link href="/checkout" className="button button-red">
               Continuar con la compra <Icon name="arrow" size={20} />
-            </Link>
+            </Link>}
             <p className="demo-note">
-              Compra simulada. No se realizará ningún cobro.
+              {selection ? "No es un pedido ni una reserva; no se realizará ningún cobro." : "Compra simulada. No se realizará ningún cobro."}
             </p>
+            {selection && <section id="resumen-seleccion" className="thermal-result" aria-label="Resumen de selección">
+              <ThermalReceipt mode="selection" items={cart.flatMap(item => {
+                const product = displayedProducts.find(p => p.slug === item.slug);
+                return product ? [{ slug: item.slug, name: product.name, quantity: item.quantity }] : [];
+              })} />
+              <button className="button button-dark" onClick={() => window.print()}>Imprimir resumen</button>
+            </section>}
           </aside>
         </div>
       )}

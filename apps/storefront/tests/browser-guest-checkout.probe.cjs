@@ -2,7 +2,7 @@ const { chromium } = require('/home/fabianvcha/playwright-login/node_modules/pla
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const { execFileSync } = require('node:child_process');
-const out = '/tmp/opencode/neutral-template/checkout';
+const out = `${process.env.BROWSER_EVIDENCE_DIR || '/tmp/opencode/neutral-template'}/checkout`;
 fs.mkdirSync(out, { recursive: true });
 (async () => {
   const { products } = (await import('../data/storefront.mjs')).storefront;
@@ -11,7 +11,7 @@ fs.mkdirSync(out, { recursive: true });
   const errors = [], writes = [];
   page.on('pageerror', error => errors.push(error.message));
   page.on('request', request => { if (!['GET', 'HEAD'].includes(request.method())) writes.push(request.url()); });
-  await page.goto('http://localhost:8000/checkout');
+  await page.goto(`${process.env.CATALOG_TEST_ORIGIN || 'http://localhost:8000'}/checkout`);
   await page.evaluate(items => localStorage.setItem('ferready-demo-cart-v1', JSON.stringify(items.map(product => ({ slug: product.slug, quantity: 2 })))), products);
   await page.reload();
   await page.getByRole('button', { name: 'Revisar pedido' }).click();

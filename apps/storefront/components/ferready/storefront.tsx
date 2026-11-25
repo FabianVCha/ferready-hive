@@ -3,25 +3,28 @@
 import Link from "next/link";
 import { useState, useMemo } from "react";
 import { useRouter } from "next/navigation";
-import { searchProducts, type DemoProduct } from "@/lib/prototype.mjs";
+import { searchProducts } from "@/lib/prototype.mjs";
 import { categories, products, money } from "./catalog";
 import { Icon, useCart } from "./shell";
 import { ProductJourney } from "./product-journey";
 import { SafeImage } from "./safe-image";
 import { AddButton } from "./selection-motion";
+import { useVisualCatalog, type DisplayProduct } from "./catalog-context";
+import { PendingPriceAdd } from "./selection-cart";
 
-export function ProductCard({ product }: { product: DemoProduct }) {
+export function ProductCard({ product }: { product: DisplayProduct }) {
   const { add, ready } = useCart();
+  const { informational } = useVisualCatalog();
   return (
     <article className="product-card">
       <Link href={`/p/${product.slug}`} className="product-image">
-        <SafeImage
+        {product.missingImage ? <span className="approved-missing-image">Fotografía no disponible</span> : <SafeImage
           src={product.image}
           alt={product.name}
           width="500"
           height="500"
           loading="lazy"
-        />
+        />}
         <span className="product-view">
           Ver producto <Icon name="diagonal" size={18} />
         </span>
@@ -35,14 +38,14 @@ export function ProductCard({ product }: { product: DemoProduct }) {
           {Object.values(product.specs).slice(0, 2).join(" · ")}
         </p>
         <div className="product-price-row">
-          <span>{money(product.price)}</span>
-          <AddButton
+          <span className={informational ? "quote-status" : undefined}>{informational ? "Precio y disponibilidad por confirmar" : product.price === null ? "Precio por confirmar" : money(product.price)}</span>
+          {!informational && product.price !== null && <AddButton
             disabled={!ready}
             className="quick-add"
             onClick={() => add(product.slug)}
             aria-label={`Añadir ${product.name} al carrito`}
           >
-          </AddButton>
+          </AddButton>}
         </div>
       </div>
     </article>
@@ -290,6 +293,7 @@ export function CatalogView({
   query?: string;
   category?: string;
 }) {
+  const { products, categories, informational } = useVisualCatalog();
   const [filter, setFilter] = useState(category);
   const [sort, setSort] = useState("featured");
   const [brand, setBrand] = useState("");
@@ -299,14 +303,15 @@ export function CatalogView({
       (p) =>
         (!filter || p.categorySlug === filter) && (!brand || p.brand === brand),
     );
-    if (sort === "low") list = [...list].sort((a, b) => a.price - b.price);
-    if (sort === "high") list = [...list].sort((a, b) => b.price - a.price);
+    if (sort === "low" && !informational) list = [...list].sort((a, b) => (a.price ?? Infinity) - (b.price ?? Infinity));
+    if (sort === "high" && !informational) list = [...list].sort((a, b) => (b.price ?? -Infinity) - (a.price ?? -Infinity));
+    if (sort === "name") list = [...list].sort((a, b) => a.name.localeCompare(b.name, "es"));
     return list;
-  }, [filter, sort, brand, query]);
+  }, [filter, sort, brand, query, products, informational]);
   const heading = query
     ? `Resultados para “${query}”`
     : categories.find((c) => c.slug === category)?.name ||
-      "Catálogo de ejemplo";
+      (informational ? "Herramientas Truper" : "Catálogo de ejemplo");
   return (
     <div className="catalog-page page-pad">
       <div className="breadcrumb">
@@ -317,9 +322,9 @@ export function CatalogView({
       <div className="catalog-intro">
         <h1>{heading}</h1>
         <p>
-          Tu espacio para presentar productos.
+          {informational ? "Consulta las referencias y sus características." : "Tu espacio para presentar productos."}
           <br />
-          Encuentra lo que buscas y revisa sus detalles.
+          {informational ? "Precio y disponibilidad por confirmar; sin compra en línea." : "Encuentra lo que buscas y revisa sus detalles."}
         </p>
       </div>
       <div className="catalog-toolbar">
@@ -335,8 +340,7 @@ export function CatalogView({
           Ordenar por{" "}
           <select value={sort} onChange={(e) => setSort(e.target.value)}>
             <option value="featured">Recomendados</option>
-            <option value="low">Menor precio</option>
-            <option value="high">Mayor precio</option>
+            {informational ? <option value="name">Nombre del producto</option> : <><option value="low">Menor precio</option><option value="high">Mayor precio</option></>}
           </select>
         </label>
       </div>
@@ -386,11 +390,11 @@ export function CatalogView({
           <div className="filter-note">
             <Icon name="pin" />
             <p>
-              Envíos de ejemplo,
+              {informational ? "Precio y disponibilidad" : "Envíos de ejemplo,"}
               <br />
-              por personalizar.
+              {informational ? "por confirmar." : "por personalizar."}
             </p>
-            <Link href="/informacion">Consulta los envíos</Link>
+            {!informational && <Link href="/informacion">Consulta los envíos</Link>}
           </div>
         </aside>
         <div>
@@ -416,8 +420,9 @@ export function CatalogView({
   );
 }
 
-export function ProductView({ product }: { product: DemoProduct }) {
+export function ProductView({ product }: { product: DisplayProduct }) {
   const { add, ready } = useCart();
+  const { products, informational } = useVisualCatalog();
   const [quantity, setQuantity] = useState(1);
   const [zone, setZone] = useState("Bogotá");
   const router = useRouter();
@@ -440,8 +445,15 @@ export function ProductView({ product }: { product: DemoProduct }) {
       <ProductJourney key={product.slug} product={product}>
         <div className="product-purchase">
           <p className="detail-description">{product.description}</p>
+          {informational ? <div className="approved-quote">
+            <p>Código {product.reference} · Modelo {product.model}</p>
+            <p className="detail-price">Precio por confirmar</p>
+            <p>Precio y disponibilidad por confirmar. Sin compra en línea.</p>
+            <PendingPriceAdd slug={product.slug} />
+            <Link href="#especificaciones" className="button button-red">Ver ficha técnica <Icon name="arrow" /></Link>
+          </div> : <>
           <p className="detail-price">
-            {money(product.price)} <small>IVA incluido · precio demo</small>
+            {product.price === null ? "Precio por confirmar" : money(product.price)} <small>IVA incluido · precio demo</small>
           </p>
           <p className="stock">
             <span /> Disponible en esta demostración
@@ -479,9 +491,10 @@ export function ProductView({ product }: { product: DemoProduct }) {
           >
             Comprar ahora <Icon name="arrow" size={20} />
           </button>
+          </>}
         </div>
       </ProductJourney>
-      <section className="product-delivery" aria-label="Entrega y compra de demostración">
+      {!informational && <section className="product-delivery" aria-label="Entrega y compra de demostración">
           <div className="delivery-box">
             <Icon name="truck" size={25} />
             <div>
@@ -512,7 +525,7 @@ export function ProductView({ product }: { product: DemoProduct }) {
             <Icon name="shield" size={18} />
             <span>Revisa compatibilidad y contenido antes de elegir.</span>
           </div>
-      </section>
+      </section>}
       <section className="product-information" id="especificaciones">
         <div>
           <h2>
@@ -557,11 +570,11 @@ export function ProductView({ product }: { product: DemoProduct }) {
               Envíos, cambios y garantías <Icon name="plus" size={18} />
             </summary>
             <p>
-              Esta es una demostración sin venta real. Cobertura, tarifas y
+              {informational ? "Precio, disponibilidad, cobertura, tarifas y garantías comerciales por confirmar. Este catálogo no habilita compras en línea." : <>Esta es una demostración sin venta real. Cobertura, tarifas y
               plazos son simulados; las políticas y garantías comerciales aún no
-              están aprobadas.
+              están aprobadas.</>}
             </p>
-            <Link href="/informacion">Conoce los detalles de la demo</Link>
+            {informational ? <a href={product.source} target="_blank" rel="noreferrer">Consultar ficha del fabricante</a> : <Link href="/informacion">Conoce los detalles de la demo</Link>}
           </details>
         </div>
       </section>

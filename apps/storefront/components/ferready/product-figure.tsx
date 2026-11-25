@@ -32,13 +32,14 @@ function removeStudioGround(context: CanvasRenderingContext2D, width: number, he
   context.putImageData(frame, 0, 0);
 }
 
-export function ProductFigure({ src, alt, className = "", priority = false }: {
-  src: string; alt: string; className?: string; priority?: boolean;
+export function ProductFigure({ src, alt, className = "", priority = false, preservePixels = false }: {
+  src: string; alt: string; className?: string; priority?: boolean; preservePixels?: boolean;
 }) {
   const canvas = useRef<HTMLCanvasElement>(null);
   const [painted, setPainted] = useState(false);
   const [failed, setFailed] = useState(false);
   useEffect(() => {
+    if (preservePixels) return;
     let cancelled = false;
     setPainted(false);
     setFailed(false);
@@ -63,7 +64,7 @@ export function ProductFigure({ src, alt, className = "", priority = false }: {
     image.onerror = () => { if (!cancelled) setFailed(true); };
     image.src = src;
     return () => { cancelled = true; image.onload = null; image.onerror = null; };
-  }, [src]);
+  }, [src, preservePixels]);
   return (
     <div className={`product-figure ${painted ? "figure-painted" : ""} ${className}`} role="img" aria-label={alt}>
       <canvas ref={canvas} aria-hidden="true" />

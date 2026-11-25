@@ -3,6 +3,8 @@ import Link from "next/link";
 import { DemoShell } from "@/components/ferready/shell";
 import { isDemoEnabled } from "@/lib/prototype.mjs";
 import { storefront } from "@/data/storefront.mjs";
+import { brandIcon } from "@/lib/storefront-brand.mjs";
+import { approvedCatalog, approvedVisualCatalog, usesApprovedCatalog } from "@/lib/approved-catalog";
 
 import "./globals.css";
 import "./ferready.css";
@@ -19,11 +21,12 @@ export const metadata: Metadata = demo
       description:
         storefront.description,
       robots: { index: false, follow: false },
-      icons: { icon: "/template/product-placeholder.svg" },
+      icons: { icon: brandIcon(storefront) },
     }
   : {
-      title: { default: "hive-web", template: "%s · hive-web" },
-      description: "Catálogo y guías de hive-web",
+      title: { default: storefront.brandName, template: `%s · ${storefront.brandName}` },
+      description: "Referencias y fichas técnicas. Precio y disponibilidad por confirmar.",
+      icons: { icon: brandIcon(storefront) },
     };
 
 export default function RootLayout({
@@ -31,11 +34,11 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  if (demo)
+  if (demo || usesApprovedCatalog)
     return (
       <html lang="es-CO">
         <body>
-          <DemoShell>{children}</DemoShell>
+          <DemoShell informational={!demo} approvedCategories={approvedCatalog.categories} visualCatalog={!demo ? approvedVisualCatalog : undefined}>{children}</DemoShell>
         </body>
       </html>
     );
@@ -44,16 +47,16 @@ export default function RootLayout({
       <body>
         <header className="site-header">
           <Link href="/" className="brand">
-            hive-web
+            {storefront.brandName}
           </Link>
           <nav>
-            <Link href="/">Catálogo</Link>
+            <Link href="/catalogo">Catálogo</Link>
             <Link href="/guias">Guías</Link>
           </nav>
         </header>
         <main>{children}</main>
         <footer className="site-footer">
-          <p>hive-web · contenido aprobado manualmente</p>
+          <p>{storefront.brandName} · contenido aprobado manualmente</p>
         </footer>
       </body>
     </html>

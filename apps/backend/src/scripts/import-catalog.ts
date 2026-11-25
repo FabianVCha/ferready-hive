@@ -66,7 +66,19 @@ export default async function importApprovedCatalog({ container }: ExecArgs): Pr
       approved_by: product.approved_by,
       approved_at: product.approved_at,
       content_variants: product.content_variants,
+      brand: product.brand,
+      model: product.model,
+      specifications: product.specifications,
+      source_url: product.source_url,
+      image_source_url: product.image_source_url,
+      gallery: product.gallery,
+      pricing_status: product.price_cop === null ? "quote_required" : "approved",
+      availability_status: "unconfirmed",
     };
+    // Images are hosted by the local storefront, not the backend's /static folder.
+    const assetOrigin = process.env.CATALOG_ASSET_ORIGIN ?? "http://localhost:8000";
+    const images = product.images.map((path) => ({ url: new URL(path, assetOrigin).href }));
+    const media = images.length ? { images, thumbnail: images[0].url } : {};
 
     if (existing) {
       // Never publish from the importer: publication is a human decision.
@@ -74,6 +86,7 @@ export default async function importApprovedCatalog({ container }: ExecArgs): Pr
         title: product.title,
         description: product.description ?? undefined,
         metadata,
+        ...media,
         category_ids: [categoryIdByHandle.get(product.category)!],
       });
       summary.updated += 1;
@@ -93,6 +106,7 @@ export default async function importApprovedCatalog({ container }: ExecArgs): Pr
             status: ProductStatus.DRAFT,
             category_ids: [categoryIdByHandle.get(product.category)!],
             metadata,
+            ...media,
             options: [{ title: "Presentación", values: ["Única"] }],
             variants: [
               {

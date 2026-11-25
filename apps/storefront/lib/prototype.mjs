@@ -12,7 +12,7 @@ export function searchProducts(products, query) {
   const words = normalize(query).trim().split(/\s+/).filter(Boolean);
   return products.filter((p) =>
     words.every((word) =>
-      normalize(`${p.name} ${p.brand} ${p.category} ${p.description}`).includes(
+      normalize(`${p.name} ${p.brand} ${p.category} ${p.description} ${p.reference ?? ""} ${p.model ?? ""}`).includes(
         word,
       ),
     ),

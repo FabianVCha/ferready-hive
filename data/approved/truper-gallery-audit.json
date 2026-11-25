@@ -1,0 +1,5064 @@
+{
+  "approved": [
+    {
+      "reference": "101895",
+      "src": "/project/products/truper/101895-illustration-e5c8950599f9.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-electricas/101895-tpn-861-2/ChatGPT Image Nov 22, 2026, 03_32_25 PM-1.png",
+      "source_sha256": "e5c8950599f9cf85d1c02d94a53cc2a9dc19dc6569edeb5b5b5e182ffed9d31e",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Tres cuartos; entrada neumática a la derecha, palanca superior y plato visibles"
+    },
+    {
+      "reference": "101895",
+      "src": "/project/products/truper/101895-illustration-243d3540959e.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-electricas/101895-tpn-861-2/ChatGPT Image Nov 22, 2026, 03_32_26 PM-2.png",
+      "source_sha256": "243d3540959eca4a3cbf158a70a2c09ede85ef392688e9515a7b37286a78815d",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Perfil; entrada a la derecha y etiqueta frontal del cuerpo"
+    },
+    {
+      "reference": "101895",
+      "src": "/project/products/truper/101895-illustration-0fcebc0e778c.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-electricas/101895-tpn-861-2/ChatGPT Image Nov 22, 2026, 03_32_26 PM-3.png",
+      "source_sha256": "0fcebc0e778c073f84f7cce6db7bb3e83e6d1341e4e763efbd2bbdb92bb0a955",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Tres cuartos opuesto; entrada neumática a la izquierda"
+    },
+    {
+      "reference": "101895",
+      "src": "/project/products/truper/101895-illustration-c6de0c3ca656.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-electricas/101895-tpn-861-2/ChatGPT Image Nov 22, 2026, 03_32_27 PM-4.png",
+      "source_sha256": "c6de0c3ca65615fb66f3fea29c9a7e5b0b20f79cac9cab6f2f427e4aa0b5f9ca",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista elevada; palanca superior y superficie del plato más expuestas"
+    },
+    {
+      "reference": "101895",
+      "src": "/project/products/truper/101895-illustration-888690395013.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/101895-tpn-861-2/ChatGPT Image Nov 22, 2026, 03_32_28 PM-5.png",
+      "source_sha256": "88869039501340c7901ea8fb1d1dfe3a9f14015ca30de93525865a662c1e8319",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Plato de respaldo aislado; marca 19390 y 6 pulgadas, pieza montada visible en original"
+    },
+    {
+      "reference": "101895",
+      "src": "/project/products/truper/101895-illustration-515096bc35dc.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/101895-tpn-861-2/ChatGPT Image Nov 22, 2026, 03_32_28 PM-6.png",
+      "source_sha256": "515096bc35dc136837c9320234f381e87b28e0a9aeb598104c3b76fe8253ace6",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Llave plana abierta aislada"
+    },
+    {
+      "reference": "103068",
+      "src": "/project/products/truper/103068-illustration-2b9a7918cf3a.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-electricas/103068-tal-1-2n2/Gemini_Generated_Image_wy6jwnwy6jwnwy6j(1).jpg",
+      "source_sha256": "2b9a7918cf3aa4a28c2bacda8cfec6d169e49555c7359e5e9625579e8084611d",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Taladro completo de perfil, broquero a la izquierda, mango montado y cable extendido"
+    },
+    {
+      "reference": "103068",
+      "src": "/project/products/truper/103068-illustration-35b3505f6187.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-electricas/103068-tal-1-2n2/Gemini_Generated_Image_wy6jwnwy6jwnwy6j.jpg",
+      "source_sha256": "35b3505f6187c3494cc1eef9ac3f545bb0d70bb4fe1631a6f1b80b6c029ea7f7",
+      "background": "edge-connected-white-250",
+      "role": "detail",
+      "observation": "Acercamiento del broquero dentado, carcasa frontal, selector y unión del mango"
+    },
+    {
+      "reference": "104271",
+      "src": "/project/products/truper/104271-illustration-2a143f2ad7c6.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/104271-n20-rat-2/04_bateria_4Ah.png",
+      "source_sha256": "2a143f2ad7c639ccdf4aa4baec26c91fad72a165228010f93f7e6414b348207f",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Batería aislada; rótulo visible 20V-IND 4 Ah"
+    },
+    {
+      "reference": "104271",
+      "src": "/project/products/truper/104271-illustration-2a4e495d5c43.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/104271-n20-rat-2/05_cargador.png",
+      "source_sha256": "2a4e495d5c43a18cec1bb8af6798b1f2e27ebf74e79d076feeea80dff6ff31c2",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Cargador aislado, ranura superior y ventilaciones laterales"
+    },
+    {
+      "reference": "104271",
+      "src": "/project/products/truper/104271-illustration-c75508df2a74.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/104271-n20-rat-2/06_maleta.png",
+      "source_sha256": "c75508df2a741e94e612d00e229d574f2e9a43bea854032beb30638f5c368751",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Bolsa negra/naranja con asas y correa; fragmento gris ajeno en esquina superior"
+    },
+    {
+      "reference": "104271",
+      "src": "/project/products/truper/104271-illustration-1210b61f6f4a.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/104271-n20-rat-2/07_mango_auxiliar.png",
+      "source_sha256": "1210b61f6f4a261f90408ddea968f046fdefb5542e82f6390a8eb1b9c9354f03",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Mango auxiliar con abrazadera y varilla metálica"
+    },
+    {
+      "reference": "104271",
+      "src": "/project/products/truper/104271-illustration-96d40b7753fd.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/104271-n20-rat-2/08_clip_cinturon.png",
+      "source_sha256": "96d40b7753fd3311c6ff6495cd06e7da96f360c7b70e2db42d9217e1bf7f5ba4",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Clip metálico de cinturón"
+    },
+    {
+      "reference": "104275",
+      "src": "/project/products/truper/104275-illustration-df997fdf415a.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_05 PM-1.png",
+      "source_sha256": "df997fdf415a09a186b37f656f59942b0483d7c086aa2fcd37a0e0baa134048c",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Rotomartillo con batería, tres cuartos frontal, broquero dirigido arriba-izquierda"
+    },
+    {
+      "reference": "104275",
+      "src": "/project/products/truper/104275-illustration-60aa5815dde8.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_06 PM-2.png",
+      "source_sha256": "60aa5815dde86367913ca0527cf3f497a8b51014ba7f57c1b4b763d800b2d440",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Rotomartillo con batería de perfil, broquero a la izquierda"
+    },
+    {
+      "reference": "104275",
+      "src": "/project/products/truper/104275-illustration-8d4cb5b2053b.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_06 PM-3.png",
+      "source_sha256": "8d4cb5b2053b7a1c7bd33b4a46fd76dfcec305527530281b92cbffc99b97b6c3",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Rotomartillo con batería, tres cuartos frontal cercano al archivo 1, no duplicado binario"
+    },
+    {
+      "reference": "104275",
+      "src": "/project/products/truper/104275-illustration-5d3f9bea13bc.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_07 PM-4.png",
+      "source_sha256": "5d3f9bea13bcd830a1841e7b7de92e391974c094540ef0af7578c30e4888e6f2",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Atornillador de impacto con batería, tres cuartos frontal, portapuntas circular visible"
+    },
+    {
+      "reference": "104275",
+      "src": "/project/products/truper/104275-illustration-819f8f5b8865.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_08 PM-5.png",
+      "source_sha256": "819f8f5b8865c23bc43243b37c33e6a702492021f42861ea9b98655056ad145f",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Atornillador de impacto con batería de perfil, portapuntas a la izquierda y clip lateral"
+    },
+    {
+      "reference": "104275",
+      "src": "/project/products/truper/104275-illustration-6ff56e2da499.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_08 PM-6.png",
+      "source_sha256": "6ff56e2da499ead276772b89c1cb482ce6a8ee87e9499ad621119d3e7cd6b0db",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Atornillador de impacto con batería, tres cuartos frontal cercano al archivo 4"
+    },
+    {
+      "reference": "104275",
+      "src": "/project/products/truper/104275-illustration-e56d23365635.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_09 PM-7.png",
+      "source_sha256": "e56d2336563504699935c6754ea59b68a5a840da79f7ac21b2c073bdca7ff5e4",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Cargador aislado con contactos superiores y luces roja/verde"
+    },
+    {
+      "reference": "104275",
+      "src": "/project/products/truper/104275-illustration-1671adb42077.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_10 PM-8.png",
+      "source_sha256": "1671adb420776307fb0818f8df6f6a20aa1635676ea791f7d8e49daa607da377",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Estuche abierto de brocas de distintas geometrías; cantidad no certificada"
+    },
+    {
+      "reference": "104275",
+      "src": "/project/products/truper/104275-illustration-b3da688dba37.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_11 PM-10.png",
+      "source_sha256": "b3da688dba375990fd76385feaa5cf911722c2e10ac44d59a59e81a0d31abec1",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Bolsa de transporte negra/naranja aislada"
+    },
+    {
+      "reference": "104275",
+      "src": "/project/products/truper/104275-illustration-26fd1317ddaa.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_11 PM-9.png",
+      "source_sha256": "26fd1317ddaa8ee591a514bcf835ac710b4acbbe1647209b412391f4fd471908",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Estuche abierto de puntas de atornillar; cantidad no certificada"
+    },
+    {
+      "reference": "104412",
+      "src": "/project/products/truper/104412-illustration-90e798d4500c.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-electricas/104412-a12-rot-1/ChatGPT Image Nov 22, 2026, 07_37_26 PM-1.png",
+      "source_sha256": "90e798d4500ceb8d44cd987cc7e9dfd10de1dc771ebda71cb9197c32a4782157",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Rotomartillo compacto de perfil, broquero a la izquierda, base estrecha integrada al mango"
+    },
+    {
+      "reference": "104412",
+      "src": "/project/products/truper/104412-illustration-2877ffd182a7.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-electricas/104412-a12-rot-1/ChatGPT Image Nov 22, 2026, 07_37_26 PM-2.png",
+      "source_sha256": "2877ffd182a74cfeca93a78a0e6ca64fe0923c6c4bc7d621aa867a82f7bd05c9",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Lado opuesto y parte trasera ventilada; broquero a la derecha"
+    },
+    {
+      "reference": "104412",
+      "src": "/project/products/truper/104412-illustration-71f953aa4039.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/104412-a12-rot-1/ChatGPT Image Nov 22, 2026, 07_37_27 PM-3.png",
+      "source_sha256": "71f953aa40393b8d5a72aa08f25d98e2ba31809454f478240d7f97b564670b01",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Cargador de alojamiento profundo aislado"
+    },
+    {
+      "reference": "104412",
+      "src": "/project/products/truper/104412-illustration-6a025a993112.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-electricas/104412-a12-rot-1/ChatGPT Image Nov 22, 2026, 07_37_28 PM-4.png",
+      "source_sha256": "6a025a993112e969f9827a71f6b7229a459547b0b1908fc63a7b5f40497bc928",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Tres cuartos frontal; broquero a la izquierda y parte superior visible"
+    },
+    {
+      "reference": "104412",
+      "src": "/project/products/truper/104412-illustration-e7004d6a8b51.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/104412-a12-rot-1/ChatGPT Image Nov 22, 2026, 07_37_28 PM-5.png",
+      "source_sha256": "e7004d6a8b519ead11a45e2ea8f6e3971d82172ee7f0ab557a7cdfa5d5c0ae0c",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Adaptador de enchufe de dos espigas redondas a dos ranuras planas"
+    },
+    {
+      "reference": "104412",
+      "src": "/project/products/truper/104412-illustration-6bc62d57b8b5.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/104412-a12-rot-1/ChatGPT Image Nov 22, 2026, 07_37_29 PM-6.png",
+      "source_sha256": "6bc62d57b8b5436d07b2e409557a8d0b779fbd835624541f58ae94d32af478af",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Clip metálico de cinturón con orificio y gancho"
+    },
+    {
+      "reference": "13448",
+      "src": "/project/products/truper/13448-illustration-6f0d3ad2b3d9.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/13448-liba-3x21a2/Black Fabric Dust Bag with Connector.png",
+      "source_sha256": "6f0d3ad2b3d9664e20a8bebce35626e9ec7519bc98bef7c294ed1aa464760b4b",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Bolsa de tela recolectora con conector cilíndrico"
+    },
+    {
+      "reference": "13448",
+      "src": "/project/products/truper/13448-illustration-31196fa14ba9.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/13448-liba-3x21a2/Reddish-Brown Sandpaper Belt Loop.png",
+      "source_sha256": "31196fa14ba97c81d397f6fa46a20237749eb5818bbc45263027aaa9b94a4a85",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Banda de lija marrón en bucle aislada"
+    },
+    {
+      "reference": "13448",
+      "src": "/project/products/truper/13448-illustration-6a7326bdae79.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-electricas/13448-liba-3x21a2/Truper Pro Motor Vent Close-Up.png",
+      "source_sha256": "6a7326bdae79eed5396bdf49c1d5c62505fb0a92ab7e6781886f92ad5333f39c",
+      "background": "edge-connected-white-250",
+      "role": "detail",
+      "observation": "Acercamiento de rejillas del motor y tapa TRUPER PRO con tornillos"
+    },
+    {
+      "reference": "14012",
+      "src": "/project/products/truper/14012-illustration-c49d43941fcd.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/14012-esma-7a3/Black Angle Grinder Flange Set-4.png",
+      "source_sha256": "c49d43941fcd60775d8ff11fb9b87042269df3695e05345d353b9eb6940a00be",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Par de bridas negras de fijación de disco"
+    },
+    {
+      "reference": "14012",
+      "src": "/project/products/truper/14012-illustration-7be2c5382731.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/14012-esma-7a3/Black Power Tool Auxiliary Handle-3.png",
+      "source_sha256": "7be2c5382731f817358eb31c0c36ee35e2e4588538bf9e2ebc62fd27aa675935",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Mango auxiliar negro con espárrago roscado"
+    },
+    {
+      "reference": "14012",
+      "src": "/project/products/truper/14012-illustration-06748e891c7d.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/14012-esma-7a3/Metallic Angle Grinder Guard Shield-2.png",
+      "source_sha256": "06748e891c7dfd5f2b19bfc8de9fa28a1d2f75ae53bc3c447757023cbf0c8f6c",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Guarda metálica semicircular con abrazadera"
+    },
+    {
+      "reference": "14012",
+      "src": "/project/products/truper/14012-illustration-44acdf93f572.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/14012-esma-7a3/Paired Graphite Carbon Brushes with Springs-5.png",
+      "source_sha256": "44acdf93f57228d8ee682d390c1874c4bad16c1af0eab496721ee103d37c5db8",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Par de carbones con resortes y terminales"
+    },
+    {
+      "reference": "14012",
+      "src": "/project/products/truper/14012-illustration-388f6165aec4.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/14012-esma-7a3/Silver Spanner Wrench with Pegged Fork-6.png",
+      "source_sha256": "388f6165aec4e10b7768c93e9776804dfbdabca58d5751d6cef78538158cce00",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Llave de dos pernos para bridas"
+    },
+    {
+      "reference": "14012",
+      "src": "/project/products/truper/14012-illustration-0cf960a1fa88.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-electricas/14012-esma-7a3/TRUPER PRO Angle Grinder Product Shot-1.png",
+      "source_sha256": "0cf960a1fa887a0fd40fd5985ef5ca7a406b261f331073f7354c07c2308ca68d",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Esmeriladora naranja/gris de perfil, cabezal a la izquierda y cable a la derecha"
+    },
+    {
+      "reference": "14012",
+      "src": "/project/products/truper/14012-illustration-950d8a2fee91.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/14012-esma-7a3/Truper Expert Abrasive Grinding Disc-1.png",
+      "source_sha256": "950d8a2fee9113ee1d43942e45450bf67867e55ee235733788224c4cac549b51",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Disco abrasivo aislado; rótulo 7 pulgadas, 175 mm, código 11559 ABT-778"
+    },
+    {
+      "reference": "14012",
+      "src": "/project/products/truper/14012-illustration-309dadc0927f.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-electricas/14012-esma-7a3/Truper Pro Angle Grinder Product Photo-2.png",
+      "source_sha256": "309dadc0927fc2b89cf9682e0b67dfcfb8840adb050207726acd89a4734add45",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Tres cuartos frontal elevado; disco, guarda y cabezal dominan el encuadre"
+    },
+    {
+      "reference": "14012",
+      "src": "/project/products/truper/14012-illustration-869d9da7948d.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-electricas/14012-esma-7a3/Truper Pro Angle Grinder Product Shot-3.png",
+      "source_sha256": "869d9da7948da2daad78ffdb584d83463c706438d7ea5588b07adb1d08467708",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Tres cuartos posterior elevado; cable a la izquierda y mango lateral a la derecha"
+    },
+    {
+      "reference": "16182",
+      "src": "/project/products/truper/16182-illustration-83002cb445a2.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/16182-tapi-17/B16 Drill Chuck Assembly on White-3.png",
+      "source_sha256": "83002cb445a2335f37c3a7f0af9cfc71336c1f35ab5e1182e7b765856088d49d",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Broquero con cono B16 aislado; rótulo 5/8 pulgadas 16 mm"
+    },
+    {
+      "reference": "16182",
+      "src": "/project/products/truper/16182-illustration-ab24b84895f1.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-electricas/16182-tapi-17/TRUPER Drill Press Rear View-2.png",
+      "source_sha256": "ab24b84895f1a356febd236213fd07b3bc688ddb8454366a308e2c944a154830",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Taladro de pedestal desde atrás/lado; motor cilíndrico posterior expuesto"
+    },
+    {
+      "reference": "16182",
+      "src": "/project/products/truper/16182-illustration-b2b01b995f73.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/16182-tapi-17/Three Ribbed Machinery Handles-4.png",
+      "source_sha256": "b2b01b995f73592e7f52eaeb5b313be7994c068ea490919c790810e416a40d4b",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Tres palancas roscadas con pomos negros aisladas"
+    },
+    {
+      "reference": "16182",
+      "src": "/project/products/truper/16182-illustration-9482d60c3265.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-electricas/16182-tapi-17/Truper Orange-Top Floor Drill Press-1.png",
+      "source_sha256": "9482d60c32653869215ffc5b25186ded0392d84c683fb5e6f720298c4c883cc5",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Taladro de pedestal desde delante/lado; mesa, base, broquero y palancas montadas"
+    },
+    {
+      "reference": "16590",
+      "src": "/project/products/truper/16590-illustration-c49d43941fcd.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/Black Angle Grinder Flange Set-4.png",
+      "source_sha256": "c49d43941fcd60775d8ff11fb9b87042269df3695e05345d353b9eb6940a00be",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Par de bridas negras; archivo idéntico al de 14012, no prueba ajuste para 9 pulgadas"
+    },
+    {
+      "reference": "16590",
+      "src": "/project/products/truper/16590-illustration-7be2c5382731.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/Black Power Tool Auxiliary Handle-3.png",
+      "source_sha256": "7be2c5382731f817358eb31c0c36ee35e2e4588538bf9e2ebc62fd27aa675935",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Mango auxiliar negro; archivo idéntico al de 14012, rosca exacta no verificada"
+    },
+    {
+      "reference": "16590",
+      "src": "/project/products/truper/16590-illustration-06748e891c7d.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/Metallic Angle Grinder Guard Shield-2.png",
+      "source_sha256": "06748e891c7dfd5f2b19bfc8de9fa28a1d2f75ae53bc3c447757023cbf0c8f6c",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Guarda metálica; archivo idéntico al de 14012, tamaño/abrazadera para 9 pulgadas sin verificar"
+    },
+    {
+      "reference": "16590",
+      "src": "/project/products/truper/16590-illustration-44acdf93f572.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/Paired Graphite Carbon Brushes with Springs-5.png",
+      "source_sha256": "44acdf93f57228d8ee682d390c1874c4bad16c1af0eab496721ee103d37c5db8",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Par de carbones; archivo idéntico al de 14012, dimensiones exactas sin verificar"
+    },
+    {
+      "reference": "16590",
+      "src": "/project/products/truper/16590-illustration-388f6165aec4.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/Silver Spanner Wrench with Pegged Fork-6.png",
+      "source_sha256": "388f6165aec4e10b7768c93e9776804dfbdabca58d5751d6cef78538158cce00",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Llave de dos pernos; archivo idéntico al de 14012, separación exacta sin verificar"
+    },
+    {
+      "reference": "103030",
+      "src": "/project/products/truper/103030-illustration-d00412d8eeba.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/aire-comprimido-y-pintura/103030-comp-10l2/ChatGPT Image Nov 22, 2026, 08_00_44 PM-1.png",
+      "source_sha256": "d00412d8eebaf2c77d284ccdf803a211d2b14623143745325a998219cc303cff",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Compresor 10 L, tres cuartos del lado de los dos manómetros; asa naranja y depósito frontal"
+    },
+    {
+      "reference": "103030",
+      "src": "/project/products/truper/103030-illustration-bc5a1e0f723d.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/aire-comprimido-y-pintura/103030-comp-10l2/ChatGPT Image Nov 22, 2026, 08_00_45 PM-2.png",
+      "source_sha256": "bc5a1e0f723d07a1888e232c7831e5173c11e7148bedb2471422d3325ff89202",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Compresor 10 L, frente oblicuo más cercano; dos manómetros y regulador expuestos"
+    },
+    {
+      "reference": "103030",
+      "src": "/project/products/truper/103030-illustration-19159ba69528.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/aire-comprimido-y-pintura/103030-comp-10l2/ChatGPT Image Nov 22, 2026, 08_00_46 PM-3.png",
+      "source_sha256": "19159ba69528f819e7e1476872b2ab5d4d27859dbd6b421f800bbddc19d8d8a0",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Lado opuesto; cilindro metálico del motor más visible, manómetros parcialmente ocultos"
+    },
+    {
+      "reference": "103030",
+      "src": "/project/products/truper/103030-illustration-697901607557.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/aire-comprimido-y-pintura/103030-comp-10l2/ChatGPT Image Nov 22, 2026, 08_00_47 PM-4.png",
+      "source_sha256": "69790160755790f373a39ccc5a89494d928ef93ceae6d08537041456ca4872b7",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Botella de aceite monogrado SAE30, 250 ml; volumen ilustrado no prueba entrega"
+    },
+    {
+      "reference": "103030",
+      "src": "/project/products/truper/103030-illustration-67a9108fe0e5.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/aire-comprimido-y-pintura/103030-comp-10l2/ChatGPT Image Nov 22, 2026, 08_00_48 PM-5.png",
+      "source_sha256": "67a9108fe0e51a53e621ca8ed7e9711ac2de033869b241f8d3819604182d5d75",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Filtro de aire cilíndrico amarillo con malla, tapas negras y rosca inferior"
+    },
+    {
+      "reference": "103030",
+      "src": "/project/products/truper/103030-illustration-9adc838ac824.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/aire-comprimido-y-pintura/103030-comp-10l2/ChatGPT Image Nov 22, 2026, 08_00_49 PM-6.png",
+      "source_sha256": "9adc838ac82449963d25c55d9e370ea399561a05544f52304516b120cf2829ef",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Tapón negro roscado con símbolo OIL y junta naranja"
+    },
+    {
+      "reference": "103030",
+      "src": "/project/products/truper/103030-illustration-f66d22724af1.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/aire-comprimido-y-pintura/103030-comp-10l2/ChatGPT Image Nov 22, 2026, 08_00_50 PM-7.png",
+      "source_sha256": "f66d22724af1f68c18f3f7b3e7cd49cd404e34c230f629f62db4f87302cebc0c",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Bolsa de tornillos, tuercas y arandelas; cantidades y destino sin verificar"
+    },
+    {
+      "reference": "103660",
+      "src": "/project/products/truper/103660-illustration-441cda28e751.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/corte-y-abrasivos/103660-trm-141/ChatGPT Image Nov 22, 2026, 08_08_01 PM-1.png",
+      "source_sha256": "441cda28e751f0efa6476cc48ded4e7826e8f1caca730dc1afa3a71da7aa8a72",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Tronzadora tres cuartos frontal; mordaza y disco bajo guarda visibles"
+    },
+    {
+      "reference": "103660",
+      "src": "/project/products/truper/103660-illustration-eb0821caa7d5.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/corte-y-abrasivos/103660-trm-141/ChatGPT Image Nov 22, 2026, 08_08_02 PM-2.png",
+      "source_sha256": "eb0821caa7d5908d4a200e9f6f5c2294c7b810f316f85164cc9eb91e26cfc627",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Perfil del lado de la guarda; base horizontal y mordaza delante"
+    },
+    {
+      "reference": "103660",
+      "src": "/project/products/truper/103660-illustration-741e4be13124.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/corte-y-abrasivos/103660-trm-141/ChatGPT Image Nov 22, 2026, 08_08_03 PM-3.png",
+      "source_sha256": "741e4be1312498eec96792af00fed80a432597cc6b08b95b7da25b8ea8dcf715",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Tres cuartos posterior; motor cilíndrico y soporte trasero visibles"
+    },
+    {
+      "reference": "103660",
+      "src": "/project/products/truper/103660-illustration-602941769553.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/corte-y-abrasivos/103660-trm-141/ChatGPT Image Nov 22, 2026, 08_08_04 PM-4.png",
+      "source_sha256": "6029417695534d2f6035def96aab67d6bee4cc15fcce6ced3e82113d95189df6",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Disco abrasivo aislado, rótulo 14 pulgadas/355 mm, 12568 ABT-739"
+    },
+    {
+      "reference": "103660",
+      "src": "/project/products/truper/103660-illustration-1b78dbb75c77.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/corte-y-abrasivos/103660-trm-141/ChatGPT Image Nov 22, 2026, 08_08_04 PM-5.png",
+      "source_sha256": "1b78dbb75c77083a9ffa6ad5426e06b1c3838aeddeb9ac5edb9623fa945464c2",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Llave hexagonal en L aislada"
+    },
+    {
+      "reference": "103660",
+      "src": "/project/products/truper/103660-illustration-0f4fefc2ae22.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/corte-y-abrasivos/103660-trm-141/ChatGPT Image Nov 22, 2026, 08_08_05 PM-6.png",
+      "source_sha256": "0f4fefc2ae22bbb6b9a2ae7659f3f395b8885aa2e76df4ac0278e184b6b77a4f",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Par de carbones con resortes y terminales"
+    },
+    {
+      "reference": "104495",
+      "src": "/project/products/truper/104495-illustration-054ab6988161.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/equipo-automotriz/104495-arba-12/ChatGPT Image Nov 23, 2026, 07_20_20 PM-2.png",
+      "source_sha256": "054ab698816142971fdafb7decdb169180c16ab52ae3060b153b991867bb3195",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "104495",
+      "src": "/project/products/truper/104495-illustration-cc2a9061363c.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/equipo-automotriz/104495-arba-12/ChatGPT Image Nov 23, 2026, 07_20_21 PM-4.png",
+      "source_sha256": "cc2a9061363c5bb92794d372f4a424ea69ed43c91b9a66a624b8f6e9388ff94b",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Estuche rígido negro y naranja"
+    },
+    {
+      "reference": "104495",
+      "src": "/project/products/truper/104495-illustration-aba0f75c96d3.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/equipo-automotriz/104495-arba-12/ChatGPT Image Nov 23, 2026, 07_20_22 PM-5.png",
+      "source_sha256": "aba0f75c96d3c13f3e0f46cbc1b77fb01d3a7c9bf604c89ab695b7d67a95aabe",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Dos boquillas negras y dos agujas metálicas"
+    },
+    {
+      "reference": "104495",
+      "src": "/project/products/truper/104495-illustration-a6868a5f8e54.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/equipo-automotriz/104495-arba-12/ChatGPT Image Nov 23, 2026, 07_20_23 PM-6.png",
+      "source_sha256": "a6868a5f8e5462feb19c529e325527a0213f9c8d8ab6e971374f86b84eac4456",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Cable rojo y negro con pinzas y módulo"
+    },
+    {
+      "reference": "104495",
+      "src": "/project/products/truper/104495-illustration-959879414413.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/equipo-automotriz/104495-arba-12/ChatGPT Image Nov 23, 2026, 07_20_24 PM-7.png",
+      "source_sha256": "95987941441347784162841e9b30ee85aeab4bfd6088f179f8ff85d39a32b4d1",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Manguera corta flexible con conectores"
+    },
+    {
+      "reference": "104495",
+      "src": "/project/products/truper/104495-illustration-30e4508bb4e5.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/equipo-automotriz/104495-arba-12/ChatGPT Image Nov 23, 2026, 07_20_25 PM-8.png",
+      "source_sha256": "30e4508bb4e51fc1c86aae30cea2231d3aeb23882f0e84fa80b144501ea6ad73",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Cabezal de inflado con palanca"
+    },
+    {
+      "reference": "103722",
+      "src": "/project/products/truper/103722-illustration-bca47a985a1f.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/ferreteria-y-fijacion/103722-clne-70/ChatGPT Image Nov 23, 2026, 07_30_42 PM-1.png",
+      "source_sha256": "bca47a985a1fd75f8ac5210956c91de22406d5702aa8fe478cde3a6e42988883",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "103722",
+      "src": "/project/products/truper/103722-illustration-caf4369311a1.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/ferreteria-y-fijacion/103722-clne-70/ChatGPT Image Nov 23, 2026, 07_30_43 PM-2.png",
+      "source_sha256": "caf4369311a1dca74be8097b4d4a7b4b2916a31483f50c7e237cf173037ed50c",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "103722",
+      "src": "/project/products/truper/103722-illustration-e2c1bb2ff750.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/ferreteria-y-fijacion/103722-clne-70/ChatGPT Image Nov 23, 2026, 07_30_44 PM-3.png",
+      "source_sha256": "e2c1bb2ff750617cfddf881f23bd73171d388f4c0c388b863c723dd29efffccc",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "103722",
+      "src": "/project/products/truper/103722-illustration-62a8d8ab1063.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/ferreteria-y-fijacion/103722-clne-70/ChatGPT Image Nov 23, 2026, 07_30_45 PM-4.png",
+      "source_sha256": "62a8d8ab10633700a944abdfd342ded70fa8b99ec9495dc410251d2cc51e264a",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Llave hexagonal larga"
+    },
+    {
+      "reference": "103722",
+      "src": "/project/products/truper/103722-illustration-501d5d71868f.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/ferreteria-y-fijacion/103722-clne-70/ChatGPT Image Nov 23, 2026, 07_30_46 PM-5.png",
+      "source_sha256": "501d5d71868f506ac08074153a581bb7bdf0fed215030cb54b7877f655f1dd9c",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Llave hexagonal corta"
+    },
+    {
+      "reference": "103722",
+      "src": "/project/products/truper/103722-illustration-8f784c82ee8c.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/ferreteria-y-fijacion/103722-clne-70/ChatGPT Image Nov 23, 2026, 07_30_47 PM-6.png",
+      "source_sha256": "8f784c82ee8c79827daf46447eb8f433450c62a570c2f1878ed9f0ada579d6ea",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Conector neumático roscado"
+    },
+    {
+      "reference": "100891",
+      "src": "/project/products/truper/100891-illustration-94f2c2cc2eee.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/Metal Chisel Bit on White-13.png",
+      "source_sha256": "94f2c2cc2eeecb616ec2171b9cca1a0f4796207209ea5a4df0f73647f9db8335",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Cincel de punta"
+    },
+    {
+      "reference": "100891",
+      "src": "/project/products/truper/100891-illustration-a33875d30319.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/Metal Flat Chisel Bit on White-14.png",
+      "source_sha256": "a33875d30319e37496e54cfd4095554b304897fc396e8fd78fbe8469bf94351a",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Cincel plano"
+    },
+    {
+      "reference": "100891",
+      "src": "/project/products/truper/100891-illustration-52fcf89ac4e9.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/Minimal White Squeezable Tube-15.png",
+      "source_sha256": "52fcf89ac4e93738e0ba3124237af151d03431c8a854158bc9b65f0e4a332d33",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Tubo blanco sin rotulado visible"
+    },
+    {
+      "reference": "100891",
+      "src": "/project/products/truper/100891-illustration-c60e6724a334.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/TRUPER Demolition Hammer Rear Profile-12.png",
+      "source_sha256": "c60e6724a33474f84633bebfb5ae450da86981265707b92256fd04ed437c0e3b",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "100891",
+      "src": "/project/products/truper/100891-illustration-4333b3cab5e5.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/TRUPER Expert Demolition Hammer Product Shot-3.png",
+      "source_sha256": "4333b3cab5e56210e0524338a819d696a5c0210d3f7fab342f4f7d271047cc80",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "100891",
+      "src": "/project/products/truper/100891-illustration-7ee46a953966.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/TRUPER Expert Demolition Hammer Product Shot-4.png",
+      "source_sha256": "7ee46a9539664b4f6dfb838eb7901c37fed98752c375583fea36c721e642f334",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "100891",
+      "src": "/project/products/truper/100891-illustration-d4a3631e6771.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/TRUPER Expert Demolition Hammer Product Shot-5.png",
+      "source_sha256": "d4a3631e67714186464ba43aef08d731e6922e8b29c34ba95a98a8d6d7febc57",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "100891",
+      "src": "/project/products/truper/100891-illustration-056258d7cb9e.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/TRUPER Expert Demolition Hammer Product Shot-7.png",
+      "source_sha256": "056258d7cb9ecd6cde0256e1846b02e3b83bc3e6cb11d5e1787a480f9f8ef00a",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "100891",
+      "src": "/project/products/truper/100891-illustration-14ce9a7b00f8.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/TRUPER Expert Demolition Hammer Rear View-10.png",
+      "source_sha256": "14ce9a7b00f8f5db0ef34c63554bf3625586a3f9bb192f77fb722ef2ac78726a",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "100891",
+      "src": "/project/products/truper/100891-illustration-95686bf543fd.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/TRUPER Expert Demolition Hammer-8.png",
+      "source_sha256": "95686bf543fdd77205a93c23f3c590935c503cc3a245dddff33f7a08edaaa8d0",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "100891",
+      "src": "/project/products/truper/100891-illustration-c675d055fe86.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/TRUPER Expert Hammer Rear Profile-9.png",
+      "source_sha256": "c675d055fe8635561093ab8eabceaa99ce87067548125ecfd2e4f56757a12670",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "100891",
+      "src": "/project/products/truper/100891-illustration-aa1345d3e448.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/TRUPER Expert Hammer Rear View-11.png",
+      "source_sha256": "aa1345d3e44843652889763d09f366950e881e93666a23887f60ba668d7a536e",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "100891",
+      "src": "/project/products/truper/100891-illustration-988c847abc91.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/Truper Expert Demolition Hammer-1.png",
+      "source_sha256": "988c847abc9137317cb3de8ef4eb8c2effd55a8528705c9cac76674dbc808bc0",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "100891",
+      "src": "/project/products/truper/100891-illustration-ec3bdb03e83f.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/Truper Expert Demolition Hammer-6.png",
+      "source_sha256": "ec3bdb03e83f738cf9facc6b84cecdc97256a05096416f20b0ee9bb7ec881ed0",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "100891",
+      "src": "/project/products/truper/100891-illustration-14b8c2af054b.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-manuales/100891-made-10nx/Truper Expert Rotary Demolition Hammer-2.png",
+      "source_sha256": "14b8c2af054b28e2ba1a8ba7600b04054370c82e32f1cd45e1f95eb3a22590fc",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "100894",
+      "src": "/project/products/truper/100894-illustration-1b2ccbed63a4.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_50_51 PM-1.png",
+      "source_sha256": "1b2ccbed63a4b37312cd0dd2d9f002714c304612b5c5e5cc64cd1957e036385e",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "100894",
+      "src": "/project/products/truper/100894-illustration-1f5f591ca9c6.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_50_52 PM-2.png",
+      "source_sha256": "1f5f591ca9c642f44dc5be5b438e12b143931310dd08b8e46be43c90b7d840e4",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "100894",
+      "src": "/project/products/truper/100894-illustration-e7a97b57521f.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_50_53 PM-3.png",
+      "source_sha256": "e7a97b57521f5a03c8a7541de25db9b85a0984b6d1da7826900dfeb19e731576",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "100894",
+      "src": "/project/products/truper/100894-illustration-1bdd6730cb4c.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_50_54 PM-4.png",
+      "source_sha256": "1bdd6730cb4c4185090a9caf124ed644cb70d4c0e1333756cfd1649a61caa0fe",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Cincel de punta"
+    },
+    {
+      "reference": "100894",
+      "src": "/project/products/truper/100894-illustration-aae676353b7d.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_50_55 PM-5.png",
+      "source_sha256": "aae676353b7d18b5b7bc0ca15ec45eac2ec6f34bc80c6451c4dbf88b23348584",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Cincel plano"
+    },
+    {
+      "reference": "100894",
+      "src": "/project/products/truper/100894-illustration-06b95c5d2fbd.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_50_56 PM-6.png",
+      "source_sha256": "06b95c5d2fbd465c082c779b2d0aa29684296d0f4ef1ec6425891bc4dae2fb7e",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Dos tubos rotulados como grasa"
+    },
+    {
+      "reference": "100894",
+      "src": "/project/products/truper/100894-illustration-5eefed784da9.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_50_57 PM-7.png",
+      "source_sha256": "5eefed784da93855bda39bdbaa85974729e8becffd7704f77fdc41204a90f6a5",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Dos carbones con conductor trenzado"
+    },
+    {
+      "reference": "100894",
+      "src": "/project/products/truper/100894-illustration-f08767fdd29f.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_50_58 PM-8.png",
+      "source_sha256": "f08767fdd29fb39da7139f137aac213bc3ef3c52ff3ecebfffbbf11c6654e00e",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Mango auxiliar con abrazadera"
+    },
+    {
+      "reference": "100894",
+      "src": "/project/products/truper/100894-illustration-9caa6990db8b.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_50_59 PM-9.png",
+      "source_sha256": "9caa6990db8b1f83dd1771797b2ca29f99fe09fa17e839f04722e4d2defa06cf",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Cuatro tornillos negros"
+    },
+    {
+      "reference": "100894",
+      "src": "/project/products/truper/100894-illustration-c3ff19e16b84.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_51_00 PM-10.png",
+      "source_sha256": "c3ff19e16b84ed6ee554acbb785711debaf3d2a0433b3d6c8f3a8f40e6ea381a",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Llave hexagonal"
+    },
+    {
+      "reference": "104242",
+      "src": "/project/products/truper/104242-illustration-f0c9ff4263f7.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-manuales/104242-tpn-797-6-3/Black Auxiliary Power Tool Handle-1.png",
+      "source_sha256": "f0c9ff4263f7977ceac3bc23a2d93d0b46b1e216acc2cedc9a2b49219cdb4521",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Mango auxiliar con abrazadera"
+    },
+    {
+      "reference": "104242",
+      "src": "/project/products/truper/104242-illustration-8aeeb815872f.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-manuales/104242-tpn-797-6-3/Four Black Hex Socket Cap Bolts-4.png",
+      "source_sha256": "8aeeb815872f5f943934e76005b26f570e28951ff3f6a5c2f9da4d9e2f0d4090",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Cuatro tornillos negros"
+    },
+    {
+      "reference": "104242",
+      "src": "/project/products/truper/104242-illustration-8c4f11a76ce5.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-manuales/104242-tpn-797-6-3/Matte Black L-Shaped Hex Key-2.png",
+      "source_sha256": "8c4f11a76ce51c8c2eb14362d3208871bfa7be279d2e428bde6cf39b47a37d9a",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Llave hexagonal"
+    },
+    {
+      "reference": "104242",
+      "src": "/project/products/truper/104242-illustration-90c28b0e3e89.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-manuales/104242-tpn-797-6-3/TRUPER Heavy-Duty Pneumatic Impact Wrench-5.png",
+      "source_sha256": "90c28b0e3e896cdbf9c69a34466bfe6de5b47f8811cb306a53c12408e7cb5ff1",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "104242",
+      "src": "/project/products/truper/104242-illustration-53c44167dfbd.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-manuales/104242-tpn-797-6-3/TRUPER Heavy-Duty Pneumatic Impact Wrench-6.png",
+      "source_sha256": "53c44167dfbd6dfca98d2c733300c76401308dafb34257c362c8a60f979999cd",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "104242",
+      "src": "/project/products/truper/104242-illustration-129b21401f3a.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-manuales/104242-tpn-797-6-3/Truper 1_4_ NPT Pneumatic Coupler-3.png",
+      "source_sha256": "129b21401f3a1b73ee4728494c8f2f0c475071f57f96015dd2412c829eb4ae37",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Conector neumático"
+    },
+    {
+      "reference": "104274",
+      "src": "/project/products/truper/104274-illustration-145d973511cb.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-manuales/104274-n20-des-2/Black and Orange Cordless Impact Driver-4.png",
+      "source_sha256": "145d973511cb9f9fbaa161b686352fa262670f7daccc9e7c79c94f00495abbcc",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "104274",
+      "src": "/project/products/truper/104274-illustration-aa17373a5395.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-manuales/104274-n20-des-2/Industrial Truper Battery Charger-6.png",
+      "source_sha256": "aa17373a5395b762a9ca611273e7797a84306be34e306be49ca9c1f30430bfa9",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Cargador negro"
+    },
+    {
+      "reference": "104274",
+      "src": "/project/products/truper/104274-illustration-562f0a967374.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-manuales/104274-n20-des-2/Truper Brushless Cordless Impact Driver-3.png",
+      "source_sha256": "562f0a967374f27c6a4c6116d5f6739ca4cf64b5e8ceed5e20d919ef14e67c3c",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "104274",
+      "src": "/project/products/truper/104274-illustration-2833f70b9d43.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-manuales/104274-n20-des-2/Truper Industrial 20V Lithium-Ion Battery-5.png",
+      "source_sha256": "2833f70b9d436b7fad87f6e0c60b8529a85f7105c5bef5f17732053559e536bf",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Batería naranja y negra"
+    },
+    {
+      "reference": "104274",
+      "src": "/project/products/truper/104274-illustration-3b68c6231d8e.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-manuales/104274-n20-des-2/Truper Industrial Brushless Impact Driver-1.png",
+      "source_sha256": "3b68c6231d8ec71ca93d350e16cad5600a6b0f99fd5ded32c4db6b7373c79708",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "13178",
+      "src": "/project/products/truper/13178-illustration-f6f62ccb5f93.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-manuales/13178-enne-160/Matte Black L-Shaped Hex Key-3.png",
+      "source_sha256": "f6f62ccb5f93c5cb52336fcfda5d0d1a5a47e108a19f6bf7bf0ebf70fea2f08d",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Llave hexagonal"
+    },
+    {
+      "reference": "13178",
+      "src": "/project/products/truper/13178-illustration-990e321eb3fe.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-manuales/13178-enne-160/Metallic Pneumatic Quick-Connect Plug-7.png",
+      "source_sha256": "990e321eb3fe82de8c53e04f6c7200d12fd33a4fa84d592aa172024d188d91d6",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Conector neumático"
+    },
+    {
+      "reference": "13178",
+      "src": "/project/products/truper/13178-illustration-1b32d56c4c7b.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-manuales/13178-enne-160/Minimalist L-Shaped Hex Key-5.png",
+      "source_sha256": "1b32d56c4c7befe8279fd854205d46b5cb9599c959982face2f49c7096a6c94b",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Segunda llave hexagonal"
+    },
+    {
+      "reference": "13178",
+      "src": "/project/products/truper/13178-illustration-d8ac043b5418.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-manuales/13178-enne-160/Orange and Black Pneumatic Nail Gun-2.png",
+      "source_sha256": "d8ac043b5418faa53d42c159051fb9707e63bc023d059ae45b00258838ebafa8",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "13178",
+      "src": "/project/products/truper/13178-illustration-d7657d164448.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-manuales/13178-enne-160/Symmetrical White Squeeze Tubes-10.png",
+      "source_sha256": "d7657d164448f5b3b3790886c09ffb20244629fc80baee9e554be20c0049b5b8",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Dos tubos blancos sin etiqueta"
+    },
+    {
+      "reference": "13178",
+      "src": "/project/products/truper/13178-illustration-90a81575fcb6.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-manuales/13178-enne-160/TRUPER 16 Pneumatic Stapler Product Shot-4.png",
+      "source_sha256": "90a81575fcb644e258570f43814b94cfd2a00303a825deca3b0d9d1e557e15a6",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "13178",
+      "src": "/project/products/truper/13178-illustration-5552e98445f7.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/herramientas-manuales/13178-enne-160/TRUPER Orange Pneumatic Nail Gun-6.png",
+      "source_sha256": "5552e98445f73dbbe6108c8c3c33acd9f4ad6cd7872bbfe248dc6e15654b1eb5",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "13178",
+      "src": "/project/products/truper/13178-illustration-b0d0419b3841.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/herramientas-manuales/13178-enne-160/Translucent Oil Squeeze Bottle-1.png",
+      "source_sha256": "b0d0419b384111148a36798762c991d98431f677a7eefb020c64e924d9a7cfe1",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Botella translúcida de aceite"
+    },
+    {
+      "reference": "100362",
+      "src": "/project/products/truper/100362-illustration-c1e068f39122.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/medicion-y-trazado/100362-mut-60a/01_frontal.png",
+      "source_sha256": "c1e068f3912276281a1978e514b5999ea7bbddbf936b1d3af9a74f710898317c",
+      "background": "edge-connected-white-250",
+      "role": "detail",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "100362",
+      "src": "/project/products/truper/100362-illustration-09896073de58.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/medicion-y-trazado/100362-mut-60a/02_tres_cuartos.png",
+      "source_sha256": "09896073de587b22081b204e4eff6459fb830ba348ea90aa8a670a8168f2fce8",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "100362",
+      "src": "/project/products/truper/100362-illustration-e80478247f8d.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/medicion-y-trazado/100362-mut-60a/03_posterior_aproximada.png",
+      "source_sha256": "e80478247f8d3af05ccda930dddba1e992febfa514adb6ef4d5c5526cd675daa",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "100362",
+      "src": "/project/products/truper/100362-illustration-5cb79a03d9d1.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/medicion-y-trazado/100362-mut-60a/04_puntas_prueba.png",
+      "source_sha256": "5cb79a03d9d1761205d077ef9d605148f048640e70a4e7d7f00c2c44487be95e",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Puntas de prueba roja y negra"
+    },
+    {
+      "reference": "100362",
+      "src": "/project/products/truper/100362-illustration-01692d48f6fb.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/medicion-y-trazado/100362-mut-60a/05_sonda_termopar.png",
+      "source_sha256": "01692d48f6fb272652859a089b440c365c5a0ff5a35f9646770ecb5f83737e06",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Sonda térmica con cable blanco"
+    },
+    {
+      "reference": "100362",
+      "src": "/project/products/truper/100362-illustration-46bf1308b0ed.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/medicion-y-trazado/100362-mut-60a/06_adaptador.png",
+      "source_sha256": "46bf1308b0ed52f2860a7a7a41c5bc607434b727633f153919cc5bc7c99e4b49",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Adaptador pequeño negro y rojo"
+    },
+    {
+      "reference": "100362",
+      "src": "/project/products/truper/100362-illustration-d9d87a78e520.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/medicion-y-trazado/100362-mut-60a/07_cubierta_protectora.png",
+      "source_sha256": "d9d87a78e5205ffec87a310565ff128baeb039c59c4cb5471f151c30fe0c2fb3",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Cubierta protectora negra"
+    },
+    {
+      "reference": "100362",
+      "src": "/project/products/truper/100362-illustration-dae2bfcdc00a.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/medicion-y-trazado/100362-mut-60a/08_pila_9v.png",
+      "source_sha256": "dae2bfcdc00a6b1670566fc9ac688927e1b8aff435f4baeb247b8ec4b099d8e9",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Pila rectangular de 9 V"
+    },
+    {
+      "reference": "104111",
+      "src": "/project/products/truper/104111-illustration-bb72117b90b8.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/medicion-y-trazado/104111-nl-16/Black Magnetic Laser Level Bracket-5.png",
+      "source_sha256": "bb72117b90b8efa3e5a80a4c9ab952aaf29127b6b93b72a9571ef51fee314440",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Soporte negro con dos imanes"
+    },
+    {
+      "reference": "104111",
+      "src": "/project/products/truper/104111-illustration-256b9d6a5d42.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/medicion-y-trazado/104111-nl-16/Black USB-A to USB-C Cable Product Photo-4.png",
+      "source_sha256": "256b9d6a5d4288a39f2722b5a0658d016493b154d4723a10557c91169299a93f",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Cable USB-A a USB-C"
+    },
+    {
+      "reference": "104111",
+      "src": "/project/products/truper/104111-illustration-03fd09d165c0.webp",
+      "kind": "illustration",
+      "caption": "Accesorio ilustrado · inclusión por confirmar",
+      "provenance": "data/research/truper/images/medicion-y-trazado/104111-nl-16/TRUPER 12V Lithium-Ion Battery Pack-6.png",
+      "source_sha256": "03fd09d165c05bfd4736ee4aa1623d8d73b58c0a27614f830f588e7db209d973",
+      "background": "edge-connected-white-250",
+      "role": "accessory",
+      "observation": "Batería naranja de 12 V"
+    },
+    {
+      "reference": "104111",
+      "src": "/project/products/truper/104111-illustration-75c37fe805c6.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/medicion-y-trazado/104111-nl-16/TRUPER Orange Laser Level Close-Up-1.png",
+      "source_sha256": "75c37fe805c67a0a967b3e4ed8c25047f717e6714865a337ae12a88a31cc4d97",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    },
+    {
+      "reference": "104111",
+      "src": "/project/products/truper/104111-illustration-34dc0fc82277.webp",
+      "kind": "illustration",
+      "caption": "Ilustración suministrada · no es fotografía del fabricante; no acredita accesorios incluidos",
+      "provenance": "data/research/truper/images/medicion-y-trazado/104111-nl-16/TRUPER Orange Laser Level Studio Shot-2.png",
+      "source_sha256": "34dc0fc82277a6df2c37dd27decd4e7cd872d857febf756d275f19a4b1e770b8",
+      "background": "edge-connected-white-250",
+      "role": "angle",
+      "observation": "Vista del cuerpo completo; comparar geometría y rotulado con el original de la carpeta"
+    }
+  ],
+  "excluded": [
+    {
+      "source": "data/research/truper/images/herramientas-electricas/103740-sici-7-1-4n5/Gemini_Generated_Image_1qo6qr1qo6qr1qo6.jpg",
+      "reason": "Blade, guide and key composition: accessory specifications and package contents not verified."
+    },
+    {
+      "source": "data/research/truper/images/herramientas-electricas/104412-a12-rot-1/ChatGPT Image Nov 22, 2026, 07_37_30 PM-7.png",
+      "reason": "Isolated wide slide-mount battery conflicts with the compact tool's narrow base."
+    },
+    {
+      "source": "data/research/truper/images/herramientas-electricas/11452-brou-r2-1-4m/TRUPER Orange Coated Router Bit.png",
+      "reason": "BROU-R2-1/4M marking is legible at full resolution, but altered cutting-tip geometry does not establish a faithful alternate view."
+    },
+    {
+      "source": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/ChatGPT Image Nov 22, 2026, 03_26_38 PM-1.png",
+      "reason": "Tres cuartos frontal; disco rotulado 6 pulgadas/150 mm, texto y cifras incoherentes"
+    },
+    {
+      "source": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/ChatGPT Image Nov 22, 2026, 03_26_38 PM-2.png",
+      "reason": "Perfil, cabezal a la izquierda; disco nominal 9 pulgadas/230 mm pero carcasa rotulada 6-700 W, no 2350 W"
+    },
+    {
+      "source": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/ChatGPT Image Nov 22, 2026, 03_26_39 PM-3.png",
+      "reason": "Tres cuartos posterior; disco rotulado 6 pulgadas/150 mm y potencia alterada"
+    },
+    {
+      "source": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/ChatGPT Image Nov 22, 2026, 03_26_40 PM-4.png",
+      "reason": "Tres cuartos frontal elevado; disco rotulado 6 pulgadas/150 mm, no 9 pulgadas"
+    },
+    {
+      "source": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/Truper Expert Abrasive Grinding Disc-1.png",
+      "reason": "Disco aislado rotulado 7 pulgadas/175 mm, código 11559 ABT-778; no corresponde al diámetro nominal 9 pulgadas"
+    },
+    {
+      "source": "data/research/truper/images/equipo-automotriz/104495-arba-12/ChatGPT Image Nov 23, 2026, 07_20_19 PM-1.png",
+      "reason": "Full-resolution label says 100 mAh; verified ARBA-12 capacity is 12,000 mAh."
+    },
+    {
+      "source": "data/research/truper/images/equipo-automotriz/104495-arba-12/ChatGPT Image Nov 23, 2026, 07_20_20 PM-3.png",
+      "reason": "Full-resolution rear label says 10,000 mAh / 3.7 V; verified ARBA-12 is 12,000 mAh / 14.8 V."
+    },
+    {
+      "source": "data/research/truper/images/herramientas-manuales/104274-n20-des-2/TRUPER Industrial Cordless Tool Collection-2.png",
+      "reason": "Composición de tres herramientas distintas; no atribuir este conjunto al producto individual"
+    },
+    {
+      "source": "data/research/truper/images/herramientas-manuales/13178-enne-160/Metal Demolition Chisel Bit-9.png",
+      "reason": "Cincel plano de demolición: no representa una pieza propia de la engrapadora mostrada"
+    },
+    {
+      "source": "data/research/truper/images/herramientas-manuales/13178-enne-160/Metal Demolition Hammer Point Bit-8.png",
+      "reason": "Cincel de punta de demolición: no representa una pieza propia de la engrapadora mostrada"
+    },
+    {
+      "source": "data/research/truper/images/herramientas-manuales/17963-et-21/Stacked Silver Metal Staples.png",
+      "reason": "Not a reviewed additional view of an approved reference."
+    },
+    {
+      "source": "data/research/truper/images/medicion-y-trazado/104111-nl-16/TRUPER 4D Laser Level Close-Up-3.png",
+      "reason": "Full-resolution rear label says NLL-4D / 20 V; verified product is NL-16 / 11.1 V."
+    }
+  ],
+  "inventory": [
+    {
+      "reference": "101895",
+      "source": "data/research/truper/images/herramientas-electricas/101895-tpn-861-2/ChatGPT Image Nov 22, 2026, 03_32_25 PM-1.png",
+      "sha256": "e5c8950599f9cf85d1c02d94a53cc2a9dc19dc6569edeb5b5b5e182ffed9d31e",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "101895",
+      "source": "data/research/truper/images/herramientas-electricas/101895-tpn-861-2/ChatGPT Image Nov 22, 2026, 03_32_26 PM-2.png",
+      "sha256": "243d3540959eca4a3cbf158a70a2c09ede85ef392688e9515a7b37286a78815d",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "101895",
+      "source": "data/research/truper/images/herramientas-electricas/101895-tpn-861-2/ChatGPT Image Nov 22, 2026, 03_32_26 PM-3.png",
+      "sha256": "0fcebc0e778c073f84f7cce6db7bb3e83e6d1341e4e763efbd2bbdb92bb0a955",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "101895",
+      "source": "data/research/truper/images/herramientas-electricas/101895-tpn-861-2/ChatGPT Image Nov 22, 2026, 03_32_27 PM-4.png",
+      "sha256": "c6de0c3ca65615fb66f3fea29c9a7e5b0b20f79cac9cab6f2f427e4aa0b5f9ca",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "101895",
+      "source": "data/research/truper/images/herramientas-electricas/101895-tpn-861-2/ChatGPT Image Nov 22, 2026, 03_32_28 PM-5.png",
+      "sha256": "88869039501340c7901ea8fb1d1dfe3a9f14015ca30de93525865a662c1e8319",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "101895",
+      "source": "data/research/truper/images/herramientas-electricas/101895-tpn-861-2/ChatGPT Image Nov 22, 2026, 03_32_28 PM-6.png",
+      "sha256": "515096bc35dc136837c9320234f381e87b28e0a9aeb598104c3b76fe8253ace6",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "101895",
+      "source": "data/research/truper/images/herramientas-electricas/101895-tpn-861-2/original-truper.jpg",
+      "sha256": "829c82832c1b8a6901f574c63feb867129498873184c3d3d5fcdaa7e7bc40328",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "103068",
+      "source": "data/research/truper/images/herramientas-electricas/103068-tal-1-2n2/Gemini_Generated_Image_d9ta5ud9ta5ud9ta(1).jpg",
+      "sha256": "e3cd46b9969496c04110c4d8f27014a7ddcc913ca3aee0ce435331e8350eebe9",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "confirmed-contents-illustration"
+    },
+    {
+      "reference": "103068",
+      "source": "data/research/truper/images/herramientas-electricas/103068-tal-1-2n2/Gemini_Generated_Image_d9ta5ud9ta5ud9ta.jpg",
+      "sha256": "be2dbd7cd70387b554d77b6329c494063aa2d1f082de5b180f98eeb81637bbf6",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "confirmed-contents-illustration"
+    },
+    {
+      "reference": "103068",
+      "source": "data/research/truper/images/herramientas-electricas/103068-tal-1-2n2/Gemini_Generated_Image_wy6jwnwy6jwnwy6j(1).jpg",
+      "sha256": "2b9a7918cf3aa4a28c2bacda8cfec6d169e49555c7359e5e9625579e8084611d",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "103068",
+      "source": "data/research/truper/images/herramientas-electricas/103068-tal-1-2n2/Gemini_Generated_Image_wy6jwnwy6jwnwy6j.jpg",
+      "sha256": "35b3505f6187c3494cc1eef9ac3f545bb0d70bb4fe1631a6f1b80b6c029ea7f7",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "103068",
+      "source": "data/research/truper/images/herramientas-electricas/103068-tal-1-2n2/original-truper.jpg",
+      "sha256": "8628fd2e9bfc96e9b223002a5694054f3219b195479a65bb790985a1d4ca8f1c",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "103740",
+      "source": "data/research/truper/images/herramientas-electricas/103740-sici-7-1-4n5/Gemini_Generated_Image_1qo6qr1qo6qr1qo6.jpg",
+      "sha256": "e771656ab4b8eff8644806aa4885b2126d5f33cce115fd74960978a626e12de7",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "103740",
+      "source": "data/research/truper/images/herramientas-electricas/103740-sici-7-1-4n5/original-truper.jpg",
+      "sha256": "4125d2ffcb7f45c7841c5e111bc1df2bb35feadcccdad1089f1009661ddadf74",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "103741",
+      "source": "data/research/truper/images/herramientas-electricas/103741-sme-10s/original-truper.jpg",
+      "sha256": "86ec014f0bc37ed27a8f29d39fa9ac6bbc6a3c5cf1301ff2dd5d1f616b5c9272",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "104271",
+      "source": "data/research/truper/images/herramientas-electricas/104271-n20-rat-2/04_bateria_4Ah.png",
+      "sha256": "2a143f2ad7c639ccdf4aa4baec26c91fad72a165228010f93f7e6414b348207f",
+      "dimensions": [
+        1400,
+        1400
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104271",
+      "source": "data/research/truper/images/herramientas-electricas/104271-n20-rat-2/05_cargador.png",
+      "sha256": "2a4e495d5c43a18cec1bb8af6798b1f2e27ebf74e79d076feeea80dff6ff31c2",
+      "dimensions": [
+        1400,
+        1400
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104271",
+      "source": "data/research/truper/images/herramientas-electricas/104271-n20-rat-2/06_maleta.png",
+      "sha256": "c75508df2a741e94e612d00e229d574f2e9a43bea854032beb30638f5c368751",
+      "dimensions": [
+        1400,
+        1400
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104271",
+      "source": "data/research/truper/images/herramientas-electricas/104271-n20-rat-2/07_mango_auxiliar.png",
+      "sha256": "1210b61f6f4a261f90408ddea968f046fdefb5542e82f6390a8eb1b9c9354f03",
+      "dimensions": [
+        1400,
+        1400
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104271",
+      "source": "data/research/truper/images/herramientas-electricas/104271-n20-rat-2/08_clip_cinturon.png",
+      "sha256": "96d40b7753fd3311c6ff6495cd06e7da96f360c7b70e2db42d9217e1bf7f5ba4",
+      "dimensions": [
+        1400,
+        1400
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104271",
+      "source": "data/research/truper/images/herramientas-electricas/104271-n20-rat-2/original-truper.jpg",
+      "sha256": "041777315a7d57c335826671c98a6421723562047ba44587f4da6cc72a7fc343",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "104275",
+      "source": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_05 PM-1.png",
+      "sha256": "df997fdf415a09a186b37f656f59942b0483d7c086aa2fcd37a0e0baa134048c",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104275",
+      "source": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_06 PM-2.png",
+      "sha256": "60aa5815dde86367913ca0527cf3f497a8b51014ba7f57c1b4b763d800b2d440",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104275",
+      "source": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_06 PM-3.png",
+      "sha256": "8d4cb5b2053b7a1c7bd33b4a46fd76dfcec305527530281b92cbffc99b97b6c3",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104275",
+      "source": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_07 PM-4.png",
+      "sha256": "5d3f9bea13bcd830a1841e7b7de92e391974c094540ef0af7578c30e4888e6f2",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104275",
+      "source": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_08 PM-5.png",
+      "sha256": "819f8f5b8865c23bc43243b37c33e6a702492021f42861ea9b98655056ad145f",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104275",
+      "source": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_08 PM-6.png",
+      "sha256": "6ff56e2da499ead276772b89c1cb482ce6a8ee87e9499ad621119d3e7cd6b0db",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104275",
+      "source": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_09 PM-7.png",
+      "sha256": "e56d2336563504699935c6754ea59b68a5a840da79f7ac21b2c073bdca7ff5e4",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104275",
+      "source": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_10 PM-8.png",
+      "sha256": "1671adb420776307fb0818f8df6f6a20aa1635676ea791f7d8e49daa607da377",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104275",
+      "source": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_11 PM-10.png",
+      "sha256": "b3da688dba375990fd76385feaa5cf911722c2e10ac44d59a59e81a0d31abec1",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104275",
+      "source": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/ChatGPT Image Nov 22, 2026, 07_32_11 PM-9.png",
+      "sha256": "26fd1317ddaa8ee591a514bcf835ac710b4acbbe1647209b412391f4fd471908",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104275",
+      "source": "data/research/truper/images/herramientas-electricas/104275-n20-combo-rd/original-truper.jpg",
+      "sha256": "015f81d1892e79ac892ab0fd147f4aff9688ffcf1e2bdeda5944ec8ecf42f3a0",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "104412",
+      "source": "data/research/truper/images/herramientas-electricas/104412-a12-rot-1/ChatGPT Image Nov 22, 2026, 07_37_26 PM-1.png",
+      "sha256": "90e798d4500ceb8d44cd987cc7e9dfd10de1dc771ebda71cb9197c32a4782157",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104412",
+      "source": "data/research/truper/images/herramientas-electricas/104412-a12-rot-1/ChatGPT Image Nov 22, 2026, 07_37_26 PM-2.png",
+      "sha256": "2877ffd182a74cfeca93a78a0e6ca64fe0923c6c4bc7d621aa867a82f7bd05c9",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104412",
+      "source": "data/research/truper/images/herramientas-electricas/104412-a12-rot-1/ChatGPT Image Nov 22, 2026, 07_37_27 PM-3.png",
+      "sha256": "71f953aa40393b8d5a72aa08f25d98e2ba31809454f478240d7f97b564670b01",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104412",
+      "source": "data/research/truper/images/herramientas-electricas/104412-a12-rot-1/ChatGPT Image Nov 22, 2026, 07_37_28 PM-4.png",
+      "sha256": "6a025a993112e969f9827a71f6b7229a459547b0b1908fc63a7b5f40497bc928",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104412",
+      "source": "data/research/truper/images/herramientas-electricas/104412-a12-rot-1/ChatGPT Image Nov 22, 2026, 07_37_28 PM-5.png",
+      "sha256": "e7004d6a8b519ead11a45e2ea8f6e3971d82172ee7f0ab557a7cdfa5d5c0ae0c",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104412",
+      "source": "data/research/truper/images/herramientas-electricas/104412-a12-rot-1/ChatGPT Image Nov 22, 2026, 07_37_29 PM-6.png",
+      "sha256": "6bc62d57b8b5436d07b2e409557a8d0b779fbd835624541f58ae94d32af478af",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104412",
+      "source": "data/research/truper/images/herramientas-electricas/104412-a12-rot-1/ChatGPT Image Nov 22, 2026, 07_37_30 PM-7.png",
+      "sha256": "644c0caf82d9da9c2d9085ca3d0a2c18994ba7b59b5b12a8c664ec8d34a9a90b",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "104412",
+      "source": "data/research/truper/images/herramientas-electricas/104412-a12-rot-1/original-truper.jpg",
+      "sha256": "ecfc5cfdeb64956a24b4237f6eff34fb0b43a2f6d5c82b39c5ac256d00fb7e0c",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "11452",
+      "source": "data/research/truper/images/herramientas-electricas/11452-brou-r2-1-4m/TRUPER Orange Coated Router Bit.png",
+      "sha256": "0292840a397d18c559c42a388088254b36969783e70961d2ae2c160552ea306d",
+      "dimensions": [
+        1199,
+        1312
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "11452",
+      "source": "data/research/truper/images/herramientas-electricas/11452-brou-r2-1-4m/candidato-truper.jpg",
+      "sha256": "18c87cf4b87cb35d932107f2f13f898b3febd3ad50ee58e59849b50d2fc3840c",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "13448",
+      "source": "data/research/truper/images/herramientas-electricas/13448-liba-3x21a2/Black Fabric Dust Bag with Connector.png",
+      "sha256": "6f0d3ad2b3d9664e20a8bebce35626e9ec7519bc98bef7c294ed1aa464760b4b",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "13448",
+      "source": "data/research/truper/images/herramientas-electricas/13448-liba-3x21a2/Reddish-Brown Sandpaper Belt Loop.png",
+      "sha256": "31196fa14ba97c81d397f6fa46a20237749eb5818bbc45263027aaa9b94a4a85",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "13448",
+      "source": "data/research/truper/images/herramientas-electricas/13448-liba-3x21a2/Truper Pro Motor Vent Close-Up.png",
+      "sha256": "6a7326bdae79eed5396bdf49c1d5c62505fb0a92ab7e6781886f92ad5333f39c",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "13448",
+      "source": "data/research/truper/images/herramientas-electricas/13448-liba-3x21a2/original-truper.jpg",
+      "sha256": "1a0a9ff0dda9408bbc204ece53cd71d5fad7d64c676f32b73b9a73f3ebcd36f9",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "14012",
+      "source": "data/research/truper/images/herramientas-electricas/14012-esma-7a3/Black Angle Grinder Flange Set-4.png",
+      "sha256": "c49d43941fcd60775d8ff11fb9b87042269df3695e05345d353b9eb6940a00be",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "14012",
+      "source": "data/research/truper/images/herramientas-electricas/14012-esma-7a3/Black Power Tool Auxiliary Handle-3.png",
+      "sha256": "7be2c5382731f817358eb31c0c36ee35e2e4588538bf9e2ebc62fd27aa675935",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "14012",
+      "source": "data/research/truper/images/herramientas-electricas/14012-esma-7a3/Metallic Angle Grinder Guard Shield-2.png",
+      "sha256": "06748e891c7dfd5f2b19bfc8de9fa28a1d2f75ae53bc3c447757023cbf0c8f6c",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "14012",
+      "source": "data/research/truper/images/herramientas-electricas/14012-esma-7a3/Paired Graphite Carbon Brushes with Springs-5.png",
+      "sha256": "44acdf93f57228d8ee682d390c1874c4bad16c1af0eab496721ee103d37c5db8",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "14012",
+      "source": "data/research/truper/images/herramientas-electricas/14012-esma-7a3/Silver Spanner Wrench with Pegged Fork-6.png",
+      "sha256": "388f6165aec4e10b7768c93e9776804dfbdabca58d5751d6cef78538158cce00",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "14012",
+      "source": "data/research/truper/images/herramientas-electricas/14012-esma-7a3/TRUPER PRO Angle Grinder Product Shot-1.png",
+      "sha256": "0cf960a1fa887a0fd40fd5985ef5ca7a406b261f331073f7354c07c2308ca68d",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "14012",
+      "source": "data/research/truper/images/herramientas-electricas/14012-esma-7a3/Truper Expert Abrasive Grinding Disc-1.png",
+      "sha256": "950d8a2fee9113ee1d43942e45450bf67867e55ee235733788224c4cac549b51",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "14012",
+      "source": "data/research/truper/images/herramientas-electricas/14012-esma-7a3/Truper Pro Angle Grinder Product Photo-2.png",
+      "sha256": "309dadc0927fc2b89cf9682e0b67dfcfb8840adb050207726acd89a4734add45",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "14012",
+      "source": "data/research/truper/images/herramientas-electricas/14012-esma-7a3/Truper Pro Angle Grinder Product Shot-3.png",
+      "sha256": "869d9da7948da2daad78ffdb584d83463c706438d7ea5588b07adb1d08467708",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "14012",
+      "source": "data/research/truper/images/herramientas-electricas/14012-esma-7a3/original-truper.jpg",
+      "sha256": "7dd46ec8878fb4bd3932a7137370a7d00b230424f4b6e4d88f8655a59332a15b",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "16182",
+      "source": "data/research/truper/images/herramientas-electricas/16182-tapi-17/B16 Drill Chuck Assembly on White-3.png",
+      "sha256": "83002cb445a2335f37c3a7f0af9cfc71336c1f35ab5e1182e7b765856088d49d",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "16182",
+      "source": "data/research/truper/images/herramientas-electricas/16182-tapi-17/TRUPER Drill Press Rear View-2.png",
+      "sha256": "ab24b84895f1a356febd236213fd07b3bc688ddb8454366a308e2c944a154830",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "16182",
+      "source": "data/research/truper/images/herramientas-electricas/16182-tapi-17/Three Ribbed Machinery Handles-4.png",
+      "sha256": "b2b01b995f73592e7f52eaeb5b313be7994c068ea490919c790810e416a40d4b",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "16182",
+      "source": "data/research/truper/images/herramientas-electricas/16182-tapi-17/Truper Orange-Top Floor Drill Press-1.png",
+      "sha256": "9482d60c32653869215ffc5b25186ded0392d84c683fb5e6f720298c4c883cc5",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "16182",
+      "source": "data/research/truper/images/herramientas-electricas/16182-tapi-17/original-truper.jpg",
+      "sha256": "00edcedafaded9def684e1e15ddf089d8c1beeb72c7d154b059a5372afa28a1d",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "16590",
+      "source": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/Black Angle Grinder Flange Set-4.png",
+      "sha256": "c49d43941fcd60775d8ff11fb9b87042269df3695e05345d353b9eb6940a00be",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "16590",
+      "source": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/Black Power Tool Auxiliary Handle-3.png",
+      "sha256": "7be2c5382731f817358eb31c0c36ee35e2e4588538bf9e2ebc62fd27aa675935",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "16590",
+      "source": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/ChatGPT Image Nov 22, 2026, 03_26_38 PM-1.png",
+      "sha256": "bd7529cea05d05b3bf73cfc4fcbf77c92dc7d71b6b6f832afc13e115368d676b",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "16590",
+      "source": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/ChatGPT Image Nov 22, 2026, 03_26_38 PM-2.png",
+      "sha256": "d4c766259d92a84f79934cc0d0216f57d14d68a6f6065376253ec3a0b1448a53",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "16590",
+      "source": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/ChatGPT Image Nov 22, 2026, 03_26_39 PM-3.png",
+      "sha256": "ce385ecabde429a8b5ee15263f3e0190af14d338bbf483244df56d8b0bced4cc",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "16590",
+      "source": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/ChatGPT Image Nov 22, 2026, 03_26_40 PM-4.png",
+      "sha256": "d6e2853b118be033edcc4e588c1b09ad16c4ae96ba9b257cf8d4b3b37917f748",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "16590",
+      "source": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/Metallic Angle Grinder Guard Shield-2.png",
+      "sha256": "06748e891c7dfd5f2b19bfc8de9fa28a1d2f75ae53bc3c447757023cbf0c8f6c",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "16590",
+      "source": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/Paired Graphite Carbon Brushes with Springs-5.png",
+      "sha256": "44acdf93f57228d8ee682d390c1874c4bad16c1af0eab496721ee103d37c5db8",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "16590",
+      "source": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/Silver Spanner Wrench with Pegged Fork-6.png",
+      "sha256": "388f6165aec4e10b7768c93e9776804dfbdabca58d5751d6cef78538158cce00",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "16590",
+      "source": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/Truper Expert Abrasive Grinding Disc-1.png",
+      "sha256": "950d8a2fee9113ee1d43942e45450bf67867e55ee235733788224c4cac549b51",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "16590",
+      "source": "data/research/truper/images/herramientas-electricas/16590-esma-9n2/original-truper.jpg",
+      "sha256": "1d6cf3b3ccb1109608159d93ffbfc8f995a691f90218e60c4fbea253b16007a3",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "103030",
+      "source": "data/research/truper/images/aire-comprimido-y-pintura/103030-comp-10l2/ChatGPT Image Nov 22, 2026, 08_00_44 PM-1.png",
+      "sha256": "d00412d8eebaf2c77d284ccdf803a211d2b14623143745325a998219cc303cff",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "103030",
+      "source": "data/research/truper/images/aire-comprimido-y-pintura/103030-comp-10l2/ChatGPT Image Nov 22, 2026, 08_00_45 PM-2.png",
+      "sha256": "bc5a1e0f723d07a1888e232c7831e5173c11e7148bedb2471422d3325ff89202",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "103030",
+      "source": "data/research/truper/images/aire-comprimido-y-pintura/103030-comp-10l2/ChatGPT Image Nov 22, 2026, 08_00_46 PM-3.png",
+      "sha256": "19159ba69528f819e7e1476872b2ab5d4d27859dbd6b421f800bbddc19d8d8a0",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "103030",
+      "source": "data/research/truper/images/aire-comprimido-y-pintura/103030-comp-10l2/ChatGPT Image Nov 22, 2026, 08_00_47 PM-4.png",
+      "sha256": "69790160755790f373a39ccc5a89494d928ef93ceae6d08537041456ca4872b7",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "103030",
+      "source": "data/research/truper/images/aire-comprimido-y-pintura/103030-comp-10l2/ChatGPT Image Nov 22, 2026, 08_00_48 PM-5.png",
+      "sha256": "67a9108fe0e51a53e621ca8ed7e9711ac2de033869b241f8d3819604182d5d75",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "103030",
+      "source": "data/research/truper/images/aire-comprimido-y-pintura/103030-comp-10l2/ChatGPT Image Nov 22, 2026, 08_00_49 PM-6.png",
+      "sha256": "9adc838ac82449963d25c55d9e370ea399561a05544f52304516b120cf2829ef",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "103030",
+      "source": "data/research/truper/images/aire-comprimido-y-pintura/103030-comp-10l2/ChatGPT Image Nov 22, 2026, 08_00_50 PM-7.png",
+      "sha256": "f66d22724af1f68c18f3f7b3e7cd49cd404e34c230f629f62db4f87302cebc0c",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "103030",
+      "source": "data/research/truper/images/aire-comprimido-y-pintura/103030-comp-10l2/original-truper.jpg",
+      "sha256": "d17c469088213bbed4c40dd0601767f1b4705bdae9ad311fcea66b5f4953949b",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "104215",
+      "source": "data/research/truper/images/aire-comprimido-y-pintura/104215-wt-400f/original-truper.jpg",
+      "sha256": "0e34552506ddc147fea0cd7506541937fa898496be4b99c6b7c208ac0aaf921c",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "104491",
+      "source": "data/research/truper/images/aire-comprimido-y-pintura/104491-comp-50m/original-truper.jpg",
+      "sha256": "7a06235f4c1091d7be3ab27f6293cb83e4778f7aa6a91f9abbcc9a18ff4afcb2",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "10745",
+      "source": "data/research/truper/images/aire-comprimido-y-pintura/10745-maja-9x/candidato-truper.jpg",
+      "sha256": "0c24569f8d3d473af98fc29a9cffa3dcc2ee3ab174e3a99d9f4d813d5a834571",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "12465",
+      "source": "data/research/truper/images/aire-comprimido-y-pintura/12465-brt-1-2c/original-truper.jpg",
+      "sha256": "046afafb415aa81a2bcb429c9ed276e5f732808b252a57e33f339dcd88c7d14c",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "13879",
+      "source": "data/research/truper/images/aire-comprimido-y-pintura/13879-ropi-930/original-truper.jpg",
+      "sha256": "b055ab22ebae8e39578b8c6c6dba5262a9d9b431fbf724acce6ff5c481e25503",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "17849",
+      "source": "data/research/truper/images/aire-comprimido-y-pintura/17849-brt-1-2x/original-truper.jpg",
+      "sha256": "d1d1bbee6da609e349f29184c2f9c477d02b7b1a9abb00cff58606cf52960159",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "100416",
+      "source": "data/research/truper/images/construccion/100416-cat-50x/original-truper.jpg",
+      "sha256": "92a24f89cb7849d009fa0d8f427cead073c419bbd0dd5a49935b2dfa03716eb3",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "102639",
+      "source": "data/research/truper/images/construccion/102639-lla-12/candidato-truper.jpg",
+      "sha256": "0a2fa4a12c74b0103cf3b5740fadef9cf9c31b62b2ac76238bb50aa0b9aa3e58",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "11776",
+      "source": "data/research/truper/images/construccion/11776-cat-60nd/original-truper.jpg",
+      "sha256": "43996225e8f21316cf8519ad89802f193c52d15ee271c2845885b59a7066c56a",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "15020",
+      "source": "data/research/truper/images/construccion/15020-gts-sh/original-truper.jpg",
+      "sha256": "0e863c6980f433b96cfb060604348191c13ccaa2c00be457b0541eb2259189cf",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "15850",
+      "source": "data/research/truper/images/construccion/15850-et-2fx/candidato-truper.jpg",
+      "sha256": "2737b7e4f893a576fe5d29fafce1e813ff95cc8c009857a319389fd21c058b7a",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "19784",
+      "source": "data/research/truper/images/construccion/19784-bas-2b/candidato-todopartes.jpg",
+      "sha256": "2bfcf1654bbe8b99ed57ae71457d055b64b0837c36a0418ec5734ba7c7af723f",
+      "dimensions": [
+        128,
+        128
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "100105",
+      "source": "data/research/truper/images/corte-y-abrasivos/100105-st-1040ex/original-truper.jpg",
+      "sha256": "7f43fd4f97c564387d81d6865e96190a385fffe8c5dd649faca94e194d23f445",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "102364",
+      "source": "data/research/truper/images/corte-y-abrasivos/102364-jbs-5/original-truper.jpg",
+      "sha256": "947fa0f3a12eb52c20dd8e3643e9ed7aca4e04b669a6f1329d330ade2e480e50",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "103660",
+      "source": "data/research/truper/images/corte-y-abrasivos/103660-trm-141/ChatGPT Image Nov 22, 2026, 08_08_01 PM-1.png",
+      "sha256": "441cda28e751f0efa6476cc48ded4e7826e8f1caca730dc1afa3a71da7aa8a72",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "103660",
+      "source": "data/research/truper/images/corte-y-abrasivos/103660-trm-141/ChatGPT Image Nov 22, 2026, 08_08_02 PM-2.png",
+      "sha256": "eb0821caa7d5908d4a200e9f6f5c2294c7b810f316f85164cc9eb91e26cfc627",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "103660",
+      "source": "data/research/truper/images/corte-y-abrasivos/103660-trm-141/ChatGPT Image Nov 22, 2026, 08_08_03 PM-3.png",
+      "sha256": "741e4be1312498eec96792af00fed80a432597cc6b08b95b7da25b8ea8dcf715",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "103660",
+      "source": "data/research/truper/images/corte-y-abrasivos/103660-trm-141/ChatGPT Image Nov 22, 2026, 08_08_04 PM-4.png",
+      "sha256": "6029417695534d2f6035def96aab67d6bee4cc15fcce6ced3e82113d95189df6",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "103660",
+      "source": "data/research/truper/images/corte-y-abrasivos/103660-trm-141/ChatGPT Image Nov 22, 2026, 08_08_04 PM-5.png",
+      "sha256": "1b78dbb75c77083a9ffa6ad5426e06b1c3838aeddeb9ac5edb9623fa945464c2",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "103660",
+      "source": "data/research/truper/images/corte-y-abrasivos/103660-trm-141/ChatGPT Image Nov 22, 2026, 08_08_05 PM-6.png",
+      "sha256": "0f4fefc2ae22bbb6b9a2ae7659f3f395b8885aa2e76df4ac0278e184b6b77a4f",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "103660",
+      "source": "data/research/truper/images/corte-y-abrasivos/103660-trm-141/original-truper.jpg",
+      "sha256": "ffe83bb6b7734c03ab11d97dd3e361925af01acc4d18ef3d77abe7d30af6199c",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "104549",
+      "source": "data/research/truper/images/corte-y-abrasivos/104549-caz-120lx/original-truper.jpg",
+      "sha256": "b2343313f772fef84e45ce8b1234e63add2ab0927fd019b86443ccec86dfac00",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "11110",
+      "source": "data/research/truper/images/corte-y-abrasivos/11110-bav-1-16/original-truper.jpg",
+      "sha256": "c12167b355ba1e15f604704026e3292c71dd99ec2acaaee1d01429774fda5ec9",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "11423",
+      "source": "data/research/truper/images/corte-y-abrasivos/11423-mt-5-8x11/original-truper.jpg",
+      "sha256": "dafe4bb5d9649f181e104e6652a8ba2ac1af31f0fd2542cd1123e2c832e9a574",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "12544",
+      "source": "data/research/truper/images/corte-y-abrasivos/12544-dicof-3010/candidato-diprofer.jpg",
+      "sha256": "baa1f537b3df2fd3f73992456a9a723901cf6f4a439044ebff45e6fd19ae2a87",
+      "dimensions": [
+        800,
+        800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "15711",
+      "source": "data/research/truper/images/corte-y-abrasivos/15711-dltp-7040/original-truper.jpg",
+      "sha256": "3cf8be61e06a620bc7c1dc4a2bc3715dc9f2c60994828c1e0ee2edf07f9f24b9",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "17025",
+      "source": "data/research/truper/images/corte-y-abrasivos/17025-nv-7x/original-truper.jpg",
+      "sha256": "ecdc19dffa84b548987b5eb442c907d58379b4e0b53a384c4cdc87de14f1a426",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "17903",
+      "source": "data/research/truper/images/corte-y-abrasivos/17903-rep-cut-7/original-truper.jpg",
+      "sha256": "50ddbabbc3322318985854c48da98a19b4fb1476ff83f23023c5deb2b2d32ef4",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "50004",
+      "source": "data/research/truper/images/corte-y-abrasivos/50004-desp-bav-29c/original-truper.jpg",
+      "sha256": "1af8bb6dbcfef93052acbb00763a6288e093f63ac25c77139294e9981c38bf90",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "102716",
+      "source": "data/research/truper/images/equipo-automotriz/102716-m-hn-1-2x24/candidato-atrial.jpg",
+      "sha256": "dd1ce4035c15068dd243dc8469bdd9fa78528a0b475582d72373a0f4d750fe05",
+      "dimensions": [
+        600,
+        600
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "103007",
+      "source": "data/research/truper/images/equipo-automotriz/103007-tp-7x/original-truper.jpg",
+      "sha256": "da4e19d3cc26584b11b06e0947c7b8aca2aa240731559c2a7baa6cb737aeae5b",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "103240",
+      "source": "data/research/truper/images/equipo-automotriz/103240-bat-20a2/original-truper.jpg",
+      "sha256": "0fce916046fda4eb92ffdbf47725f26a601f853db2ff901af055c50215d73292",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "103241",
+      "source": "data/research/truper/images/equipo-automotriz/103241-card-20a/original-truper.jpg",
+      "sha256": "f39249f7815179a557d3d23fa76e5a66faf8bcbdfb8a322062156075bb451c97",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "103779",
+      "source": "data/research/truper/images/equipo-automotriz/103779-boap-1-2a2c/original-truper.jpg",
+      "sha256": "73474cc1c8f9a6314528ff8983045f1ec5e0bec04e1ab4b0c599bbc10a88b842",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "104021",
+      "source": "data/research/truper/images/equipo-automotriz/104021-carba-320/original-truper.jpg",
+      "sha256": "271599c1a6250da37a4a7c07258f068b26043f840b3e1fbb2e5e32c6a89f8ee3",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "104495",
+      "source": "data/research/truper/images/equipo-automotriz/104495-arba-12/ChatGPT Image Nov 23, 2026, 07_20_19 PM-1.png",
+      "sha256": "a47544132e6a1f303c366c6612de47a6fe5dafa6dd420bfe96a04ae26468b981",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "104495",
+      "source": "data/research/truper/images/equipo-automotriz/104495-arba-12/ChatGPT Image Nov 23, 2026, 07_20_20 PM-2.png",
+      "sha256": "054ab698816142971fdafb7decdb169180c16ab52ae3060b153b991867bb3195",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104495",
+      "source": "data/research/truper/images/equipo-automotriz/104495-arba-12/ChatGPT Image Nov 23, 2026, 07_20_20 PM-3.png",
+      "sha256": "befa6ef3f2b210a6df5e2a3146c253b8acfd93006b71919915510768ef5ec0b7",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "104495",
+      "source": "data/research/truper/images/equipo-automotriz/104495-arba-12/ChatGPT Image Nov 23, 2026, 07_20_21 PM-4.png",
+      "sha256": "cc2a9061363c5bb92794d372f4a424ea69ed43c91b9a66a624b8f6e9388ff94b",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104495",
+      "source": "data/research/truper/images/equipo-automotriz/104495-arba-12/ChatGPT Image Nov 23, 2026, 07_20_22 PM-5.png",
+      "sha256": "aba0f75c96d3c13f3e0f46cbc1b77fb01d3a7c9bf604c89ab695b7d67a95aabe",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104495",
+      "source": "data/research/truper/images/equipo-automotriz/104495-arba-12/ChatGPT Image Nov 23, 2026, 07_20_23 PM-6.png",
+      "sha256": "a6868a5f8e5462feb19c529e325527a0213f9c8d8ab6e971374f86b84eac4456",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104495",
+      "source": "data/research/truper/images/equipo-automotriz/104495-arba-12/ChatGPT Image Nov 23, 2026, 07_20_24 PM-7.png",
+      "sha256": "95987941441347784162841e9b30ee85aeab4bfd6088f179f8ff85d39a32b4d1",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104495",
+      "source": "data/research/truper/images/equipo-automotriz/104495-arba-12/ChatGPT Image Nov 23, 2026, 07_20_25 PM-8.png",
+      "sha256": "30e4508bb4e51fc1c86aae30cea2231d3aeb23882f0e84fa80b144501ea6ad73",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104495",
+      "source": "data/research/truper/images/equipo-automotriz/104495-arba-12/original-truper.jpg",
+      "sha256": "28053026ca80b8d60254eea524724936d2c7e76d8c2d85f3746c6224d3146d1e",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "12257",
+      "source": "data/research/truper/images/equipo-automotriz/12257-hidr-1-1-2x150/original-truper.jpg",
+      "sha256": "0132a2f12ba713d8237f01bacf8d6e3ad230b455ef2fa2da8556f528903e6d50",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "12782",
+      "source": "data/research/truper/images/equipo-automotriz/12782-bopa-1/original-truper.jpg",
+      "sha256": "4311aa164534eeca201e4a865fe9c4856ef755a9323c8b82f9106147a84e7d0b",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "13597",
+      "source": "data/research/truper/images/equipo-automotriz/13597-tn-hn-1-1-2x150/original-truper.jpg",
+      "sha256": "6aad555532cdaaa0309f604e0b25b59a2bc0d4181dc6f9138ba9e77a4b383e3e",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "13836",
+      "source": "data/research/truper/images/equipo-automotriz/13836-comp-30s/original-truper.jpg",
+      "sha256": "aa68efcac241dcbc3cbd81d9b53c00919ebff85aac8c8cbfacba320782b74252",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "14802",
+      "source": "data/research/truper/images/equipo-automotriz/14802-gapro-3-5pb/original-truper.jpg",
+      "sha256": "c12ba45d9b93f8d7c3e7e219d94e0afdca64e858f8cb38bbd298abef898f7eda",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "14821",
+      "source": "data/research/truper/images/equipo-automotriz/14821-gat-50/original-truper.jpg",
+      "sha256": "703877e1f30a99cc2e7becbfba2e85278cb4700a9fac28f5d11ed3f84ebfba4f",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "14991",
+      "source": "data/research/truper/images/equipo-automotriz/14991-aces-2/original-truper.jpg",
+      "sha256": "22c23b2f7757597778409078fd74e9cd527592a30af4e5eb8e4d3d7281ac1baa",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "19089",
+      "source": "data/research/truper/images/equipo-automotriz/19089-val-inf-1-4/original-truper.jpg",
+      "sha256": "c4aa4d8d3f030b1da866390cd482c530058ac5ad4a1aedcd3f022d35712ad904",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "102652",
+      "source": "data/research/truper/images/ferreteria-y-fijacion/102652-cipre-33/original-truper.jpg",
+      "sha256": "56ecbe0f978691bed67ccdfc95063db1889ee6b8a8967ded35a3e74f60aaa384",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "103722",
+      "source": "data/research/truper/images/ferreteria-y-fijacion/103722-clne-70/ChatGPT Image Nov 23, 2026, 07_30_42 PM-1.png",
+      "sha256": "bca47a985a1fd75f8ac5210956c91de22406d5702aa8fe478cde3a6e42988883",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "103722",
+      "source": "data/research/truper/images/ferreteria-y-fijacion/103722-clne-70/ChatGPT Image Nov 23, 2026, 07_30_43 PM-2.png",
+      "sha256": "caf4369311a1dca74be8097b4d4a7b4b2916a31483f50c7e237cf173037ed50c",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "103722",
+      "source": "data/research/truper/images/ferreteria-y-fijacion/103722-clne-70/ChatGPT Image Nov 23, 2026, 07_30_44 PM-3.png",
+      "sha256": "e2c1bb2ff750617cfddf881f23bd73171d388f4c0c388b863c723dd29efffccc",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "103722",
+      "source": "data/research/truper/images/ferreteria-y-fijacion/103722-clne-70/ChatGPT Image Nov 23, 2026, 07_30_45 PM-4.png",
+      "sha256": "62a8d8ab10633700a944abdfd342ded70fa8b99ec9495dc410251d2cc51e264a",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "103722",
+      "source": "data/research/truper/images/ferreteria-y-fijacion/103722-clne-70/ChatGPT Image Nov 23, 2026, 07_30_46 PM-5.png",
+      "sha256": "501d5d71868f506ac08074153a581bb7bdf0fed215030cb54b7877f655f1dd9c",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "103722",
+      "source": "data/research/truper/images/ferreteria-y-fijacion/103722-clne-70/ChatGPT Image Nov 23, 2026, 07_30_47 PM-6.png",
+      "sha256": "8f784c82ee8c79827daf46447eb8f433450c62a570c2f1878ed9f0ada579d6ea",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "103722",
+      "source": "data/research/truper/images/ferreteria-y-fijacion/103722-clne-70/original-truper.jpg",
+      "sha256": "2275837532e1c79bbf44d454d6da8383749e348da2757a5074cb7784648ae7e8",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "12518",
+      "source": "data/research/truper/images/ferreteria-y-fijacion/12518-ctf-1x13x/candidato-szerelveny-szerszam.jpg",
+      "sha256": "094c4160d22aea4ef94eb0d009a6c623652367d1751fee6c2d642bf8aef291c4",
+      "dimensions": [
+        500,
+        491
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "12589",
+      "source": "data/research/truper/images/ferreteria-y-fijacion/12589-msk-1-2/original-truper.jpg",
+      "sha256": "405706db0ffe2ff94dc97c40c8539bff23184e3843e7a19884635775ee5c9861",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "100142",
+      "source": "data/research/truper/images/herramientas-manuales/100142-par-26/original-truper.jpg",
+      "sha256": "5bda5fbeee51d18b9f968676227c3192b6eca9590cb44804d664653028ef2df7",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "100891",
+      "source": "data/research/truper/images/herramientas-manuales/100891-made-10nx/Metal Chisel Bit on White-13.png",
+      "sha256": "94f2c2cc2eeecb616ec2171b9cca1a0f4796207209ea5a4df0f73647f9db8335",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100891",
+      "source": "data/research/truper/images/herramientas-manuales/100891-made-10nx/Metal Flat Chisel Bit on White-14.png",
+      "sha256": "a33875d30319e37496e54cfd4095554b304897fc396e8fd78fbe8469bf94351a",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100891",
+      "source": "data/research/truper/images/herramientas-manuales/100891-made-10nx/Minimal White Squeezable Tube-15.png",
+      "sha256": "52fcf89ac4e93738e0ba3124237af151d03431c8a854158bc9b65f0e4a332d33",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100891",
+      "source": "data/research/truper/images/herramientas-manuales/100891-made-10nx/TRUPER Demolition Hammer Rear Profile-12.png",
+      "sha256": "c60e6724a33474f84633bebfb5ae450da86981265707b92256fd04ed437c0e3b",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100891",
+      "source": "data/research/truper/images/herramientas-manuales/100891-made-10nx/TRUPER Expert Demolition Hammer Product Shot-3.png",
+      "sha256": "4333b3cab5e56210e0524338a819d696a5c0210d3f7fab342f4f7d271047cc80",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100891",
+      "source": "data/research/truper/images/herramientas-manuales/100891-made-10nx/TRUPER Expert Demolition Hammer Product Shot-4.png",
+      "sha256": "7ee46a9539664b4f6dfb838eb7901c37fed98752c375583fea36c721e642f334",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100891",
+      "source": "data/research/truper/images/herramientas-manuales/100891-made-10nx/TRUPER Expert Demolition Hammer Product Shot-5.png",
+      "sha256": "d4a3631e67714186464ba43aef08d731e6922e8b29c34ba95a98a8d6d7febc57",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100891",
+      "source": "data/research/truper/images/herramientas-manuales/100891-made-10nx/TRUPER Expert Demolition Hammer Product Shot-7.png",
+      "sha256": "056258d7cb9ecd6cde0256e1846b02e3b83bc3e6cb11d5e1787a480f9f8ef00a",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100891",
+      "source": "data/research/truper/images/herramientas-manuales/100891-made-10nx/TRUPER Expert Demolition Hammer Rear View-10.png",
+      "sha256": "14ce9a7b00f8f5db0ef34c63554bf3625586a3f9bb192f77fb722ef2ac78726a",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100891",
+      "source": "data/research/truper/images/herramientas-manuales/100891-made-10nx/TRUPER Expert Demolition Hammer-8.png",
+      "sha256": "95686bf543fdd77205a93c23f3c590935c503cc3a245dddff33f7a08edaaa8d0",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100891",
+      "source": "data/research/truper/images/herramientas-manuales/100891-made-10nx/TRUPER Expert Hammer Rear Profile-9.png",
+      "sha256": "c675d055fe8635561093ab8eabceaa99ce87067548125ecfd2e4f56757a12670",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100891",
+      "source": "data/research/truper/images/herramientas-manuales/100891-made-10nx/TRUPER Expert Hammer Rear View-11.png",
+      "sha256": "aa1345d3e44843652889763d09f366950e881e93666a23887f60ba668d7a536e",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100891",
+      "source": "data/research/truper/images/herramientas-manuales/100891-made-10nx/Truper Expert Demolition Hammer-1.png",
+      "sha256": "988c847abc9137317cb3de8ef4eb8c2effd55a8528705c9cac76674dbc808bc0",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100891",
+      "source": "data/research/truper/images/herramientas-manuales/100891-made-10nx/Truper Expert Demolition Hammer-6.png",
+      "sha256": "ec3bdb03e83f738cf9facc6b84cecdc97256a05096416f20b0ee9bb7ec881ed0",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100891",
+      "source": "data/research/truper/images/herramientas-manuales/100891-made-10nx/Truper Expert Rotary Demolition Hammer-2.png",
+      "sha256": "14b8c2af054b28e2ba1a8ba7600b04054370c82e32f1cd45e1f95eb3a22590fc",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100891",
+      "source": "data/research/truper/images/herramientas-manuales/100891-made-10nx/original-truper.jpg",
+      "sha256": "bd7e10c448751d37256b66b87f9824748cfcb4fc28fe7cb98f10713f8c09650c",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "100894",
+      "source": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_50_51 PM-1.png",
+      "sha256": "1b2ccbed63a4b37312cd0dd2d9f002714c304612b5c5e5cc64cd1957e036385e",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100894",
+      "source": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_50_52 PM-2.png",
+      "sha256": "1f5f591ca9c642f44dc5be5b438e12b143931310dd08b8e46be43c90b7d840e4",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100894",
+      "source": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_50_53 PM-3.png",
+      "sha256": "e7a97b57521f5a03c8a7541de25db9b85a0984b6d1da7826900dfeb19e731576",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100894",
+      "source": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_50_54 PM-4.png",
+      "sha256": "1bdd6730cb4c4185090a9caf124ed644cb70d4c0e1333756cfd1649a61caa0fe",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100894",
+      "source": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_50_55 PM-5.png",
+      "sha256": "aae676353b7d18b5b7bc0ca15ec45eac2ec6f34bc80c6451c4dbf88b23348584",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100894",
+      "source": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_50_56 PM-6.png",
+      "sha256": "06b95c5d2fbd465c082c779b2d0aa29684296d0f4ef1ec6425891bc4dae2fb7e",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100894",
+      "source": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_50_57 PM-7.png",
+      "sha256": "5eefed784da93855bda39bdbaa85974729e8becffd7704f77fdc41204a90f6a5",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100894",
+      "source": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_50_58 PM-8.png",
+      "sha256": "f08767fdd29fb39da7139f137aac213bc3ef3c52ff3ecebfffbbf11c6654e00e",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100894",
+      "source": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_50_59 PM-9.png",
+      "sha256": "9caa6990db8b1f83dd1771797b2ca29f99fe09fa17e839f04722e4d2defa06cf",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100894",
+      "source": "data/research/truper/images/herramientas-manuales/100894-made-30nx/ChatGPT Image Nov 23, 2026, 07_51_00 PM-10.png",
+      "sha256": "c3ff19e16b84ed6ee554acbb785711debaf3d2a0433b3d6c8f3a8f40e6ea381a",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100894",
+      "source": "data/research/truper/images/herramientas-manuales/100894-made-30nx/original-truper.jpg",
+      "sha256": "4d844f39c558a806b92bf75e0bc0a5a6422320da9c71fd5b7ae8c7c62b3f59e3",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "101176",
+      "source": "data/research/truper/images/herramientas-manuales/101176-dimp-3-8x/original-truper.jpg",
+      "sha256": "2824b6d4826f5fc29c8d774ad74a4e647f887b62dc6dafde1881dda244bfe48d",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "102476",
+      "source": "data/research/truper/images/herramientas-manuales/102476-bro-1-2x/original-truper.jpg",
+      "sha256": "dc7806509f7e8d869573b4cf1984f34659c1f7de12922f8fcd082e225fc97019",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "102919",
+      "source": "data/research/truper/images/herramientas-manuales/102919-mg-al-m/candidato-ferreteriadevalle.jpg",
+      "sha256": "a09aeae3c3ebb313df2530a0212a9b56d99fc727f250bb2249d5f7c9ffa19c2b",
+      "dimensions": [
+        430,
+        430
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "103750",
+      "source": "data/research/truper/images/herramientas-manuales/103750-cain-12/original-truper.jpg",
+      "sha256": "04426c92f93644671ac86e98300858586eff2f30277c8f62ee0e32334e4fa2a0",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "104076",
+      "source": "data/research/truper/images/herramientas-manuales/104076-marg-21x/original-truper.jpg",
+      "sha256": "8c3da89e3f1b4ab1d905253f209555eedaef439c2babda6674c5593325842b31",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "104242",
+      "source": "data/research/truper/images/herramientas-manuales/104242-tpn-797-6-3/Black Auxiliary Power Tool Handle-1.png",
+      "sha256": "f0c9ff4263f7977ceac3bc23a2d93d0b46b1e216acc2cedc9a2b49219cdb4521",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104242",
+      "source": "data/research/truper/images/herramientas-manuales/104242-tpn-797-6-3/Four Black Hex Socket Cap Bolts-4.png",
+      "sha256": "8aeeb815872f5f943934e76005b26f570e28951ff3f6a5c2f9da4d9e2f0d4090",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104242",
+      "source": "data/research/truper/images/herramientas-manuales/104242-tpn-797-6-3/Matte Black L-Shaped Hex Key-2.png",
+      "sha256": "8c4f11a76ce51c8c2eb14362d3208871bfa7be279d2e428bde6cf39b47a37d9a",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104242",
+      "source": "data/research/truper/images/herramientas-manuales/104242-tpn-797-6-3/TRUPER Heavy-Duty Pneumatic Impact Wrench-5.png",
+      "sha256": "90c28b0e3e896cdbf9c69a34466bfe6de5b47f8811cb306a53c12408e7cb5ff1",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104242",
+      "source": "data/research/truper/images/herramientas-manuales/104242-tpn-797-6-3/TRUPER Heavy-Duty Pneumatic Impact Wrench-6.png",
+      "sha256": "53c44167dfbd6dfca98d2c733300c76401308dafb34257c362c8a60f979999cd",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104242",
+      "source": "data/research/truper/images/herramientas-manuales/104242-tpn-797-6-3/Truper 1_4_ NPT Pneumatic Coupler-3.png",
+      "sha256": "129b21401f3a1b73ee4728494c8f2f0c475071f57f96015dd2412c829eb4ae37",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104242",
+      "source": "data/research/truper/images/herramientas-manuales/104242-tpn-797-6-3/original-truper.jpg",
+      "sha256": "0f311e7e65d06552b877db9f46455fdaefb7382aaf84b9a39bd78cf85c0ec85e",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "104274",
+      "source": "data/research/truper/images/herramientas-manuales/104274-n20-des-2/Black and Orange Cordless Impact Driver-4.png",
+      "sha256": "145d973511cb9f9fbaa161b686352fa262670f7daccc9e7c79c94f00495abbcc",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104274",
+      "source": "data/research/truper/images/herramientas-manuales/104274-n20-des-2/Industrial Truper Battery Charger-6.png",
+      "sha256": "aa17373a5395b762a9ca611273e7797a84306be34e306be49ca9c1f30430bfa9",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104274",
+      "source": "data/research/truper/images/herramientas-manuales/104274-n20-des-2/TRUPER Industrial Cordless Tool Collection-2.png",
+      "sha256": "4e6735f86c0874d6373d763b80b0d0145e42eafc5697d696dff822198549580c",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "104274",
+      "source": "data/research/truper/images/herramientas-manuales/104274-n20-des-2/Truper Brushless Cordless Impact Driver-3.png",
+      "sha256": "562f0a967374f27c6a4c6116d5f6739ca4cf64b5e8ceed5e20d919ef14e67c3c",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104274",
+      "source": "data/research/truper/images/herramientas-manuales/104274-n20-des-2/Truper Industrial 20V Lithium-Ion Battery-5.png",
+      "sha256": "2833f70b9d436b7fad87f6e0c60b8529a85f7105c5bef5f17732053559e536bf",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104274",
+      "source": "data/research/truper/images/herramientas-manuales/104274-n20-des-2/Truper Industrial Brushless Impact Driver-1.png",
+      "sha256": "3b68c6231d8ec71ca93d350e16cad5600a6b0f99fd5ded32c4db6b7373c79708",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104274",
+      "source": "data/research/truper/images/herramientas-manuales/104274-n20-des-2/original-truper.jpg",
+      "sha256": "d8450606802592501f9cc3d42606f959d67b2b9a9a27d4f74514a80b20d859b8",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "104516",
+      "source": "data/research/truper/images/herramientas-manuales/104516-n20-ll13-2/original-truper.jpg",
+      "sha256": "1f2ef41e1545e4597f0b40e6b4e5086e05ee3de2a63ff36033decd6805dfbdab",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "10858",
+      "source": "data/research/truper/images/herramientas-manuales/10858-mg-mb-8x/candidato-shopify.jpg",
+      "sha256": "f29e6c09956e23ffa5ed776ddd83eb0807e2fa63043ac68e7191e09ea7ba12fe",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "12218",
+      "source": "data/research/truper/images/herramientas-manuales/12218-pubar-1-4/candidato-hemusa.jpg",
+      "sha256": "5fae9a4fdc1e0773d6fce7bd7593aa50eed40da52f25773ad4b1aa88c7d8e196",
+      "dimensions": [
+        480,
+        388
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "12278",
+      "source": "data/research/truper/images/herramientas-manuales/12278-c-3-4x8g/original-truper.jpg",
+      "sha256": "012a72f485f3cb96383e77ead6ad6521f0b075531c3dffd94e4a415fa8ca1d7f",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "12698",
+      "source": "data/research/truper/images/herramientas-manuales/12698-rep-tr-82m-f/original-truper.jpg",
+      "sha256": "72b1765894ef7a70b177cefcb147631b68cfa0b53fe602ebb6de6dc4c5273080",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "13178",
+      "source": "data/research/truper/images/herramientas-manuales/13178-enne-160/Matte Black L-Shaped Hex Key-3.png",
+      "sha256": "f6f62ccb5f93c5cb52336fcfda5d0d1a5a47e108a19f6bf7bf0ebf70fea2f08d",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "13178",
+      "source": "data/research/truper/images/herramientas-manuales/13178-enne-160/Metal Demolition Chisel Bit-9.png",
+      "sha256": "e4e00fa7b73e411c945a2d45e182715b65199383f36087dc492054042daca496",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "13178",
+      "source": "data/research/truper/images/herramientas-manuales/13178-enne-160/Metal Demolition Hammer Point Bit-8.png",
+      "sha256": "e3e874e7872fdfc7f830599622da4deec4da29ebf55788c043cdb3f57d18090e",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "13178",
+      "source": "data/research/truper/images/herramientas-manuales/13178-enne-160/Metallic Pneumatic Quick-Connect Plug-7.png",
+      "sha256": "990e321eb3fe82de8c53e04f6c7200d12fd33a4fa84d592aa172024d188d91d6",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "13178",
+      "source": "data/research/truper/images/herramientas-manuales/13178-enne-160/Minimalist L-Shaped Hex Key-5.png",
+      "sha256": "1b32d56c4c7befe8279fd854205d46b5cb9599c959982face2f49c7096a6c94b",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "13178",
+      "source": "data/research/truper/images/herramientas-manuales/13178-enne-160/Orange and Black Pneumatic Nail Gun-2.png",
+      "sha256": "d8ac043b5418faa53d42c159051fb9707e63bc023d059ae45b00258838ebafa8",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "13178",
+      "source": "data/research/truper/images/herramientas-manuales/13178-enne-160/Symmetrical White Squeeze Tubes-10.png",
+      "sha256": "d7657d164448f5b3b3790886c09ffb20244629fc80baee9e554be20c0049b5b8",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "13178",
+      "source": "data/research/truper/images/herramientas-manuales/13178-enne-160/TRUPER 16 Pneumatic Stapler Product Shot-4.png",
+      "sha256": "90a81575fcb644e258570f43814b94cfd2a00303a825deca3b0d9d1e557e15a6",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "13178",
+      "source": "data/research/truper/images/herramientas-manuales/13178-enne-160/TRUPER Orange Pneumatic Nail Gun-6.png",
+      "sha256": "5552e98445f73dbbe6108c8c3c33acd9f4ad6cd7872bbfe248dc6e15654b1eb5",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "13178",
+      "source": "data/research/truper/images/herramientas-manuales/13178-enne-160/Translucent Oil Squeeze Bottle-1.png",
+      "sha256": "b0d0419b384111148a36798762c991d98431f677a7eefb020c64e924d9a7cfe1",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "13178",
+      "source": "data/research/truper/images/herramientas-manuales/13178-enne-160/original-truper.jpg",
+      "sha256": "2be7dda109a8de165f35480c195e3d8fb8cef3f109250df0da900f8a8fbfaf3e",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "13214",
+      "source": "data/research/truper/images/herramientas-manuales/13214-m-1449-n/original-truper.jpg",
+      "sha256": "0b86ce3c9edfe41aa8981b59c29f04e45de2182d81e5ac0bd77da164e98859d0",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "13927",
+      "source": "data/research/truper/images/herramientas-manuales/13927-sds-c4/original-truper.jpg",
+      "sha256": "46fbb101bed3389268632ed238d70b3693e2aaf87a34a1c923b549cfd37bdb6c",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "13976",
+      "source": "data/research/truper/images/herramientas-manuales/13976-jpt-3-8x10/candidato-mitiendanube.webp",
+      "sha256": "fae1f7942f0b49250c33e9b0fb9668adefeb75529bbee95afe612e7bd222032f",
+      "dimensions": [
+        480,
+        480
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "14050",
+      "source": "data/research/truper/images/herramientas-manuales/14050-dp-1-8x2-1-2/original-truper.jpg",
+      "sha256": "390094fbd7a86d27caefd6b39621ff1c4ba43ceefe2d788931e4dbcd672fc70f",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "14292",
+      "source": "data/research/truper/images/herramientas-manuales/14292-cas-n/original-truper.jpg",
+      "sha256": "fedfb663e68c29cf31740cbbd666a3765de97e68c08851e0092f73722397b0d4",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "15551",
+      "source": "data/research/truper/images/herramientas-manuales/15551-allx-7p/original-truper.jpg",
+      "sha256": "05220f5748060f089a442e8845198762c1e7a82ded1c70f1575a92a265564416",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "15572",
+      "source": "data/research/truper/images/herramientas-manuales/15572-all-25/original-truper.jpg",
+      "sha256": "768776261aef1e61ec78a1b3a3491ec9b13887fce511d88a020bdd306b26bdd6",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "17303",
+      "source": "data/research/truper/images/herramientas-manuales/17303-t201-7/original-truper.jpg",
+      "sha256": "ed8ece270c1fad879147a7a494110f5ac1689341c0e4cc91f989373563929416",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "17338",
+      "source": "data/research/truper/images/herramientas-manuales/17338-t200-7x/original-truper.jpg",
+      "sha256": "57dff9b9cad1116e91305570bc29851f9b09dba3caaade134ec031eaaba4db09",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "17350",
+      "source": "data/research/truper/images/herramientas-manuales/17350-pex-8/original-truper.jpg",
+      "sha256": "e38ee8dc494bf126f2bbeca58d2cda00e1d1d88e6b87b6976db1134b443ea584",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "17371",
+      "source": "data/research/truper/images/herramientas-manuales/17371-pm-pe4/original-truper.jpg",
+      "sha256": "e0f546b5b81403dceda63828bfa844c580a4894bb15748c5067e6ebb11a000aa",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "17376",
+      "source": "data/research/truper/images/herramientas-manuales/17376-pe-ca-x/original-truper.jpg",
+      "sha256": "cf3357345ebc4cf4406268a002dac185d48d0791c57065f7085808ecd926c1e0",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "17422",
+      "source": "data/research/truper/images/herramientas-manuales/17422-ppt-7r/original-truper.jpg",
+      "sha256": "3b09673bbe0ddd83c5810cdd5cde61ae165c71b9ca890dd0dfffc4ae5cfbc838",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "17434",
+      "source": "data/research/truper/images/herramientas-manuales/17434-ppt-4pl/original-truper.jpg",
+      "sha256": "972cda98149e6dbaf2637293f385baf2497d05e8b9e46b8aa0212a34b930fc65",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "17658",
+      "source": "data/research/truper/images/herramientas-manuales/17658-pnt-1/original-truper.jpg",
+      "sha256": "d1c0957ed19394d38634f9e3dc0162bab08c3d869f23c41742591398d185e625",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "17735",
+      "source": "data/research/truper/images/herramientas-manuales/17735-s2/original-truper.jpg",
+      "sha256": "b12e082269371f4ef7427331885230dab27796176dbeea41028197bb3cc2729f",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "17857",
+      "source": "data/research/truper/images/herramientas-manuales/17857-mxr-16/original-truper.jpg",
+      "sha256": "1830a500a119097b44d9ef52f7798a8aafd134fedc6637a28e4a03b30b7af9bf",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "17963",
+      "source": "data/research/truper/images/herramientas-manuales/17963-et-21/Stacked Silver Metal Staples.png",
+      "sha256": "26f98076f5148dbac8eeaa0c128bba4bdb449253350c4db04469830435d979ed",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "17963",
+      "source": "data/research/truper/images/herramientas-manuales/17963-et-21/original-truper.jpg",
+      "sha256": "5ba5106d7499ad77525723182929973586f0e3d6c95651a1f1af47262c6fc539",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "18024",
+      "source": "data/research/truper/images/herramientas-manuales/18024-llcr-20d/candidato-mitiendanube.webp",
+      "sha256": "3cf12528efe7ceb95c013386297d73a6dc0904dce67f719db30072f71b5843d3",
+      "dimensions": [
+        480,
+        480
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "18133",
+      "source": "data/research/truper/images/herramientas-manuales/18133-st-244-d/candidato-mitiendanube.webp",
+      "sha256": "b4673d847df3fd3d30f89ebc3e5a2774cc7d26300606662a885d6c44ea0e4979",
+      "dimensions": [
+        480,
+        480
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "18167",
+      "source": "data/research/truper/images/herramientas-manuales/18167-std-18/original-truper.jpg",
+      "sha256": "3a695e806dec6c8806f4c393951eb7b26f6d1d83dd0d82d63101cedbfaef8fe5",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "18171",
+      "source": "data/research/truper/images/herramientas-manuales/18171-stp-13/original-truper.jpg",
+      "sha256": "796bb90021c76c60e46bc3fa2d9a6413bf3cb269aa3c78d64330c2fa26792895",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "18343",
+      "source": "data/research/truper/images/herramientas-manuales/18343-prj-3x/original-truper.jpg",
+      "sha256": "2fda9bb322da3be79113315baac1d17c5edd92c3e4a5b3f2c828a8e4e963e194",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "19599",
+      "source": "data/research/truper/images/herramientas-manuales/19599-ada-3l/candidato-mitiendanube.webp",
+      "sha256": "45c92918ecbf61e48f4c4b209bf975124bd07a55496d54de1692e66fe3638bd7",
+      "dimensions": [
+        480,
+        480
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "19711",
+      "source": "data/research/truper/images/herramientas-manuales/19711-mor-10/original-truper.jpg",
+      "sha256": "443761aacb1fac7201ca63295e17407b3e61763abc805977f12719eaac5522a6",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "100362",
+      "source": "data/research/truper/images/medicion-y-trazado/100362-mut-60a/01_frontal.png",
+      "sha256": "c1e068f3912276281a1978e514b5999ea7bbddbf936b1d3af9a74f710898317c",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100362",
+      "source": "data/research/truper/images/medicion-y-trazado/100362-mut-60a/02_tres_cuartos.png",
+      "sha256": "09896073de587b22081b204e4eff6459fb830ba348ea90aa8a670a8168f2fce8",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100362",
+      "source": "data/research/truper/images/medicion-y-trazado/100362-mut-60a/03_posterior_aproximada.png",
+      "sha256": "e80478247f8d3af05ccda930dddba1e992febfa514adb6ef4d5c5526cd675daa",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100362",
+      "source": "data/research/truper/images/medicion-y-trazado/100362-mut-60a/04_puntas_prueba.png",
+      "sha256": "5cb79a03d9d1761205d077ef9d605148f048640e70a4e7d7f00c2c44487be95e",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100362",
+      "source": "data/research/truper/images/medicion-y-trazado/100362-mut-60a/05_sonda_termopar.png",
+      "sha256": "01692d48f6fb272652859a089b440c365c5a0ff5a35f9646770ecb5f83737e06",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100362",
+      "source": "data/research/truper/images/medicion-y-trazado/100362-mut-60a/06_adaptador.png",
+      "sha256": "46bf1308b0ed52f2860a7a7a41c5bc607434b727633f153919cc5bc7c99e4b49",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100362",
+      "source": "data/research/truper/images/medicion-y-trazado/100362-mut-60a/07_cubierta_protectora.png",
+      "sha256": "d9d87a78e5205ffec87a310565ff128baeb039c59c4cb5471f151c30fe0c2fb3",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100362",
+      "source": "data/research/truper/images/medicion-y-trazado/100362-mut-60a/08_pila_9v.png",
+      "sha256": "dae2bfcdc00a6b1670566fc9ac688927e1b8aff435f4baeb247b8ec4b099d8e9",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "100362",
+      "source": "data/research/truper/images/medicion-y-trazado/100362-mut-60a/original-truper.jpg",
+      "sha256": "238024a8e789a2ab5055258e3e29d73569d8435afe1fd80d9c548b5e46809497",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "104111",
+      "source": "data/research/truper/images/medicion-y-trazado/104111-nl-16/Black Magnetic Laser Level Bracket-5.png",
+      "sha256": "bb72117b90b8efa3e5a80a4c9ab952aaf29127b6b93b72a9571ef51fee314440",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104111",
+      "source": "data/research/truper/images/medicion-y-trazado/104111-nl-16/Black USB-A to USB-C Cable Product Photo-4.png",
+      "sha256": "256b9d6a5d4288a39f2722b5a0658d016493b154d4723a10557c91169299a93f",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104111",
+      "source": "data/research/truper/images/medicion-y-trazado/104111-nl-16/TRUPER 12V Lithium-Ion Battery Pack-6.png",
+      "sha256": "03fd09d165c05bfd4736ee4aa1623d8d73b58c0a27614f830f588e7db209d973",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104111",
+      "source": "data/research/truper/images/medicion-y-trazado/104111-nl-16/TRUPER 4D Laser Level Close-Up-3.png",
+      "sha256": "39c029f942e0ef19fca6a405f838cbc207a4813edc4523c4c20b1b2186f23917",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "104111",
+      "source": "data/research/truper/images/medicion-y-trazado/104111-nl-16/TRUPER Orange Laser Level Close-Up-1.png",
+      "sha256": "75c37fe805c67a0a967b3e4ed8c25047f717e6714865a337ae12a88a31cc4d97",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104111",
+      "source": "data/research/truper/images/medicion-y-trazado/104111-nl-16/TRUPER Orange Laser Level Studio Shot-2.png",
+      "sha256": "34dc0fc82277a6df2c37dd27decd4e7cd872d857febf756d275f19a4b1e770b8",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "alternate-product-or-detail"
+    },
+    {
+      "reference": "104111",
+      "source": "data/research/truper/images/medicion-y-trazado/104111-nl-16/original-truper.jpg",
+      "sha256": "911ce073594e08e36b22ca5335a8ee80d1e818c0f579cac16bef4f5a8a1d401f",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "primary-photo"
+    },
+    {
+      "reference": "13985",
+      "source": "data/research/truper/images/medicion-y-trazado/13985-proco-20x/original-truper.jpg",
+      "sha256": "f0f9f322438c724c9c8e641a89a7083b80eeb09e1ccc4c7324f34520ada6bd44",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "14625",
+      "source": "data/research/truper/images/medicion-y-trazado/14625-np-18x/original-truper.jpg",
+      "sha256": "82fa2bdfa57b10879ba73b5816fa0fbd3d8a979795c20591b2c8e7759373bd13",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    },
+    {
+      "reference": "19100",
+      "source": "data/research/truper/images/medicion-y-trazado/19100-mea-160d/original-truper.jpg",
+      "sha256": "ff1aead1cc7ebcac0f23f6c2bd11b92ced05c8323d4c07aa72a54e04ee957864",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "role": "not-selected"
+    }
+  ],
+  "confirmed_contents": [
+    {
+      "id": "key",
+      "label": "Llave de broquero",
+      "source": "data/research/truper/images/herramientas-electricas/103068-tal-1-2n2/Gemini_Generated_Image_d9ta5ud9ta5ud9ta(1).jpg",
+      "sha256": "e3cd46b9969496c04110c4d8f27014a7ddcc913ca3aee0ce435331e8350eebe9",
+      "src": "/project/products/truper/103068-contents-key-e3cd46b99694.webp",
+      "kind": "illustration",
+      "reference": "103068",
+      "confirmation": {
+        "source": "user-confirmed",
+        "confirmed_at": "2026-11-23",
+        "manufacturer_verified": false,
+        "question": "¿Confirmas que el taladro 103068/TAL-1/2N2 incluye ese mango y esa llave?",
+        "answer": "si, confirmo procede"
+      },
+      "background": "edge-connected-white-250",
+      "dimensions": [
+        433,
+        591
+      ]
+    },
+    {
+      "id": "handle",
+      "label": "Mango auxiliar",
+      "source": "data/research/truper/images/herramientas-electricas/103068-tal-1-2n2/Gemini_Generated_Image_d9ta5ud9ta5ud9ta.jpg",
+      "sha256": "be2dbd7cd70387b554d77b6329c494063aa2d1f082de5b180f98eeb81637bbf6",
+      "src": "/project/products/truper/103068-contents-handle-be2dbd7cd703.webp",
+      "kind": "illustration",
+      "reference": "103068",
+      "confirmation": {
+        "source": "user-confirmed",
+        "confirmed_at": "2026-11-23",
+        "manufacturer_verified": false,
+        "question": "¿Confirmas que el taladro 103068/TAL-1/2N2 incluye ese mango y esa llave?",
+        "answer": "si, confirmo procede"
+      },
+      "background": "edge-connected-white-250",
+      "dimensions": [
+        762,
+        1015
+      ]
+    }
+  ]
+}
