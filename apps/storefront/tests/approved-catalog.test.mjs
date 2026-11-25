@@ -1,6 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
+import { existsSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { validateCatalog } from "../../../packages/catalog-schema/src/index.js";
 
@@ -8,6 +9,11 @@ const root = new URL("../../../", import.meta.url);
 const input = JSON.parse(await readFile(new URL("data/approved/catalog.json", root), "utf8"));
 const evidence = JSON.parse(await readFile(new URL("data/approved/truper-source-evidence.json", root), "utf8"));
 const { catalog, ok, errors } = validateCatalog(input);
+
+// Product photography is deliberately not versioned (see docs/despliegue-vps.md):
+// it lives on the host and is mounted into the container. The byte-level audit only
+// runs where the media set exists, so CI skips it instead of failing on missing files.
+const productMediaPresent = existsSync(new URL("apps/storefront/public/project/products/", root));
 
 test("approved non-demo routes retain the Ferready shell without demo commerce", async () => {
   const layout = await readFile(new URL("apps/storefront/app/layout.tsx", root), "utf8");
@@ -59,7 +65,11 @@ test("the approved Truper batches preserve source identities without prices or s
   }
 });
 
-test("public photographs match audited hashes, never generated ancillary images", async () => {
+test("public photographs match audited hashes, never generated ancillary images", async (t) => {
+  if (!productMediaPresent) {
+    t.diagnostic("product photography is not versioned; the hash audit needs apps/storefront/public/project/products/ in this checkout");
+    return t.skip("product photography is not present in this checkout");
+  }
   for (const product of catalog.products) {
     if (["19784", "12544"].includes(product.reference)) {
       assert.deepEqual(product.images, []);

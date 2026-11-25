@@ -1,9 +1,12 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { confirmedContents, editorialMedia, editorialRoles, productTablePieces } from "../lib/editorial-media.mjs";
 
 const catalog = JSON.parse(readFileSync(new URL("../../../data/approved/catalog.json", import.meta.url)));
+// Photography is not versioned (see docs/despliegue-vps.md), so the file-existence
+// check only runs where the media set is present. Every data assertion always runs.
+const productMediaPresent = existsSync(new URL("../public/project/products/", import.meta.url));
 test("all twenty owner-approved multi-image references have semantic chapter roles", () => {
   const multiple = catalog.products.filter(product => product.gallery.length > 1);
   assert.equal(multiple.length, 20);
@@ -50,7 +53,8 @@ test("original scene controls and scroll chapters are not replaced by galleries"
   assert.match(journey, /ScrollTrigger/);
   assert.match(journey, /preservePixels=\{informational\}/);
 });
-test("only the exact user-confirmed SKU claims inclusion; other accessories remain illustrative", () => {
+test("only the exact user-confirmed SKU claims inclusion; other accessories remain illustrative", (t) => {
+  if (!productMediaPresent) t.diagnostic("product photography is not versioned; the illustration file-existence check is skipped");
   for (const product of catalog.products) {
     const pieces = productTablePieces(product);
     const photo = product.gallery.find(view => view.kind === "photo");
@@ -69,7 +73,7 @@ test("only the exact user-confirmed SKU claims inclusion; other accessories rema
   assert.deepEqual(pieces.map(piece => piece.label), ["Taladro", "Mango auxiliar", "Llave de broquero"]);
   for (const piece of pieces.slice(1)) {
     assert.match(piece.detail, /ilustración suministrada, no fotografía/);
-    assert.ok(readFileSync(new URL(`../public${piece.src}`, import.meta.url)).length > 0);
+    if (productMediaPresent) assert.ok(readFileSync(new URL(`../public${piece.src}`, import.meta.url)).length > 0);
   }
   assert.equal(confirmedContents(drill).confirmation.source, "user-confirmed");
   assert.equal(confirmedContents(drill).confirmation.confirmed_at, "2026-11-23");
