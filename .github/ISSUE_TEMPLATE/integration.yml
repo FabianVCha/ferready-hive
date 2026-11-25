@@ -1,0 +1,33 @@
+name: Integration tracking
+description: Define the scope and verification plan for a project integration.
+title: "feat: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe the integration and the problem it solves.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: List the intended changes and what remains out of scope.
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification
+      description: Describe the checks and acceptance criteria for this integration.
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks
+      description: Describe known risks, dependencies, and rollback considerations.
+    validations:
+      required: true
