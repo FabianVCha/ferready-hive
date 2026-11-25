@@ -49,7 +49,7 @@ test('template paid receipt uses configured name and preserves demo safety', () 
 });
 
 test('project configuration owns project identity and provider selection', () => {
-  assert.equal(projectConfig.projectId, 'template');
+  assert.equal(projectConfig.projectId, 'ferready-hive');
   assert.equal(projectConfig.paymentProvider, 'demo');
   assert.equal(projectConfig.storefront, storefront);
 });
