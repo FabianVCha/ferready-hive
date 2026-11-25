@@ -24,6 +24,12 @@ services:
   db:
     image: postgres:16-alpine
     restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 384m
+          cpus: "1.0"
+    memswap_limit: 384m
     environment:
       POSTGRES_USER: ${POSTGRES_USER:?set POSTGRES_USER in the env file}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in the env file}
@@ -41,6 +47,12 @@ services:
   migrate:
     <<: *backend-image
     restart: "no"
+    deploy:
+      resources:
+        limits:
+          memory: 1g
+          cpus: "1.0"
+    memswap_limit: 1g
     command: ["npm", "--prefix", "apps/backend", "run", "db:migrate"]
     depends_on:
       db:
@@ -50,6 +62,12 @@ services:
   backend:
     <<: *backend-image
     restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 768m
+          cpus: "1.0"
+    memswap_limit: 768m
     depends_on:
       db:
         condition: service_healthy
@@ -71,6 +89,12 @@ services:
       dockerfile: apps/storefront/Dockerfile
     image: ferready-storefront
     restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 512m
+          cpus: "0.75"
+    memswap_limit: 512m
     depends_on:
       backend:
         condition: service_healthy
