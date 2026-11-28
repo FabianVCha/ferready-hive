@@ -1,19 +1,30 @@
 import { validateCatalog } from "@hive-web/catalog-schema";
-import input from "../../../data/approved/catalog.json";
+import input from "../../../data/project/first15-truper.json";
 import { projectConfig } from "@/data/project-config.mjs";
+import { first15Categories, first15Discovery } from "@/data/first15-discovery";
 import type { VisualCatalog } from "@/components/ferready/catalog-context";
 
-const result = validateCatalog(input);
+const result = validateCatalog({
+  ...input,
+  categories: first15Categories,
+  products: input.products.map((product) => ({
+    ...product,
+    category: first15Discovery(product.reference)?.category,
+  })),
+});
 if (!result.ok) throw new Error(`Invalid approved catalog: ${result.errors.join("; ")}`);
 
 export const approvedCatalog = result.catalog;
 export const usesApprovedCatalog = projectConfig.catalogSource === "approved";
 
 export const approvedVisualCatalog: VisualCatalog = {
+  pending: [{ name: "Manguera para lavamanos", note: "Pendiente de confirmar referencia, medidas e imagen. No disponible para compra." }],
   informational: true,
   products: approvedCatalog.products.map((product) => ({
     slug: product.handle,
     name: product.title,
+    cardTitle: first15Discovery(product.reference)?.cardTitle,
+    searchAliases: first15Discovery(product.reference)?.searchAliases,
     brand: product.brand ?? "",
     category: approvedCatalog.categories.find((category) => category.handle === product.category)!.name,
     categorySlug: product.category,
@@ -27,6 +38,7 @@ export const approvedVisualCatalog: VisualCatalog = {
     source: product.source_url ?? "",
     specs: { Código: product.reference, ...(product.model ? { Modelo: product.model } : {}), ...product.specifications },
     reference: product.reference,
+    selectionAvailable: false,
     model: product.model ?? undefined,
   })),
   categories: approvedCatalog.categories.map((category) => ({

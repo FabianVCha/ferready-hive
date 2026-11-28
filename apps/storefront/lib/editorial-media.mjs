@@ -1,9 +1,22 @@
 import contentsSelection from "../../../data/approved/truper-contents-selection.json" with { type: "json" };
+import first15Scenes from "../../../data/project/first15-truper-scenes.json" with { type: "json" };
+
+function first15Scene(product) {
+  if (!product.gallery?.some(view => view.src.includes("/first15-truper/"))) return null;
+  const scene = first15Scenes[product.reference];
+  return scene?.model === product.model ? scene : null;
+}
 
 /** User confirmation is scoped to an exact reference and model, never a category. */
 export function confirmedContents(product) {
+  const scene = first15Scene(product);
+  if (scene) return {
+    reference: product.reference, model: product.model,
+    confirmation: { source: "owner-supplied-json", confirmed_at: "2026-11-27", manufacturer_verified: false },
+    components: scene.components.map(component => ({ ...component, kind: "illustration" })),
+  };
   const entry = contentsSelection[product.reference];
-  return entry?.model === product.model && entry.confirmation.source === "user-confirmed" ? entry : null;
+  return entry && entry.model === product.model && entry.confirmation.source === "user-confirmed" ? entry : null;
 }
 
 /**
@@ -23,6 +36,14 @@ export const editorialRoles = {
 };
 
 export function editorialMedia(product) {
+  const scene = first15Scene(product);
+  if (scene) return [scene.main, scene.project, scene.main, scene.main].map((src, chapter) => ({
+    src, alt: product.name, presentation: "object",
+    role: ["product", "project", "contents", "packing"][chapter],
+    note: chapter === 2 ? `Contenido según ficha aportada: ${scene.includes}`
+      : chapter === 3 ? "Presentación ilustrativa; no es una fotografía del empaque."
+      : product.gallery.find(view => view.src === src)?.caption ?? product.name,
+  }));
   const gallery = product.gallery ?? [];
   const main = gallery.find(view => view.kind === "photo");
   if (!main) return null;
@@ -45,6 +66,12 @@ export function editorialMedia(product) {
  * illustrative, never presented as an inventory shipped with the product.
  */
 export function productTablePieces(product) {
+  const scene = first15Scene(product);
+  if (scene) return [{
+    id: "product", label: "Producto", detail: product.name, src: scene.main,
+    width: 1000, height: 1000,
+    views: product.gallery.filter(view => view.kind === "photo").map(view => ({ src: view.src, detail: view.caption })),
+  }, ...scene.components.map(component => ({ ...component, width: 1000, height: 1000 }))];
   const photo = product.gallery?.find(view => view.kind === "photo");
   if (!photo) return [];
   const confirmed = confirmedContents(product);

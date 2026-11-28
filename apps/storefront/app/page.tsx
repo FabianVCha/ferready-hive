@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ProjectHome } from "@/components/ferready/project-home";
 import { CampaignHome as HomeView } from "@/components/ferready/campaign-home";
 import { isDemoEnabled } from "@/lib/prototype.mjs";
 import { usesApprovedCatalog } from "@/lib/approved-catalog";
@@ -15,7 +16,7 @@ export const dynamic = "force-dynamic";
 
 export default async function HomePage() {
   if (isDemoEnabled(process.env.FERREADY_DEMO)) return <HomeView />;
-  if (usesApprovedCatalog) return <HomeView />;
+  if (usesApprovedCatalog) return <ProjectHome />;
   const [categories, products, reachable] = await Promise.all([
     listCategories(),
     listProducts(),

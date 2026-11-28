@@ -1,0 +1,445 @@
+{
+  "source_batch": "primeros-15-truper",
+  "confirmed": [
+    {
+      "reference": "104412",
+      "folder": "01-taladro-rotomartillo-12v",
+      "source_json_sha256": "f0f4c2bcd34bad911d490fbefe29ae8d1ceaed7d669746858c6dc443c75f386f",
+      "supplied_verification_claim": "truper.com ficha técnica oficial, 2026-11-27",
+      "assets": [
+        {
+          "source": "original-01.jpg",
+          "output": "/project/products/first15-truper/104412-01.webp",
+          "sha256": "247e39650778e25a27eeb7a57a64f71d17c3f4c9cbada16b515e7e3a68db5450",
+          "kind": "photo"
+        },
+        {
+          "source": "original-02.jpg",
+          "output": "/project/products/first15-truper/104412-02.webp",
+          "sha256": "ecfc5cfdeb64956a24b4237f6eff34fb0b43a2f6d5c82b39c5ac256d00fb7e0c",
+          "kind": "photo"
+        },
+        {
+          "source": "original-03.jpg",
+          "output": "/project/products/first15-truper/104412-03.webp",
+          "sha256": "904f26902eec7c6427a61fd236bc140cd303b7caeddc1ed6516a9fff122bd650",
+          "kind": "photo"
+        },
+        {
+          "source": "ChatGPT Image Nov 27, 2026, 09_31_35 PM-1.png",
+          "output": "/project/products/first15-truper/104412-04.webp",
+          "sha256": "a993dacfd603b11b70771d14f535d07b12af81f29dd8d427573bb4e3c21f4c11",
+          "kind": "illustration"
+        },
+        {
+          "source": "ChatGPT Image Nov 27, 2026, 09_31_36 PM-2.png",
+          "output": "/project/products/first15-truper/104412-05.webp",
+          "sha256": "ee963abab5a52e5d76366e6bd9d6fb552a04ed0a61de2dc4f0bc539ec1421907",
+          "kind": "illustration"
+        },
+        {
+          "source": "ChatGPT Image Nov 27, 2026, 09_31_37 PM-3.png",
+          "output": "/project/products/first15-truper/104412-06.webp",
+          "sha256": "d66e8165e8d68355a981144dc491d205c9d5cdf461adc1bab46ec22b457545b8",
+          "kind": "illustration"
+        },
+        {
+          "source": "ChatGPT Image Nov 27, 2026, 09_31_38 PM-4.png",
+          "output": "/project/products/first15-truper/104412-07.webp",
+          "sha256": "8d88966234215a6647cfbcfe221f7f43cce498bbf7c4dc825f083f2ca6a87cbb",
+          "kind": "illustration"
+        },
+        {
+          "source": "ChatGPT Image Nov 27, 2026, 09_31_39 PM-5.png",
+          "output": "/project/products/first15-truper/104412-08.webp",
+          "sha256": "c26f3ebdb398d97d818ebd203fbe956ec4de6b5aba6022a1048b15a477ddb383",
+          "kind": "illustration"
+        },
+        {
+          "source": "ChatGPT Image Nov 27, 2026, 09_31_40 PM-6.png",
+          "output": "/project/products/first15-truper/104412-09.webp",
+          "sha256": "a6dbca1c682b4f9b41674c752e2a30eb759fc29b4939cbef885a3792de79fc20",
+          "kind": "illustration"
+        },
+        {
+          "source": "ChatGPT Image Nov 27, 2026, 09_31_41 PM-7.png",
+          "output": "/project/products/first15-truper/104412-10.webp",
+          "sha256": "286f45b49d7cee19069734e3b7b400a477121364026e9e71df96a5014259097f",
+          "kind": "illustration"
+        }
+      ]
+    },
+    {
+      "reference": "104271",
+      "folder": "02-rotomartillo-20v",
+      "source_json_sha256": "cbe95ce127445a386942793d6aebd273ae13cd67252d20e6c172c50597fc2946",
+      "supplied_verification_claim": "truper.com ficha técnica oficial, 2026-11-27",
+      "assets": [
+        {
+          "source": "original-01.jpg",
+          "output": "/project/products/first15-truper/104271-01.webp",
+          "sha256": "f7b16713ac709fd59e79e483bccc66088bd563e218946e0b243fd404c35f3485",
+          "kind": "photo"
+        },
+        {
+          "source": "original-02.jpg",
+          "output": "/project/products/first15-truper/104271-02.webp",
+          "sha256": "5e34064b5995a2cde9cf5a08af966a750c1ff38b2e58e143e62921994370d896",
+          "kind": "photo"
+        },
+        {
+          "source": "original-03.jpg",
+          "output": "/project/products/first15-truper/104271-03.webp",
+          "sha256": "7e5a5901ec76b57d800b0bb38d4bc8edd98809278deefbdf356236ca42ef803b",
+          "kind": "photo"
+        },
+        {
+          "source": "ChatGPT Image Nov 27, 2026, 09_35_49 PM-1.png",
+          "output": "/project/products/first15-truper/104271-04.webp",
+          "sha256": "3f632ee08a9ed2456b87f97a73f7c01d55689594aebd5e5970fadaecad8c4687",
+          "kind": "illustration"
+        },
+        {
+          "source": "ChatGPT Image Nov 27, 2026, 09_35_50 PM-2.png",
+          "output": "/project/products/first15-truper/104271-05.webp",
+          "sha256": "e7308991fd5a193c381d2e4c11f48e00e7eedf170853fcf76bf8c235b6c924dc",
+          "kind": "illustration"
+        },
+        {
+          "source": "ChatGPT Image Nov 27, 2026, 09_35_51 PM-3.png",
+          "output": "/project/products/first15-truper/104271-06.webp",
+          "sha256": "253decdd2ac39662c8610343dd96a24953797c6b608324b35850f5871ee8c730",
+          "kind": "illustration"
+        },
+        {
+          "source": "ChatGPT Image Nov 27, 2026, 09_35_52 PM-4.png",
+          "output": "/project/products/first15-truper/104271-07.webp",
+          "sha256": "eee16b331e47f9a5239a352af9960b523dd2b858f72ed3faebb497d85489afe9",
+          "kind": "illustration"
+        },
+        {
+          "source": "ChatGPT Image Nov 27, 2026, 09_35_54 PM-5.png",
+          "output": "/project/products/first15-truper/104271-08.webp",
+          "sha256": "28c600f572cd2069538909dc7f56002e870945c01422af2ddf3245abc897e4c2",
+          "kind": "illustration"
+        },
+        {
+          "source": "ChatGPT Image Nov 27, 2026, 09_35_55 PM-6.png",
+          "output": "/project/products/first15-truper/104271-09.webp",
+          "sha256": "12309289b9e33cbab2f3c9983a6eaabd386dccd94d0fd2a99011f8ab4b072443",
+          "kind": "illustration"
+        },
+        {
+          "source": "ChatGPT Image Nov 27, 2026, 09_35_56 PM-7.png",
+          "output": "/project/products/first15-truper/104271-10.webp",
+          "sha256": "80a45f41ceab0a92c61bd9be85d9e9b6e6b193be925de887a4d124572b398f90",
+          "kind": "illustration"
+        },
+        {
+          "source": "ChatGPT Image Nov 27, 2026, 09_35_57 PM-8.png",
+          "output": "/project/products/first15-truper/104271-11.webp",
+          "sha256": "924d5c208e12b379d1d15e9caf9b9784bd72d1975f9b6e4e95a1bed49ce610d1",
+          "kind": "illustration"
+        },
+        {
+          "source": "ChatGPT Image Nov 27, 2026, 09_35_58 PM-9.png",
+          "output": "/project/products/first15-truper/104271-12.webp",
+          "sha256": "27e36b53fb2077ea652349fa50e432483cc235186c3d47c717703fadd1d1c7d5",
+          "kind": "illustration"
+        },
+        {
+          "source": "ChatGPT Image Nov 27, 2026, 09_35_59 PM-10.png",
+          "output": "/project/products/first15-truper/104271-13.webp",
+          "sha256": "e2dca2a25fe79228840306a1bfc1a057d9387a4a527a61f53d82cb3c66e3c9be",
+          "kind": "illustration"
+        }
+      ]
+    },
+    {
+      "reference": "14659",
+      "folder": "03-rotomartillo-850w-cable",
+      "source_json_sha256": "44ecfc048c30574faa839c50594bf5fd551d3819ed156000ecac02bff683bfaf",
+      "supplied_verification_claim": "truper.com ficha técnica oficial, 2026-11-27",
+      "assets": [
+        {
+          "source": "original-01.jpg",
+          "output": "/project/products/first15-truper/14659-01.webp",
+          "sha256": "9c83feaf57017ce8cf7fd7d55cb4b352212fbb75b6b03bb04accd9393a4a585f",
+          "kind": "photo"
+        },
+        {
+          "source": "original-02.jpg",
+          "output": "/project/products/first15-truper/14659-02.webp",
+          "sha256": "72ada0e781ff788bd3b2b994cb2dd9f04f519cba3fe7d9e06e7e68b7cd79451e",
+          "kind": "photo"
+        },
+        {
+          "source": "Black Auxiliary Drill Handle Close-Up-1.png",
+          "output": "/project/products/first15-truper/14659-03.webp",
+          "sha256": "e093bcf9023c19c26fc40b416ee3b8bd3ead1b7824260e9690326d36c29b38cc",
+          "kind": "illustration"
+        },
+        {
+          "source": "Black Drill Depth Gauge Rod with Adjustable Stop-3.png",
+          "output": "/project/products/first15-truper/14659-04.webp",
+          "sha256": "90c06754a2ce952ef68c6cbabca1442bbe4f4ca1c987f290fec173927916258e",
+          "kind": "illustration"
+        },
+        {
+          "source": "Metal Drill Chuck Key on White Background-2.png",
+          "output": "/project/products/first15-truper/14659-05.webp",
+          "sha256": "9cc55e816c46629c316e9f3a4509950eb280a04067cdea7cae0999a7d3d653c8",
+          "kind": "illustration"
+        }
+      ]
+    },
+    {
+      "reference": "11145",
+      "folder": "04-caja-herramientas-22",
+      "source_json_sha256": "c98803a15d231953cc394ed19833b77cd403d9c537ff2d3b758b1caf4b542956",
+      "supplied_verification_claim": "truper.com ficha técnica oficial, 2026-11-27",
+      "assets": [
+        {
+          "source": "original-01.jpg",
+          "output": "/project/products/first15-truper/11145-01.webp",
+          "sha256": "356f60d761e4025f6c276c9d9f30d329bdaa7f86d2fa8f8586e405a1db79096f",
+          "kind": "photo"
+        },
+        {
+          "source": "original-02.jpg",
+          "output": "/project/products/first15-truper/11145-02.webp",
+          "sha256": "01df8db20dc791236a6d1a03540c9252fcc5be47adc57601b6366bad6f59fa82",
+          "kind": "photo"
+        }
+      ]
+    },
+    {
+      "reference": "11899",
+      "folder": "05-disco-corte-metal-4-1-2",
+      "source_json_sha256": "89edbafcea8c1de34718ef6fba8037c196c97af02484c3072e7a281e6ea8b9f6",
+      "supplied_verification_claim": "truper.com ficha técnica oficial, 2026-11-27",
+      "assets": [
+        {
+          "source": "original-01.jpg",
+          "output": "/project/products/first15-truper/11899-01.webp",
+          "sha256": "b9f92d137087abc42b2232c310aa01c791f9bbb0132894a6a00427b70a19af4f",
+          "kind": "photo"
+        },
+        {
+          "source": "original-02.jpg",
+          "output": "/project/products/first15-truper/11899-02.webp",
+          "sha256": "92119af7c9a7d302484213d449db73d8c29e3daa72f1a9013fa41b2f618db541",
+          "kind": "photo"
+        }
+      ]
+    },
+    {
+      "reference": "11335",
+      "folder": "06-juego-brocas-metal-concreto-11",
+      "source_json_sha256": "6fe3544030e7abd276ece4484aa15a96d310f8d484b4137c05289b658eb9017e",
+      "supplied_verification_claim": "truper.com ficha técnica oficial, 2026-11-27",
+      "assets": [
+        {
+          "source": "original-01.jpg",
+          "output": "/project/products/first15-truper/11335-01.webp",
+          "sha256": "255795a7b37d197ab9bf6f3a7a8e1c8954f3d33bff177da942259bc9d991d27b",
+          "kind": "photo"
+        },
+        {
+          "source": "Truper Expert 11-Piece Drill Bit Set.png",
+          "output": "/project/products/first15-truper/11335-02.webp",
+          "sha256": "fa157da1c81b8db49e81ecbb0a7dc0932338cbc53b8c6f42ca221ee754a4f4bc",
+          "kind": "illustration"
+        }
+      ]
+    },
+    {
+      "reference": "12906",
+      "folder": "07-sellador-poliuretano",
+      "source_json_sha256": "8c5b5eece9196c6fff21a0a60de6362b87a601f8f178a61c14c8bfc8c10cd0f3",
+      "supplied_verification_claim": "truper.com ficha técnica oficial, 2026-11-27",
+      "assets": [
+        {
+          "source": "original-01.jpg",
+          "output": "/project/products/first15-truper/12906-01.webp",
+          "sha256": "0131a2a40a6e15fae461077f2610b3b69b6bc4d6098fa53ce6204da824434e49",
+          "kind": "photo"
+        },
+        {
+          "source": "original-02.jpg",
+          "output": "/project/products/first15-truper/12906-02.webp",
+          "sha256": "4b001e606a22477a3070d9054adead8de44e98e551e929bea29ca768728ed476",
+          "kind": "photo"
+        }
+      ]
+    },
+    {
+      "reference": "40159",
+      "folder": "08-kit-taquete-pija-1-4",
+      "source_json_sha256": "0f6640bea7cf2cbbf4369b3228e3709782cbf785ce2cd8ac4c9b5be90efbccb2",
+      "supplied_verification_claim": "truper.com ficha técnica oficial, 2026-11-27",
+      "assets": [
+        {
+          "source": "original-01.jpg",
+          "output": "/project/products/first15-truper/40159-01.webp",
+          "sha256": "17c1d42974716e8053fa7efc72172c923c4324ff72eef6226ef37de39f4fc2e7",
+          "kind": "photo"
+        },
+        {
+          "source": "original-02.jpg",
+          "output": "/project/products/first15-truper/40159-02.webp",
+          "sha256": "83c843085629bc46a68444b7eeac0bf502803c089fbdb1d4914274c826b98a63",
+          "kind": "photo"
+        }
+      ]
+    },
+    {
+      "reference": "102410",
+      "folder": "09-juego-herramientas-44",
+      "source_json_sha256": "cd154c02735d9d24b518dd071bbc076c493d8327a741bca1eec95eae32d3068c",
+      "supplied_verification_claim": "truper.com ficha técnica oficial, 2026-11-27",
+      "assets": [
+        {
+          "source": "original-01.jpg",
+          "output": "/project/products/first15-truper/102410-01.webp",
+          "sha256": "174a9aec948ea6b09736246f811ccde2b90ca26754f9a3f7f7539d1e34e62f1e",
+          "kind": "photo"
+        },
+        {
+          "source": "original-02.jpg",
+          "output": "/project/products/first15-truper/102410-02.webp",
+          "sha256": "6d5a1c38cf0977ca2c180ea1d1e5628ea76baba18342157bb83bd3b96a73ecba",
+          "kind": "photo"
+        },
+        {
+          "source": "original-03.jpg",
+          "output": "/project/products/first15-truper/102410-03.webp",
+          "sha256": "cb6b8e886c13a3de6a5809886c49d6a4c8d03745dbe2f0334f671b8ffb9f3e1e",
+          "kind": "photo"
+        }
+      ]
+    },
+    {
+      "reference": "18025",
+      "folder": "10-guantes-nitrilo",
+      "source_json_sha256": "6338578dd58758bbcba70b430ef1e53bd98369dcb434e30f2f71ea74a53c7a7e",
+      "supplied_verification_claim": "truper.com ficha técnica oficial, 2026-11-27",
+      "assets": [
+        {
+          "source": "original-01.jpg",
+          "output": "/project/products/first15-truper/18025-01.webp",
+          "sha256": "0dc1eb47df18e0092e3dab7653fd92acb71aff59cafdd99bffca5d8736184b32",
+          "kind": "photo"
+        },
+        {
+          "source": "original-02.jpg",
+          "output": "/project/products/first15-truper/18025-02.webp",
+          "sha256": "7c1aa3ec9233bf89c48332aeb1b89c8c545138dda9bd5044f2a445d9fa625ae9",
+          "kind": "photo"
+        }
+      ]
+    },
+    {
+      "reference": "23566",
+      "folder": "11-cerradura-bano-pomo",
+      "source_json_sha256": "a2d5b0e4270ea2985ac9c7310deb51f0d38b32cfb96aece5cd69165facc9cc3b",
+      "supplied_verification_claim": "truper.com ficha técnica oficial, 2026-11-27",
+      "assets": [
+        {
+          "source": "original-01.jpg",
+          "output": "/project/products/first15-truper/23566-01.webp",
+          "sha256": "1f301ba38767ce9cb957d7370edfb057b14b3a28609a962c05b802ce9f43768e",
+          "kind": "photo"
+        },
+        {
+          "source": "original-02.jpg",
+          "output": "/project/products/first15-truper/23566-02.webp",
+          "sha256": "a442871241268729cc3a8e2c90dbc43ccb17ef6fcd36d4fd74bcb380479acaca",
+          "kind": "photo"
+        },
+        {
+          "source": "original-03.jpg",
+          "output": "/project/products/first15-truper/23566-03.webp",
+          "sha256": "d264c91ee65c33658db643cf0b0b57c813b2d1de593740b69bcc0ec2170698e0",
+          "kind": "photo"
+        }
+      ]
+    },
+    {
+      "reference": "23104",
+      "folder": "12-tijera-poda-8",
+      "source_json_sha256": "774bfdbcb9d2c45edebbee2d2670e0e5105507b0bb7a6e3898cece95998308b6",
+      "supplied_verification_claim": "truper.com ficha técnica oficial, 2026-11-27",
+      "assets": [
+        {
+          "source": "original-01.jpg",
+          "output": "/project/products/first15-truper/23104-01.webp",
+          "sha256": "363743852d974358a88ac16bf5c478814ce8cb2f94dfb88295628059a1b53406",
+          "kind": "photo"
+        },
+        {
+          "source": "original-02.jpg",
+          "output": "/project/products/first15-truper/23104-02.webp",
+          "sha256": "9e26bea7c4059485030677221042022a8055e2c6aaadde44951f1fcd8132b021",
+          "kind": "photo"
+        }
+      ]
+    },
+    {
+      "reference": "46993",
+      "folder": "13-foco-led-sensor",
+      "source_json_sha256": "51834cb509bd921e2d4508518a36f10618a8c480ec6e8f285001a055a0a0caa8",
+      "supplied_verification_claim": "truper.com ficha técnica oficial, 2026-11-27",
+      "assets": [
+        {
+          "source": "original-01.jpg",
+          "output": "/project/products/first15-truper/46993-01.webp",
+          "sha256": "26f6ea7591df8d28598467a07a12ce6bbb06ccc0b9cf5d2e554dd6209c23805b",
+          "kind": "photo"
+        },
+        {
+          "source": "original-02.jpg",
+          "output": "/project/products/first15-truper/46993-02.webp",
+          "sha256": "863295c6591403655405c995ba07893b7c37a20f6183902f691205128d000fb6",
+          "kind": "photo"
+        }
+      ]
+    },
+    {
+      "reference": "100362",
+      "folder": "14-multimetro-digital",
+      "source_json_sha256": "00f1aab9006ebba3ced61310c6af720e42961ae4d6902bd594412df5fce8c569",
+      "supplied_verification_claim": "truper.com ficha técnica oficial, 2026-11-27",
+      "assets": [
+        {
+          "source": "original-01.jpg",
+          "output": "/project/products/first15-truper/100362-01.webp",
+          "sha256": "238024a8e789a2ab5055258e3e29d73569d8435afe1fd80d9c548b5e46809497",
+          "kind": "photo"
+        },
+        {
+          "source": "original-02.jpg",
+          "output": "/project/products/first15-truper/100362-02.webp",
+          "sha256": "6a0e508267cc22653a0fcb2aafb68c6e20b7909d29a94265968e31b7a951e306",
+          "kind": "photo"
+        },
+        {
+          "source": "original-03.jpg",
+          "output": "/project/products/first15-truper/100362-03.webp",
+          "sha256": "c5ed617e3a6ac6cc6d6d6101fcdac94bc8a8bec6ffc0d0bad60d1c6a377a55ba",
+          "kind": "photo"
+        }
+      ]
+    }
+  ],
+  "pending": [
+    {
+      "position": 15,
+      "name": "Manguera para lavamanos",
+      "status": "pending",
+      "reference": null,
+      "images": [],
+      "reason": "Owner requested leaving the unmatched reference pending."
+    }
+  ]
+}

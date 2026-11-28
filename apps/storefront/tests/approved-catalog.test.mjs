@@ -27,9 +27,9 @@ test("approved non-demo routes retain the Ferready shell without demo commerce",
   assert.match(shell, /if \(ready && !informational\)/);
 });
 
-test("approved routes reuse the original homepage, catalog and rich product components", async () => {
+test("approved home is isolated while catalog and rich product components are retained", async () => {
   for (const [path, expected] of [
-    ["app/page.tsx", /if \(usesApprovedCatalog\) return <HomeView/],
+    ["app/page.tsx", /if \(usesApprovedCatalog\) return <ProjectHome/],
     ["app/catalogo/page.tsx", /return <CatalogView/],
     ["app/c/[handle]/page.tsx", /return <CatalogView/],
     ["app/p/[slug]/page.tsx", /approvedVisualCatalog.products.find/],
@@ -38,6 +38,44 @@ test("approved routes reuse the original homepage, catalog and rich product comp
     assert.match(source, expected);
     assert.doesNotMatch(source, /components\/approved-catalog/);
   }
+});
+
+test("project home uses only existing references without activating the mock inventory", async () => {
+  const home = await readFile(new URL("apps/storefront/components/ferready/project-home.tsx", root), "utf8");
+  const layout = await readFile(new URL("apps/storefront/app/layout.tsx", root), "utf8");
+  const shell = await readFile(new URL("apps/storefront/components/ferready/shell.tsx", root), "utf8");
+  assert.match(home, /useVisualCatalog\(\)/);
+  assert.doesNotMatch(home + layout, /client-mock|mockCatalog|CLIENT_MOCK|prototype-products/);
+  assert.doesNotMatch(home, /15 referencias|Propuesta visual/);
+  assert.match(home, /preservePixels/);
+  assert.match(shell, /const projectHome = informational && path === "\/"/);
+  const activeCatalog = JSON.parse(await readFile(new URL("data/project/first15-truper.json", root), "utf8"));
+  for (const reference of [...home.matchAll(/"(\d{5,6})"/g)].map(match => match[1])) {
+    const product = activeCatalog.products.find(product => product.reference === reference);
+    assert.ok(product, `Home reference ${reference} must exist in the active owner selection`);
+    assert.ok(product.images.length, `Home reference ${reference} needs an existing photograph`);
+  }
+  for (const query of ["rotomartillo", "sellador", "multímetro"]) {
+    assert.ok(activeCatalog.products.some(product => product.title.toLocaleLowerCase("es").includes(query)));
+  }
+});
+
+test("home and catalog suppress passive cart errors without disabling cart recovery", async () => {
+  const shell = await readFile(new URL("apps/storefront/components/ferready/shell.tsx", root), "utf8");
+  assert.match(shell, /informational && cartError && !projectHome && \(!browsingCatalog \|\| cartError\.operation === "save"\)/);
+  assert.match(shell, /Reintentar conexión/);
+  assert.match(shell, /catch \{\s*setCartError\(\{ message: "No pudimos guardar el carrito/);
+  assert.match(shell, /Carrito no disponible/);
+  assert.match(shell, /href="\/carrito"/);
+});
+
+test("home uses concise presentation names and explains its selection-only workflow", async () => {
+  const home = await readFile(new URL("apps/storefront/components/ferready/project-home.tsx", root), "utf8");
+  assert.match(home, /homeProductName\(current\)/);
+  assert.match(home, /homeProductName\(product\)/);
+  assert.match(home, /Precio y disponibilidad por confirmar/);
+  assert.match(home, /aria-label=\{`Conocer \$\{product.name\}`\}/);
+  assert.match(home, /Instagram: null/);
 });
 
 test("the approved Truper batches preserve source identities without prices or stock", () => {

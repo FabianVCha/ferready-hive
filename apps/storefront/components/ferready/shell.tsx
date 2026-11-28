@@ -115,7 +115,7 @@ export function DemoShell({ children, informational = false, approvedCategories 
   const [cart, setCart] = useState<CartItem[]>([]);
   const [ready, setReady] = useState(false);
   const [busy, setBusy] = useState(false);
-  const [error, setError] = useState("");
+  const [cartError, setCartError] = useState<{ message: string; operation: "load" | "save" } | null>(null);
   const saving = useRef(false);
   const [toast, setToast] = useState("");
   const [menu, setMenu] = useState(false);
@@ -151,6 +151,9 @@ export function DemoShell({ children, informational = false, approvedCategories 
     };
   }, [menu]);
   const path = usePathname();
+  const projectHome = informational && path === "/";
+  const browsingCatalog = path === "/catalogo" || path.startsWith("/c/");
+  const error = cartError?.message ?? "";
   useEffect(() => {
     if (informational) {
       const refresh = () => { void loadSelection(); };
@@ -176,15 +179,15 @@ export function DemoShell({ children, informational = false, approvedCategories 
       if (!response.ok) throw new Error();
       const data = await response.json();
       setCart(data.items);
-      setError("");
-    } catch { setError("No pudimos cargar el carrito. Intenta de nuevo."); }
+      setCartError(null);
+    } catch { setCartError({ message: "No pudimos cargar el carrito. Intenta de nuevo.", operation: "load" }); }
     finally { setReady(true); }
   }
   async function saveSelection(slug: string, quantity: number) {
     if (saving.current) return false;
     saving.current = true;
     setBusy(true);
-    setError("");
+    setCartError(null);
     try {
       const response = await fetch("/api/selection-cart", {
         method: "POST", headers: { "Content-Type": "application/json" },
@@ -199,7 +202,7 @@ export function DemoShell({ children, informational = false, approvedCategories 
       channel.close();
       return true;
     } catch {
-      setError("No pudimos guardar el carrito. Intenta de nuevo.");
+      setCartError({ message: "No pudimos guardar el carrito. Intenta de nuevo.", operation: "save" });
       return false;
     } finally { saving.current = false; setBusy(false); }
   }
@@ -272,7 +275,7 @@ export function DemoShell({ children, informational = false, approvedCategories 
             {<Link
               href="/carrito"
               className="cart-link"
-              aria-label={`Carrito, ${cart.reduce((n, p) => n + p.quantity, 0)} productos`}
+              aria-label={informational && error ? "Carrito no disponible" : `Carrito, ${cart.reduce((n, p) => n + p.quantity, 0)} productos`}
             >
               <Icon name="bag" />
               <span className="cart-count">
@@ -291,29 +294,30 @@ export function DemoShell({ children, informational = false, approvedCategories 
             </button>
           </div>
         </header>
+        <nav className={`primary-navigation${projectHome || (informational && browsingCatalog) ? " aligned-primary-navigation" : ""}`} aria-label="Navegación principal">
+          <Link href="/" aria-current={path === "/" ? "page" : undefined}>Inicio</Link>
+          <Link href="/catalogo" aria-current={path === "/catalogo" ? "page" : undefined}>Catálogo</Link>
+        </nav>
         <nav
           id="category-navigation"
           ref={menuNav}
           onClick={(event) => { if ((event.target as Element).closest("a")) setMenu(false); }}
-          className={`category-nav ${informational ? "approved-navigation" : ""} ${menu ? "is-open" : ""}`}
-          aria-label="Categorías de productos"
+          className={`category-nav ${informational ? "approved-navigation" : ""} ${informational && browsingCatalog ? "catalog-category-navigation" : ""} ${menu ? "is-open" : ""}`}
+          aria-label={projectHome ? "Secciones de Inicio" : "Categorías de productos"}
         >
-          <Link className="all-categories" href="/catalogo">
-            <Icon name="menu" size={18} /> Todos los productos
-          </Link>
-          {informational ? approvedCategories.map((c) => (
+          {projectHome ? <><Link href="/#empresa">La empresa</Link><Link href="/#cobertura">Cobertura</Link></> : informational ? approvedCategories.map((c) => (
             <Link key={c.handle} href={`/c/${c.handle}`}>{c.name}</Link>
           )) : categories.map((c) => (
             <Link key={c.slug} href={`/c/${c.slug}`}>
               {c.short}
             </Link>
           ))}
-          <Link href="/#por-tarea" className="task-nav">
-            {informational ? "Explorar por categoría" : "Explorar por objetivo"} <Icon name="arrow" size={15} />
-          </Link>
+          {(!informational || !browsingCatalog) && <Link href="/#por-tarea" className="task-nav">
+            {projectHome ? "¿Qué vas a hacer?" : informational ? "Explorar por categoría" : "Explorar por objetivo"} <Icon name="arrow" size={15} />
+          </Link>}
         </nav>
         <main id="contenido" className="fr-main">
-          {informational && error && <div className="page-pad" role="alert"><p>{error}</p><button className="text-link" onClick={() => { void loadSelection(); }}>Reintentar conexión</button></div>}
+          {informational && cartError && !projectHome && (!browsingCatalog || cartError.operation === "save") && <div className="page-pad selection-error" role="alert"><p>{error}</p><button className="text-link" style={{ minHeight: 44, paddingBlock: 8 }} onClick={() => { void loadSelection(); }}>Reintentar conexión</button></div>}
           <RouteMotion>{visualCatalog ? <VisualCatalogProvider catalog={visualCatalog}>{children}</VisualCatalogProvider> : children}</RouteMotion>
         </main>
         <footer className="fr-footer">
@@ -328,8 +332,9 @@ export function DemoShell({ children, informational = false, approvedCategories 
             </div>
             <div>
               <h2>Explora tu tienda.</h2>
+              <Link href="/">Inicio <Icon name="arrow" /></Link>
               <Link href="/catalogo">
-                Todos los productos <Icon name="arrow" />
+                Catálogo <Icon name="arrow" />
               </Link>
               <Link href="/#por-tarea">
                 {informational ? "Explora por categoría" : "Encuentra por objetivo"} <Icon name="arrow" />
@@ -341,8 +346,8 @@ export function DemoShell({ children, informational = false, approvedCategories 
             <div className="footer-location">
               <Icon name="pin" size={26} />
               <p>
-                {informational ? "Catálogo aprobado." : "Plantilla de demostración."}
-                <br />{informational ? "Sin compra en línea." : "Personaliza tu información."}
+                {informational ? projectHome ? "Catálogo de herramientas y accesorios." : "Catálogo aprobado." : "Plantilla de demostración."}
+                <br />{informational ? projectHome ? "Selección sin pago en línea." : "Sin compra en línea." : "Personaliza tu información."}
               </p>
               <span>{informational ? "Precio y disponibilidad por confirmar." : "Precios en pesos colombianos."}</span>
             </div>
@@ -350,7 +355,7 @@ export function DemoShell({ children, informational = false, approvedCategories 
           <div className="footer-bottom">
             <span>© {new Date().getFullYear()} {storefront.brandName}.</span>
             <span>
-              {informational ? "Referencias aprobadas · condiciones comerciales por confirmar." : "Prototipo privado · imágenes y condiciones comerciales de demostración."}
+              {informational ? projectHome ? "Precios y disponibilidad por confirmar." : "Referencias aprobadas · condiciones comerciales por confirmar." : "Prototipo privado · imágenes y condiciones comerciales de demostración."}
             </span>
             {!informational && <Link href="/informacion#demo">Acerca de esta demo</Link>}
           </div>

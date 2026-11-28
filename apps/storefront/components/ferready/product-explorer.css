@@ -1,0 +1,146 @@
+.product-first .product-spotlight .detail-description {
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0 0 10px;
+}
+.spotlight-choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.spotlight-choices button {
+  appearance: none;
+  border: 0;
+  background: #e8e9e8;
+  color: #12161b;
+  text-align: left;
+  font: inherit;
+  padding: 8px 12px;
+  cursor: pointer;
+  flex: 1;
+  min-width: 0;
+  min-height: 44px;
+  overflow-wrap: anywhere;
+  touch-action: manipulation;
+  transition: transform 160ms cubic-bezier(.23, 1, .32, 1);
+}
+.spotlight-choices button[aria-pressed="true"] {
+  background: #12161b;
+  color: white;
+}
+@media (hover: hover) and (pointer: fine) {
+  .spotlight-choices button:hover { transform: translateY(-2px); }
+}
+.spotlight-choices button:active { transform: scale(.98); }
+.spotlight-choices span { display: block; font-size: 13px; }
+.spotlight-choices strong { font-size: 18px; line-height: 1.2; }
+.product-first .spotlight-reading {
+  min-height: 3em;
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 8px 0 0;
+  max-width: 48ch;
+}
+.product-first:is([data-phase="2"], [data-phase="3"]) .product-spotlight { display: none; }
+.product-purchase:has(.product-spotlight) .approved-quote {
+  gap: 8px;
+  margin-top: 10px;
+}
+.product-purchase:has(.product-spotlight) .approved-quote p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.campaign-theme .product-first .product-purchase:has(.product-spotlight) .detail-price {
+  font-size: 26px;
+  line-height: 1.15;
+}
+.product-explorer {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr);
+  gap: clamp(40px, 7vw, 110px);
+  padding: 100px 0 70px;
+  align-items: start;
+  background: var(--paper);
+  color: #12161b;
+  scroll-margin-top: 130px;
+}
+.explorer-intro { position: sticky; top: 145px; }
+.explorer-intro h2 {
+  font-size: clamp(38px, 4.4vw, 64px);
+  line-height: 1.02;
+  letter-spacing: -.04em;
+  margin: 0 0 24px;
+}
+.explorer-intro > p {
+  font-size: 17px;
+  line-height: 1.6;
+  max-width: 34ch;
+  margin: 0 0 32px;
+}
+.explorer-topics { display: grid; gap: 8px; }
+.explorer-topics button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 20px;
+  min-height: 44px;
+  font: inherit;
+  background: #e8e9e8;
+  color: #12161b;
+  border: 0;
+  text-align: left;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+.explorer-topics svg { flex-shrink: 0; }
+.explorer-topics button[aria-expanded="true"] { background: #c51f19; color: white; }
+.explorer-reading { min-width: 0; }
+.explorer-reading article {
+  padding: clamp(24px, 3vw, 44px);
+  background: #e8e9e8;
+  overflow-wrap: anywhere;
+}
+.explorer-reading article[hidden] { display: none; }
+.explorer-reading article:first-child { background: #12161b; color: white; }
+.explorer-reading h3 {
+  font-size: clamp(26px, 2.6vw, 36px);
+  letter-spacing: -.035em;
+  line-height: 1.1;
+  margin: 0 0 22px;
+}
+.explorer-reading p { font-size: 17px; line-height: 1.65; margin: 0 0 24px; }
+.explorer-reading p:last-child { margin-bottom: 0; }
+.explorer-reading .text-link { color: inherit; font-size: 16px; }
+.explorer-reading dl { margin: 32px 0 0; display: grid; gap: 6px; }
+.explorer-reading dl div {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  gap: 12px;
+  background: #f5f2ec;
+  padding: 15px 18px;
+}
+.explorer-reading dd { text-align: right; margin: 0; font-weight: 750; }
+.explorer-reading .explorer-note { font-size: 14px; }
+.product-explorer :is(a, button):focus-visible,
+.product-spotlight button:focus-visible { outline: 3px solid #4f7399; outline-offset: 4px; }
+
+@media (max-width: 700px) {
+  .product-explorer { grid-template-columns: minmax(0, 1fr); gap: 28px; padding-top: 60px; }
+  .explorer-intro { position: static; }
+  .explorer-intro h2 { font-size: 42px; }
+  .explorer-topics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .explorer-topics button { padding: 12px 10px; font-size: 14px; }
+  .explorer-reading dl div { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+  .explorer-reading dd { text-align: left; }
+  .spotlight-choices strong { font-size: 17px; }
+  .product-first .product-spotlight .detail-description { display: none; }
+  .product-first .spotlight-reading { line-height: 1.4; min-height: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .spotlight-choices button { transition: none; }
+  .spotlight-choices button:hover, .spotlight-choices button:active { transform: none; }
+}

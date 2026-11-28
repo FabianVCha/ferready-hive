@@ -2,19 +2,22 @@
 
 import Link from "next/link";
 import { useState, useMemo } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { searchProducts } from "@/lib/prototype.mjs";
 import { categories, products, money } from "./catalog";
 import { Icon, useCart } from "./shell";
 import { ProductJourney } from "./product-journey";
+import { ProductExplorer, ProductSpotlight, type ProductTopic } from "./product-explorer";
 import { SafeImage } from "./safe-image";
 import { AddButton } from "./selection-motion";
 import { useVisualCatalog, type DisplayProduct } from "./catalog-context";
 import { PendingPriceAdd } from "./selection-cart";
+import { useCatalogRouteReady } from "./route-motion";
 
-export function ProductCard({ product }: { product: DisplayProduct }) {
+export function ProductCard({ product, catalog = false }: { product: DisplayProduct; catalog?: boolean }) {
   const { add, ready } = useCart();
   const { informational } = useVisualCatalog();
+  const title = catalog ? product.cardTitle ?? product.name : product.name;
   return (
     <article className="product-card">
       <Link href={`/p/${product.slug}`} className="product-image">
@@ -32,7 +35,7 @@ export function ProductCard({ product }: { product: DisplayProduct }) {
       <div className="product-card-info">
         <p className="product-brand">{product.brand}</p>
         <h3>
-          <Link href={`/p/${product.slug}`}>{product.name}</Link>
+          <Link href={`/p/${product.slug}`} title={title !== product.name ? product.name : undefined}>{title}</Link>
         </h3>
         <p className="product-short">
           {Object.values(product.specs).slice(0, 2).join(" · ")}
@@ -286,38 +289,70 @@ export function HomeView() {
   );
 }
 
-export function CatalogView({
-  query = "",
-  category = "",
-}: {
-  query?: string;
-  category?: string;
-}) {
-  const { products, categories, informational } = useVisualCatalog();
-  const [filter, setFilter] = useState(category);
-  const [sort, setSort] = useState("featured");
-  const [brand, setBrand] = useState("");
+function catalogHref(category: string, filters: { q?: string; brand?: string; sort?: string } = {}) {
+  const path = category ? `/c/${category}` : "/catalogo";
+  const params = new URLSearchParams();
+  if (filters.q) params.set("q", filters.q);
+  if (filters.brand) params.set("brand", filters.brand);
+  if (filters.sort && filters.sort !== "featured") params.set("sort", filters.sort);
+  return params.size ? `${path}?${params}` : path;
+}
+
+export function CatalogView({ category = "" }: { category?: string }) {
+  const routeContent = useCatalogRouteReady();
+  const { products, categories, informational, pending = [] } = useVisualCatalog();
+  const params = useSearchParams();
   const [filtersOpen, setFiltersOpen] = useState(false);
+  const brands = Array.from(new Set(products.map((p) => p.brand).filter(Boolean)));
+  const query = params.get("q")?.trim() ?? "";
+  const requestedBrand = params.get("brand") ?? "";
+  const brand = brands.includes(requestedBrand) ? requestedBrand : "";
+  const requestedSort = params.get("sort") ?? "";
+  const sort = (informational ? ["name"] : ["low", "high"]).includes(requestedSort) ? requestedSort : "featured";
+  const filters = { q: query, brand, sort };
+  const hasFilters = Boolean(category || brand);
+  const visiblePending = !query && !hasFilters ? pending : [];
+  const categoryName = categories.find((c) => c.slug === category)?.name;
+  const matchingProducts = useMemo(
+    () => searchProducts(products, query).filter((p) => !brand || p.brand === brand),
+    [products, query, brand],
+  );
   const result = useMemo(() => {
-    let list = searchProducts(products, query).filter(
-      (p) =>
-        (!filter || p.categorySlug === filter) && (!brand || p.brand === brand),
-    );
-    if (sort === "low" && !informational) list = [...list].sort((a, b) => (a.price ?? Infinity) - (b.price ?? Infinity));
-    if (sort === "high" && !informational) list = [...list].sort((a, b) => (b.price ?? -Infinity) - (a.price ?? -Infinity));
-    if (sort === "name") list = [...list].sort((a, b) => a.name.localeCompare(b.name, "es"));
+    const list = matchingProducts.filter((p) => !category || p.categorySlug === category);
+    if (sort === "low") list.sort((a, b) => (a.price ?? Infinity) - (b.price ?? Infinity));
+    if (sort === "high") list.sort((a, b) => (b.price ?? -Infinity) - (a.price ?? -Infinity));
+    if (sort === "name") list.sort((a, b) => (a.cardTitle ?? a.name).localeCompare(b.cardTitle ?? b.name, "es"));
     return list;
-  }, [filter, sort, brand, query, products, informational]);
+  }, [matchingProducts, category, sort]);
   const heading = query
     ? `Resultados para “${query}”`
-    : categories.find((c) => c.slug === category)?.name ||
+    : categoryName ||
       (informational ? "Herramientas Truper" : "Catálogo de ejemplo");
+  const resultLabel = result.length === 1 ? "1 producto confirmado" : `${result.length} productos confirmados`;
+  const pendingLabel = visiblePending.length === 1 ? "1 pendiente" : `${visiblePending.length} pendientes`;
+  const clearFiltersHref = catalogHref("", { q: query, sort });
+  const updateFilter = (name: "q" | "brand" | "sort", value: string) => {
+    const current = new URLSearchParams(window.location.search);
+    const href = catalogHref(category, {
+      q: current.get("q")?.trim(),
+      brand: current.get("brand") ?? undefined,
+      sort: current.get("sort") ?? undefined,
+      [name]: value,
+    });
+    if (href !== `${window.location.pathname}${window.location.search}`) {
+      window.history.pushState(null, "", href);
+    }
+  };
   return (
-    <div className="catalog-page page-pad">
+    <div ref={routeContent} className="catalog-page page-pad">
       <div className="breadcrumb">
         <Link href="/">Inicio</Link>
         <span>/</span>
-        <span>Catálogo</span>
+        {categoryName ? <>
+          <Link href="/catalogo">Catálogo</Link>
+          <span>/</span>
+          <span aria-current="page">{categoryName}</span>
+        </> : <span aria-current="page">Catálogo</span>}
       </div>
       <div className="catalog-intro">
         <h1>{heading}</h1>
@@ -328,64 +363,59 @@ export function CatalogView({
         </p>
       </div>
       <div className="catalog-toolbar">
-        <span>{result.length} productos</span>
+        <p className="catalog-result-count" role="status">
+          {resultLabel}{visiblePending.length > 0 && ` · ${pendingLabel}`}
+        </p>
         <button
           className="filter-toggle text-link"
-          onClick={() => setFiltersOpen(!filtersOpen)}
+          type="button"
+          onClick={() => setFiltersOpen((open) => !open)}
           aria-expanded={filtersOpen}
+          aria-controls="catalog-filters"
         >
-          Filtrar
+          Filtrar{hasFilters && ` (${Number(Boolean(category)) + Number(Boolean(brand))})`}
         </button>
         <label>
           Ordenar por{" "}
-          <select value={sort} onChange={(e) => setSort(e.target.value)}>
+          <select value={sort} onChange={(e) => updateFilter("sort", e.target.value)}>
             <option value="featured">Recomendados</option>
-            {informational ? <option value="name">Nombre del producto</option> : <><option value="low">Menor precio</option><option value="high">Mayor precio</option></>}
+            {informational ? <option value="name">Nombre (A–Z)</option> : <><option value="low">Menor precio</option><option value="high">Mayor precio</option></>}
           </select>
         </label>
       </div>
       <div className="catalog-layout">
         <aside
+          id="catalog-filters"
+          aria-label="Filtros del catálogo"
           className={`catalog-filters ${filtersOpen ? "filters-open" : ""}`}
         >
           <h2>Categorías</h2>
-          <button
-            className={!filter ? "filter-active" : ""}
-            onClick={() => setFilter("")}
-          >
-            Todos los productos <span>{products.length}</span>
-          </button>
-          {categories.map((c) => (
-            <button
-              key={c.slug}
-              className={filter === c.slug ? "filter-active" : ""}
-              onClick={() => setFilter(c.slug)}
-            >
-              {c.name}
-              <span>
-                {products.filter((p) => p.categorySlug === c.slug).length}
-              </span>
-            </button>
-          ))}
+          <nav className="catalog-category-list" aria-label="Categorías del catálogo">
+            <Link href={catalogHref("", filters)} scroll={false} aria-current={!category ? "page" : undefined}>
+              Todos los productos <span>{matchingProducts.length}</span>
+            </Link>
+            {categories.map((c) => (
+              <Link key={c.slug} href={catalogHref(c.slug, filters)} scroll={false}
+                aria-current={category === c.slug ? "page" : undefined}
+              >
+                {c.name}
+                <span>{matchingProducts.filter((p) => p.categorySlug === c.slug).length}</span>
+              </Link>
+            ))}
+          </nav>
           <label className="brand-filter">
             Marca
-            <select value={brand} onChange={(e) => setBrand(e.target.value)}>
+            <select value={brand} onChange={(e) => updateFilter("brand", e.target.value)}>
               <option value="">Todas las marcas</option>
-              {Array.from(new Set(products.map((p) => p.brand))).map((b) => (
+              {brands.map((b) => (
                 <option key={b}>{b}</option>
               ))}
             </select>
           </label>
-          {(filter || brand) && (
-            <button
-              className="text-link"
-              onClick={() => {
-                setFilter("");
-                setBrand("");
-              }}
-            >
+          {hasFilters && (
+            <Link className="text-link catalog-clear-filters" href={clearFiltersHref} scroll={false}>
               Limpiar filtros <Icon name="close" size={16} />
-            </button>
+            </Link>
           )}
           <div className="filter-note">
             <Icon name="pin" />
@@ -401,18 +431,41 @@ export function CatalogView({
           {result.length ? (
             <div className="product-grid catalog-products">
               {result.map((p) => (
-                <ProductCard key={p.slug} product={p} />
+                <ProductCard key={p.slug} product={p} catalog />
               ))}
             </div>
           ) : (
             <div className="empty-state">
               <Icon name="search" size={40} />
-              <h2>No encontramos ese producto.</h2>
-              <p>Prueba con otro nombre o elimina los filtros.</p>
-              <Link className="button button-dark" href="/catalogo">
-                Ver todo el catálogo <Icon name="arrow" />
-              </Link>
+              <h2>No encontramos productos</h2>
+              <p>Busca por nombre, código o modelo{hasFilters ? ", o limpia los filtros" : ""}.</p>
+              <form className="catalog-empty-search" role="search" aria-label="Buscar en los resultados"
+                action={catalogHref(category)} onSubmit={(event) => {
+                  event.preventDefault();
+                  const q = new FormData(event.currentTarget).get("q");
+                  updateFilter("q", typeof q === "string" ? q.trim() : "");
+                }}>
+                <input key={query} type="search" name="q" defaultValue={query} aria-label="Nombre, código o modelo" />
+                {brand && <input type="hidden" name="brand" value={brand} />}
+                {sort !== "featured" && <input type="hidden" name="sort" value={sort} />}
+                <button className="button button-dark" type="submit">Buscar <Icon name="search" size={18} /></button>
+              </form>
+              <div className="catalog-empty-actions">
+                {hasFilters && <Link className="text-link" href={clearFiltersHref} scroll={false}>Limpiar filtros</Link>}
+                <Link className="text-link" href="/catalogo">Ver todo el catálogo <Icon name="arrow" size={18} /></Link>
+              </div>
             </div>
+          )}
+          {visiblePending.length > 0 && (
+            <section className="catalog-pending" aria-labelledby="catalog-pending-heading">
+              <h2 id="catalog-pending-heading">Por confirmar</h2>
+              {visiblePending.map((item) => (
+                <div key={item.name}>
+                  <h3>{item.name}</h3>
+                  <p>{item.note}</p>
+                </div>
+              ))}
+            </section>
           )}
         </div>
       </div>
@@ -425,6 +478,7 @@ export function ProductView({ product }: { product: DisplayProduct }) {
   const { products, informational } = useVisualCatalog();
   const [quantity, setQuantity] = useState(1);
   const [zone, setZone] = useState("Bogotá");
+  const [topic, setTopic] = useState<ProductTopic>("project");
   const router = useRouter();
   const related = products
     .filter((p) => p.slug !== product.slug)
@@ -444,13 +498,19 @@ export function ProductView({ product }: { product: DisplayProduct }) {
       </div>
       <ProductJourney key={product.slug} product={product}>
         <div className="product-purchase">
-          <p className="detail-description">{product.description}</p>
+          {informational
+            ? <ProductSpotlight product={product} />
+            : <p className="detail-description">{product.description}</p>}
           {informational ? <div className="approved-quote">
+            <a href="#especificaciones" className="button button-red" onClick={() => setTopic("specs")}>
+              Ver ficha técnica <Icon name="arrow" />
+            </a>
             <p>Código {product.reference} · Modelo {product.model}</p>
             <p className="detail-price">Precio por confirmar</p>
             <p>Precio y disponibilidad por confirmar. Sin compra en línea.</p>
-            <PendingPriceAdd slug={product.slug} />
-            <Link href="#especificaciones" className="button button-red">Ver ficha técnica <Icon name="arrow" /></Link>
+            {product.selectionAvailable === false
+              ? <p>Ficha informativa. Selección para cotización pendiente de habilitar.</p>
+              : <PendingPriceAdd slug={product.slug} />}
           </div> : <>
           <p className="detail-price">
             {product.price === null ? "Precio por confirmar" : money(product.price)} <small>IVA incluido · precio demo</small>
@@ -526,6 +586,7 @@ export function ProductView({ product }: { product: DisplayProduct }) {
             <span>Revisa compatibilidad y contenido antes de elegir.</span>
           </div>
       </section>}
+      {informational ? <ProductExplorer product={product} active={topic} onChange={setTopic} /> : (
       <section className="product-information" id="especificaciones">
         <div>
           <h2>
@@ -570,14 +631,14 @@ export function ProductView({ product }: { product: DisplayProduct }) {
               Envíos, cambios y garantías <Icon name="plus" size={18} />
             </summary>
             <p>
-              {informational ? "Precio, disponibilidad, cobertura, tarifas y garantías comerciales por confirmar. Este catálogo no habilita compras en línea." : <>Esta es una demostración sin venta real. Cobertura, tarifas y
+              Esta es una demostración sin venta real. Cobertura, tarifas y
               plazos son simulados; las políticas y garantías comerciales aún no
-              están aprobadas.</>}
+              están aprobadas.
             </p>
-            {informational ? <a href={product.source} target="_blank" rel="noreferrer">Consultar ficha del fabricante</a> : <Link href="/informacion">Conoce los detalles de la demo</Link>}
+            <Link href="/informacion">Conoce los detalles de la demo</Link>
           </details>
         </div>
-      </section>
+      </section>)}
       <section className="related-products section-space">
         <div className="section-heading">
           <h2>Explora otros productos.</h2>
