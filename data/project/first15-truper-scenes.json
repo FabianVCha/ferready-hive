@@ -1,0 +1,187 @@
+{
+  "104412": {
+    "model": "A12-ROT-1",
+    "includes": "1 batería de ion litio 2 Ah (A12-BAT-2A); 1 cargador bivoltaje (A12-CAR); 1 clip para cinturón; 1 adaptador barra plana a redonda",
+    "main": "/project/products/first15-truper/104412-01.webp",
+    "project": "/project/products/first15-truper/104412-02.webp",
+    "components": [
+      {
+        "id": "accessory-0",
+        "src": "/project/products/first15-truper/104412-07.webp",
+        "label": "Batería 2 Ah",
+        "detail": "1 batería A12-BAT-2A · ilustración aportada"
+      },
+      {
+        "id": "accessory-1",
+        "src": "/project/products/first15-truper/104412-08.webp",
+        "label": "Cargador",
+        "detail": "1 cargador A12-CAR · ilustración aportada"
+      },
+      {
+        "id": "accessory-2",
+        "src": "/project/products/first15-truper/104412-09.webp",
+        "label": "Clip",
+        "detail": "1 clip para cinturón · ilustración aportada"
+      },
+      {
+        "id": "accessory-3",
+        "src": "/project/products/first15-truper/104412-10.webp",
+        "label": "Adaptador",
+        "detail": "1 adaptador de clavija · ilustración aportada"
+      }
+    ]
+  },
+  "104271": {
+    "model": "N20-RAT-2",
+    "includes": "2 baterías de ion litio 4 Ah (N20-BAT-4A); 1 cargador bivoltaje (N20-CAR); 1 mango auxiliar; 1 maleta portaherramientas de 14\" (MALE-14); 1 clip para cinturón; 1 correa para muñeca; 1 adaptador de clavija plana a redonda (AD-PR)",
+    "main": "/project/products/first15-truper/104271-04.webp",
+    "project": "/project/products/first15-truper/104271-02.webp",
+    "components": [
+      {
+        "id": "accessory-0",
+        "src": "/project/products/first15-truper/104271-05.webp",
+        "label": "Baterías 4 Ah ×2",
+        "detail": "2 baterías N20-BAT-4A · ilustración aportada"
+      },
+      {
+        "id": "accessory-1",
+        "src": "/project/products/first15-truper/104271-06.webp",
+        "label": "Cargador",
+        "detail": "1 cargador N20-CAR · ilustración aportada"
+      },
+      {
+        "id": "accessory-2",
+        "src": "/project/products/first15-truper/104271-09.webp",
+        "label": "Adaptador",
+        "detail": "1 adaptador AD-PR · ilustración aportada"
+      },
+      {
+        "id": "accessory-3",
+        "src": "/project/products/first15-truper/104271-10.webp",
+        "label": "Correa",
+        "detail": "1 correa para muñeca · ilustración aportada"
+      },
+      {
+        "id": "accessory-4",
+        "src": "/project/products/first15-truper/104271-11.webp",
+        "label": "Mango auxiliar",
+        "detail": "1 mango auxiliar · ilustración aportada"
+      },
+      {
+        "id": "accessory-5",
+        "src": "/project/products/first15-truper/104271-12.webp",
+        "label": "Maleta",
+        "detail": "1 maleta MALE-14 de 14 pulgadas · ilustración aportada"
+      },
+      {
+        "id": "accessory-6",
+        "src": "/project/products/first15-truper/104271-13.webp",
+        "label": "Clip",
+        "detail": "1 clip para cinturón · ilustración aportada"
+      }
+    ]
+  },
+  "14659": {
+    "model": "ROTO-1/2A9",
+    "includes": "1 mango auxiliar; 1 llave para broquero; 1 varilla de control de profundidad",
+    "main": "/project/products/first15-truper/14659-01.webp",
+    "project": "/project/products/first15-truper/14659-02.webp",
+    "components": [
+      {
+        "id": "accessory-0",
+        "src": "/project/products/first15-truper/14659-03.webp",
+        "label": "Mango auxiliar",
+        "detail": "1 mango auxiliar · ilustración aportada"
+      },
+      {
+        "id": "accessory-1",
+        "src": "/project/products/first15-truper/14659-04.webp",
+        "label": "Control de profundidad",
+        "detail": "1 varilla · ilustración aportada"
+      },
+      {
+        "id": "accessory-2",
+        "src": "/project/products/first15-truper/14659-05.webp",
+        "label": "Llave de broquero",
+        "detail": "1 llave para broquero · ilustración aportada"
+      }
+    ]
+  },
+  "11145": {
+    "model": "CHA-22NC",
+    "includes": "1 charola interior",
+    "main": "/project/products/first15-truper/11145-01.webp",
+    "project": "/project/products/first15-truper/11145-02.webp",
+    "components": []
+  },
+  "11899": {
+    "model": "DICOF-4510X",
+    "includes": "1 disco (se vende por pieza, no en set de 10)",
+    "main": "/project/products/first15-truper/11899-01.webp",
+    "project": "/project/products/first15-truper/11899-02.webp",
+    "components": []
+  },
+  "11335": {
+    "model": "JBAC-11",
+    "includes": "7 brocas para metal HSS (1/16\" a 1/4\"); 4 brocas para concreto con punta de carburo (3/16\" a 3/8\"); 1 estuche",
+    "main": "/project/products/first15-truper/11335-01.webp",
+    "project": "/project/products/first15-truper/11335-02.webp",
+    "components": []
+  },
+  "12906": {
+    "model": "SEPO-280B",
+    "includes": "1 cartucho de 280 ml",
+    "main": "/project/products/first15-truper/12906-01.webp",
+    "project": "/project/products/first15-truper/12906-02.webp",
+    "components": []
+  },
+  "40159": {
+    "model": "TQ-1/4J",
+    "includes": "20 taquetes de nylon 1/4\"; 20 pijas #8 de 1 1/2\"; 1 broca para concreto de 1/4\" x 4\"",
+    "main": "/project/products/first15-truper/40159-01.webp",
+    "project": "/project/products/first15-truper/40159-02.webp",
+    "components": []
+  },
+  "102410": {
+    "model": "JD-3/8X45MP",
+    "includes": "20 dados cortos de 6 puntas; 20 dados largos de 6 puntas; 1 matraca; 2 extensiones; 1 nudo universal; 1 estuche",
+    "main": "/project/products/first15-truper/102410-01.webp",
+    "project": "/project/products/first15-truper/102410-02.webp",
+    "components": []
+  },
+  "18025": {
+    "model": "GU-151",
+    "includes": "1 par (talla chica / 7). Hay tallas M y G en otras referencias",
+    "main": "/project/products/first15-truper/18025-01.webp",
+    "project": "/project/products/first15-truper/18025-02.webp",
+    "components": []
+  },
+  "23566": {
+    "model": "BAL-LB-BP",
+    "includes": "1 cerradura con pestillo (función baño: botón de emergencia, sin llaves)",
+    "main": "/project/products/first15-truper/23566-01.webp",
+    "project": "/project/products/first15-truper/23566-02.webp",
+    "components": []
+  },
+  "23104": {
+    "model": "T-67P",
+    "includes": "1 tijera de podar de 8\" (corte hasta 5/8\")",
+    "main": "/project/products/first15-truper/23104-01.webp",
+    "project": "/project/products/first15-truper/23104-02.webp",
+    "components": []
+  },
+  "46993": {
+    "model": "LED-60SM",
+    "includes": "1 foco LED con sensor de movimiento",
+    "main": "/project/products/first15-truper/46993-01.webp",
+    "project": "/project/products/first15-truper/46993-02.webp",
+    "components": []
+  },
+  "100362": {
+    "model": "MUT-60A",
+    "includes": "2 puntas de prueba; 1 sonda termopar; 1 adaptador; 1 cubierta protectora contra impactos; 1 pila 6F22 de 9 V (incluida)",
+    "main": "/project/products/first15-truper/100362-01.webp",
+    "project": "/project/products/first15-truper/100362-02.webp",
+    "components": []
+  }
+}

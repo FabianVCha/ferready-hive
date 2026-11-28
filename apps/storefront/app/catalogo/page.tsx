@@ -8,17 +8,7 @@ export const metadata = {
   title: "Todos los productos",
   robots: { index: false, follow: false },
 };
-export default async function CatalogPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ q?: string }>;
-}) {
-  const { q } = await searchParams;
-  if (!isDemoEnabled(process.env.FERREADY_DEMO)) {
-    if (!usesApprovedCatalog) notFound();
-    return <CatalogView key={q || "all"} query={typeof q === "string" ? q : ""} />;
-  }
-  return (
-    <CatalogView key={q || "all"} query={typeof q === "string" ? q : ""} />
-  );
+export default function CatalogPage() {
+  if (!isDemoEnabled(process.env.FERREADY_DEMO) && !usesApprovedCatalog) notFound();
+  return <CatalogView />;
 }

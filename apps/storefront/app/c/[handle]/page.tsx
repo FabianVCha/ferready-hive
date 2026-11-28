@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { CatalogView } from "@/components/ferready/storefront";
 import { categories as demoCategories } from "@/components/ferready/catalog";
 import { isDemoEnabled } from "@/lib/prototype.mjs";
@@ -14,7 +14,10 @@ import {
 
 export const dynamic = "force-dynamic";
 
-type Props = { params: Promise<{ handle: string }> };
+type Props = {
+  params: Promise<{ handle: string }>;
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
+};
 
 export async function generateMetadata({ params }: Props) {
   const { handle } = await params;
@@ -27,6 +30,7 @@ export async function generateMetadata({ params }: Props) {
   if (usesApprovedCatalog) return {
     title: approvedCatalog.categories.find((item) => item.handle === handle)?.name ?? "Categoría",
     alternates: { canonical: `/c/${handle}` },
+    robots: { index: false, follow: false },
   };
   const categories = await listCategories();
   const category = categories.find((item) => item.handle === handle);
@@ -36,13 +40,22 @@ export async function generateMetadata({ params }: Props) {
   };
 }
 
-export default async function CategoryPage({ params }: Props) {
+export default async function CategoryPage({ params, searchParams }: Props) {
   const { handle } = await params;
   if (isDemoEnabled(process.env.FERREADY_DEMO)) {
     if (!demoCategories.some((c) => c.slug === handle)) notFound();
     return <CatalogView key={handle} category={handle} />;
   }
   if (usesApprovedCatalog) {
+    if (handle === "seleccion-inicial") {
+      const params = await searchParams;
+      const filters = new URLSearchParams();
+      for (const name of ["q", "brand", "sort"]) {
+        const value = params[name];
+        if (typeof value === "string" && value) filters.set(name, value);
+      }
+      redirect(filters.size ? `/catalogo?${filters}` : "/catalogo");
+    }
     if (!approvedCatalog.categories.some((item) => item.handle === handle)) notFound();
     return <CatalogView key={handle} category={handle} />;
   }

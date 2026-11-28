@@ -14,7 +14,12 @@ export type DemoProduct = {
 };
 export type CartItem = { slug: string; quantity: number };
 export function isDemoEnabled(value: string | undefined): boolean;
-export function searchProducts<T extends Pick<DemoProduct, "name" | "brand" | "category" | "description"> & { reference?: string; model?: string }>(
+export function searchProducts<T extends Pick<DemoProduct, "name" | "brand" | "category" | "description"> & {
+  reference?: string;
+  model?: string;
+  cardTitle?: string;
+  searchAliases?: string[];
+}>(
   products: T[],
   query: string,
 ): T[];

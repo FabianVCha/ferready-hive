@@ -1,0 +1,690 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "handle": "seleccion-inicial",
+      "name": "Selección Ferready"
+    }
+  ],
+  "products": [
+    {
+      "reference": "104412",
+      "handle": "104412-a12-rot-1",
+      "title": "Rotomartillo/destornillador 3/8\", 12V, 1 batería 2Ah, TRUPER PRO",
+      "category": "seleccion-inicial",
+      "brand": "TRUPER PRO",
+      "model": "A12-ROT-1",
+      "description": "Rotomartillo/destornillador 3/8\", 12V, 1 batería 2Ah, TRUPER PRO",
+      "summary": "Rotomartillo/destornillador 3/8\", 12V, 1 batería 2Ah, TRUPER PRO",
+      "price_cop": null,
+      "images": [
+        "/project/products/first15-truper/104412-01.webp",
+        "/project/products/first15-truper/104412-02.webp",
+        "/project/products/first15-truper/104412-03.webp",
+        "/project/products/first15-truper/104412-04.webp",
+        "/project/products/first15-truper/104412-05.webp",
+        "/project/products/first15-truper/104412-06.webp",
+        "/project/products/first15-truper/104412-07.webp",
+        "/project/products/first15-truper/104412-08.webp",
+        "/project/products/first15-truper/104412-09.webp",
+        "/project/products/first15-truper/104412-10.webp"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/first15-truper/104412-01.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · A12-ROT-1 · 1",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/104412-02.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · A12-ROT-1 · 2",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/104412-03.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · A12-ROT-1 · 3",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/104412-04.webp",
+          "kind": "illustration",
+          "caption": "Ilustración aportada · A12-ROT-1 · 4",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/104412-05.webp",
+          "kind": "illustration",
+          "caption": "Ilustración aportada · A12-ROT-1 · 5",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/104412-06.webp",
+          "kind": "illustration",
+          "caption": "Ilustración aportada · A12-ROT-1 · 6",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/104412-07.webp",
+          "kind": "illustration",
+          "caption": "Ilustración aportada · A12-ROT-1 · 7",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/104412-08.webp",
+          "kind": "illustration",
+          "caption": "Ilustración aportada · A12-ROT-1 · 8",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/104412-09.webp",
+          "kind": "illustration",
+          "caption": "Ilustración aportada · A12-ROT-1 · 9",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/104412-10.webp",
+          "kind": "illustration",
+          "caption": "Ilustración aportada · A12-ROT-1 · 10",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        }
+      ],
+      "specifications": {
+        "Incluye": "1 batería de ion litio 2 Ah (A12-BAT-2A); 1 cargador bivoltaje (A12-CAR); 1 clip para cinturón; 1 adaptador barra plana a redonda"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=104412",
+      "image_source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=104412",
+      "approved_by": "project-owner-supplied-selection",
+      "approved_at": "2026-11-27"
+    },
+    {
+      "reference": "104271",
+      "handle": "104271-n20-rat-2",
+      "title": "Rotomartillo/destornillador 1/2\", 20V, 150Nm, 2 baterías 4Ah",
+      "category": "seleccion-inicial",
+      "brand": "TRUPER INDUSTRIAL",
+      "model": "N20-RAT-2",
+      "description": "Rotomartillo/destornillador 1/2\", 20V, 150Nm, 2 baterías 4Ah",
+      "summary": "Rotomartillo/destornillador 1/2\", 20V, 150Nm, 2 baterías 4Ah",
+      "price_cop": null,
+      "images": [
+        "/project/products/first15-truper/104271-01.webp",
+        "/project/products/first15-truper/104271-02.webp",
+        "/project/products/first15-truper/104271-03.webp",
+        "/project/products/first15-truper/104271-04.webp",
+        "/project/products/first15-truper/104271-05.webp",
+        "/project/products/first15-truper/104271-06.webp",
+        "/project/products/first15-truper/104271-07.webp",
+        "/project/products/first15-truper/104271-08.webp",
+        "/project/products/first15-truper/104271-09.webp",
+        "/project/products/first15-truper/104271-10.webp",
+        "/project/products/first15-truper/104271-11.webp",
+        "/project/products/first15-truper/104271-12.webp",
+        "/project/products/first15-truper/104271-13.webp"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/first15-truper/104271-01.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · N20-RAT-2 · 1",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/104271-02.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · N20-RAT-2 · 2",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/104271-03.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · N20-RAT-2 · 3",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/104271-04.webp",
+          "kind": "illustration",
+          "caption": "Ilustración aportada · N20-RAT-2 · 4",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/104271-05.webp",
+          "kind": "illustration",
+          "caption": "Ilustración aportada · N20-RAT-2 · 5",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/104271-06.webp",
+          "kind": "illustration",
+          "caption": "Ilustración aportada · N20-RAT-2 · 6",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/104271-07.webp",
+          "kind": "illustration",
+          "caption": "Ilustración aportada · N20-RAT-2 · 7",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/104271-08.webp",
+          "kind": "illustration",
+          "caption": "Ilustración aportada · N20-RAT-2 · 8",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/104271-09.webp",
+          "kind": "illustration",
+          "caption": "Ilustración aportada · N20-RAT-2 · 9",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/104271-10.webp",
+          "kind": "illustration",
+          "caption": "Ilustración aportada · N20-RAT-2 · 10",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/104271-11.webp",
+          "kind": "illustration",
+          "caption": "Ilustración aportada · N20-RAT-2 · 11",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/104271-12.webp",
+          "kind": "illustration",
+          "caption": "Ilustración aportada · N20-RAT-2 · 12",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/104271-13.webp",
+          "kind": "illustration",
+          "caption": "Ilustración aportada · N20-RAT-2 · 13",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        }
+      ],
+      "specifications": {
+        "Incluye": "2 baterías de ion litio 4 Ah (N20-BAT-4A); 1 cargador bivoltaje (N20-CAR); 1 mango auxiliar; 1 maleta portaherramientas de 14\" (MALE-14); 1 clip para cinturón; 1 correa para muñeca; 1 adaptador de clavija plana a redonda (AD-PR)"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=104271",
+      "image_source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=104271",
+      "approved_by": "project-owner-supplied-selection",
+      "approved_at": "2026-11-27"
+    },
+    {
+      "reference": "14659",
+      "handle": "14659-roto-1-2a9",
+      "title": "Rotomartillo/destornillador 1/2\", 850W, TRUPER PRO",
+      "category": "seleccion-inicial",
+      "brand": "TRUPER PRO",
+      "model": "ROTO-1/2A9",
+      "description": "Rotomartillo/destornillador 1/2\", 850W, TRUPER PRO",
+      "summary": "Rotomartillo/destornillador 1/2\", 850W, TRUPER PRO",
+      "price_cop": null,
+      "images": [
+        "/project/products/first15-truper/14659-01.webp",
+        "/project/products/first15-truper/14659-02.webp",
+        "/project/products/first15-truper/14659-03.webp",
+        "/project/products/first15-truper/14659-04.webp",
+        "/project/products/first15-truper/14659-05.webp"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/first15-truper/14659-01.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · ROTO-1/2A9 · 1",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/14659-02.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · ROTO-1/2A9 · 2",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/14659-03.webp",
+          "kind": "illustration",
+          "caption": "Ilustración aportada · ROTO-1/2A9 · 3",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/14659-04.webp",
+          "kind": "illustration",
+          "caption": "Ilustración aportada · ROTO-1/2A9 · 4",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/14659-05.webp",
+          "kind": "illustration",
+          "caption": "Ilustración aportada · ROTO-1/2A9 · 5",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        }
+      ],
+      "specifications": {
+        "Incluye": "1 mango auxiliar; 1 llave para broquero; 1 varilla de control de profundidad"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=14659",
+      "image_source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=14659",
+      "approved_by": "project-owner-supplied-selection",
+      "approved_at": "2026-11-27"
+    },
+    {
+      "reference": "11145",
+      "handle": "11145-cha-22nc",
+      "title": "Caja para herramienta de 22\" con compartimentos, TRUPER",
+      "category": "seleccion-inicial",
+      "brand": "TRUPER",
+      "model": "CHA-22NC",
+      "description": "Caja para herramienta de 22\" con compartimentos, TRUPER",
+      "summary": "Caja para herramienta de 22\" con compartimentos, TRUPER",
+      "price_cop": null,
+      "images": [
+        "/project/products/first15-truper/11145-01.webp",
+        "/project/products/first15-truper/11145-02.webp"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/first15-truper/11145-01.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · CHA-22NC · 1",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/11145-02.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · CHA-22NC · 2",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        }
+      ],
+      "specifications": {
+        "Incluye": "1 charola interior"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=11145",
+      "image_source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=11145",
+      "approved_by": "project-owner-supplied-selection",
+      "approved_at": "2026-11-27"
+    },
+    {
+      "reference": "11899",
+      "handle": "11899-dicof-4510x",
+      "title": "Disco abrasivo de corte preciso metal 4-1/2\" x 1 mm, TRUPER EXPERT",
+      "category": "seleccion-inicial",
+      "brand": "TRUPER EXPERT",
+      "model": "DICOF-4510X",
+      "description": "Disco abrasivo de corte preciso metal 4-1/2\" x 1 mm, TRUPER EXPERT",
+      "summary": "Disco abrasivo de corte preciso metal 4-1/2\" x 1 mm, TRUPER EXPERT",
+      "price_cop": null,
+      "images": [
+        "/project/products/first15-truper/11899-01.webp",
+        "/project/products/first15-truper/11899-02.webp"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/first15-truper/11899-01.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · DICOF-4510X · 1",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/11899-02.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · DICOF-4510X · 2",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        }
+      ],
+      "specifications": {
+        "Incluye": "1 disco (se vende por pieza, no en set de 10)"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=11899",
+      "image_source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=11899",
+      "approved_by": "project-owner-supplied-selection",
+      "approved_at": "2026-11-27"
+    },
+    {
+      "reference": "11335",
+      "handle": "11335-jbac-11",
+      "title": "Juego de 11 brocas para metal y concreto en estuche",
+      "category": "seleccion-inicial",
+      "brand": "TRUPER EXPERT",
+      "model": "JBAC-11",
+      "description": "Juego de 11 brocas para metal y concreto en estuche",
+      "summary": "Juego de 11 brocas para metal y concreto en estuche",
+      "price_cop": null,
+      "images": [
+        "/project/products/first15-truper/11335-01.webp",
+        "/project/products/first15-truper/11335-02.webp"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/first15-truper/11335-01.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · JBAC-11 · 1",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/11335-02.webp",
+          "kind": "illustration",
+          "caption": "Ilustración aportada · JBAC-11 · 2",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        }
+      ],
+      "specifications": {
+        "Incluye": "7 brocas para metal HSS (1/16\" a 1/4\"); 4 brocas para concreto con punta de carburo (3/16\" a 3/8\"); 1 estuche"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=11335",
+      "image_source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=11335",
+      "approved_by": "project-owner-supplied-selection",
+      "approved_at": "2026-11-27"
+    },
+    {
+      "reference": "12906",
+      "handle": "12906-sepo-280b",
+      "title": "Sellador de poliuretano blanco, 280 ml, TRUPER",
+      "category": "seleccion-inicial",
+      "brand": "TRUPER",
+      "model": "SEPO-280B",
+      "description": "Sellador de poliuretano blanco, 280 ml, TRUPER",
+      "summary": "Sellador de poliuretano blanco, 280 ml, TRUPER",
+      "price_cop": null,
+      "images": [
+        "/project/products/first15-truper/12906-01.webp",
+        "/project/products/first15-truper/12906-02.webp"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/first15-truper/12906-01.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · SEPO-280B · 1",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/12906-02.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · SEPO-280B · 2",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        }
+      ],
+      "specifications": {
+        "Incluye": "1 cartucho de 280 ml"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=12906",
+      "image_source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=12906",
+      "approved_by": "project-owner-supplied-selection",
+      "approved_at": "2026-11-27"
+    },
+    {
+      "reference": "40159",
+      "handle": "40159-tq-1-4j",
+      "title": "Kit de 20 taquetes 1/4\" con pijas #8 y 1 broca 1/4\", FIERO",
+      "category": "seleccion-inicial",
+      "brand": "FIERO",
+      "model": "TQ-1/4J",
+      "description": "Kit de 20 taquetes 1/4\" con pijas #8 y 1 broca 1/4\", FIERO",
+      "summary": "Kit de 20 taquetes 1/4\" con pijas #8 y 1 broca 1/4\", FIERO",
+      "price_cop": null,
+      "images": [
+        "/project/products/first15-truper/40159-01.webp",
+        "/project/products/first15-truper/40159-02.webp"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/first15-truper/40159-01.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · TQ-1/4J · 1",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/40159-02.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · TQ-1/4J · 2",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        }
+      ],
+      "specifications": {
+        "Incluye": "20 taquetes de nylon 1/4\"; 20 pijas #8 de 1 1/2\"; 1 broca para concreto de 1/4\" x 4\""
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=40159",
+      "image_source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=40159",
+      "approved_by": "project-owner-supplied-selection",
+      "approved_at": "2026-11-27"
+    },
+    {
+      "reference": "102410",
+      "handle": "102410-jd-3-8x45mp",
+      "title": "Juego de 44 herramientas cuadro 3/8\" std y mm para mecánico",
+      "category": "seleccion-inicial",
+      "brand": "TRUPER",
+      "model": "JD-3/8X45MP",
+      "description": "Juego de 44 herramientas cuadro 3/8\" std y mm para mecánico",
+      "summary": "Juego de 44 herramientas cuadro 3/8\" std y mm para mecánico",
+      "price_cop": null,
+      "images": [
+        "/project/products/first15-truper/102410-01.webp",
+        "/project/products/first15-truper/102410-02.webp",
+        "/project/products/first15-truper/102410-03.webp"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/first15-truper/102410-01.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · JD-3/8X45MP · 1",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/102410-02.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · JD-3/8X45MP · 2",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/102410-03.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · JD-3/8X45MP · 3",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        }
+      ],
+      "specifications": {
+        "Incluye": "20 dados cortos de 6 puntas; 20 dados largos de 6 puntas; 1 matraca; 2 extensiones; 1 nudo universal; 1 estuche"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=102410",
+      "image_source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=102410",
+      "approved_by": "project-owner-supplied-selection",
+      "approved_at": "2026-11-27"
+    },
+    {
+      "reference": "18025",
+      "handle": "18025-gu-151",
+      "title": "Guantes de poliéster recubiertos de nitrilo, CH, TRUPER",
+      "category": "seleccion-inicial",
+      "brand": "TRUPER",
+      "model": "GU-151",
+      "description": "Guantes de poliéster recubiertos de nitrilo, CH, TRUPER",
+      "summary": "Guantes de poliéster recubiertos de nitrilo, CH, TRUPER",
+      "price_cop": null,
+      "images": [
+        "/project/products/first15-truper/18025-01.webp",
+        "/project/products/first15-truper/18025-02.webp"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/first15-truper/18025-01.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · GU-151 · 1",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/18025-02.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · GU-151 · 2",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        }
+      ],
+      "specifications": {
+        "Incluye": "1 par (talla chica / 7). Hay tallas M y G en otras referencias"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=18025",
+      "image_source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=18025",
+      "approved_by": "project-owner-supplied-selection",
+      "approved_at": "2026-11-27"
+    },
+    {
+      "reference": "23566",
+      "handle": "23566-bal-lb-bp",
+      "title": "Cerradura tipo esfera, cilíndrico, baño, brillante, BASIC",
+      "category": "seleccion-inicial",
+      "brand": "HERMEX BASIC",
+      "model": "BAL-LB-BP",
+      "description": "Cerradura tipo esfera, cilíndrico, baño, brillante, BASIC",
+      "summary": "Cerradura tipo esfera, cilíndrico, baño, brillante, BASIC",
+      "price_cop": null,
+      "images": [
+        "/project/products/first15-truper/23566-01.webp",
+        "/project/products/first15-truper/23566-02.webp",
+        "/project/products/first15-truper/23566-03.webp"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/first15-truper/23566-01.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · BAL-LB-BP · 1",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/23566-02.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · BAL-LB-BP · 2",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/23566-03.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · BAL-LB-BP · 3",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        }
+      ],
+      "specifications": {
+        "Incluye": "1 cerradura con pestillo (función baño: botón de emergencia, sin llaves)"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=23566",
+      "image_source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=23566",
+      "approved_by": "project-owner-supplied-selection",
+      "approved_at": "2026-11-27"
+    },
+    {
+      "reference": "23104",
+      "handle": "23104-t-67p",
+      "title": "Tijera para poda 8\" forjada cuchilla de paso, PRETUL",
+      "category": "seleccion-inicial",
+      "brand": "PRETUL",
+      "model": "T-67P",
+      "description": "Tijera para poda 8\" forjada cuchilla de paso, PRETUL",
+      "summary": "Tijera para poda 8\" forjada cuchilla de paso, PRETUL",
+      "price_cop": null,
+      "images": [
+        "/project/products/first15-truper/23104-01.webp",
+        "/project/products/first15-truper/23104-02.webp"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/first15-truper/23104-01.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · T-67P · 1",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/23104-02.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · T-67P · 2",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        }
+      ],
+      "specifications": {
+        "Incluye": "1 tijera de podar de 8\" (corte hasta 5/8\")"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=23104",
+      "image_source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=23104",
+      "approved_by": "project-owner-supplied-selection",
+      "approved_at": "2026-11-27"
+    },
+    {
+      "reference": "46993",
+      "handle": "46993-led-60sm",
+      "title": "Foco LED 9W (60W) A19, sensor de movimiento, 6500K, VOLTECK",
+      "category": "seleccion-inicial",
+      "brand": "VOLTECK",
+      "model": "LED-60SM",
+      "description": "Foco LED 9W (60W) A19, sensor de movimiento, 6500K, VOLTECK",
+      "summary": "Foco LED 9W (60W) A19, sensor de movimiento, 6500K, VOLTECK",
+      "price_cop": null,
+      "images": [
+        "/project/products/first15-truper/46993-01.webp",
+        "/project/products/first15-truper/46993-02.webp"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/first15-truper/46993-01.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · LED-60SM · 1",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/46993-02.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · LED-60SM · 2",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        }
+      ],
+      "specifications": {
+        "Incluye": "1 foco LED con sensor de movimiento"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=46993",
+      "image_source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=46993",
+      "approved_by": "project-owner-supplied-selection",
+      "approved_at": "2026-11-27"
+    },
+    {
+      "reference": "100362",
+      "handle": "100362-mut-60a",
+      "title": "Multímetro profesional, rango automático, NCV, TRMS, 750 V",
+      "category": "seleccion-inicial",
+      "brand": "TRUPER",
+      "model": "MUT-60A",
+      "description": "Multímetro profesional, rango automático, NCV, TRMS, 750 V",
+      "summary": "Multímetro profesional, rango automático, NCV, TRMS, 750 V",
+      "price_cop": null,
+      "images": [
+        "/project/products/first15-truper/100362-01.webp",
+        "/project/products/first15-truper/100362-02.webp",
+        "/project/products/first15-truper/100362-03.webp"
+      ],
+      "gallery": [
+        {
+          "src": "/project/products/first15-truper/100362-01.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · MUT-60A · 1",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/100362-02.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · MUT-60A · 2",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        },
+        {
+          "src": "/project/products/first15-truper/100362-03.webp",
+          "kind": "photo",
+          "caption": "Fotografía del producto · MUT-60A · 3",
+          "provenance": "Owner-supplied primeros-15-truper batch; not independently reverified."
+        }
+      ],
+      "specifications": {
+        "Incluye": "2 puntas de prueba; 1 sonda termopar; 1 adaptador; 1 cubierta protectora contra impactos; 1 pila 6F22 de 9 V (incluida)"
+      },
+      "source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=100362",
+      "image_source_url": "https://www.truper.com/ficha_tecnica/controllers/index.php?codigo=100362",
+      "approved_by": "project-owner-supplied-selection",
+      "approved_at": "2026-11-27"
+    }
+  ]
+}

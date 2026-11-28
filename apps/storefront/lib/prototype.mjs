@@ -10,13 +10,13 @@ export function isDemoEnabled(value) {
 
 export function searchProducts(products, query) {
   const words = normalize(query).trim().split(/\s+/).filter(Boolean);
-  return products.filter((p) =>
-    words.every((word) =>
-      normalize(`${p.name} ${p.brand} ${p.category} ${p.description} ${p.reference ?? ""} ${p.model ?? ""}`).includes(
-        word,
-      ),
-    ),
-  );
+  return products.filter((product) => {
+    const searchable = normalize([
+      product.name, product.brand, product.category, product.description,
+      product.reference, product.model, product.cardTitle, ...(product.searchAliases ?? []),
+    ].join(" "));
+    return words.every((word) => searchable.includes(word));
+  });
 }
 
 export function updateCart(cart, slug, quantity, products) {
